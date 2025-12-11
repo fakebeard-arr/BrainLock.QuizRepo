@@ -1,0 +1,2307 @@
+<root>
+    <version>1</version>
+    <title>Programare Java - Mosteniri Alti Ani (20xx-2025)</title>
+    <contribuitors>cojomanu, jovanni</contribuitors>
+    <questions>
+        <question>
+            <topic>Teorie</topic>
+            <text>Limbajul Java este:</text>
+            <answers>
+                <answer>compilat</answer>
+                <answer>interpretat</answer>
+                <answer correct=true>compilat si interpretat</answer>
+            </answers>
+            <explanation>
+                \> Codul text Java trece prin 2 faze:
+                \> - compilare (text Java -\> cod masina virtuala Java);
+                \> - interpretarea (cod masina virtuala Java -\> cod masina de executie fizica).
+                \>
+                \> -- Curs 1, slide 4
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Cum este afirmatia: "Java permite mostenirea multipla"?</text>
+            <answers>
+                <answer>adevarata</answer>
+                <answer correct=true>falsa</answer>
+            </answers>
+            <explanation>
+                \> Java nu permite mostenirea multipla, dar permite implementarea multipla a interfetelor.
+                \>
+                \> -- Curs 1, slide 4
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Cum se realizeaza dezalocarea memoriei nefolosite in Java?</text>
+            <answers>
+                <answer>cu ajutorul metodei `dispose()` pe care toate clasele o mostenesc din clasa `Object`</answer>
+                <answer>cu ajutorul metodei `destroy()` pe care toate clasele o mostenesc din clasa `Object`</answer>
+                <answer correct=true>cu ajutorul componentei Garbage Collector</answer>
+                <answer>cu ajutorul metodei `free()`</answer>
+                <answer>cu ajutorul metodei `delete()`</answer>
+            </answers>
+            <explanation>
+                \> Componenta Garbage Collector efectueaza automat dezalocarea memoriei ocupate de obiectele care nu mai sunt folosite.
+                \>
+                \> -- Curs 1, slide 4
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>Care din urmatoarele variante se poate utiliza pentru declararea unei constante in Java?</text>
+            <answers>
+                <answer>`const int a = 3;`</answer>
+                <answer>`const b = 3;`</answer>
+                <answer correct=true>`public static final c = 5;`</answer>
+                <answer>`constant d = 6;`</answer>
+                <answer>`fix int e = 7;`</answer>
+            </answers>
+            <explanation>
+                \> O constanta se declara folosing cuvantul-cheie `final`, amplasat inaintea tipului.
+                \>
+                \> -- Curs 1, slide 19
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Incercuiti clasele infasuratoare:</text>
+            <answers>
+                <answer>`Object`, `String`</answer>
+                <answer>`Connection`, `Statement`</answer>
+                <answer correct=true>`Integer`, `Double`, `Character`</answer>
+                <answer>`ResultSet`, `Statement`</answer>
+            </answers>
+            <explanation>
+                \> Clasele înfăsurătoare sunt clase asociate tipurilor primitive: `Byte`, `Short`, `Integer`, `Long`, `Float`, `Double`, `Boolean`, `Character`.
+                \>
+                \> -- Curs 1, slide 16
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>Precizati care din urmatoarele declaratii este corecta:</text>
+            <answers>
+                <answer correct=true>`int[] v = new int[5];`</answer>
+                <answer>`int* v;`</answer>
+                <answer>`int v() = new int(5);`</answer>
+                <answer>`int v = new int[5];`</answer>
+            </answers>
+            <explanation>
+                \> `int[] alfa = new int[5];`
+                \> 
+                \> -- Curs 1, slide 22
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Mentionati ce va afisa urmatoarea secventa de cod:
+                
+                ```java
+                int[] v = new int[5];
+                v[0] = 1;
+                v[1] = 4;
+                v[2] = 8;
+                System.out.println(v.length);
+                ```
+            </text>
+            <answers>
+                <answer>3</answer>
+                <answer correct=true>5</answer>
+                <answer>2</answer>
+                <answer>Eroare</answer>
+            </answers>
+            <explanation>Capacitatea tabloului a fost 5 la declarare, nu se schimba doar pentru ca nu au fost introduse 5 elemente.</explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Datele preluate cu tehnologia JDBC dintr-o baza de date se vor regasi intr-un obiect de tip:</text>
+            <answers>
+                <answer correct=true>`ResultSet`</answer>
+                <answer>`RecordSet`</answer>
+                <answer>`DataSet`</answer>
+                <answer>`Database`</answer>
+            </answers>
+            <explanation>
+                \> Interogările SQL (`SELECT`) returnează un obiect JDBC, de tip `ResultSet`.
+                \>
+                \> -- Curs 5, slide 4
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>O comanda SQL care sterge un rand dintr-o baza de date se poate executa cu ajutorul metodei:</text>
+            <answers>
+                <answer>`executeQuery()`</answer>
+                <answer correct=true>`executeUpdate()`</answer>
+                <answer>`executeDelete()`</answer>
+                <answer>`executeDeleteRow()`</answer>
+            </answers>
+            <explanation>
+                \> Metoda `executeUpdate()` este utilizată pentru a rula comenzile SQL insert, update şi delete.
+                \>
+                \> -- Curs 5, slide 26
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Pentru stabilirea unei conexiuni din Java catre baza de date se utilizeaza:</text>
+            <answers>
+                <answer>un obiect de tip `DatabaseConnection`</answer>
+                <answer>un obiect de tip `DataSet`</answer>
+                <answer correct=true>metoda statica `getConnection()` din clasa `DriverManager`, careia i se transmit: URL-ul catre baza de date, utilizatorul si parola</answer>
+            </answers>
+            <explanation>
+                \> Pentru stabilirea unei conexiuni se foloseşte metoda statică getConnection() din clasa DriverManager
+                \> ```java
+                \> Connection connection = DriverManager.getConnection (url, "root", "root");
+                \> ```
+                \>
+                \> -- Curs 5, slide 17
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Tehnologia JDBC utilizeaza un obiect de tip `Statement`:</text>
+            <answers>
+                <answer>pentru transmiterea comenzilor SQL cu parametrii de intrare in interogari</answer>
+                <answer>pentru executarea procedurilor stocate pe baza de date</answer>
+                <answer correct=true>pentru transmiterea comenzilor SQL simple fara parametrii</answer>
+            </answers>
+            <explanation>
+                \> `Statement` este folosită pentru trimiterea comenzilor SQL simple fără parametri.
+                \>
+                \> -- Curs 5, slide 4
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>In JDBC obtinerea valorilor campurilor dintr-o baza de date se realizeaza cu ajutorul unor metode precum:</text>
+            <answers>
+                <answer>`getParameter()`</answer>
+                <answer correct=true>`getInt()`, `getString()`</answer>
+                <answer>`getFieldValue()`</answer>
+            </answers>
+            <explanation>
+                \> Metodele `getInt()`, `getString()`, `getBoolean()`, etc permit obţinerea valorilor câmpurilor specificate ca şi parametru de pe rândul indicat de cursor. Parametrul de intrare al acestor metode poate să fie denumirea câmpului sau index-ul acestuia (primul câmp are index-ul 1).
+                \>
+                \> Curs 5, slide 18
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Actualizarile programatice sunt:</text>
+            <answers>
+                <answer correct=true>actualizari aplicate direct `ResultSet`-ului care sunt automat efectuate si asupra bazei de date</answer>
+                <answer>actualizari ale metodelor vechi din Java la cele noi</answer>
+                <answer>actualizari ale pachetelor vechi din Java la cele noi</answer>
+            </answers>
+            <explanation>
+                \> Actualizările programatice sunt actualizări aplicate direct `ResultSet`-ului care sunt automat efectuate şi asupra bazei de date.
+                \>
+                \> Curs 5, slide 27
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Care este tipul de date Java care corespunde tipului de date `varchar` din MySql?</text>
+            <answers>
+                <answer correct=true>`String`</answer>
+                <answer>`char`</answer>
+                <answer>`int`</answer>
+                <answer>`Text`</answer>
+            </answers>
+            <explanation>În MySQL, tipul `VARCHAR` reprezintă un șir de caractere de lungime variabilă. În Java, șirurile de caractere se reprezintă prin `String`.</explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Colectiile de obiecte:</text>
+            <answers>
+                <answer correct=true>reduc efortul de programare si cresc gradul de reutilizare al codului</answer>
+                <answer>complica procesul de programare dar cresc gradul de reutilizare al codului</answer>
+                <answer>complica procesul de programare dar scad gradul de reutilizare al codului</answer>
+            </answers>
+            <explanation>
+                \> Avantajele colecţiilor de obiecte:
+                \> - reduc efortul de programare şi cresc performanţă -- prin faptul că furnizează structuri de date şi algoritmi performanţi care altfel ar trebui scrişi de programator
+                \> - cresc gradul de reutilizare a codului -- prin faptul că o furnizează o interfaţă standard pentru colecţii şi algoritmi pentru a le manipula
+                \>
+                \> Curs 3, slide 2
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Un `ArrayList` este:</text>
+            <answers>
+                <answer>o interfata care este implementata prin clasa `List`</answer>
+                <answer correct=true>o clasa care implementeaza interfata `List` printr-un vector care isi ajusteaza dimensiunea</answer>
+                <answer>un vector de lungime fixa</answer>
+            </answers>
+            <explanation>
+                \> `ArrayList` -- o implementare a interfeţei `List` printr-un vector care îşi ajustează dimensiunea (cea mai bună implementare a interfeţei `List`), conţine metode nesincronizate.
+                \>
+                \> Curs 3, slide 5
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>"The Collections Frameworks" contine:</text>
+            <answers>
+                <answer correct=true>interfete de colectii, implementari ale acestor interfete si algoritmi pentru a le manipula</answer>
+                <answer>doar interfete de colectii</answer>
+                <answer>doar implementari ale obiectelor</answer>
+            </answers>
+            <explanation>
+                \> "The Collections Framework" constituie o arhitectură unificată pentru reprezentarea şi manipularea colecţiilor, permiţând manipularea acestora independent de detaliile implementării lor.
+                \>
+                \> Framework-ul este bazat pe interfeţe de colecţii. El include implementări ale acestor interfeţe şi algoritmi pentru a le manipula
+                \>
+                \> Curs 3, slide 2
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Un `LinkedList` este o:</text>
+            <answers>
+                <answer correct=true>implementare a interfetei `List` cu lista dublu inlantuita</answer>
+                <answer>implementare a interfetei `List` cu ajutorul unui tabel de dispersie</answer>
+                <answer>implementarea interfetei `List` printr-un arbore rosu-negru</answer>
+            </answers>
+            <explanation>
+                \> `LinkedList` -- o implementare a interfeţei `List` cu listă dublu înlănţuită.
+                \>
+                \> Curs 3, slide 5
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Interfata `Set` care extinde interfata `Collection`:</text>
+            <answers>
+                <answer>nu permite elemente duplicat si este ordonata</answer>
+                <answer correct=true>nu permite elemente duplicat si poate sa fie sau nu ordonata</answer>
+                <answer>permite elemente duplicat si nu e ordonata</answer>
+            </answers>
+            <explanation>
+                \> `Set` -- nu permite elemente duplicat. Elementele nu pot fi accesate prin indice.
+                \>
+                \> Curs 3, slide 4
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Intr-un `TreeSet`:</text>
+            <answers>
+                <answer correct=true>elementele sunt ordonate pe baza valorii lor</answer>
+                <answer>elementele nu sunt ordonate</answer>
+                <answer>doar o pare din elemente sunt ordonate</answer>
+            </answers>
+            <explanation>
+                \> `TreeSet` -- implementarea printr-un arbore roşu-negru (red-black tree) a interfeţei `SortedSet`. Elementele sunt ordonate pe baza valorii lor
+                \>
+                \> Curs 3, slide 6
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Interfata `Map`:</text>
+            <answers>
+                <answer correct=true>pune in corespondenta cheile catre anumite valori</answer>
+                <answer>creeaza o harta grafica</answer>
+                <answer>creeaza o harta rutiera</answer>
+            </answers>
+            <explanation>
+                \> Map -- o punere în corespondenţă cheile către valoril (keys to values). Fiecare cheie corespunde unei valori, cheile sunt unice iar valorile se pot repeta.
+                \>
+                \> Curs 3, slide 5
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Se considera un obiect de tip `Vector` in care au fost adaugate 4 elemente. Cat este capacitatea vectorului?</text>
+            <answers>
+                <answer>4</answer>
+                <answer correct=true>10</answer>
+                <answer>1</answer>
+            </answers>
+            <explanation>
+                \> Capacitatea unui Vector (capacity) este întotdeauna cel puţin la fel de mare ca şi dimensiunea vectorului (size). Capacitatea unui vector se poate modifica în funcţie de conţinutul acestuia. (De exemplu, capacitatea iniţială este 10 şi rămâne atât până se adaugă primele 10 obiecte. Înainte să se adauge elementul al 11-lea se produce o realocare şi capacitatea vectorului se dublează, ajungând la 20). Dispune de un constructor prin care se poate specifica capacitatea iniţială, care va fi şi cea utilizată la fiecare relocare.
+                \>
+                \> Curs 3, slide 40
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Ce se intelege prin supraincarcare?</text>
+            <answers>
+                <answer correct=true>mai multe metode pot avea acelasi nume dar o signatura diferita</answer>
+                <answer>mai multe metode pot avea acelasi nume si aceeasi signatura</answer>
+                <answer>o metoda careia i se transmit la apel mai multi parametrii decat aceasta are</answer>
+                <answer>o metoda poate sa aiba acelasi nume cu o variabila</answer>
+            </answers>
+            <explanation>
+                \> Supraîncărcarea -- mai multe metode pot avea acelaşi nume dar o signatură diferită (numărul şi tipul parametrilor diferă de la o metodă la alta)
+                \>
+                \> Curs 2, slide 4
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Ce face comanda `super()`?</text>
+            <answers>
+                <answer>creeaza un obiect al superclasei</answer>
+                <answer>apeleaza metoda oarecare numita `super()`</answer>
+                <answer correct=true>apeleaza constructorul fara parametrii a clasei de baza</answer>
+            </answers>
+            <explanation>
+                \> Apelul constructorului supraclasei se poate face în felul următor:
+                \> ```java
+                \> super(lista_de_parametri);
+                \> ```
+                \>
+                \> -- Curs 2, slide 17
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Se considera o clasa care contine o variabila membru static. Pentru variabila membru static:</text>
+            <answers>
+                <answer correct=true>se aloca memorie o singura data indiferent de numarul de obiecte de acel tip</answer>
+                <answer>se aloca memorie direct proportional de numarul de obiecte de acel tip</answer>
+                <answer>se aloca o zona de memorie de 30 de octeti pentru fiecare variabila statica</answer>
+            </answers>
+            <explanation>
+                \> Variabilele statice ale unei clase sunt variabilele globale ale clasei, adică variabile a căror valoare poate să fie referită de orice obiect din clasa respectivă.
+                \> Pentru o variabilă membră statică se alocă memorie o singură dată, indiferent de numărul de obiecte de acel tip.
+                \>
+                \> Curs 2, slide 12
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>Cum poate fi convertit un `String` intr-un intreg?</text>
+            <answers>
+                <answer correct=true>
+                    ```java
+                    int x = Integer.parseInt("123");
+                    Integer x2 = Integer.valueOf("123");
+                    ```
+                </answer>
+                <answer>
+                    ```java
+                    int x = Integer.ToString("123");
+                    Integer x2 = Integer.valueOf("123");
+                    ```
+                </answer>
+                <answer>
+                    ```java
+                    int x = Integer.parseInt("123");
+                    Integer x2 = Integer.ToString("123");
+                    ```
+                </answer>
+            </answers>
+            <explanation>
+                \> ```java
+                \> Integer intVar2;
+                \> intVar2 = Integer.valueOf("123"); //conversie din String in Integer
+                \> 
+                \> int intVar3;
+                \> intVar3=Integer.parseInt("123"); //conversie din String in int
+                \> ```
+                \>
+                \> Curs 1, slide 17
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Potrivit principiului incapsularii:</text>
+            <answers>
+                <answer correct=true>accesul la variabilele membre ale unui obiect se poate realiza doar cu ajutorul metodelor obiectului</answer>
+                <answer>accesul la metodele obiectului se poate realiza doar cu ajutorul variabileleor membre</answer>
+                <answer>accesul la variabilele membre se poate realiza doar din constructor</answer>
+            </answers>
+            <explanation>
+                \> Încapsularea -- accesul la variabilele membre ale unui obiect se poate realiza doar cu ajutorul metodelor obiectului.
+                \>
+                \> Curs 2, slide 4
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Care este clasa aflata la radacina ierarhiei de clasa in Java?</text>
+            <answers>
+                <answer>`Root`</answer>
+                <answer correct=true>`Object`</answer>
+                <answer>`Serializable`</answer>
+                <answer>`RootClass`</answer>
+                <answer>`RootObject`</answer>
+            </answers>
+            <explanation>
+                \> Rădăcina ierarhiei de clase, clasa `Object` conţine o serie de metode care vor fi moştenite de orice clasă definită în Java.
+                \>
+                \> Curs 2, slide 7
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Precizati care va fi efectul urmatoarei secvente de cod:
+                
+                ```java
+                String s = "abcd";
+                system.out.println(s[1]);
+                ```
+            </text>
+            <answers>
+                <answer>va afisa litera `b` in consola</answer>
+                <answer>va afisa litera `a` in consola</answer>
+                <answer>va afisa tot sirul</answer>
+                <answer>va afisa sirul incepand de la litera `b` si pana la sfarsit</answer>
+                <answer correct=true>va genera eroare</answer>
+            </answers>
+            <explanation>
+                In Java, stringurile nu se accesează cu `[index]`, ci folosind metoda `charAt(index)`.
+                
+                \> Obţinerea caracterului dintr-o anumită poziţie a unui şir:
+                \> ```java
+                \> String alfa = "Luna tu stapana marii";
+                \> char a = alfa.charAt(9); // variabila a va lua valoarea “t”
+                \> ```
+                \>
+                \> Curs 1, slide 33
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Ce va afisa urmatoarea secventa?
+                
+                ```java
+                String nr1 = "3";
+                String nr2 = "4";
+                System.out.println(nr1 + nr2);
+                ```
+            </text>
+            <answers>
+                <answer>7</answer>
+                <answer>33</answer>
+                <answer correct=true>34</answer>
+                <answer>expresia va afisa pe ecran caracterul Unicode care corespunde numarului obtinut prin adunarea codului ASCII a lui 3 cu codul ASCII al lui 4</answer>
+                <answer>expresia este gresita</answer>
+            </answers>
+            <explanation>
+                \> Concatenarea şirurilor:
+                \> - cu operatorul `+`
+                \> - cu metoda `concat()` a clasei `String`
+                \>
+                \> Curs 1, slide 32
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Ce va afisa secventa urmatoare?
+                
+                ```java
+                int[] v = {3, 2, 1};
+                for (int i : v)
+                {
+                    System.out.println("" + i);
+                }
+                ```
+            </text>
+            <answers>
+                <answer>
+                    ```
+                    0
+                    1
+                    2
+                    ```
+                </answer>
+                <answer>
+                    ```
+                    1
+                    2
+                    3
+                    ```
+                </answer>
+                <answer correct=true>
+                    ```
+                    3
+                    2
+                    1
+                    ```
+                </answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>JDBC este o tehnologie care:</text>
+            <answers>
+                <answer>permite realizarea de aplicatii Java</answer>
+                <answer>permite FTP</answer>
+                <answer correct=true>permite conectarea la baza de date si ofera metode pentru interogarea si actualizarea acestora</answer>
+            </answers>
+            <explanation>
+                \> JDBC este o tehnologie care permite conectarea la baze de date şi oferă metode pentru interogarea şi actualizarea acestora.
+                \>
+                \> Curs 5, slide 3
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>afisarea unui mesaj in java se poate face:</text>
+            <answers>
+                <answer>
+                    ```java
+                    MessageBox.Show("Mesaj");
+                    ```
+                </answer>
+                <answer>
+                    ```java
+                    JPane.showMessageBox("Mesaj");
+                    ```
+                </answer>
+                <answer correct=true>
+                    ```java
+                    JOptionPane.showMessageDialog(null, "Mesaj");
+                    ```
+                </answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>O clasa care implementeaza o interfata:</text>
+            <answers>
+                <answer correct=true>trebuie sa specifice codul corespunzator metodelor din interfata dar poate sa declare variabile si metode care nu apar in interfata</answer>
+                <answer>trebuie sa specifice codul corespunzator metodelor din interfata dar nu poate sa declare variabile si metode care nu apar in interfata</answer>
+                <answer>nu trebuie sa specifice codul corespunzator metodelor din interfata</answer>
+            </answers>
+            <explanation>
+                \> O clasă care implementează interfața trebuie să specifice codul corespunzător metodelor din interfață dar poate să declare variabile şi metode care nu apar în interfaţă
+                \>
+                \> Curs 2, slide 74
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>O clasa poate implementa un numar de interfete egal cu:</text>
+            <answers>
+                <answer>1</answer>
+                <answer correct=true>\\\>= 1</answer>
+                <answer>0</answer>
+            </answers>
+            <explanation>
+                \> Implementarea uneia sau mai multor interfețe se face cu ajutorul cuvântului cheie `implements`.
+                \>
+                \> Curs 2, slide 76
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Implementarea unei interfete poate fi:</text>
+            <answers>
+                <answer>doar o clasa</answer>
+                <answer correct=true>o clasa sau abstracta</answer>
+                <answer>o alta interfata</answer>
+            </answers>
+            <explanation>
+                \> Dacă o clasă care implementează o interfață nu specifică o implementare tuturor metodelor abstracte atunci clasa trebuie făcută abstractă.
+                \>
+                \> Curs 2, slide 74
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Ce este o exceptie?</text>
+            <answers>
+                <answer correct=true>o exceptie este un eveniment care nu permite continuarea normala a executiei propgramului</answer>
+                <answer>o variabila care are o valoare exceptional de mare</answer>
+                <answer>o functie care returneaza o valoare neobisnuita</answer>
+            </answers>
+            <explanation>
+                \> O excepţie este un eveniment care nu permite continuarea normală a execuţiei programului.
+                \>
+                \> Curs 4, slide 2
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Care sunt constructiile de baza pentru lucrul cu exceptii?</text>
+            <answers>
+                <answer correct=true>`try`, `catch`, `finnaly`, `throw`, `throws`</answer>
+                <answer>`super`, `exception`, `fatal error`</answer>
+                <answer>`fatal warning`, `application exit`, `exceptional value`</answer>
+            </answers>
+            <explanation>
+                \> Java pune la dispoziţie următoarele construcţii de bază pentru lucrul cu excepţii:
+                \> - instrucţiunea `throw` pentru emiterea excepţiilor;
+                \> - clauza `throws` prin care o funcţie precizează că în anumite situaţii poate arunca o excepţie;
+                \> - blocul `try` pentru delimitarea secvenţelor de cod sensibile la apariţia excepţiilor;
+                \> - blocul `catch` pentru definirea secvenţei de captare şi tratare a unei excepţii;
+                \> - blocul `finally` care conţine cod care se va executa indifierent dacă excepţia se produce sau nu;
+                \>
+                \> Curs 4, slide 5
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Instructiunea `throw` poate fi plasata:</text>
+            <answers>
+                <answer>in interiorul oricarei metode</answer>
+                <answer>in exteriorul oricarei metode</answer>
+                <answer correct=true>in metode a caror definitie este insotita de o clauza `throws` in care apare tipul de exceptie respectiv</answer>
+            </answers>
+            <explanation>
+                \> Dacă într-o metodă este posibil să apară o excepţie fără ca aceasta să fie tratată, atunci în linia de declarație a metodei trebuie specificat tipul excepției respective
+                \>
+                \> Curs 4, slide 6
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>blocurile `try-catch`:</text>
+            <answers>
+                <answer correct=true>indica seria de instructiuni in care pot sa apara exceptiile, tipul exceptiilor si modul in care se solutioneaza acestea</answer>
+                <answer>indica bucati de cod care pot contine erori de sintaca</answer>
+                <answer>indica spre o bucata de cod care nu poate arunca exceptii</answer>
+            </answers>
+            <explanation>
+                \> (checked exceptions) Tratarea se poate face fie cuprinzând liniile care produc aceste excepții în blocuri `try-catch-finally`, fie completând linia de declarare a funcției care
+                conține aceste linii de cod cu clauza `throws` care permite funcției să le arunce mai departe.
+                \>
+                \> Curs 4, slide 4
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>secventa `finally`:</text>
+            <answers>
+                <answer>reprezinta o zona de cod care se executa inainte de a iesi din program</answer>
+                <answer>reprezinta o zona de cod care se executa inainte de a iesi dintr-o metoda</answer>
+                <answer correct=true>reprezinta un mecanism prin care se forteaza executia unei portiuni de cod indiferent daca o exceptie a aparut sau nu</answer>
+            </answers>
+            <explanation>
+                \> Blocul `finally` care conţine cod care se va executa indifierent dacă excepţia se produce sau nu
+                \>
+                \> Curs 4, slide 5
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>afirmatia corecta este:</text>
+            <answers>
+                <answer correct=true>metodele statice sunt similare functiilor obisnuite in C</answer>
+                <answer>metodele statice nu pot fi apelate decat din alte metode ale clasei care le contine</answer>
+                <answer>metodele statice nu pot contine declaratii de variabile</answer>
+            </answers>
+            <explanation>
+                \> Metodele statice sunt similare funcţiilor obişnuite din limbajul C.
+                \>
+                \> Curs 2, slide 12
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>afirmatia corecta este:</text>
+            <answers>
+                <answer>o clasa abstracta contine doar signaturi de metode</answer>
+                <answer correct=true>o clasa abstracta contine campuri si metode normale (pentru care se specifica o implementare) dar si modele de metode care urmeaza sa fie implementate in mod obligatoriu de clasele care extind clasa abstracta</answer>
+                <answer>o clasa abstracta nu contine metode</answer>
+            </answers>
+            <explanation>
+                \> O clasă abstractă conţine câmpuri şi metode normale (pentru care se specifică o implementare dar şi modele de metode (metode abstracte) care urmează să fie implementate în mod obligatoriu de clasele normale care extind clasa abstractă)
+                \>
+                \> Curs 2, slide 72
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>afirmatia corecta este:</text>
+            <answers>
+                <answer>o interfata este formata din constante si signaturi de metode</answer>
+                <answer>termenul `interface` se utilizeaza doar cu privire la aspectul aplicatiei</answer>
+                <answer correct=true>o interfata contine atat metode neimplementate cat si metode implementate</answer>
+            </answers>
+            <explanation>
+                \> O interfață poate conține:
+                \> - Constante (chiar dacă se fac declarații de variabile compilatorul le atașează atributele public static final, transformându-le în acest fel în constante)
+                \> - Metode abstracte
+                \> - Metode implicite (începând cu Java 8) – metode cu cod care au atributul default
+                \> - Metode statice (începand cu Java 8)
+                \> - Metode private în interfete (Începând cu Java 9) – apelate din metodele implicite
+                \>
+                \> Curs 2, slide 75
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>o clasa abstracta poate fi:</text>
+            <answers>
+                <answer>extinsa doar de o alta clasa abstracta</answer>
+                <answer>extinsa doar de o interfata</answer>
+                <answer correct=true>extinsa de o alta clasa abstracta sau de o clasa normala</answer>
+            </answers>
+            <explanation>
+                \> O clasa normală poate extinde o clasă abstractă doar dacă implementează metodele abstracte. Altfel clasa în cauză va conţine metode abstracte care vin pe relaţia de moștenire şi trebuie făcută abstractă.
+                \>
+                \> Curs 2, slide 72
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>o metoda abstracta poate fi plasata:</text>
+            <answers>
+                <answer correct=true>doar intr-o clasa abstracta sau o interfata</answer>
+                <answer>in interfete si in orice tip de clasa</answer>
+                <answer>in orice tip de clasa dar nu in interfete</answer>
+            </answers>
+            <explanation>
+                \> O metodă abstractă se află în mod obligatoriu într-o clasă abstractă sau într-o interfață.
+                \>
+                \> Curs 2, slide 73
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Ce cuvinte cheie / modificatori de acces au in mod implicit variabilele membre din interfete?</text>
+            <answers>
+                <answer correct=true>public</answer>
+                <answer>private</answer>
+                <answer>protected</answer>
+            </answers>
+            <explanation>
+                În Java, variabilele declarate într-o interfață sunt în mod implicit:
+                - `public`: sunt accesibile din orice clasă.
+                - `static`: aparțin clasei (interfeței), nu unei instanțe a acesteia.
+                - `final`: sunt constante, iar valoarea lor nu poate fi schimbată după inițializare.
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Se considera ca `pers` este o colectie de elemente de tip `List`. Cum poate fi ordonata automat aceasta colectie?</text>
+            <answers>
+                <answer correct=true>`Collections.sort(pers, new Compara_nume());` unde `Compara_Nume` este o clasa ce implementeaza interfata `Comparator`</answer>
+                <answer>`Collections.sorted(pers, new Compara_nume());` unde `Compara_Nume` este o clasa ce implementeaza interfata `Comparator`</answer>
+                <answer>`Collection.sort(pers, new Compara_nume());` unde `Compara_Nume` este o clasa ce implementeaza interfata `Comparator`</answer>
+            </answers>
+            <explanation>
+                \> Clasele `ComparaNume` şi `ComparaVarsta` sunt utilizate pentru ordonarea crescătoare a colecției de obiecte după numele persoanelor, respectiv după vârsta acestora. Cele două clase implementează interfaţa Comparator care dispune de metoda abstracta `compare()` ... .
+                \>
+                \> ```java
+                \> Collections.sort(pers, new ComparaVarsta());
+                \> ```
+                \>
+                \> Curs 3, slideurile 14-16
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                ```java
+                public class SuperClasa {
+                    protected int a;
+                    private int x;
+                
+                    public SuperClasa() {
+                        a = 2;
+                        x = calcul();
+                    }
+                
+                    public int calcul() {
+                        return a * a;
+                    }
+                
+                    public String toString() {
+                        return a + ", " + x;
+                    }
+                }
+                
+                public class SubClasa extends SuperClasa {
+                    private int y;
+                
+                    public SubClasa() {
+                        y = calcul();
+                    }
+                
+                    public int calcul() {
+                        return a * a * a;
+                    }
+                
+                    public String toString() {
+                        return super.toString() + ", " + y;
+                    }
+                }
+                
+                public class Main {
+                
+                    public static void main(String[] args) {
+                
+                        SubClasa ob = new SubClasa();
+                        System.out.println(ob);
+                    }
+                }
+                ```
+            </text>
+            <answers>
+                <answer>2, 4, 8</answer>
+                <answer correct=true>2, 8, 8</answer>
+                <answer>2, 4, 4</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Precizati ce va afisa secventa de mai jos:
+                
+                ```java
+                Vector v = new Vector(); 
+                
+                for (int i = 0; i \< 8; i++) 
+                { 
+                    v.add(i);
+                 }
+                
+                 System.out.println(v.capacity());
+                ```
+            </text>
+            <answers>
+                <answer>8</answer>
+                <answer correct=true>10</answer>
+                <answer>9</answer>
+            </answers>
+            <explanation>
+                \> Capacitatea unui Vector (capacity) este întotdeauna cel puţin la fel de mare ca şi dimensiunea vectorului (size). Capacitatea unui vector se poate modifica în funcţie de conţinutul acestuia. (De exemplu, capacitatea iniţială este 10 şi rămâne atât până se adaugă primele 10 obiecte. Înainte să se adauge elementul al 11-lea se produce o realocare şi capacitatea vectorului se dublează, ajungând la 20)
+                \>
+                \> Curs 3, slide 40
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Precizati efectul urmatoarei secvente:
+                
+                ```java
+                String s = "ABCDE";
+                s.toLowerCase();
+                System.out.println(s[1]);
+                ```
+            </text>
+            <answers>
+                <answer>B</answer>
+                <answer>A</answer>
+                <answer correct=true>eroare</answer>
+            </answers>
+            <explanation>`s[1]` este ilegal în Java; șirurile nu se accesează cu `[]`, ci cu `charAt()`.</explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Se considera clasele:
+                
+                ```java
+                public class Persoana
+                {
+                    String nume;
+                    public Persoana()
+                    {
+                        nume="Danut";
+                    }
+                }
+                
+                public class Inginer extends Persoana {}
+                
+                public class Main
+                {
+                    public static void main(String[] args)
+                    {
+                        Inginer i=new Inginer();
+                        System.out.println(i.nume);
+                    }
+                }
+                ```
+                
+                se va afisa:
+            </text>
+            <answers>
+                <answer>Dnut</answer>
+                <answer correct=true>Danut</answer>
+                <answer>Donut</answer>
+            </answers>
+            <explanation>
+                \>  În mod implicit prima instrucțiune dintr-un constructor este apelul constructorului fără parametri ai superclasei. Singura abatere de la această regulă are loc atunci când prima instrucțiune din constructor este un apel explicit la alt constructor al clasei sau la un constructor al supraclasei.
+                \>
+                \> Curs 2, slide 16
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Ce e adevarat despre codul de mai jos?
+                
+                ```java
+                public class Actor\<T, S\> {
+                    T nume;
+                    S varsta;
+                
+                    @Override
+                    public String toString() {
+                        return "Actor {" +
+                                "nume=" + nume +
+                                ", varsta=" + varsta +
+                                '}';
+                    }
+                
+                    public Actor(T nume, S varsta) {
+                        this.nume = nume;
+                        this.varsta = varsta;
+                    }
+                }
+                
+                public class Main {
+                    public static void main(String[] args) {
+                        Actor\<String, Integer\> actor = new Actor\<String, Integer\>("Florin", 22);
+                        System.out.println(actor);
+                
+                        Actor\<StringBuilder, Byte\> actor2 = new Actor\<StringBuilder, Byte\>(new StringBuilder("Mihai"), (byte) 30);
+                        System.out.println(actor2);
+                    }
+                }
+                ```
+            </text>
+            <answers>
+                <answer>actorul 2 e initializat gresit</answer>
+                <answer>actorul 1 e initializat gresit</answer>
+                <answer correct=true>ambii actori sunt initializati corect</answer>
+            </answers>
+            <explanation>
+                Dupa rulare:
+                ```
+                Actor {nume=Florin, varsta=22}
+                Actor {nume=Mihai, varsta=30}
+                ```
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Se considera tabela MySQL `persoane` cu coloanele `id`, `nume`, `varsta` care are introdusa in ea 3 randuri populate cu informatie si contine id-urile 1, 2, 3. Precizati care va fi efectul liniilor de mai jos:
+                
+                ```
+                | id | nume  | varsta |
+                | -- | ----- | ------ |
+                | 1  | Ion   | 24     |
+                | 2  | Maria | 19     |
+                | 3  | Carol | 25     |
+                ```
+                
+                ```java
+                public class MainApp {
+                    public static void main(String[] args) throws SQLException {
+                        String url = "jdbc:mysql://localhost:3306/test?serverTimezone=UTC";
+                        Connection connection = DriverManager.getConnection(url, "root", "Root");
+                        PreparedStatement ps = connection.prepareStatement("select * from persoane where id=?");
+                        ps.setInt(1,1);
+                        ResultSet rs = ps.executeQuery();
+                        System.out.println(rs.getString(2));
+                    }
+                }
+                ```
+            </text>
+            <answers>
+                <answer>programul va afișa valoarea `Ion` fără nicio problemă, deoarece `getString(2)` poate fi apelat fără a avansa cursorul</answer>
+                <answer correct=true>se încearcă extragerea de informație înainte de primul rând din obiectul `ResultSet`, lucru care va produce excepție</answer>
+                <answer>instrucțiunea SQL va returna toate cele trei rânduri, iar programul va afișa numele ultimului, `Carol`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Alegeți afirmația potrivită cu privire la următoarele linii de cod:
+                
+                ```java
+                public class Main
+                {
+                    public static void main(String[] args)
+                    {
+                        float f = 3.4444;
+                        System.out.printf("%.2f", f);
+                    }
+                }
+                ```
+            </text>
+            <answers>
+                <answer correct=true>secvența va genera eroare de compilare datorită încercării de a inițializa o variabilă de tip `float` cu o valoare de tip `double`.</answer>
+                <answer>programul va afișa fix valoarea originală `3.4444` fără rotunjire, deoarece `%f` nu aplică formatare zecimală</answer>
+                <answer>programul nu va afișa nimic deoarece metoda `printf` nu funcționează cu tipul `float`</answer>
+            </answers>
+            <explanation>`3.4444` este un literal de tip `double`, iar un `double` nu poate fi atribuit implicit unei variabile `float` fără cast sau sufix `f`</explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Expresiile lambda:</text>
+            <answers>
+                <answer correct=true>implementează interfețe cu o singură metodă abstractă</answer>
+                <answer>lambda-urile sunt clase anonime care pot conține mai multe metode abstracte</answer>
+                <answer>lambda-urile înlocuiesc metodele statice dintr-o clasă și se declară cu cuvântul cheie `lambda`</answer>
+            </answers>
+            <explanation>
+                \> Expresiile Lambda sunt utilizate în principal pentru a defini implementarea inline (printr-o linie de cod) a unei interfețe cu o singură metodă abstractă (interfaţă funcţională).
+                \>
+                \> Curs 2, slide 89
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Metodele implicite în interfețe (introduse în Java 8):</text>
+            <answers>
+                <answer correct=true>sunt metode cu cod care au atributul `default`</answer>
+                <answer>metodele implicite sunt metode private din interfață care nu pot avea implementare</answer>
+                <answer>metodele implicite sunt metode care se rulează automat la compilare și nu pot fi suprascrise</answer>
+            </answers>
+            <explanation>
+                \> Posibilitatea de a adăuga metode implicite în interfețe (metode cu cod care au atributul `default`) a fost introdusă în Java 8.
+                \>
+                \> Curs 2, slide 80
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Selectați afirmația corectă cu privire la bean-urile Spring:</text>
+            <answers>
+                <answer>bean-urile sunt fișiere de configurare XML care conțin doar proprietăți, nu obiecte Java</answer>
+                <answer correct=true>un bean este un obiect care este instanțiat, asamblat și gestionat de un container Spring. Containerul creează astfel de obiecte pe baza metadatelor de configurare furnizate printr-un fișier XML sau cu ajutorul adnotărilor</answer>
+                <answer>un bean este o clasă Java marcată final care nu poate fi gestionată de Spring</answer>
+            </answers>
+            <explanation>
+                \> Un bean este un obiect care este instanțiat, asamblat și gestionat de un container Spring. Containerul creează astfel de obiecte pe baza metadatelor de configurare furnizate cu ajutorul adnotațiilor sau a unor fișiere xml.
+                \>
+                \> Curs 6, slide 10
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>O clasă abstractă poate fi:</text>
+            <answers>
+                <answer correct=true>extinsă de o altă clasă abstractă sau de o clasă normală</answer>
+                <answer>o clasă abstractă nu poate fi extinsă de nimeni; poate fi doar instanțiată direct</answer>
+                <answer>o clasă abstractă poate extinde numai o interfață, nu o altă clasă</answer>
+            </answers>
+            <explanation>
+                \> O clasa normală poate extinde o clasă abstractă doar dacă implementează metodele abstracte. Altfel clasa în cauză va conţine metode abstracte care vin pe relaţia de moștenire şi trebuie făcută abstractă.
+                \> 
+                \> Curs 2, slide 72
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Intr-un `TreeSet`:</text>
+            <answers>
+                <answer correct=true>elementele sunt ordonate în ordine naturală sau cu ajutorul unui comparator</answer>
+                <answer>elementele sunt ordonate în ordinea în care au fost adăugate (ca în `LinkedHashSet`)</answer>
+                <answer>elementele sunt stocate în ordine aleatorie, fără nicio sortare (ca în `HashSet`)</answer>
+            </answers>
+            <explanation>
+                \> In cazul în care se utilizează pentru interfața Set o implementare prin clasa TreeSet, va trebui specificat un comparator. Acesta va fi folosit atât pentru ordonare si pentru eliminarea duplicatelor.
+                \>
+                \> Curs 3, slide 26
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Se consideră clasa Test cu codul de mai jos. Precizați efectul rulării secvenței din programul principal.
+                
+                ```java
+                class Test
+                {
+                    int x=0;
+                    void metoda()
+                    {
+                        this.x += 3;
+                    }
+                }
+                
+                class Main
+                {
+                    public static void main(String[] args)
+                    {
+                        Test t=new Test();
+                        t.metoda();
+                        System.out.println(t.x);
+                    }
+                }
+                ```
+            </text>
+            <answers>
+                <answer correct=true>va afișa 3 pe ecran</answer>
+                <answer>va afișa 15 pe ecran</answer>
+                <answer>va afișa 13 pe ecran</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>
+                Care va fi valoarea variabilei `a` după executarea liniilor de cod de mai jos?
+                
+                ```java
+                class Main
+                {
+                    public static void main(String[] args)
+                    {
+                        int a=3;
+                        a \>\>\>= 1;
+                        System.out.println(a);
+                    }
+                }
+                ```
+            </text>
+            <answers>
+                <answer correct=true>1</answer>
+                <answer>0</answer>
+                <answer>6</answer>
+            </answers>
+            <explanation>Operatorul `\>\>\>` este shift la dreapta fără semn (unsigned right shift).</explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Precizați care este efectul următoarei secvențe de cod:
+                
+                ```java
+                class Main
+                {
+                    public static void main(String[] args)
+                    {
+                        var lista = List.of("Arad","Timisoara");
+                        lista.add("Enu");
+                        lista.forEach(System.out::println);
+                    }
+                }
+                ```
+            </text>
+            <answers>
+                <answer>va afișa: `Arad, Timisoara, Enu`</answer>
+                <answer correct=true>se va produce excepție pentru că nu este permisă adăugarea unui element la colecție</answer>
+                <answer>codul se compilează fără erori și nu va afișa nimic</answer>
+            </answers>
+            <explanation>`List.of()` creează o listă imutabilă (read-only).</explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Precizați efectul rulării secvenței:
+                
+                ```java
+                class Main 
+                {
+                    public static void main(String[] args) 
+                    {
+                        Integer a = new Integer();
+                        int b = 3;
+                        a = b;
+                        System.out.println(a);
+                    }
+                }
+                ```
+            </text>
+            <answers>
+                <answer correct=true>va produce eroare de compilare pentru că Integer nu poate fi inițializat fără parametri</answer>
+                <answer>va afișa `null` pe ecran </answer>
+                <answer>3</answer>
+            </answers>
+            <explanation>
+                ```
+                java: no suitable constructor found for Integer(no arguments)
+                ```
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Precizați efectul rulării secvenței:
+                
+                ```java
+                class Main 
+                {
+                    public static void main(String[] args) 
+                    {
+                        int[] tab = new int[3];
+                        tab[0]=3;
+                        tab[1]=0;
+                        tab[2]=7;
+                        tab[3]=0;
+                        System.out.println(tab.length);
+                    }
+                }
+                ```
+            </text>
+            <answers>
+                <answer>va afișa 4 pe ecran </answer>
+                <answer correct=true>va determina producerea excepției `ArrayIndexOutOfBoundsException`</answer>
+                <answer>va afișa 3 pe ecran</answer>
+            </answers>
+            <explanation>
+                ```
+                Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+                ```
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Precizati ce va afisa secventa :
+                
+                ```java
+                class Main
+                {
+                    public static void main(String[] args)
+                    {
+                        int[] a = {4, 5, 6};
+                        int[] b = {1, 2, 3};
+                        b = a;
+                        a[0] = 5;
+                        System.out.println("a[0] = " + a[0] + " b[0] = " + b[0]);
+                    }
+                }
+                ```
+            </text>
+            <answers>
+                <answer correct=true>`a[0]=5 b[0]=5`</answer>
+                <answer>`a[0]=1 b[0]=5`</answer>
+                <answer>`a[0]=5 b[0]=1`</answer>
+            </answers>
+            <explanation>Dupa `b=a`, ambele variabile `a` și `b` referă același array.</explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Precizati efectul liniilor de cod de mai jos:
+                
+                ```java
+                public record Punct(int x,int y) {}
+                
+                class Main {
+                    public static void main(String[] args)
+                    {
+                        Punct p1 = new Punct(1,2);
+                        Punct p2 = new Punct(1,2);
+                        if(p1.equals(p2)) {
+                            System.out.println("Egale");
+                        } else {
+                            System.out.println("Diferite");
+                        }
+                        System.out.println(p1.x() + " , " + p1.y());
+                    }
+                }
+                ```
+            </text>
+            <answers>
+                <answer correct=true>Se va afisa mesajul `Egale` pe ecran urmat de valorile `1, 2`</answer>
+                <answer>Se va afisa mesajul `Egale` pe ecran urmat de valorile `1, 1`</answer>
+                <answer>Se va afisa mesajul `Egale` pe ecran urmat de valorile `2, 2`</answer>
+            </answers>
+            <explanation>Pentru records, equals() compară valorile câmpurilor, nu referințele.</explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Se considera clasa `Persoana` cu variabilele membre private `nume` si `varsta`, gettere pentru accesul variabilelor membre si metoda `toString()` redefnita. Se considera o colectie de obiecte de tip `List` in care s au adaugat 3 persoane.
+                
+                Precizati efectul urmatoarelor linii de cod:
+                
+                ```java
+                class Main
+                {
+                    public static void main(String[] args)
+                    {
+                        List\<Persoana\> persoane = new ArrayList\<\>();
+                        persoane.add(new Persoana("Ion", 15));
+                        persoane.add(new Persoana("Mihaela", 16));
+                        persoane.add(new Persoana("Carmen", 15));
+                    }
+                
+                    public static void functie(List\<Persoana\> persoane)
+                    {
+                        persoane
+                                .stream()
+                                .map(Persoana::getVarsta)
+                                .filter(p -\> p.getVarsta() \< 20)
+                                .ifPresentOrElse(System.out::println, ()-\> System.out.println("Nu e nici o persoana"));
+                    }
+                }
+                ```
+            </text>
+            <answers>
+                <answer correct=true>conditia de filtrare este scrisa gresit in contextul actual si va produce eroare</answer>
+                <answer>`Nu e nici o persoana`</answer>
+                <answer>`3`</answer>
+            </answers>
+            <explanation>
+                `map(Persoana::getVarsta)` transformă `Stream\<Persoana\>` într-un `Stream\<Integer\>`, adică în valori întregi (varsta).
+                
+                După această mapare, elementele din stream nu mai sunt obiecte `Persoana`, ci `Integer`.
+                
+                Apelul `p.getVarsta()` nu există pentru tipul `Integer`, deci rezulta eroare de compilare.
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Precizati cum va rula secventa:
+                
+                ```java
+                class Main
+                {
+                    public static void main(String[] args)
+                    {
+                        int a[] = {4, 3, 2};
+                        afiseaza(a);
+                    }
+                
+                    static void afiseaza(var vector)
+                    {
+                        for(Integer x : vector)
+                        {
+                            System.out.println(x);
+                        }
+                    }
+                }
+                ```
+            </text>
+            <answers>
+                <answer>`4 3 2`</answer>
+                <answer correct=true>secventa va produce eroare de compilare datorita utilizarii necorespunzatoare a lui `var`</answer>
+                <answer>`2 3 4`</answer>
+            </answers>
+            <explanation>
+                ```
+                java: 'var' is not allowed here
+                ```
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Ce rol are adnotația `@RequestBody` în contextul unui serviciu web RESTful?</text>
+            <answers>
+                <answer>extrage parametrii din URL pentru a fi utilizați în metoda controllerului</answer>
+                <answer>specifică că metoda respectivă acceptă cereri HTTP doar de tipul PUT</answer>
+                <answer>solicită ca în corpul cererii HTTP să se găsească datele necesare autentificării</answer>
+                <answer correct=true>extrage datele din corpul cererii HTTP și le mapează la obiecte Java care se transmit ca parametri de intrare către metode din controller</answer>
+                <answer>criptează parametrii cererii HTTP pentru a asigura confidențialitatea datelor</answer>
+            </answers>
+            <explanation>
+                \> Adnotația `@RequestBody` amplasată înaintea parametrului de intrare precizează că datele persoanei se vor găsi în corpul cererii HTTP și vor fi mapate la parametrul de intrare de tip `Persoana`.
+                \>
+                \> Curs 6, slide 88
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Se consideră fișierele `Persoana.java`, `Inginer.java` și `MainApp.java`, având următorul conținut:
+                
+                ```java
+                package pachetul.unu;
+                
+                public class Persoana {
+                    String nume;
+                
+                    public Persoana() {
+                        nume = "Danut";
+                    }
+                }
+                ```
+                
+                ```java
+                package pachetul.unu;
+                
+                public class Inginer extends Persoana {
+                    public void metoda() {
+                        System.out.println(nume);
+                    }
+                }
+                ```
+                
+                ```java
+                package pachetul.doi;
+                
+                import pachetul.unu.Inginer;
+                
+                class MainApp {
+                    public static void main(String[] args) {
+                        Inginer i = new Inginer();
+                        System.out.println(i.nume);
+                    }
+                }
+                ```
+                
+                Precizați cum va funcționa programul principal.
+            </text>
+            <answers>
+                <answer>clasele `Persoana` și `Inginer` trebuie să fie declarate `public` pentru ca programul să funcționeze</answer>
+                <answer>clasele `Persoana` și `Inginer` trebuie să fie în același pachet pentru ca programul să funcționeze</answer>
+                <answer>constructorul clasei `Persoana` este apelat implicit la instanțierea unui obiect de tip `Inginer`</answer>
+                <answer>metodele clasei `Persoana` nu pot fi apelate dintr-un obiect al clasei `Inginer`</answer>
+                <answer correct=true>va genera eroare de compilare, deoarece `nume` nu este accesibil din clasa `MainApp`</answer>
+            </answers>
+            <explanation>
+                ```
+                java: nume is not public in pachetul.unu.Persoana; cannot be accessed from outside package
+                ```
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Precizați care este afirmația corectă cu privire la blocurile de cod statice:</text>
+            <answers>
+                <answer>sunt metode cu cod care nu au niciun atribut</answer>
+                <answer correct=true>se amplasează în clase, în afara oricărei metode și conțin cod care se execută când clasa este încărcată în memorie</answer>
+                <answer>se amplasează în orice metodă și conțin cod care se execută când clasa este încărcată în memorie</answer>
+                <answer>se amplasează în constructor și conțin cod care se execută când clasa este încărcată în memorie</answer>
+            </answers>
+            <explanation>
+                \> Secvenţe de cod static se pot declara numai în afara metodelor.
+                \>
+                \> Aceste secvenţe se execută în momentul în care se referă clasa care le conţine.
+                \>
+                \> -- Curs 2, slide 14
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Se consideră fișierele `Persoana.java`, `Inginer.java` și `MainApp.java`, având următorul conținut:
+                
+                ```java
+                package pachetul.unu;
+                
+                public class Persoana {
+                    String nume;
+                
+                    public Persoana() {
+                        nume = "Danut";
+                    }
+                }
+                ```
+                
+                ```java
+                package pachetul.unu;
+                
+                public class Inginer extends Persoana {
+                    public void metoda() {
+                        System.out.println(nume);
+                    }
+                }
+                ```
+                
+                ```java
+                package pachetul.doi;
+                
+                import pachetul.unu.Inginer;
+                
+                class MainApp {
+                    public static void main(String[] args) {
+                        Inginer i = new Inginer();
+                        System.out.println(i.nume);
+                    }
+                }
+                ```
+                
+                Precizați cum va funcționa programul principal.
+            </text>
+            <answers>
+                <answer>va afişa null pe ecran</answer>
+                <answer>va afişa numele `Danut` pe ecran</answer>
+                <answer>`nume` va fi neinițializat deci va afișa șirul vid</answer>
+                <answer>va genera eroare de compilare, `nume` nefiind accesibil din clasa `Inginer`</answer>
+                <answer correct=true>va genera eroare de compilare, `nume` nefiind vizibil in clasa `MainApp`</answer>
+            </answers>
+            <explanation>
+                ```
+                java: nume is not public in pachetul.unu.Persoana; cannot be accessed from outside package
+                ```
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Se consideră un proiect Spring Boot, care utilizează artefactul `spring-boot-starter-data-jpa`. Dacă în fișierul de configurare al proiectului se atribuie proprietății `spring.jpa.hibernate.ddl-auto` valoarea `create`, atunci:</text>
+            <answers>
+                <answer>la fiecare rulare se vor crea entități în funcție de tabelele din baza de date</answer>
+                <answer correct=true>la fiecare rulare a proiectului se vor executa comenzi `drop table if exists` care sterg tabelele corespunzătoare entităților și apoi comenzi `create table` care creează tabelele corespunzătoare entităților</answer>
+                <answer>la fiecare rulare sa vor executa comenzi `alter table` care modifică tabelele existente în acord cu entitățile</answer>
+                <answer>la fiecare rulare se vor executa comenzile din fișierul `data.sql`</answer>
+                <answer>la fiecare rulare a proiectului se vor executa comenzi `create table` care creeaza tabelele corespunzătoare entităților și înainte ca proiectul să iși încheie execuția se vor executa comenzi `drop table` care șterg tabelele create, lăsând baza de date așa cum era inainte de rularea proiectului</answer>
+            </answers>
+            <explanation>
+                \> Proprietatea `spring.jpa.hibernate.ddl-auto` poate avea următoarele valori:
+                \> - `create` -- la fiecare rulare se recreează schema bazei de date, distrugând datele
+                care existau înainte de rulare în aceasta. În cazul tabelelor întâi se execută comenzi `drop table if exists` şi apoi `create`. Această valoare este utilă în etapele de dezvoltare şi testare.
+                \>
+                \> -- Curs 6, slide 42
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Se consideră clasele imbricate de mai jos:
+                
+                ```java
+                public class ClasaExterioara {
+                    private static int a = 3;
+                
+                    static class ClasaInterioara {
+                        private int b = 4;
+                        public void afisare() {
+                            System.out.println("a=" + a + ",b=" + b);
+                        }
+                    }
+                }
+                ```
+            </text>
+            <answers>
+                <answer>intr-o altă clasă nu se poate declara obiect de tipul clasei interioare</answer>
+                <answer correct=true>
+                    intr-o altă clasă se poate declara obiect de tipul clasei interioare în felul următor:
+                    ```java
+                    ClasaExterioara.ClasaInterioara o = new ClasaExterioara.ClasaInterioara();
+                    ```
+                </answer>
+                <answer>
+                    intr-o altă clasă se poate declara obiect de tipul clasei interioare în felul următor:
+                    ```java
+                    ClasaExterioara o1 = new ClasaExterioara();
+                    ClasaExterioara.ClasaInterioara o2 = o1.new ClasaInterioara();
+                    ```
+                </answer>
+                <answer>variabila `a` nu poate fi accesată din `ClasaInterioara` pentru că este privată</answer>
+                <answer>statice pot să fie doar metodele și variabilele membre, nu și clasele interioare. Secvența va determina eroare de compilare</answer>
+            </answers>
+            <explanation>
+                \> Clasele interioare pot fi statice. În acest caz instanțierea unui obiect al clasei interioare nu mai necesita un obiect al clasei exterioare (vezi exemplul următor). Din clasa interioară pot fi accesați membrii statici ai clasei exterioare.
+                \>
+                \> -- Curs 2, slide 68
+                
+                daca rulam:
+                ```java
+                ClasaExterioara.ClasaInterioara o = new ClasaExterioara.ClasaInterioara();
+                o.afisare();
+                ```
+                se va afisa:
+                ```
+                a=3,b=4
+                ```
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Precizați ce va afișa secvența de mai jos:
+                
+                ```java
+                Vector v = new Vector();
+                
+                for (int i = 0; i \< 12; i++)
+                    v.add(i);
+                
+                System.out.println(v.capacity());
+                ```
+            </text>
+            <answers>
+                <answer correct=true>20</answer>
+                <answer>1024</answer>
+                <answer>100</answer>
+                <answer>10</answer>
+                <answer>12</answer>
+            </answers>
+            <explanation>
+                \> Capacitatea unui Vector (capacity) este întotdeauna cel puţin la fel de mare ca şi dimensiunea vectorului (size). Capacitatea unui vector se poate modifica în funcţie de conţinutul acestuia. (De exemplu, capacitatea iniţială este 10 şi rămâne atât până se adaugă primele 10 obiecte. Înainte să se adauge elementul al 11-lea se produce o realocare şi capacitatea vectorului se dublează, ajungând la 20).
+                \>
+                \> Curs 3, slide 40
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                 Precizați ce va afișa următorul program:
+                
+                ```java
+                class SuperClasa {
+                    protected int a;
+                    private int x;
+                    
+                    public SuperClasa() {
+                        a = 1;
+                        x = calcul();
+                    }
+                    
+                    public int calcul() {
+                        return 2 * a;
+                    }
+                    
+                    public String toString() {
+                        return a + ", " + x;
+                    }
+                }
+                
+                class SubClasa extends SuperClasa {
+                    private int y;
+                    
+                    public SubClasa() {
+                        y = calcul();
+                    }
+                    
+                    public int calcul() {
+                        return 3 * a;
+                    }
+                    
+                    public String toString() {
+                        return super.toString() + ", " + y;
+                    }
+                }
+                
+                class MainApp {
+                    public static void main(String[] args) {
+                        SubClasa ob = new SubClasa();
+                        System.out.println(ob);
+                    }
+                }
+                ```
+            </text>
+            <answers>
+                <answer>2, 1, 3</answer>
+                <answer>1, 2, 3</answer>
+                <answer correct=true>1, 3, 3</answer>
+                <answer>1, 3, 2</answer>
+                <answer>1, 2, 2</answer>
+            </answers>
+            <explanation>
+                daca se ruleaza:
+                ```
+                1, 3, 3
+                ```
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Tehnologia JDBC utilizeaz un obiect de tip `CallableStatement`:</text>
+            <answers>
+                <answer>pentru transmiterea comenzilor SQL cu parametri de intrare in interogari</answer>
+                <answer correct=true>pentru executarea procedurilor stocate în baza de date</answer>
+                <answer>pentru stabilirea unei conexiuni cu baza de date</answer>
+                <answer>pentru transmiterea comenzilor SQL simple fără parametri</answer>
+            </answers>
+            <explanation>
+                \> `CallableStatement` -- permite executarea unor proceduri stocate pe baza de date.
+                \>
+                \> -- Curs 5, slide 4
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>
+                Precizați ce va afișa secvența:
+                
+                ```java
+                class OClasa {
+                    private static int x;
+                    private int y;
+                
+                    public OClasa(int x, int y) {
+                        this.x = x;
+                        this.y = y;
+                    }
+                
+                    public int getX() {
+                        return x;
+                    }
+                
+                    public int getY () {
+                        return y;
+                    }
+                }
+                
+                class MainOClasa {
+                    public static void main(String[] args) {
+                        OClasa ob1 = new OClasa(1, 2);
+                        OClasa ob2 = new OClasa(3, 4);
+                
+                        int xx = ob1.getX() + ob2.getX();
+                        int yy = ob1.getY() + ob2.getY();
+                
+                        System.out.println(xx + " " + yy);
+                    }
+                }
+                ```
+            </text>
+            <answers>
+                <answer>6 8</answer>
+                <answer>4 8</answer>
+                <answer>4 6</answer>
+                <answer correct=true>6 6</answer>
+                <answer>secventa nu poate fi rulate</answer>
+            </answers>
+            <explanation>
+                dupa rulare:
+                ```
+                6 6
+                ```
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Intr-un bloc `try` cu resurse:</text>
+            <answers>
+                <answer>resursele trebuiesc aruncate mai departe prin `throw`</answer>
+                <answer>resursele trebuiesc inchise într-un bloc `finally` care se excută indiferent dacă excepția apare sau nu</answer>
+                <answer>resursele trebuiesc închise în `catch` </answer>
+                <answer correct=true>resursele sunt inchise automat la finalul blocului</answer>
+            </answers>
+            <explanation>
+                \> Într-ul bloc try cu resurse, resursele sunt închise automat la finalul blocului (nu este necesară închiderea lor explicită)
+                \>
+                \> -- Curs 4, slide 13
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Selectați afirmația corectă cu privire la colecțiile de obiecte de tip `Properties`:</text>
+            <answers>
+                <answer>colecțiile de tip `Properties` permit accesarea elementelor prin indice</answer>
+                <answer>conțin proprietațile componentelor din fișierele HTML</answer>
+                <answer>colecțiile de tip `Properties` pun în corespondență un rând dintr-un tabel cu un rând din alt tabel</answer>
+                <answer correct=true>colecțiile de tip `Properties` pun in corespondentă cheile cu anumite valori</answer>
+            </answers>
+            <explanation>
+                \> Clasa `Properties` este utilizată în colecții de obiecte formate din perechi cheie-valoare în care atât cheia cât și valoarea sunt `Striguri`.
+                \>
+                \> -- Curs 3, slide 43
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Interacțiunea cu BD se realizează în JPA (Java Persistence API) cu ajutorul:</text>
+            <answers>
+                <answer>interfeței `SessionFactory`</answer>
+                <answer>interfeței `PreparedStatement`</answer>
+                <answer>nici uneia din cele enumerate</answer>
+                <answer>clasei `JdbcTemplate`</answer>
+                <answer correct=true>interfeței `EntityManager`</answer>
+            </answers>
+            <explanation>
+                \> Interacțiunea cu baza de date în JPA se realizează cu ajutorul interfeței `EntityManager`. Acesta oferă operațiile CRUD (Create, Read, Update, Delete).
+                \>
+                \> -- Curs 6, slide 38
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Precizați care este afirmația corectă cu privire la codul următor:
+                
+                ```java
+                class Actor\<T,S\> {
+                    T nume;
+                    S varsta;
+                
+                    public Actor(T nume, S varsta) {
+                        this.nume = nume;
+                        this.varsta = varsta;
+                    }
+                
+                    public String toString() {
+                        return nume + ", " + varsta;
+                    }
+                }
+                
+                class MainApp {
+                    public static void main(String[] args) {
+                        Actor\<String, Integer\> actor1 = new Actor\<String, Integer\>("Florin", 22);
+                        System.out.println(actor1);
+                
+                        StringBuilder nume = new StringBuilder("Mihai");
+                        Byte varsta = Byte.valueOf("30");
+                
+                        Actor\<StringBuilder, Byte\> actor2 = new Actor\<StringBuilder, Byte\>(nume, varsta);
+                        System.out.println(actor2);
+                    }
+                }
+                ```
+            </text>
+            <answers>
+                <answer>modul de instanțiere al obiectului `actor2` este greşit</answer>
+                <answer>modul de instanțiere a obiectului `actor1` este greșit</answer>
+                <answer>modul de instantiere al celor două obiecte este greşit</answer>
+                <answer>nu se va afișa nimic pe ecran pentru ca a fost omis apelul metodei `toString()`</answer>
+                <answer correct=true>va afişa `Florin, 22` şi `Mihai, 30` pe ecran</answer>
+            </answers>
+            <explanation>
+                dupa rulare:
+                ```
+                Florin, 22
+                Mihai, 30
+                ```
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Precizati care este afirmatia corecta cu privire la urmatoarea enumerare:
+                
+                ```java
+                enum Anotimp {
+                    PRIMAVARA,
+                    VARA,
+                    TOAMNA,
+                    IARNA;
+                
+                    private int a = 7;
+                
+                    private Anotimp() {
+                        System.out.println("Contructor apelat pentru fiecare constanta");
+                    }
+                    
+                    void metoda() {
+                        System.out.println("Metoda in enumerare a=" + a);
+                    }
+                }
+                ```
+            </text>
+            <answers>
+                <answer>este greșită, deoarece nu putem avea metode în enumerări</answer>
+                <answer>este greșită, deoarece nu putem avea variabile membre în enumerări</answer>
+                <answer correct=true>este corectă</answer>
+                <answer>este greșită, deoarece nu putem avea constructor în enumerări</answer>
+                <answer>este greșită, deoarece în enumerări putem avea doar constante, nimic altceva</answer>
+            </answers>
+            <explanation>
+                \> Tipul enumerare deși NU trebuie instanţiat folosind new, are capabilități similare unei clase (poate avea constructor, metode, variabile membre, etc).
+                \> 
+                \> -- Curs 2, slide 39
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Adnotația `@Component` în Spring Framework:</text>
+            <answers>
+                <answer>se amplasează deasupra variabilelor membre și determină Spring framework să injecteze valori in acele variabile membre</answer>
+                <answer>se amplasează deasupra constructorilor și determină Spring framework să utilizeze acei constructori pentru injectarea dependintelor</answer>
+                <answer>se amplasează deasupra setter-elor si va determina Spring framework sa utilizeze acele settere pentru injectarea dependențelor</answer>
+                <answer correct=true>se amplasează deasupra unei clase si determina containerul Spring să creeze un Spring bean pentru acea clasă</answer>
+                <answer>se amplasează deasupra claselor, determinând Spring framework sa creeze un container Spring pentru acea clasa</answer>
+            </answers>
+            <explanation>
+                \> Adnotația `@Component` determină Spring framework să creeze un Spring Bean pentru clasa respectivă.
+                \>
+                \> -- Curs 6, slide 10
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Se considerá tabela MySQL `persoane` in baza de date `test`, avand coloanele `id`, `nume` și `varsta`. Tabela are introduse in ea 3 rânduri populate complet cu informație având id-urile cu valorile 1, 2 și 3. Precizați care va fi efectul liniilor de cod de mai jos.
+                
+                ```java
+                Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "root");
+                Statement statement = connection.createStatement("select * from persoane where id=?");
+                statement.setInt(1, 1):
+                ResultSet rs = statement.executeQuery();
+                System.out.println(rs.getString(2));
+                ```
+            </text>
+            <answers>
+                <answer>liniile de cod vor afișa vârsta persoanei care are ID-ul 1</answer>
+                <answer>liniile de cod vor afișa numele persoanei care are ID-ul 1</answer>
+                <answer>obiectul `Statement` nu permite rularea comenzilor SQL cu parametri; secvența va avea erori de compilare</answer>
+                <answer correct=true>se încearcă extragerea de informație de dinaintea primului rand din obiectul `ResaultSet`, lucru care va produce exceptie</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Se considera clasa `Test` cu codul de mai jos. Precizați efectul rulării secvenței din programul principal.
+                
+                ```java
+                class Test {
+                    int x = 5;
+                    void metoda() {
+                        this.x -= 4;
+                    }
+                }
+                
+                class MainApp {
+                    public static void main(String[] args) {
+                        Test t = new Test();
+                        t.metoda();
+                        System.out.println(t.x);
+                    }
+                }
+                ```
+            </text>
+            <answers>
+                <answer>va genera eroare de compilare, deoarece variabila `x` este inaccesibilă</answer>
+                <answer>va afișa 4 pe ecran</answer>
+                <answer correct=true>va afișa 1 pe ecran</answer>
+                <answer>va afișa 5 pe ecran</answer>
+            </answers>
+            <explanation>
+                dupa rulare afiseaza:
+                ```
+                1
+                ```
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Ce este un `Predicate`?</text>
+            <answers>
+                <answer correct=true>o interfață care are o metodă abstracta `test()` care are un parametru de intrare și returnează un `boolean`</answer>
+                <answer>o interfață care are o metodă abstracta cu un parametru de intrare de un anumit tip și care returnează un rezultat de același tip ca și parametrul de intrare</answer>
+                <answer>o interfață care are o metodă abstractă care nu returnează nimic</answer>
+                <answer>o interfață care are o metodă abstractă cu un doi parametrii de intrare de un anumit tip și care returnează un rezultat de același tip ca și parametrii de intrare</answer>
+            </answers>
+            <explanation>
+                \> `Predicate\<T\>` reprezintă o operație care accepta un singur parametru de intrare și returnează un boolean.
+                \>
+                \> -- Curs 2, slide 88
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Precizați care este efectul următoarei secvențe de cod:
+                
+                ```java
+                var lista = List.of("Arad", "Timisoara", "Ineu");
+                lista.forEach(System.out::println);
+                ```
+            </text>
+            <answers>
+                <answer correct=true>se va afișa `Arad`, `Timisoara`, `Ineu` în consolă</answer>
+                <answer>se va afișa `Arad`, `Ineu`, `Timisoara` în consolă</answer>
+                <answer>se va produce eroare de compilare pentru că în loc de `var` trebuia scris `List\<String\>`</answer>
+                <answer>se va produce excepție pentru că nu au fost puse paranteze rotunde după apelul lui `println`</answer>
+            </answers>
+            <explanation>
+                dupa rulare:
+                ```
+                Arad
+                Timisoara
+                Ineu
+                ```
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Design pattern-ul `Facade`:</text>
+            <answers>
+                <answer correct=true>ascunde complexitatea sistemului și furnizează o interfață simplificată catre client prin care acesta poate accesa sistemul</answer>
+                <answer>limitează numărul de instanțe al unei clase la un singur obiect</answer>
+                <answer>defineste o relație intre obiecte astfel încat când starea unul obiect se schimba, toate oblectele dependente sunt notificate și actualizate automat</answer>
+                <answer>
+                    incapsuleazã o cerere sub forma de comandă și o paseaza unui obiect invocator. Obiectul invocator
+                    paseaza cererea oblectulul potrivit sa execute comanda
+                </answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Precizați efectul liniilor de cod de mai jos:
+                
+                ```java
+                public record Punct(int x, int y) {}
+                
+                class MainApp {
+                    public static void main(String[] args) {
+                        Punct p1 = new Punct(5, 6);
+                        Punct p2 = new Punct(5, 6);
+                        if (p1 == p2)
+                            System.out.println("Egale");
+                        else
+                            System.out.println("Diferite");
+                
+                        System.out.println(p1.x() + ", " + p1.y());
+                    }
+                }
+                ```
+            </text>
+            <answers>
+                <answer>codul va produce eroare de compilare pentru că tipul record nu exista în Java, trebuia creată o clasă</answer>
+                <answer>codul va produce eroare de compilare pentru că variabilele `x` și `y` sunt accesate în mod eronat prin sintaxa `p1.x()` și `p1.y()` în ultima afișare, accesul corect ar fi fost `p1.x` și `p1.y`</answer>
+                <answer>se va afișa mesajul `Egale` pe ecran, urmat de valorile `5, 6`</answer>
+                <answer>codul va genera o excepție la rulare pentru că era obligatorie utilizarea metodei `equals()` la comparația obiectelor `p1` și `p2`</answer>
+                <answer correct=true>se va afișa mesajul `Diferite` pe ecran pentru că referințele celor două obiecte sunt diferite, urmat de valorile `5, 6`</answer>
+            </answers>
+            <explanation>
+                dupa rulare:
+                ```
+                Diferite
+                5, 6
+                ```
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Ce rol are Lombok în cadrul dezvoltării unei aplicații Java?</text>
+            <answers>
+                <answer correct=true>simplifică crearea și gestionarea getterelor și setterelor, constructorilor, metodelor `equals()` și `hashCode()`, prin intermediul adnotațiilor</answer>
+                <answer>este un framework Java pentru crearea interfețelor de utilizator prietenoase</answer>
+                <answer>oferă  fuunctionalitati pentru gestionarea autentificării și autorizării utilizatorilor</answer>
+                <answer>simplifică gestionarea bazelor de date relaționale în aplicațiile Java</answer>
+                <answer>oferă un sistem de caching pentru a optimiza performanța aplicațiilor Java</answer>
+            </answers>
+            <explanation>
+                \> Adnotaţiile Lombok, `@NoArgsConstructor` şi `@Getter` asigură generarea unui constructor fără parametri şi gettere pentru variabilele membre ale clasei.
+                \>
+                \> -- Curs 6, slide 101
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Se considera clasa `Persoana`, cu variabilele membre private `nume` și `varsta`, gettere pentru
+                accesul variabilelor membre și metoda `toString()` redefinită astfel încit să returneze un `String` care conține valorile variabilelor membre separate prin virgule. Se consideră o colecție de obiecte de tip `List\<Persoana\>` în care s-au adăugat 3 persoane.
+                
+                Precizați efectul următoarelor linii de cod.
+                
+                ```java
+                lista
+                    .stream()
+                    .filter(p -\> p.getVarsta() \< 20)
+                    .map(Persoana::getNume)
+                    .findFirst()
+                    .ifPresentOrElse(
+                        System.out::println,
+                        () -\> System.out.println("Nici o persoana!")
+                    );
+                ```
+            </text>
+            <answers>
+                <answer>afişează vârsta primei persoane care are sub 20 de ani sau mesajul `Nici o persoana`, în funcție de conținutul listei</answer>
+                <answer>condiția de filtrare este scrisă greșit în contextul actual și va produce eroare de compilare</answer>
+                <answer correct=true>afişează numele primei persoane care are sub 20 de ani sau mesajul `Nici o persoana`, în funcție de conținutul listei</answer>
+                <answer>afișează numele și vârsta primei persoane care are sub 20 de ani sau mesajul `Nici o persoana`, în funcție de conținutul listei</answer>
+                <answer>ultima expresie Lamda este scrisă greșit si va produce eroare de compilare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Ce caracteristică a Thymeleaf îl face preferat în dezvoltarea aplicațiilor web Java?</text>
+            <answers>
+                <answer>Thymeleaf este un limbaj de programare care poate fi folosit pentru a crea funcționalități complexe în aplicațiile Java</answer>
+                <answer correct=true>Thymeleaf oferă o integrare ușoară cu framework-uri Java populare, cum ar fi Spring MVC</answer>
+                <answer>Thymeleaf facilitează crearea și gestionarea serviciilor RESTful în aplicațiile Java</answer>
+                <answer>Thymeleaf este un sistem de gestiune a bazelor de date care permite manipularea datelor în aplicațiile Java</answer>
+                <answer>Thymeleaf este un server web specializat în gestionarea cererilor HTTP și a rutării</answer>
+            </answers>
+            <explanation>
+                \> Thymeleaf este folosit în aplicaţiile web Java, în special în cadrul framework-ului Spring pentru a genera şi afişa dinamic conţinutul paginilor web.
+                \>
+                \> Themeleaf permite dezvoltatorilor sa creeze pagini web dinamice prin combinarea codului html cu expresii Thymeleaf care sunt evaluate și procesate de către serverul web înainte de a fi trimise către client.
+                \>
+                \> -- Curs 6, slide 98
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Care este rolul principal al Spring Security Filter Chain in cadrul unui proiect Spring Boot?</text>
+            <answers>
+                <answer>să asigure comunicarea criptată între client și server</answer>
+                <answer>să efectueze validarea datelor înainte de a fi procesate în aplicație</answer>
+                <answer>nici una din opțiunile oferite</answer>
+                <answer correct=true>să gestioneze autentificarea și autorizarea utilizatorilor</answer>
+            </answers>
+            <explanation>
+                \> Când se transmite o cerere Spring Security o interceptează si apoi execută o serie de filtre de securitate, cunoscute sub numele de filter chain (lanțul filtrelor).
+                \>
+                \> Dacă o cerere nu este autentificată atunci în mod implicit se afișează o pagină de login.
+                \>
+                \> Una din acțiunile de securitate care se realizează ca şi parte din filter chain este activarea unui mecanism de securitate numit csrf (Cross-Site Request Forgery) care blochează metodele POST şi PUT.
+                \>
+                \> -- Curs 6, slide 93
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Dacă într-o metodă este posibil să apară o excepție atunci:</text>
+            <answers>
+                <answer correct=true>dacă excepția produsă nu aparține clasei `Error`, `RuntimeException` sau descendenților acesteia atunci trebuie tratată sau aruncată mai departe</answer>
+                <answer>nu este obligatorie tratarea excepției indiferent de tipul acesteia</answer>
+                <answer>acesta trebuie tratată și apoi aruncată mai departe</answer>
+                <answer>acesta trebuie tratată sau aruncată mai departe</answer>
+            </answers>
+            <explanation>
+                \> Dacă într-o metodă este posibil să apară o excepţie fără ca aceasta să fie tratată, atunci în linia de declarație a metodei trebuie specificat tipul excepției respective (pentru checked exceptions -- excepții care nu aparțin claselor `RuntimeException`, `Error` sau subclaselor acestora).
+                \>
+                \> -- Curs 4, slide 6
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Ce reprezintă acronimul REST in contextul serviciilor web RESTful?</text>
+            <answers>
+                <answer>Resourceful Endpoint State</answer>
+                <answer>nici una din variantele oferite</answer>
+                <answer>Remote Endpoint State Transfer</answer>
+                <answer correct=true>Representational State Transfer</answer>
+                <answer>Remote Execution and State Transfer</answer>
+            </answers>
+            <explanation>REST = Representational State Transfer</explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Colecția `Deque`:</text>
+            <answers>
+                <answer>nu permite elemente duplicat</answer>
+                <answer correct=true>suportă adăugarea și eliminarea datelor la ambele capete ale structurii de date</answer>
+                <answer>este implementată printr-un arbore binar ordonat</answer>
+                <answer>nu face parte din Java Collections Framework</answer>
+            </answers>
+            <explanation>
+                \> `Deque` -- extinde interfața `Queue`. Suportă adăugarea şi eliminarea de elemente de la ambele
+                capete a structurii de date, de aceea poate fi utilizată ca şi o coadă (FIFO) sau ca o stivă (LIFO).
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Precizați care este fișierul de configurare al unui proiect Spring Boot:</text>
+            <answers>
+                <answer>`pom.xml`</answer>
+                <answer correct=true>`application.properties`</answer>
+                <answer>`project.xml`</answer>
+                <answer>`project.setup.json`</answer>
+                <answer>`configuration.xml`</answer>
+            </answers>
+            <explanation>
+                \> Fișierul `application.properties` din `src/main/resources` este utilizat pentru a configura proiectul.
+                \>
+                \> -- Curs 6, slide 22
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Ce format de date este cel mai adesea utilizat pentru transmiterea datelor între client și server într-un serviciu web RESTful?</text>
+            <answers>
+                <answer>XML</answer>
+                <answer>CSV</answer>
+                <answer>TXT</answer>
+                <answer>HTML</answer>
+                <answer correct=true>JSON</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>În contextul Spring Data JPA, ce efect are proprietatea `spring.jpa.defer-datasource-initialization=true` asupra procesului de inițializare a bazei de date?</text>
+            <answers>
+                <answer>impiedică executarea fișierului `data.sql`</answer>
+                <answer>asigură că fișierul `data.sql` este executat înainte de inițializarea entităților JPA</answer>
+                <answer>asigură ștergerea și recrearea tabelelor corespunzătoare entităților la fiecare rulare a programului</answer>
+                <answer correct=true>permite executarea fișierului `data.sql` doar după ce contextul JPA este complet configurat</answer>
+            </answers>
+            <explanation>
+                \> Proprietatea `spring.jpa.defer-datasource-initialization=true` determină amânarea inițializării sursei de date până când este necesară pentru prima dată. Se evită astfel riscul privind executarea comenzilor SQL de inserare înainte ca tabela persoane să fi fost creată.
+                \>
+                \> -- Curs 6, slide 42
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Care dintre următoarele clase implementează interfața `List` în Java?</text>
+            <answers>
+                <answer>`ArrayList`, `LinkedList`, `HashSet`</answer>
+                <answer correct=true>`ArrayList`, `Vector`, `Stack`, `LinkedList`</answer>
+                <answer>`HashMap`, `ArrayList`, `TreeSet`, `PriorityQueue`</answer>
+                <answer>`ArrayList`, `Vector`, `PriorityQueue`, `HashSet`</answer>
+            </answers>
+            <explanation>
+                \> `ArrayList`, `Vector`, `Stack`, `LinkedList`
+                \>
+                \> Curs 3, slide 3
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Se consideră clasa `MainApp` având următoarele două metode. Precizați cum va rula programul:
+                
+                ```java
+                public static void completeaza(List\<String\> lista) {
+                    lista.add("Sebis");
+                }
+                
+                public static void main(String[] args) {
+                    var lista = List.of("Arad", "Timisoara", "Ineu");
+                    completeaza(lista);
+                    lista.forEach(System.out::println);
+                }
+                ```
+            </text>
+            <answers>
+                <answer>se va afişa `Arad, Timisoara, Ineu, Sebis` în consolă</answer>
+                <answer>se va afişa `Arad, Timisoara, Ineu` în consolă</answer>
+                <answer>se va produce eroare de compilare pentru că în loc de `var` trebuia scris `List\<String\>`</answer>
+                <answer>se va produce eroare de compilare pentru că în dreapta egalului trebuia să fie `new ArrayList\<String\>();`</answer>
+                <answer correct=true>se va produce excepție pentru că se încearcă completarea unei colecții de obiecte imutabile</answer>
+            </answers>
+            <explanation>
+                \> Exemplul următor creează cu ajutorul metodei `List.of`, introdusă în Java 9, o colecţie imutabilă de obiecte... .
+                \>
+                \> -- Curs 3, slide 7
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Se consideră clasa MainApp cu codul de mai jos. Precizați efectul rulării secvenței din programul principal.
+                
+                ```java
+                public class MainApp
+                {
+                    public static void main(String[] args) 
+                    {
+                        int[] arr = {1, 2, 3};
+                        modifyArray(arr);
+                        System.out.println("Array: " + arr[0] + ", " + arr[1] + ", " + arr[2]);
+                    }
+                
+                    public static void modifyArray (int[] array)
+                    {
+                        array[0] = 99;
+                    }
+                }
+                ```
+            </text>
+            <answers>
+                <answer>`Array: 1, 2, 3`</answer>
+                <answer correct=true>`Array: 99, 2, 3`</answer>
+                <answer>`Array: 0, 2, 3`</answer>
+                <answer>programul generează o eroare de compilare pentru că vectorul nu a fost declarat corect. Acesta trebuia să fie declarat și inițializat folosind următoarea sintaxă: `int arr[3] = {1, 2, 3};`</answer>
+                <answer>programul generează eroare de compilare pentru că funcția `modifyArray()` are atributul static</answer>
+            </answers>
+            <explanation>
+                Dupa rulare:
+                ```
+                Array: 99, 2, 3
+                ```
+            </explanation>
+        </question>
+        <question>
+            <topic>Teorie</topic>
+            <text>Care dintre următoarele afirmații despre utilizarea șablonului Thymeleaf este adevărată?</text>
+            <answers>
+                <answer>Thymeleaf poate fi folosit doar cu aplicații Spring Boot</answer>
+                <answer correct=true>Thymeleaf permite generarea paginilor HTML și utilizarea expresiilor în stil `${...}` pentru afișarea datelor</answer>
+                <answer>Thymeleaf nu suportă condiții precum `if` sau bucle `each` în șabloanele HTML</answer>
+                <answer>Thymeleaf nu permite interacțiunea cu obiectele din modelul (model) Spring MVC</answer>
+                <answer>Thymeleaf este un server web specializat în gestionarea cererilor HTTP și a rutării</answer>
+            </answers>
+            <explanation>
+                \> Themeleaf permite dezvoltatorilor sa creeze pagini web dinamice prin combinarea codului html cu expresii Thymeleaf care sunt evaluate și procesate de către serverul web înainte de a fi trimise către client.
+                \>
+                \> -- Curs 6, slide 98
+            </explanation>
+        </question>
+    </questions>
+</root>
