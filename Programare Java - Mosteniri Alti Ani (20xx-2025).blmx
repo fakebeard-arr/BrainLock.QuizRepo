@@ -247,7 +247,7 @@
         </question>
         <question>
             <topic>Teorie</topic>
-            <text>"The Collections Frameworks" contine:</text>
+            <text>The Collections Frameworks contine:</text>
             <answers>
                 <answer correct=true>interfete de colectii, implementari ale acestor interfete si algoritmi pentru a le manipula</answer>
                 <answer>doar interfete de colectii</answer>
@@ -550,27 +550,6 @@
             </explanation>
         </question>
         <question>
-            <topic>Cod</topic>
-            <text>afisarea unui mesaj in java se poate face:</text>
-            <answers>
-                <answer>
-                    ```java
-                    MessageBox.Show("Mesaj");
-                    ```
-                </answer>
-                <answer>
-                    ```java
-                    JPane.showMessageBox("Mesaj");
-                    ```
-                </answer>
-                <answer correct=true>
-                    ```java
-                    JOptionPane.showMessageDialog(null, "Mesaj");
-                    ```
-                </answer>
-            </answers>
-        </question>
-        <question>
             <topic>Teorie</topic>
             <text>O clasa care implementeaza o interfata:</text>
             <answers>
@@ -630,7 +609,7 @@
             <topic>Teorie</topic>
             <text>Care sunt constructiile de baza pentru lucrul cu exceptii?</text>
             <answers>
-                <answer correct=true>`try`, `catch`, `finnaly`, `throw`, `throws`</answer>
+                <answer correct=true>`try`, `catch`, `finally`, `throw`, `throws`</answer>
                 <answer>`super`, `exception`, `fatal error`</answer>
                 <answer>`fatal warning`, `application exit`, `exceptional value`</answer>
             </answers>
@@ -661,10 +640,10 @@
         </question>
         <question>
             <topic>Teorie</topic>
-            <text>blocurile `try-catch`:</text>
+            <text>Blocurile `try-catch`:</text>
             <answers>
                 <answer correct=true>indica seria de instructiuni in care pot sa apara exceptiile, tipul exceptiilor si modul in care se solutioneaza acestea</answer>
-                <answer>indica bucati de cod care pot contine erori de sintaca</answer>
+                <answer>indica bucati de cod care pot contine erori de sintaxa</answer>
                 <answer>indica spre o bucata de cod care nu poate arunca exceptii</answer>
             </answers>
             <explanation>
@@ -676,7 +655,7 @@
         </question>
         <question>
             <topic>Teorie</topic>
-            <text>secventa `finally`:</text>
+            <text>Secventa `finally`:</text>
             <answers>
                 <answer>reprezinta o zona de cod care se executa inainte de a iesi din program</answer>
                 <answer>reprezinta o zona de cod care se executa inainte de a iesi dintr-o metoda</answer>
@@ -690,7 +669,7 @@
         </question>
         <question>
             <topic>Teorie</topic>
-            <text>afirmatia corecta este:</text>
+            <text>Afirmatia corecta este:</text>
             <answers>
                 <answer correct=true>metodele statice sunt similare functiilor obisnuite in C</answer>
                 <answer>metodele statice nu pot fi apelate decat din alte metode ale clasei care le contine</answer>
@@ -704,7 +683,7 @@
         </question>
         <question>
             <topic>Teorie</topic>
-            <text>afirmatia corecta este:</text>
+            <text>Afirmatia corecta este:</text>
             <answers>
                 <answer>o clasa abstracta contine doar signaturi de metode</answer>
                 <answer correct=true>o clasa abstracta contine campuri si metode normale (pentru care se specifica o implementare) dar si modele de metode care urmeaza sa fie implementate in mod obligatoriu de clasele care extind clasa abstracta</answer>
@@ -718,7 +697,7 @@
         </question>
         <question>
             <topic>Teorie</topic>
-            <text>afirmatia corecta este:</text>
+            <text>Afirmatia corecta este:</text>
             <answers>
                 <answer>o interfata este formata din constante si signaturi de metode</answer>
                 <answer>termenul `interface` se utilizeaza doar cu privire la aspectul aplicatiei</answer>
@@ -737,7 +716,7 @@
         </question>
         <question>
             <topic>Teorie</topic>
-            <text>o clasa abstracta poate fi:</text>
+            <text>O clasa abstracta poate fi:</text>
             <answers>
                 <answer>extinsa doar de o alta clasa abstracta</answer>
                 <answer>extinsa doar de o interfata</answer>
@@ -751,7 +730,7 @@
         </question>
         <question>
             <topic>Teorie</topic>
-            <text>o metoda abstracta poate fi plasata:</text>
+            <text>O metoda abstracta poate fi plasata:</text>
             <answers>
                 <answer correct=true>doar intr-o clasa abstracta sau o interfata</answer>
                 <answer>in interfete si in orice tip de clasa</answer>
@@ -795,60 +774,6 @@
                 \>
                 \> Curs 3, slideurile 14-16
             </explanation>
-        </question>
-        <question>
-            <topic>Cod</topic>
-            <text>
-                ```java
-                public class SuperClasa {
-                    protected int a;
-                    private int x;
-                
-                    public SuperClasa() {
-                        a = 2;
-                        x = calcul();
-                    }
-                
-                    public int calcul() {
-                        return a * a;
-                    }
-                
-                    public String toString() {
-                        return a + ", " + x;
-                    }
-                }
-                
-                public class SubClasa extends SuperClasa {
-                    private int y;
-                
-                    public SubClasa() {
-                        y = calcul();
-                    }
-                
-                    public int calcul() {
-                        return a * a * a;
-                    }
-                
-                    public String toString() {
-                        return super.toString() + ", " + y;
-                    }
-                }
-                
-                public class Main {
-                
-                    public static void main(String[] args) {
-                
-                        SubClasa ob = new SubClasa();
-                        System.out.println(ob);
-                    }
-                }
-                ```
-            </text>
-            <answers>
-                <answer>2, 4, 8</answer>
-                <answer correct=true>2, 8, 8</answer>
-                <answer>2, 4, 4</answer>
-            </answers>
         </question>
         <question>
             <topic>Cod</topic>
@@ -908,7 +833,7 @@
                     String nume;
                     public Persoana()
                     {
-                        nume="Danut";
+                        nume = "Danut";
                     }
                 }
                 
@@ -1079,14 +1004,14 @@
         </question>
         <question>
             <topic>Teorie</topic>
-            <text>Selectați afirmația corectă cu privire la bean-urile Spring:</text>
+            <text>Selectați afirmația corectă cu privire la `bean`-urile Spring:</text>
             <answers>
-                <answer>bean-urile sunt fișiere de configurare XML care conțin doar proprietăți, nu obiecte Java</answer>
-                <answer correct=true>un bean este un obiect care este instanțiat, asamblat și gestionat de un container Spring. Containerul creează astfel de obiecte pe baza metadatelor de configurare furnizate printr-un fișier XML sau cu ajutorul adnotărilor</answer>
-                <answer>un bean este o clasă Java marcată final care nu poate fi gestionată de Spring</answer>
+                <answer>`bean`-urile sunt fișiere de configurare XML care conțin doar proprietăți, nu obiecte Java</answer>
+                <answer correct=true>un `bean` este un obiect care este instanțiat, asamblat și gestionat de un container Spring. Containerul creează astfel de obiecte pe baza metadatelor de configurare furnizate printr-un fișier XML sau cu ajutorul adnotărilor</answer>
+                <answer>un `bean` este o clasă Java marcată `final` care nu poate fi gestionată de Spring</answer>
             </answers>
             <explanation>
-                \> Un bean este un obiect care este instanțiat, asamblat și gestionat de un container Spring. Containerul creează astfel de obiecte pe baza metadatelor de configurare furnizate cu ajutorul adnotațiilor sau a unor fișiere xml.
+                \> Un `bean` este un obiect care este instanțiat, asamblat și gestionat de un container Spring. Containerul creează astfel de obiecte pe baza metadatelor de configurare furnizate cu ajutorul adnotațiilor sau a unor fișiere xml.
                 \>
                 \> Curs 6, slide 10
             </explanation>
@@ -1122,12 +1047,12 @@
         <question>
             <topic>Cod</topic>
             <text>
-                Se consideră clasa Test cu codul de mai jos. Precizați efectul rulării secvenței din programul principal.
+                Se consideră clasa `Test` cu codul de mai jos. Precizați efectul rulării secvenței din programul principal.
                 
                 ```java
                 class Test
                 {
-                    int x=0;
+                    int x = 0;
                     void metoda()
                     {
                         this.x += 3;
@@ -1138,7 +1063,7 @@
                 {
                     public static void main(String[] args)
                     {
-                        Test t=new Test();
+                        Test t = new Test();
                         t.metoda();
                         System.out.println(t.x);
                     }
@@ -1161,7 +1086,7 @@
                 {
                     public static void main(String[] args)
                     {
-                        int a=3;
+                        int a = 3;
                         a \>\>\>= 1;
                         System.out.println(a);
                     }
@@ -1227,7 +1152,7 @@
                 ```
             </text>
             <answers>
-                <answer correct=true>va produce eroare de compilare pentru că Integer nu poate fi inițializat fără parametri</answer>
+                <answer correct=true>va produce eroare de compilare pentru că `Integer` nu poate fi inițializat fără parametri</answer>
                 <answer>va afișa `null` pe ecran </answer>
                 <answer>3</answer>
             </answers>
@@ -1628,7 +1553,7 @@
                 <answer>
                     într-o altă clasă se poate declara obiect de tipul clasei interioare în felul următor:
                     ```java
-                    Clasalnterioara o = new Clasalnterioara();
+                    ClasaInterioara o = new ClasaInterioara();
                     ```
                 </answer>
             </answers>
@@ -2308,7 +2233,7 @@
         <question>
             <topic>Cod</topic>
             <text>
-                Se consideră clasa MainApp cu codul de mai jos. Precizați efectul rulării secvenței din programul principal.
+                Se consideră clasa `MainApp` cu codul de mai jos. Precizați efectul rulării secvenței din programul principal.
                 
                 ```java
                 public class MainApp
@@ -2360,7 +2285,7 @@
         <question>
             <topic>Cod</topic>
             <text>
-                Se considera tabela MySQL persoane in baza de date test, avand coloanele id, nume și varsta. Tabela are introduse in ea 3 rânduri populate complet cu informație având id-urile cu valorile 1, 2 și 3. Precizați care va fi efectul liniilor de cod de mai jos.
+                Se considera tabela MySQL `persoane` in baza de date `test`, avand coloanele `id`, `nume` și `varsta`. Tabela are introduse in ea 3 rânduri populate complet cu informație având id-urile cu valorile 1, 2 și 3. Precizați care va fi efectul liniilor de cod de mai jos.
                 
                 ```java
                 Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "root");
@@ -2374,19 +2299,19 @@
                 <answer>liniile de cod vor afișa vârsta persoanei care are ID-ul 1</answer>
                 <answer>liniile de cod vor afișa numele persoanei care are ID-ul 1</answer>
                 <answer>obiectul `PreparedStatement` nu permite rularea comenzilor SQL cu parametri; secvența va avea erori de compilare</answer>
-                <answer correct=true>se încearcă extragerea de informație de dinaintea primului rand din obiectul ResaultSet, lucru care va produce exceptie</answer>
+                <answer correct=true>se încearcă extragerea de informație de dinaintea primului rand din obiectul `ResaultSet`, lucru care va produce exceptie</answer>
             </answers>
         </question>
         <question>
             <topic>Cod</topic>
             <text>
-                Se consideră tabela MySQL persoane, care are trei coloane ce conțin întregi și trei rânduri completate cu informație. Precizați efectul următoarelor linii de cod într-o aplicație care utilizează tehnologia JDBC:
+                Se consideră tabela MySQL `persoane`, care are trei coloane ce conțin întregi și trei rânduri completate cu informație. Precizați efectul următoarelor linii de cod într-o aplicație care utilizează tehnologia JDBC:
                 
                 ```java
                 Statement statement = con.createStatement();
                 ResultSet rs = statement.executeQuery("select * from persoane");
                 rs.first():
-                rs.updatelnt(1, 30);
+                rs.updateInt(1, 30);
                 rs.updateRow();
                 ```
             </text>
@@ -2601,10 +2526,10 @@
             </text>
             <answers>
                 <answer>câmpul `x` nu este accesibil în linia 3 a funcției `main()`</answer>
-                <answer correct=true>câmpul `x` nu este accesibil în funcția numită `metoda()` din clasa `Implementare`</answer>
+                <answer>câmpul `x` nu este accesibil în funcția numită `metoda()` din clasa `Implementare`</answer>
                 <answer>va afișa valoarea 2 pe ecran</answer>
                 <answer>va afişa valoarea 1 pe ecran</answer>
-                <answer>incrementarea din funcția `metoda()` a clasei `Implementare` nu este permisă</answer>
+                <answer correct=true>incrementarea din funcția `metoda()` a clasei `Implementare` nu este permisă</answer>
                 <answer>instanțierea din prima linie a funcției `main()` este greșită</answer>
             </answers>
             <explanation>
@@ -2642,7 +2567,7 @@
                 <answer>va determina eroare de compilare pentru că variabila `x` neavând modificator de acces este privată și deci neaccesibilă din clasa `MainApp`</answer>
                 <answer>va afişa `017` pe ecran</answer>
                 <answer>va afişa `17` pe ecran</answer>
-                <answer>va afişa `15` pe ecran</answer>
+                <answer correct=true>va afişa `15` pe ecran</answer>
             </answers>
             <explanation>
                 Numerele care încep cu `0` în Java sunt octale (bază 8).
@@ -2853,7 +2778,7 @@
                 <answer>
                     într-o altă clasă se poate declara obiect de tipul clasei interioare în felul următor:
                     ```java
-                    Clasalnterioara o = new Clasalnterioara();
+                    ClasaInterioara o = new ClasaInterioara();
                     ```
                 </answer>
             </answers>
