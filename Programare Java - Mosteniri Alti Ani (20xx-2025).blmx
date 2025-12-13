@@ -2680,7 +2680,7 @@
                 Dupa rulare:
                 ```
                 Exception in thread "main" java.lang.UnsupportedOperationException
-                	at java.base/java.util.ImmutableCollections.uoe(Unknown Source)
+                at java.base/java.util.ImmutableCollections.uoe(Unknown Source)
                 ```
             </explanation>
         </question>
@@ -2710,7 +2710,7 @@
                 Dupa rulare:
                 ```
                 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
-                	at org.example.Main.main(Main.java:14)
+                at org.example.Main.main(Main.java:14)
                 ```
             </explanation>
         </question>
@@ -2769,6 +2769,109 @@
                 `.map(Persoana::getVarsta)` transformă stream-ul de `Persoana` într-un stream de `Integer` (vârste). După această linie, fiecare element din stream este de tip `Integer`, nu `Persoana`.
                 
                 `.filter(p -\> p.getVarsta() \< 20)`: aici apare problema: `p` este acum un `Integer`, nu un obiect `Persoana`. `Integer` nu are metoda `getVarsta()`, deci apare eroare de compilare.
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Precizați care este afirmația corectă cu privire la codul următor:
+                
+                ```java
+                class Actor\<T,S\> {
+                    T nume;
+                    S varsta;
+                
+                    public Actor(T nume, S varsta) {
+                        this.nume = nume;
+                        this.varsta = varsta;
+                    }
+                
+                    public String toString() {
+                        return nume + ", " + varsta;
+                    }
+                }
+                
+                class MainApp {
+                    public static void main(String[] args) {
+                        Actor\<String, Integer\> actor1 = new Actor\<String, Integer\>("Florin", 22);
+                        System.out.println(actor1);
+                
+                        Actor\<StringBuilder, Byte\> actor2 = new Actor\<StringBuilder, Byte\>("Mihai", 30);
+                        System.out.println(actor2);
+                    }
+                }
+                ```
+            </text>
+            <answers>
+                <answer>modul de instanțiere al obiectului `actor1` este greşit</answer>
+                <answer correct=true>modul de instanțiere al obiectului `actor2` este greşit</answer>
+                <answer>modul de instantiere al celor două obiecte este greşit</answer>
+                <answer>nu se va afișa nimic pe ecran pentru ca a fost omis apelul metodei `toString()`</answer>
+                <answer>va afişa `Florin, 22` şi `Mihai, 30` pe ecran</answer>
+            </answers>
+            <explanation>
+                Dupa rulare:
+                ```
+                java: incompatible types: java.lang.String cannot be converted to java.lang.StringBuilder
+                ```
+            </explanation>
+        </question>
+        <question>
+            <topic>Cod</topic>
+            <text>
+                Se consideră clasele imbricate de mai jos:
+                
+                ```java
+                class ClasaExterioara {
+                    private static int a = 3;
+                
+                    class ClasaInterioara {
+                        private int b = 4;
+                        public void afisare() {
+                            System.out.println("a=" + a + ",b=" + b);
+                        }
+                    }
+                }
+                ```
+            </text>
+            <answers>
+                <answer>intr-o altă clasă nu se poate declara obiect de tipul clasei interioare</answer>
+                <answer>
+                    intr-o altă clasă se poate declara obiect de tipul clasei interioare în felul următor:
+                    ```java
+                    ClasaExterioara.ClasaInterioara o = new ClasaExterioara.ClasaInterioara();
+                    ```
+                </answer>
+                <answer correct=true>
+                    intr-o altă clasă se poate declara obiect de tipul clasei interioare în felul următor:
+                    ```java
+                    ClasaExterioara o1 = new ClasaExterioara();
+                    ClasaExterioara.ClasaInterioara o2 = o1.new ClasaInterioara();
+                    ```
+                </answer>
+                <answer>variabila a nu poate fi accesată din `ClasaInterioara` pentru că este privată</answer>
+                <answer>
+                    într-o altă clasă se poate declara obiect de tipul clasei interioare în felul următor:
+                    ```java
+                    Clasalnterioara o = new Clasalnterioara();
+                    ```
+                </answer>
+            </answers>
+            <explanation>
+                \> Clasele interioare pot fi statice. În acest caz instanțierea unui obiect al clasei interioare nu mai necesita un obiect al clasei exterioare (vezi exemplul următor). Din clasa interioară pot fi accesați membrii statici ai clasei exterioare.
+                \>
+                \> -- Curs 2, slide 68
+                
+                Daca rulam:
+                ```java
+                ClasaExterioara o1 = new ClasaExterioara();
+                ClasaExterioara.ClasaInterioara o2 = o1.new ClasaInterioara();
+                o2.afisare();
+                ```
+                se va afisa:
+                ```
+                a=3,b=4
+                ```
             </explanation>
         </question>
     </questions>
