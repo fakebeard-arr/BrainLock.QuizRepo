@@ -1,0 +1,347 @@
+<root>
+    <version>1</version>
+    <title>Programare Java - Randul 2</title>
+    <description>Grila intrebari Java convertita din PDF</description>
+    <questions>
+        <question>
+            <topic>Interfete Functionale</topic>
+            <text>Precizați care este metoda abstractă a interfeței funcționale Predicate&lt;T&gt;:</text>
+            <answers>
+                <answer>boolean evaluate(T t)</answer>
+                <answer>void apply(T t)</answer>
+                <answer>T execute(T t)</answer>
+                <answer correct="true">boolean test(T t)</answer>
+                <answer>T accept(T t)</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Spring Boot</topic>
+            <text>Care este scopul utilizării Spring Boot Actuator în proiectele Spring Boot?</text>
+            <answers>
+                <answer>Să automatizeze configurarea aplicațiilor Spring Boot</answer>
+                <answer>Să faciliteze implementarea REST API</answer>
+                <answer correct="true">Să ofere funcționalități de monitorizare și gestionare pentru proiectele Spring Boot</answer>
+                <answer>Să gestioneze autentificarea și autorizarea utilizatorilor</answer>
+                <answer>Să simplifice interacțiunea cu bazele de date</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Colectii - Vector</topic>
+            <text>Precizați ce va afișa secvența: Vector&lt;Integer&gt; v = new Vector&lt;Integer&gt;(9); for(int i=0; i&lt;12; i++) v.addElement(i); System.out.println(v.capacity());</text>
+            <answers>
+                <answer>20</answer>
+                <answer>Secvența are erori de compilare datorită apelului metodei addElement() care nu se află în clasa Vector</answer>
+                <answer>100</answer>
+                <answer>12</answer>
+                <answer correct="true">18</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Colectii</topic>
+            <text>În care dintre următoarele colecții de obiecte elementele se vor regăsi în ordinea adăugării?</text>
+            <answers>
+                <answer>HashSet</answer>
+                <answer>TreeSet</answer>
+                <answer>PriorityQueue</answer>
+                <answer correct="true">LinkedHashSet</answer>
+                <answer>HashMap</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Clase Anonime</topic>
+            <text>Se consideră secvența în care o interfață Forma este instanțiată direct în MainApp prin 'new Forma() { public void deseneaza() { ... } }'. Precizați afirmația corectă:</text>
+            <answers>
+                <answer>Codul produce eroare de compilare pentru că interfața trebuia să fie implementată utilizând cuvântul cheie implements</answer>
+                <answer correct="true">Codul conține expresia unei clase anonime și afișează pe ecran textul "Deseneaza o forma"</answer>
+                <answer>Codul produce eroare de compilare, deoarece metodele unei interfețe nu pot să fie implementate într-o clasă anonimă</answer>
+                <answer>Codul produce eroare de compilare pentru că după cuvântul cheie new este obligatoriu să urmeze o clasă</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Spring REST</topic>
+            <text>Ce rol are adnotația @RequestBody în contextul unui serviciu web RESTful?</text>
+            <answers>
+                <answer>Extrage parametrii din URL pentru a fi utilizați într-o metodă a controllerului</answer>
+                <answer>Specifică că metoda respectivă acceptă cereri HTTP doar de tipul PUT</answer>
+                <answer>Solicită ca în corpul cererii HTTP să se găsească datele necesare autentificării</answer>
+                <answer correct="true">Extrage datele din corpul cererii HTTP și le mapează la obiecte Java care se transmit ca și parametri de intrare către metode din controller</answer>
+                <answer>Criptează parametrii cererii HTTP pentru a asigura confidențialitatea datelor</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Method References</topic>
+            <text>Care este sintaxa corectă pentru o referință la o metodă statică?</text>
+            <answers>
+                <answer>Class->methodName</answer>
+                <answer>Class.methodName()</answer>
+                <answer correct="true">Class::methodName</answer>
+                <answer>objectName::methodName()</answer>
+                <answer>methodName: Class</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Vizibilitate si Pachete</topic>
+            <text>Dacă clasa Persoana (pachetul unu) are câmpul 'String nume' (default) și MainApp (pachetul doi) încearcă să acceseze 'inginer.nume' (unde Inginer extinde Persoana), ce se întâmplă?</text>
+            <answers>
+                <answer>va afisa null pe ecran</answer>
+                <answer>va afișa numele Danut pe ecran</answer>
+                <answer>numele va fi neinițializat deci va afișa șirul vid</answer>
+                <answer correct="true">va genera eroare de compilare, numele nefiind vizibil în clasa MainApp (pachete diferite)</answer>
+                <answer>va genera eroare de compilare, numele nefiind accesibil din clasa Inginer</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Blocuri Statice</topic>
+            <text>Precizați care este afirmația corectă cu privire la blocurile de cod statice:</text>
+            <answers>
+                <answer>sunt metode cu cod care nu au nici un atribut</answer>
+                <answer>se amplasează în orice metodă și conțin cod care se execută când clasa este încărcată în memorie</answer>
+                <answer correct="true">se amplasează în clase, în afara oricărei metode și conțin cod care se execută când clasa este încărcată în memorie</answer>
+                <answer>se amplasează în constructori și conțin cod care se execută când clasa este încărcată în memorie</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Generice</topic>
+            <text>Se consideră clasa Actor&lt;T, S&gt; cu câmpurile 'T nume' și 'S varsta'. Precizați afirmația corectă despre instanțierea 'Actor&lt;String, Integer&gt; actor1' și 'Actor&lt;StringBuilder, Byte&gt; actor2':</text>
+            <answers>
+                <answer>modul de instanțiere a obiectului actor1 este gresit</answer>
+                <answer>modul de instanțiere al obiectului actor2 este gresit</answer>
+                <answer>modul de instanțiere al celor două obiecte este gresit</answer>
+                <answer correct="true">va afișa Florin, 22 și Mihai, 30 pe ecran (presupunând toString corect)</answer>
+                <answer>nu se va afisa nimic pe ecran pentru ca a fost omis apelul metodei toString()</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Moștenire și Polimorfism</topic>
+            <text>Ce va afișa programul dacă SubClasa extinde SuperClasa, ambele redefinind metoda calcul() (SuperClasa returnează 3*a, SubClasa 2*a) și constructorul SuperClasa apelează calcul()?</text>
+            <answers>
+                <answer>2, 1, 3</answer>
+                <answer>1, 2, 3</answer>
+                <answer>1, 3, 3</answer>
+                <answer>1, 3, 2</answer>
+                <answer correct="true">1, 2, 2 (sau comportament specific polimorfismului în constructor)</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>JPA</topic>
+            <text>Interacțiunea cu BD se realizează în JPA (Java Persistence API) cu ajutorul:</text>
+            <answers>
+                <answer>Interfeței SessionFactory</answer>
+                <answer correct="true">Interfeței EntityManager</answer>
+                <answer>Interfeței PreparedStatement</answer>
+                <answer>Clasei JdbcTemplate</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Membri Statici</topic>
+            <text>Ce va afișa codul dacă clasa Test are 'private static int counter = 0', un constructor privat care incrementează counter-ul și în main se apelează 'new Test()' de două ori?</text>
+            <answers>
+                <answer>1</answer>
+                <answer correct="true">2</answer>
+                <answer>0</answer>
+                <answer>Codul are erori de compilare (dacă accesul la constructor este restricționat greșit)</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Exception Handling</topic>
+            <text>Într-un bloc try-with-resources:</text>
+            <answers>
+                <answer>resursele trebuie închise într-un bloc finally</answer>
+                <answer correct="true">resursele sunt închise automat la finalul blocului</answer>
+                <answer>resursele trebuie aruncate mai departe prin throw</answer>
+                <answer>resursele trebuie închise în catch</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Properties</topic>
+            <text>Selectați afirmația corectă cu privire la cheile și valorile din colecțiile de obiecte de tip Properties:</text>
+            <answers>
+                <answer>Atât cheile cât și valorile pot să fie de orice tip</answer>
+                <answer>Cheile trebuie să fie de tip int, iar valorile trebuie să fie de tip String</answer>
+                <answer>Cheile trebuie să fie de tip Integer, iar valorile trebuie să fie de tip String</answer>
+                <answer>Cheile trebuie să fie de tip String, iar valorile pot să fie de orice tip</answer>
+                <answer correct="true">Atât cheile, cât și valorile trebuie să fie de tip String</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Enumerări</topic>
+            <text>Care afirmație este corectă despre un 'enum Anotimp' care conține constante, o variabilă privată, un constructor privat și o metodă?</text>
+            <answers>
+                <answer correct="true">Definiția este corectă (enum-urile pot avea variabile, metode și constructori)</answer>
+                <answer>Este greșită pentru că nu putem avea metode în enumerări</answer>
+                <answer>Este greșită pentru că nu putem avea variabile membre în enumerări</answer>
+                <answer>Este greșită pentru că nu putem avea constructor în enumerări</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Spring Framework</topic>
+            <text>Adnotația @Component din Spring framework:</text>
+            <answers>
+                <answer>Se amplasează deasupra de variabilele membre pentru injectare</answer>
+                <answer>Se amplasează deasupra de constructori pentru injectare</answer>
+                <answer>Se amplasează deasupra de settere pentru injectare</answer>
+                <answer>Se amplasează deasupra de clase determinând crearea unui container</answer>
+                <answer correct="true">Se amplasează deasupra unei clase și determină containerul Spring să creeze un Spring bean pentru acea clasă</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>JDBC</topic>
+            <text>Se utilizează 'select * from persoane where id=?'. Dacă se execută 'statement.setInt(1,1)' și apoi se apelează 'rs.getString(2)' fără a apela 'rs.next()', ce se întâmplă?</text>
+            <answers>
+                <answer>Va afișa vârsta persoanei</answer>
+                <answer>Va afișa numele persoanei</answer>
+                <answer correct="true">Se încearcă extragerea de informație înainte de primul rând (lipsă rs.next()), ceea ce produce excepție</answer>
+                <answer>Eroare de compilare</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Java Streams / Syntax</topic>
+            <text>Precizați care este efectul secvenței: var lista = List.of("Arad", "Timisoara", "Ineu"); lista.forEach(System.out::println);</text>
+            <answers>
+                <answer>Se va afișa Arad, Ineu, Timisoara în consolă</answer>
+                <answer correct="true">Se va afișa Arad, Timisoara, Ineu în consolă</answer>
+                <answer>Se va produce eroare de compilare pentru că în loc de var trebuia scris List&lt;String&gt;</answer>
+                <answer>Se va produce excepție pentru că nu au fost puse paranteze</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Colectii - Deque</topic>
+            <text>Colecția Deque:</text>
+            <answers>
+                <answer>nu permite elemente duplicat</answer>
+                <answer>suportă adăugarea datelor doar la un capăt și eliminarea de la celălalt</answer>
+                <answer correct="true">suportă adăugarea și eliminarea datelor la ambele capete ale structurii de date</answer>
+                <answer>este implementată printr-un arbore binar</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Java Records</topic>
+            <text>Tipul record din Java este o clasă care dispune implicit de:</text>
+            <answers>
+                <answer>gettere, settere, constructori, equals, hashCode, toString</answer>
+                <answer>gettere, settere, constructor fără parametri</answer>
+                <answer correct="true">gettere, constructor cu parametri, metodele equals(), hashCode() și toString()</answer>
+                <answer>doar un constructor fără parametri</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Transmitere Parametri</topic>
+            <text>Dacă o metodă 'modifyAndReplace(MyClass obj)' modifică 'obj.value = 50' și apoi face 'obj = new MyClass(100)', ce va afișa 'System.out.println(obj.value)' în main după apel?</text>
+            <answers>
+                <answer correct="true">va afișa 50 pe ecran</answer>
+                <answer>va afișa 100 pe ecran</answer>
+                <answer>va afișa 10 pe ecran</answer>
+                <answer>eroare de compilare</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Design Patterns</topic>
+            <text>Ce diferență este între design pattern-urile Factory și Abstract Factory?</text>
+            <answers>
+                <answer>Abstract Factory creează obiecte, Factory nu</answer>
+                <answer correct="true">Factory creează obiecte dintr-o singură familie, în timp ce Abstract Factory creează obiecte din mai multe familii</answer>
+                <answer>Factory este mai general decât Abstract Factory</answer>
+                <answer>Abstract Factory este specific pentru Singleton</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Spring Boot Configuration</topic>
+            <text>Precizați care este fișierul de configurare al unui proiect Spring Boot:</text>
+            <answers>
+                <answer>pom.xml</answer>
+                <answer correct="true">application.properties</answer>
+                <answer>project.setup</answer>
+                <answer>configuration.xml</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Lombok</topic>
+            <text>Ce rol are Lombok în cadrul dezvoltării unei aplicații Java?</text>
+            <answers>
+                <answer correct="true">Simplifică crearea și gestionarea getterelor, setterelor, constructorilor prin adnotații</answer>
+                <answer>Este un framework pentru interfețe utilizator</answer>
+                <answer>Gestionează autentificarea și autorizarea</answer>
+                <answer>Oferă un sistem de caching</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Web Services</topic>
+            <text>Ce reprezintă acronimul REST în contextul serviciilor web RESTful?</text>
+            <answers>
+                <answer>Resourceful Endpoint State</answer>
+                <answer>Remote Endpoint State Transfer</answer>
+                <answer correct="true">Representational State Transfer</answer>
+                <answer>Remote Execution and State Transfer</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Java Streams</topic>
+            <text>Ce face fluxul: lista.stream().filter(p -> p.getVarsta() &lt; 20).map(Persoana::getNume).findFirst().ifPresentOrElse(...)?</text>
+            <answers>
+                <answer>Afișează vârsta primei persoane sub 20 de ani</answer>
+                <answer>Produce eroare de compilare la filtrare</answer>
+                <answer correct="true">Afișează numele primei persoane care are sub 20 de ani sau mesajul "Nici o persoana"</answer>
+                <answer>Afișează numele și vârsta primei persoane</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Thymeleaf</topic>
+            <text>Cum se activează utilizarea Thymeleaf într-un document HTML?</text>
+            <answers>
+                <answer>Funcționează automat fără activare</answer>
+                <answer>Schimbând extensia în .thtml</answer>
+                <answer>Adăugând atributul xmlns:th în tag-ul &lt;link&gt;</answer>
+                <answer correct="true">Adăugând atributul xmlns:th="http://thymeleaf.org" în tag-ul &lt;html&gt;</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Spring Security</topic>
+            <text>Care este rolul principal al Spring Security Filter Chain?</text>
+            <answers>
+                <answer>Să asigure comunicarea criptată</answer>
+                <answer>Să efectueze validarea datelor de intrare</answer>
+                <answer correct="true">Să gestioneze autentificarea și autorizarea utilizatorilor</answer>
+                <answer>Niciuna din opțiunile oferite</answer>
+            </answers>
+        </question>
+
+        <question>
+            <topic>Exceptii</topic>
+            <text>Dacă într-o metodă este posibil să apară o excepție, atunci:</text>
+            <answers>
+                <answer correct="true">Dacă excepția nu aparține Error sau RuntimeException (e "checked"), trebuie tratată sau aruncată mai departe</answer>
+                <answer>Nu este obligatorie tratarea indiferent de tip</answer>
+                <answer>Trebuie tratată și apoi obligatoriu aruncată</answer>
+                <answer>Trebuie tratată sau aruncată mai departe (indiferent de tip)</answer>
+            </answers>
+        </question>
+    </questions>
+</root>
