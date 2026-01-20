@@ -1,0 +1,503 @@
+<root>
+    <version>1</version>
+    <title>Automate Programabile - Examen</title>
+    <contribuitors>manucojo</contribuitors>
+    <questions>
+        <question>
+            <topic>Hardware</topic>
+            <text>Care din urmatoarele elemente nu sunt parti hardware componente ale unui automat programabil:</text>
+            <answers>
+                <answer>leduri de stare</answer>
+                <answer>portul de alimentare</answer>
+                <answer correct=true>capac</answer>
+                <answer correct=true>port de putere ridicata</answer>
+                <answer>conectori pentru comunicarea in retea</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Interfete</topic>
+            <text>Interfata PROGET:</text>
+            <answers>
+                <answer correct=true>Nu este utilizata pe automate de tip SIEMENS</answer>
+                <answer>Este interfata standard de programare</answer>
+                <answer>Se foloseste pentru rack-uri externe</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Teorie LADDER</topic>
+            <text>Un program scris in limbajul de programare LADDER:</text>
+            <answers>
+                <answer correct=true>Este alcatuit din o succesiune de elemente bloc, organizata in retele</answer>
+                <answer>Este un cod textual compilat in C++</answer>
+                <answer>Este o lista de instructiuni fara structura grafica</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Memorie</topic>
+            <text>DB1.TBM1.TBXI2.3 semnifica o accesare:</text>
+            <answers>
+                <answer correct=true>O accesare eronata</answer>
+                <answer>O adresa de bit valida</answer>
+                <answer>O variabila de tip string</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>LADDER</topic>
+            <text>O bobina este utilizata pentru a:</text>
+            <answers>
+                <answer correct=true>Trimite o comanda catre proces (aprinderea unui bec, a unei pompe, motor, etc.)</answer>
+                <answer>Citirea starii unui senzor</answer>
+                <answer>Resetarea timpului unui timer</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Timere</topic>
+            <text>Timerul de tip TON este mai rapid decat timerul de tip TOF atunci cand sunt pornite simultan deoarece:</text>
+            <answers>
+                <answer correct=true>Acesta porneste procesul de numarare pe frontul crescator</answer>
+                <answer>TOF necesita un semnal de feedback</answer>
+                <answer>TON nu foloseste un bloc de date asociat</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Countere</topic>
+            <text>Un counter de tipul CTDU:</text>
+            <answers>
+                <answer correct=true>Nu exista (nu exista CTDU in biblioteca standard)</answer>
+                <answer>Se foloseste pentru numarare rapida</answer>
+                <answer>Este un counter bidirectional fara reset</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Timere - Diagrama</topic>
+            <text>Daca PT=10s, care sunt valorile semnalului Q la momentele: 7s, 13s, 20s?</text>
+            <answers>
+                <answer correct=true>1,0,1</answer>
+                <answer>0,1,0</answer>
+                <answer>1,1,1</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Countere</topic>
+            <text>Ce se intampla cu valoarea CV la un CTD daca CV=0 si apare o tranzitie 0-1 pe CD?</text>
+            <answers>
+                <answer correct=true>Valoarea lui CV poate sa devina negativa si sa scada sub zero</answer>
+                <answer>CV ramane blocat la 0</answer>
+                <answer>Counterul se reseteaza la PV</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Fronturi</topic>
+            <text>Un bloc cu intrarea %I0.0 (Tag_6), tip INT si contact SM10.1 (Always ON):</text>
+            <answers>
+                <answer correct=true>Detecteaza o tranzitie de front</answer>
+                <answer>Este un timer retentiv</answer>
+                <answer>Este o poarta logica AND</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Timere</topic>
+            <text>Timerul de tip TONR:</text>
+            <answers>
+                <answer correct=true>Contorizeaza timpul prin acumulare, valoarea nu se pierde daca IN trece in zero</answer>
+                <answer>Se reseteaza automat dupa 10 secunde</answer>
+                <answer>Porneste pe front descrescator</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Metodologie</topic>
+            <text>Pentru scrierea unui program care ruleaza pe automat:</text>
+            <answers>
+                <answer correct=true>Se aleg blocurile LADDER dupa care se asociaza Tag-urile (I, Q, M)</answer>
+                <answer>Se compileaza codul inainte de a alege blocurile</answer>
+                <answer>Se defineste doar adresa IP</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Hardware</topic>
+            <text>Dimensiunea unui registru de intrare/iesire pentru un CPU S7-1200 este:</text>
+            <answers>
+                <answer correct=true>8 biti (1 Byte)</answer>
+                <answer>16 biti</answer>
+                <answer>1 bit</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Memorie</topic>
+            <text>Accesarea bitului 3 din registrul de memorie 11 se face prin:</text>
+            <answers>
+                <answer correct=true>M11.3</answer>
+                <answer>M3.11</answer>
+                <answer>DB11.3</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Hardware</topic>
+            <text>Care este protocolul de comunicatie nativ pentru S7-1200?</text>
+            <answers>
+                <answer correct=true>PROFINET (bazat pe TCP/IP)</answer>
+                <answer>Modbus RTU</answer>
+                <answer>Profibus DP</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Bistabile</topic>
+            <text>Intr-un bistabil de tip RS, prioritatea este pe intrarea de:</text>
+            <answers>
+                <answer correct=true>Set (S)</answer>
+                <answer>Reset (R)</answer>
+                <answer>Enable (EN)</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Bistabile</topic>
+            <text>Intr-un bistabil de tip SR, prioritatea este pe intrarea de:</text>
+            <answers>
+                <answer correct=true>Reset (R)</answer>
+                <answer>Set (S)</answer>
+                <answer>Hold (H)</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Logic</topic>
+            <text>Legarea in serie a doua contacte normal deschise realizeaza functia:</text>
+            <answers>
+                <answer correct=true>SI (AND)</answer>
+                <answer>SAU (OR)</answer>
+                <answer>NU (NOT)</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Logic</topic>
+            <text>Legarea in paralel a doua contacte realizeaza functia:</text>
+            <answers>
+                <answer correct=true>SAU (OR)</answer>
+                <answer>SI (AND)</answer>
+                <answer>XOR</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Functii Bloc</topic>
+            <text>O functie bloc (FB) se deosebeste de o functie (FC) prin:</text>
+            <answers>
+                <answer correct=true>Necesitatea unui bloc de date (DB) de instanta</answer>
+                <answer>Faptul ca nu are intrari</answer>
+                <answer>Viteza de executie mai mica</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Structura</topic>
+            <text>Blocul OB1 reprezinta:</text>
+            <answers>
+                <answer correct=true>Blocul principal executat ciclic de automat</answer>
+                <answer>Un bloc de date global</answer>
+                <answer>O subrutina de eroare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Timere</topic>
+            <text>Intrarea PT la un timer specifica:</text>
+            <answers>
+                <answer correct=true>Durata procesului de temporizare (Preset Time)</answer>
+                <answer>Timpul scurs de la pornire</answer>
+                <answer>Prioritatea timerului</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Timere</topic>
+            <text>Iesirea ET a unui bloc de tip timer ofera:</text>
+            <answers>
+                <answer correct=true>Valoarea curenta contorizata (Elapsed Time)</answer>
+                <answer>Starea logica a iesirii</answer>
+                <answer>Eroarea de sistem</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Countere</topic>
+            <text>Intrarea R (Reset) la un counter CTU are rolul de:</text>
+            <answers>
+                <answer correct=true>A incarca valoarea 0 ca valoare curenta (CV)</answer>
+                <answer>A incarca valoarea PV in CV</answer>
+                <answer>A opri alimentarea modulului</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Countere</topic>
+            <text>Intrarea LD (Load) la un counter CTD are rolul de:</text>
+            <answers>
+                <answer correct=true>A incarca valoarea PV ca valoare curenta (CV)</answer>
+                <answer>A reseta CV la zero</answer>
+                <answer>A activa numararea rapida</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Fronturi</topic>
+            <text>Instructiunea P_TRIG detecteaza:</text>
+            <answers>
+                <answer correct=true>Frontul crescator (0 la 1)</answer>
+                <answer>Frontul descrescator (1 la 0)</answer>
+                <answer>Nivelul constant</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Fronturi</topic>
+            <text>De ce este nevoie de un "bit de memorie" la instructiunile de front?</text>
+            <answers>
+                <answer correct=true>Pentru a stoca starea semnalului din scanarea precedenta</answer>
+                <answer>Pentru a amplifica tensiunea</answer>
+                <answer>Pentru a activa comunicatia Ethernet</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Karnaugh</topic>
+            <text>Gruparile intr-o diagrama Karnaugh trebuie sa fie de:</text>
+            <answers>
+                <answer correct=true>Puteri ale lui 2 (2, 4, 8, 16)</answer>
+                <answer>Orice numar par</answer>
+                <answer>Multiplu de 3</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Karnaugh</topic>
+            <text>O grupare in tabelul Karnaugh NU are voie sa contina:</text>
+            <answers>
+                <answer correct=true>Valori de 0 logic</answer>
+                <answer>Valori de 1 logic</answer>
+                <answer>Valori de tip * (don't care)</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Hardware</topic>
+            <text>Ce se intampla cand automatul este in modul STOP?</text>
+            <answers>
+                <answer correct=true>Iesirile sunt dezactivate si executia programului este oprita</answer>
+                <answer>CPU-ul se restarteaza continuu</answer>
+                <answer>Programul se sterge din Load Memory</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>TIA Portal</topic>
+            <text>Functia "Monitoring" (online) permite:</text>
+            <answers>
+                <answer correct=true>Vizualizarea in timp real a valorilor variabilelor si a fluxului logic</answer>
+                <answer>Modificarea firelor in tablou</answer>
+                <answer>Cresterea frecventei procesorului</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Sistem</topic>
+            <text>Ce este un "Tag" in TIA Portal?</text>
+            <answers>
+                <answer correct=true>O eticheta simbolica asociata unei adrese fizice sau de memorie</answer>
+                <answer>Un port fizic de retea</answer>
+                <answer>Un tip de cablu special</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Afisaj</topic>
+            <text>Pentru controlul unui afisaj cu 7 segmente, sunt necesare:</text>
+            <answers>
+                <answer correct=true>7 functii logice distincte, cate una pentru fiecare segment</answer>
+                <answer>O singura variabila de iesire</answer>
+                <answer>Un bloc de comunicatie seriala</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Metodologie</topic>
+            <text>Procesul de "Compile" are rolul de:</text>
+            <answers>
+                <answer correct=true>A verifica erorile de sintaxa si a pregati codul pentru automat</answer>
+                <answer>A salva proiectul pe Cloud</answer>
+                <answer>A tipari schema la imprimanta</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>LADDER</topic>
+            <text>Simbolul --| / |-- intr-o retea LADDER reprezinta:</text>
+            <answers>
+                <answer correct=true>Un contact normal inchis</answer>
+                <answer>Un contact normal deschis</answer>
+                <answer>O legatura intrerupta</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Startup</topic>
+            <text>Blocul de organizare care se executa o singura data la trecerea din STOP in RUN este:</text>
+            <answers>
+                <answer correct=true>OB100 (Startup)</answer>
+                <answer>OB1 (Main)</answer>
+                <answer>OB80 (Time Error)</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Hardware</topic>
+            <text>Automatele programabile industriale (PLC) sunt preferate deoarece:</text>
+            <answers>
+                <answer correct=true>Sunt rezistente la perturbații electromagnetice, praf si vibratii</answer>
+                <answer>Sunt mai usor de spart de hackeri</answer>
+                <answer>Consuma mai multa energie decat un PC</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Memorie</topic>
+            <text>Registrul M (Memory) este folosit pentru:</text>
+            <answers>
+                <answer correct=true>Stocarea rezultatelor intermediare sau flag-uri</answer>
+                <answer>Alimentarea directa a motoarelor</answer>
+                <answer>Conectarea la internet</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Logic</topic>
+            <text>O retea LADDER cu mai multe ramificatii in paralel spre o singura bobina realizeaza:</text>
+            <answers>
+                <answer correct=true>O functie logica SAU (OR)</answer>
+                <answer>O functie logica SI (AND)</answer>
+                <answer>O numarare de impulsuri</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Timere</topic>
+            <text>Timerul de tip TONR:</text>
+            <answers>
+                <answer>niciun raspuns corect</answer>
+                <answer>contorizeaza timpul prin acumulare, valoara acumulata nu se pierde daca semnalul de IN trece pe unu si timerul nu a terminat de contorizat timpul inscris la intrarea PT</answer>
+                <answer>este similar cu timerul TON doar ca are si o intrare notata cu RESET de unde vine si numele timerulul TONR (TON + Reset)</answer>
+                <answer>spre deosebire de timerul de tip TON acesta pornese procesul de temporizare pe un front negativ</answer>
+                <answer correct=true>contorizeaza timpul prin acumulare, valoara acumulata nu se pierde daca semnalul de IN trece pe zero si timerul nu a terminat de contorizat timpul inscris la intrarea PT</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Comunicare</topic>
+            <text>Pentru transmiterea de date utilizand un bloc TSEND:</text>
+            <answers>
+                <answer correct=true>blocul trimite datele furnizate la intrarea DATA</answer>
+                <answer>semnalul EN specifica atunci cand este setat pe valoare 8, 16, 32 sau 64 dimensiunea pachetului de date trimis</answer>
+                <answer>este nevoie ca semnalul REQ sa efectueze o tranzitie din 1 in 0, moment in care datele sunt transmise</answer>
+                <answer>intrarea CONT se poate seta la valoarea 2 pentru a permite sincronizarea cu semnalul de clock</answer>
+                <answer>niciun raspuns corect</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Limbaje</topic>
+            <text>Limbajul de programare bazat pe simbolun gratice folosit pentru programarea automatului SIEMENS 1200 la aceasta matene se numeste:</text>
+            <answers>
+                <answer>Limbaj declarativ</answer>
+                <answer>TIA PORTAL</answer>
+                <answer>SIEMENS CODE</answer>
+                <answer correct=true>LADDER</answer>
+                <answer>LEDDER</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Hardware</topic>
+            <text>Configuratia hardware care se incarca pe automat din TIA Portal:</text>
+            <answers>
+                <answer>nu se mai poate modifica dupa ce a fost incarcata pe automat</answer>
+                <answer>se poate modifica doar daca se sterge toata memoria automatului</answer>
+                <answer>este prestabilita de catre producator si nu poate fi influentata de catre utilizator</answer>
+                <answer correct=true>se poate extinde ulterior prin adaugarea de noi module si reincarca pe automat</answer>
+                <answer>niciun raspuns corect</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Programare</topic>
+            <text>Un tag LADDER:</text>
+            <answers>
+                <answer correct=true>este folosit pentru a asocia un nume sugestiv unui anumit bloc pentru a fi identificat mai usor</answer>
+                <answer>reprezinta o adresa de memorie de tip float</answer>
+                <answer>este o variabila de tip boolean care nu poate fi modificata</answer>
+                <answer>se foloseste doar pentru blocurile de tip timer</answer>
+                <answer>niciun raspuns corect</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Simulare</topic>
+            <text>Platforma PROSIM:</text>
+            <answers>
+                <answer>permite simularea unui proces industrial utilizand un numar de maxim 2 pistoane</answer>
+                <answer correct=true>niciun raspuns corect</answer>
+                <answer>este o componenta hardware a automatului programabil</answer>
+                <answer>nu permite interactiunea cu utilizatorul in timpul rularii</answer>
+                <answer>toate raspunsurile sunt gresite</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Limbaje</topic>
+            <text>Limbajul de programare LADDER:</text>
+            <answers>
+                <answer>este un limbaj de programare de nivel inalt adresat personalului calificat care are studii in domeniu</answer>
+                <answer correct=true>a fost gandit ca un limbaj grafic care sa fie usor de utilizat si de catre ce care nu aveau cunostinte complexe de programare</answer>
+                <answer>se bazeaza in spate pe cod generat in visual basic</answer>
+                <answer>toate raspunsurile sunt gresite</answer>
+                <answer>niciun raspuns corect</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Memorie</topic>
+            <text>MW10 seminfica:</text>
+            <answers>
+                <answer>accesare la nivel de 32 de biti</answer>
+                <answer>accesare de tip WORD, in care se citeste un tip de data strin</answer>
+                <answer correct=true>accesare la nive de 16 biti pentru registrul cu numarul 10</answer>
+                <answer>accesare la nivel de octet a registrului 10</answer>
+                <answer>accesarea secventiala a registrului 10, bit cu bit</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Logica</topic>
+            <text>Blocul -( N )- are rolul de:</text>
+            <answers>
+                <answer>a nega valoarea Q0.3 cand M10.3 este pe 1 logic</answer>
+                <answer>a reseta valoarea registrului M10.3</answer>
+                <answer>a detecta tranzitia din 0 in 1 a semnalului</answer>
+                <answer correct=true>a detecta tranzitia din 1 in 0 a semnalului de intrare (front negativ)</answer>
+                <answer>niciun raspuns corect</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Numaratoare</topic>
+            <text>Un counter de tip CTUD:</text>
+            <answers>
+                <answer>incrementeaza valoarea lui CV la aparitia unui front descrescator pe intrarea CU</answer>
+                <answer>reseteaza valoarea CV la 1 la activarea intrarii R</answer>
+                <answer>incarca valoarea PV in CV la activarea intrarii CU</answer>
+                <answer>nu poate numara decat pana la 100</answer>
+                <answer correct=true>decrementeaza valoarea lui CV la aparitia unui front crescator (tranzitie 0 in 1) aplicate la intrarea CD</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Structura</topic>
+            <text>O functie bloc (Function Block - FB):</text>
+            <answers>
+                <answer correct=true>fiecare instanta a ei va avea un bloc de date asociat cu care aceasta opereaza</answer>
+                <answer>nu poate folosi variabile statice</answer>
+                <answer>este identica cu o functie (FC) din punctul de vedere al gestionarii memoriei</answer>
+                <answer>se executa intotdeauna inaintea blocului OB1</answer>
+                <answer>niciun raspuns corect</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Timere</topic>
+            <text>Timerul de tip TON este mai rapid decat timerul de tip TOF... deoarece:</text>
+            <answers>
+                <answer>TON foloseste un ceas intern de frecventa mai mare</answer>
+                <answer>TOF necesita un semnal de reset inainte de pornire</answer>
+                <answer correct=true>acesta porneste procesul de numarare pe frontul crescator</answer>
+                <answer>TOF porneste numararea doar dupa 5 secunde</answer>
+                <answer>niciun raspuns corect</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Timere - Diagrama</topic>
+            <text>Valorile semnalului Q la momentele 7s, 11s, 18s (Timer TP cu PT=5s conform diagramei):</text>
+            <answers>
+                <answer>0, 1, 0</answer>
+                <answer correct=true>1, 0, 1</answer>
+                <answer>1, 1, 0</answer>
+                <answer>0, 0, 1</answer>
+                <answer>niciun raspuns corect</answer>
+            </answers>
+        </question>
+    </questions>
+</root>
