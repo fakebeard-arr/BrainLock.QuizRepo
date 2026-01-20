@@ -1,0 +1,81 @@
+<root>
+    <version>1</version>
+    <title>Sisteme Cu Evenimente Discrete - Mostenire 2025</title>
+    <contribuitors>jovanni</contribuitors>
+    <questions>
+        <question>
+            <text>Ce se intelege prin "multimea succesor a tranzitiei `t`"?</text>
+            <answers>
+                <answer correct=true>multimea tuturor pozitiilor care sunt conectate la iesirea tranzitiei `t`</answer>
+                <answer>multimea tuturor pozitiilor care sunt conectate la intrarea tranzitiei `t`</answer>
+                <answer>multimea tuturor tranzitiilor care urmeaza dupa tranzitia `t`</answer>
+                <answer>multimea tuturor tranzitiilor care preced tranzitia `t`</answer>
+            </answers>
+            <explanation>
+                \> Fie F mulțimea tuturor arcelor unei rețele Petri N. Se numesc mulțime predecessor (pre-set) și mulțime successor (post-set) a tranziției t două mulțimi de poziții definite prin:
+                \> - $*t= {p | (p, t) ∈ F}$ = mulțimea tuturor pozițiilor de intrare ale lui $t → I(t_j)$ – mulțimea pozițiilor de intrare în $t_j$
+                \> - $t^*$ = {p | (t, p) ∈ F}$ = mulțimea tuturor pozițiilor de ieșire ale lui $t → O(t_j)$ – mulțimea pozițiilor de ieșire din $t_j$
+                \>
+                \> -- Curs, pagina 20
+            </explanation>
+        </question>
+        <question>
+            <text>Ce se intelege prin "retea Petri ordinara"?</text>
+            <answers>
+                <answer>o retea care nu are bucle autonome</answer>
+                <answer>o retea care are bucle autonome</answer>
+                <answer correct=true>o retea care are toate ponderile unitare</answer>
+                <answer>o retea care are toate marcajele unitare</answer>
+            </answers>
+            <explanation>
+                \> O rețea Petri se numește ordinară (ordinary) dacă toate arcele sale au pondere unitară.
+                \>
+                \> -- Curs, pagina 20
+            </explanation>
+        </question>
+        <question>
+            <text>Ce se intelege prin "retea Petri pura"?</text>
+            <answers>
+                <answer correct=true>o retea care nu are bucle autonome</answer>
+                <answer>o retea care are bucle autonome</answer>
+                <answer>o retea care are toate ponderile unitare</answer>
+                <answer>o retea care are toate marcajele unitare</answer>
+            </answers>
+            <explanation>
+                \> O reţea Petri care nu conţine bucle autonome se numeşte pură.
+                \>
+                \> -- Curs, pagina 19
+            </explanation>
+        </question>
+        <question>
+            <text>Ce se intelege prin "retea Petri impura"?</text>
+            <answers>
+                <answer>o retea care nu are bucle autonome</answer>
+                <answer correct=true>o retea care are bucle autonome</answer>
+                <answer>o retea care are toate ponderile unitare</answer>
+                <answer>o retea care are toate marcajele unitare</answer>
+            </answers>
+            <explanation>
+                \> O reţea Petri care nu conţine bucle autonome se numeşte pură.
+                \>
+                \> -- Curs, pagina 19
+            </explanation>
+        </question>
+        <question>
+            <text>Ce se intelege prin "multimea predecesor a tranzitiei `t`"?</text>
+            <answers>
+                <answer>multimea tuturor pozitiilor care sunt conectate la iesirea tranzitiei `t`</answer>
+                <answer correct=true>multimea tuturor pozitiilor care sunt conectate la intrarea tranzitiei `t`</answer>
+                <answer>multimea tuturor tranzitiilor care urmeaza dupa tranzitia `t`</answer>
+                <answer>multimea tuturor tranzitiilor care preced tranzitia `t`</answer>
+            </answers>
+            <explanation>
+                \> Fie F mulțimea tuturor arcelor unei rețele Petri N. Se numesc mulțime predecessor (pre-set) și mulțime successor (post-set) a tranziției t două mulțimi de poziții definite prin:
+                \> - $*t= {p | (p, t) ∈ F}$ = mulțimea tuturor pozițiilor de intrare ale lui $t → I(t_j)$ – mulțimea pozițiilor de intrare în $t_j$
+                \> - $t^*$ = {p | (t, p) ∈ F}$ = mulțimea tuturor pozițiilor de ieșire ale lui $t → O(t_j)$ – mulțimea pozițiilor de ieșire din $t_j$
+                \>
+                \> -- Curs, pagina 20
+            </explanation>
+        </question>
+    </questions>
+</root>
