@@ -1,0 +1,316 @@
+<root>
+    <version>1</version>
+    <title>Sisteme Cu Evenimente Discrete - Intrebari Din Curs</title>
+    <description>Intrebari create pe baza cursului pentru examenul din 2025-2026</description>
+    <contribuitors>jovanni</contribuitors>
+    <questions>
+        <question>
+            <text>Ce este un Sistem cu Evenimente Discrete (SED)?</text>
+            <answers>
+                <answer correct=true>un sistem cu stari discrete condus de evenimente, care evolueaza independent de timp</answer>
+                <answer>un sistem cu stari continue condus de evenimente, care evolueaza independent de timp</answer>
+                <answer>un sistem cu stari discrete condus de evenimente, care evolueaza dependent de timp</answer>
+                <answer>un sistem cu stari continue condus de evenimente, care evolueaza dependent de timp</answer>
+            </answers>
+            <explanation>
+                \> Un SED este un sistem cu stări discrete condus de evenimente (event  în care evoluția stărilor depinde numai de apariția asincronă a evenimentelor total independent timp.
+                \>
+                \> -- Curs, pagina 2 
+            </explanation>
+        </question>
+        <question>
+            <text>Ce reprezinta notatia $I(t_j)$?</text>
+            <answers>
+                <answer correct=true>multimea pozitiilor de intrare pentru tranzitia $t_j$</answer>
+                <answer>multimea pozitiilor de iesire pentru tranzitia $t_j$</answer>
+                <answer>multimea tranzitiilor de intrare pentru tranzitia $t_j$</answer>
+                <answer>multimea tranzitiilor de iesire pentru tranzitia $t_j$</answer>
+            </answers>
+            <explanation>
+                \> În descrierea unui graf de rețea Petri, se folosește $I(t_j)$ pentru a reprezenta mulțimea pozițiilor de intrare pentru tranziția $t_j$ și $O(t_j)$ pentru a reprezenta mulțimea pozițiilor de ieșire pentru tranziția $t_j$.
+                \>
+                \> -- Curs, pagina 15
+            </explanation>
+        </question>
+        <question>
+            <text>Ce reprezinta notatia $O(t_j)$?</text>
+            <answers>
+                <answer>multimea pozitiilor de intrare pentru tranzitia $t_j$</answer>
+                <answer correct=true>multimea pozitiilor de iesire pentru tranzitia $t_j$</answer>
+                <answer>multimea tranzitiilor de intrare pentru tranzitia $t_j$</answer>
+                <answer>multimea tranzitiilor de iesire pentru tranzitia $t_j$</answer>
+            </answers>
+            <explanation>
+                \> În descrierea unui graf de rețea Petri, se folosește $I(t_j)$ pentru a reprezenta mulțimea pozițiilor de intrare pentru tranziția $t_j$ și $O(t_j)$ pentru a reprezenta mulțimea pozițiilor de ieșire pentru tranziția $t_j$.
+                \>
+                \> -- Curs, pagina 15
+            </explanation>
+        </question>
+        <question>
+            <text>Ce reprezinta notatia $I(p_j)$?</text>
+            <answers>
+                <answer>multimea pozitiilor de intrare pentru pozitia $p_j$</answer>
+                <answer>multimea pozitiilor de iesire pentru pozitia $p_j$</answer>
+                <answer correct=true>multimea tranzitiilor de intrare pentru pozitia $p_j$</answer>
+                <answer>multimea tranzitiilor de iesire pentru pozitia $p_j$</answer>
+            </answers>
+            <explanation>
+                \> Pentru a descrie tranzițiile de intrare pentru o poziție $p_i$ se folosește $I(p_i)$, iar pentru a descrie tranzițiile de ieșire se folosește $O(p_i)$.
+                \>
+                \> -- Curs, pagina 15
+            </explanation>
+        </question>
+        <question>
+            <text>Ce reprezinta notatia $O(p_j)$?</text>
+            <answers>
+                <answer>multimea pozitiilor de intrare pentru tranzitia $p_j$</answer>
+                <answer>multimea pozitiilor de iesire pentru tranzitia $p_j$</answer>
+                <answer>multimea tranzitiilor de intrare pentru pozitia $p_j$</answer>
+                <answer correct=true>multimea tranzitiilor de iesire pentru pozitia $p_j$</answer>
+            </answers>
+            <explanation>
+                \> Pentru a descrie tranzițiile de intrare pentru o poziție $p_i$ se folosește $I(p_i)$, iar pentru a descrie tranzițiile de ieșire se folosește $O(p_i)$.
+                \>
+                \> -- Curs, pagina 15
+            </explanation>
+        </question>
+        <question>
+            <text>Cum se defineste starea pretelei Petri (notata $M$)?</text>
+            <answers>
+                <answer correct=true>ca vectorul marcajelor</answer>
+                <answer>ca vectorul pozitiilor</answer>
+                <answer>ca vectorul tranzitiilor</answer>
+                <answer>ca vectorul tranzitiilor validate</answer>
+            </answers>
+            <explanation>
+                \> Starea rețelei Petri se definește ca fiind vectorul marcajelor.
+                \>
+                \> -- Curs, pagina 16
+            </explanation>
+        </question>
+        <question>
+            <text>Care este Regula Simpla a Tranzitiei?</text>
+            <answers>
+                <answer correct=true>o tranzitie $t_j \\in T$ a unei retele Petri se numeste validata daca $M(p_i) \\geq w(p_i, t_j)$ pentru oricare $p_i \\in I(t_j)$</answer>
+                <answer>o tranzitie $t_j \\in T$ a unei retele Petri se numeste validata daca $M(p_i) \\leq w(p_i, t_j)$ pentru oricare $p_i \\in I(t_j)$</answer>
+                <answer>o tranzitie $t_j \\in T$ a unei retele Petri se numeste validata daca $M(p_i) \\geq w(p_i, t_j)$ pentru oricare $p_i \\in O(t_j)$</answer>
+                <answer>o tranzitie $t_j \\in T$ a unei retele Petri se numeste validata daca $M(p_i) \\leq w(p_i, t_j)$ pentru oricare $p_i \\in O(t_j)$</answer>
+            </answers>
+            <explanation>
+                \> O tranziție $t_j \\in T$ a unei rețele Petri se numește validată dacă $X(p_i) \\geq w(p_i, t_j)$, oricare ar fi $p_i \\in I(t_j)$.
+                \>
+                \> Cu alte cuvinte, tranziția $t_j$ din rețeaua Petri este validată dacă numărul jetoanelor din poziția sa de intrare pi este mai mare sau egal cu ponderea arcului respectiv.
+                \>
+                \> -- Curs, pagina 17
+            </explanation>
+        </question>
+        <question>
+            <text>Validarea unei tranzitii implica obligatoriu si declansarea ei?</text>
+            <answers>
+                <answer>da</answer>
+                <answer correct=true>nu</answer>
+            </answers>
+            <explanation>
+                \> O tranziţie validată poate sau nu sa fie executată sau declanşată (fired), după cum evenimentul asociat tranziţiei are sau nu loc.
+                \>
+                \> -- Curs, pagina 17
+            </explanation>
+        </question>
+        <question>
+            <text>Ce se intampla in momentul executarii unei tranzitii?</text>
+            <answers>
+                <answer correct=true>se consuma $w(p, t)$ jetoane din fiecare $p \\in I(t)$ si se adauga $w(t, p)$ in fiecare $p \\in O(t)$</answer>
+                <answer>se consuma $w(t, p)$ jetoane din fiecare $p \\in I(t)$ si se adauga $w(p, t)$ in fiecare $p \\in O(t)$</answer>
+                <answer>se consuma $w(p, t)$ jetoane din fiecare $p \\in O(t)$ si se adauga $w(t, p)$ in fiecare $p \\in I(t)$</answer>
+                <answer>se consuma $w(t, p)$ jetoane din fiecare $p \\in O(t)$ si se adauga $w(p, t)$ in fiecare $p \\in I(t)$</answer>
+            </answers>
+            <explanation>
+                \> Executarea unei tranziţii validate îndepărtează $w(p, t)$ jetoane din fiecare poziţie de intrare (predecesor) $p$ a lui $t$ şi adaugă $w(t, p)$ jetoane la fiecare poziţie de ieşire (successor) $p$ a lui $t$, unde $w(t, p)$ este ponderea arcului de la $t$ la $p$.
+                \>
+                \> -- Curs, pagina 17
+            </explanation>
+        </question>
+        <question>
+            <text>Prin ce se caracterizeaza o tranzitie sursa?</text>
+            <answers>
+                <answer correct=true>nu are nici o pozitie de intrare</answer>
+                <answer>are o singura pozitie de intrare</answer>
+                <answer>are mai mult de o pozitie de intrare</answer>
+                <answer>este tranzitia care depune jetoane in urmatoarea pozitie</answer>
+            </answers>
+            <explanation>
+                \> O tranziţie fără nici o poziţie de intrare se numeşte tranziţie sursă.
+                \>
+                \> -- Curs, pagina 19
+            </explanation>
+        </question>
+        <question>
+            <text>Cate jetoane consum o tranzitie sursa?</text>
+            <answers>
+                <answer correct=true>nici un jeton</answer>
+                <answer>un numar egal cu ponderea arcului incident</answer>
+                <answer>un numar egal cu ponderea arcului neincident</answer>
+                <answer>nu se poate determina fara graful retelei</answer>
+            </answers>
+            <explanation>
+                \> Tranziţie sursă este necondiţionat validă (fără a fi obligatoriu ca să se execute!). Executarea ei produce jetoane.
+                \>
+                \> -- Curs, pagina 19
+            </explanation>
+        </question>
+        <question>
+            <text>Prin ce se caracterizeaza o tranzitie receptor?</text>
+            <answers>
+                <answer correct=true>nu are nici o pozitie de iesire</answer>
+                <answer>nu are nici o pozitie de intrare</answer>
+                <answer>pozitia de intrare si de iesire este aceasi</answer>
+                <answer>are mai mult de o pozitie de iesire</answer>
+            </answers>
+            <explanation>
+                \> O tranziţie fără nici o poziţie de ieşire se numeşte tranziţie receptor.
+                \>
+                \> -- Curs, pagina 19
+            </explanation>
+        </question>
+        <question>
+            <text>Ce este special la o tranzitie receptor?</text>
+            <answers>
+                <answer correct=true>consuma jetoane fara a produce</answer>
+                <answer>produce mai multe jetoane decat consuma</answer>
+                <answer>produce mai putine jetoane decat consuma</answer>
+                <answer>produce tot atatea jetoane pe cat consuma</answer>
+            </answers>
+            <explanation>
+                \> Executarea unei tranziţii receptor consumă jetoane, fără a produce.
+                \>
+                \> -- Curs, pagina 19
+            </explanation>
+        </question>
+        <question>
+            <text>Ce este o bucla autonoma?</text>
+            <answers>
+                <answer correct=true>o combinatie de o pozitie $p$ si o tranzitie $t$ unde $p$ este intrare si iesire pentru $t$</answer>
+                <answer>o combinatie de o pozitie $p$ si o tranzitie $t$ unde consumul unui jeton din $p$ duce la invalidarea lui $t$</answer>
+                <answer>o combinatie de o pozitie $p$ si doua tranzitii $t_1$ si $t_2$ care sunt simultan validate</answer>
+                <answer>o combinatie de mai multe pozitii si tranzitii care sunt legate in asa fel incat sa formeze o bucla</answer>
+            </answers>
+            <explanation>
+                \> Dacă o poziţie $p$ este atât poziţie de intrare, cât şi poziţie de ieşire pentru o tranziţie $t$ atunci $p$ şi $t$ formează o buclă automată.
+                \>
+                \> -- Curs, pagina 19
+            </explanation>
+        </question>
+        <question>
+            <text>Ce este o retea pura?</text>
+            <answers>
+                <answer correct=true>o retea fara bucle autonome</answer>
+                <answer>o retea fara deadlock</answer>
+                <answer>o retea unde toate arcele au ponderea 1</answer>
+                <answer>o retea cu capacitate infinita</answer>
+            </answers>
+            <explanation>
+                \> O reţea Petri care nu conţine bucle autonome se numeşte pură.
+                \>
+                \> -- Curs, pagina 19
+            </explanation>
+        </question>
+        <question>
+            <text>Ce este o retea ordinara?</text>
+            <answers>
+                <answer>o retea fara bucle autonome</answer>
+                <answer>o retea fara deadlock</answer>
+                <answer correct=true>o retea unde toate arcele au ponderea 1</answer>
+                <answer>o retea cu capacitate infinita</answer>
+            </answers>
+            <explanation>
+                \> O rețea Petri se numește ordinară (ordinary) dacă toate arcele sale au pondere unitară.
+                \>
+                \> -- Curs, pagina 20
+            </explanation>
+        </question>
+        <question>
+            <text>Ce este o retea generalizata?</text>
+            <answers>
+                <answer>o retea care poate intra in deadlock</answer>
+                <answer correct=true>o retea care are cel putin un arc cu pondere mai mare de 1</answer>
+                <answer>orice retea care are mai mult de o pozitie si 2 tranzitii</answer>
+                <answer>o retea pilotata de timp care descrie un fenomen din natura</answer>
+            </answers>
+            <explanation>
+                \> Dacă într-o rețea Petri există cel puțin un arc a cărui pondere este mai mare decât 1, atunci se spune ca rețeaua respectivă este generalizată.
+                \>
+                \> -- Curs, pagina 20
+            </explanation>
+        </question>
+        <question>
+            <text>Care e utilitatea retelelor Petri netemporizate?</text>
+            <answers>
+                <answer correct=true>sunt utile pentru investigarea proprietatilor care nu depind de timp</answer>
+                <answer>sunt utile pentru investigarea proprietatilor logice, calitative care influenteaza pozitionarea temporala</answer>
+                <answer>sunt folosite pentru simularea oricarui tip de sistem</answer>
+                <answer>sunt folosite doar pentru simularea sistemelor robotice</answer>
+            </answers>
+            <explanation>
+                \> În teoria rețelelor Petri netemporizate se consideră că executarea unei tranziții nu consumă timp și că jetoanele pot rămâne în poziții pentru orice durată de timp (oricât de mică sau oricât de mare). Întrucât executarea unei tranziții este instantanee, se consideră că tranzițiile se execută numai secvențial, adică nu se poate vorbi de două tranziții executate simultan (sau în parallel).
+                \>
+                \> Aceste presupuneri fac ca modelul de tip rețea Petri netemporizată să fie utilizat numai pentru investigarea proprietăților logice, calitative, care nu depind de timp.
+                \>
+                \> -- Curs, pagina 20
+            </explanation>
+        </question>
+        <question>
+            <text>Care e conditia de definire a functiei tranzitiilor de stare pentru $t_j \\in T$?</text>
+            <answers>
+                <answer correct=true>$M(p_i) \\geq w(p_i, t_j)$, $\\forall p_i \\in I(t_j)$</answer>
+                <answer>$M(p_i) \\leq w(p_i, t_j)$, $\\forall p_i \\in I(t_j)$</answer>
+                <answer>$M(p_i) \\geq w(p_i, t_j)$, $\\forall p_i \\in O(t_j)$</answer>
+                <answer>$M(p_i) \\leq w(p_i, t_j)$, $\\forall p_i \\in O(t_j)$</answer>
+            </answers>
+            <explanation>
+                \> Funcția tranzițiilor de stare, $f : N^n \\times T \\rightarrow N^n$ a unei rețele Petri $(P, T, F, W, M)$ marcate, este definită pentru tranziția $t_j \\in T$ dacă și numai dacă $M(p_i) \\geq w(p_i, t_j)$, $\\forall p_i \\in I(t_j)$. Dacă funcția tranzițiilor de stare $f(M, t_j)$ este definită, atunci se notează $M’ = f(M, t_j)$, unde:
+                \>
+                \> $$
+                \> \\begin{align*}
+                \> M’(p_i) = M(p_i) - w(p_i, t_j) + w(t_j, p_i)
+                \> \\end{align*}
+                \> $$
+                \>
+                \> -- Curs, pagina 21
+            </explanation>
+        </question>
+        <question>
+            <text>Care este functia tranzitiilor de stare a unei retele Petri?</text>
+            <answers>
+                <answer correct=true>$M’(p_i) = M(p_i) - w(p_i, t_j) + w(t_j, p_i)$</answer>
+                <answer>$M’(p_i) = M(p_i) + w(p_i, t_j) + w(t_j, p_i)$</answer>
+                <answer>$M’(p_i) = M(p_i) + w(p_i, t_j) - w(t_j, p_i)$</answer>
+                <answer>$M’(p_i) = M(p_i) - w(p_i, t_j) - w(t_j, p_i)$</answer>
+            </answers>
+            <explanation>
+                \> Funcția tranzițiilor de stare, $f : N^n \\times T \\rightarrow N^n$ a unei rețele Petri $(P, T, F, W, M)$ marcate, este definită pentru tranziția $t_j \\in T$ dacă și numai dacă $M(p_i) \\geq w(p_i, t_j)$, $\\forall p_i \\in I(t_j)$. Dacă funcția tranzițiilor de stare $f(M, t_j)$ este definită, atunci se notează $M’ = f(M, t_j)$, unde:
+                \>
+                \> $$
+                \> \\begin{align*}
+                \> M’(p_i) = M(p_i) - w(p_i, t_j) + w(t_j, p_i)
+                \> \\end{align*}
+                \> $$
+                \>
+                \> -- Curs, pagina 21
+            </explanation>
+        </question>
+        <question>
+            <text>Prin ce se diferentiaza Regula Stricta a Tranzitiei de Regula Simpla a Tranzitiei?</text>
+            <answers>
+                <answer correct=true>necesita sa existe spatiu in toate pozitiile de iesire pentru jetoanele ce se genereaza dupa executarea tranzitiei</answer>
+                <answer>necesita ca sa ramana un anumit numar de jetoane dupa executarea tranzitiei in toate pozitiile de intrare ale acesteia</answer>
+                <answer>necesita ca sa ramana un anumit numar de jetoane dupa executarea tranzitiei in cel putin o pozitie de intrare ale acesteia</answer>
+                <answer>necesita ca sa nu ramana jetoane dupa executarea tranzitiei in pozitiile de intrare ale acesteia</answer>
+            </answers>
+            <explanation>
+                \> Într-o reţea cu capacitate finită, pentru validarea unei tranziţii $t$ este necesară următoarea condiţie suplimentară: numărul de jetoane în fiecare poziţie de ieşire $p$ a lui $t$ nu poate să depăşească capacitatea poziţiei respective, $K(p)$, atunci când $t$ se execută.
+                \>
+                \> -- Curs, pagina 23
+            </explanation>
+        </question>
+    </questions>
+</root>
