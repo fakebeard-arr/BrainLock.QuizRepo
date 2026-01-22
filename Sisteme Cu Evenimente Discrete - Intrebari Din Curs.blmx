@@ -1,7 +1,7 @@
 <root>
     <version>1</version>
     <title>Sisteme Cu Evenimente Discrete - Intrebari Din Curs</title>
-    <description>Intrebari create pe baza cursului pentru examenul din 2025-2026</description>
+    <description>Intrebari create pentru examenul din 2025-2026, pe baza cursului (Prof Vasar Cristian)</description>
     <contribuitors>jovanni</contribuitors>
     <questions>
         <question>
@@ -310,6 +310,361 @@
                 \> Într-o reţea cu capacitate finită, pentru validarea unei tranziţii $t$ este necesară următoarea condiţie suplimentară: numărul de jetoane în fiecare poziţie de ieşire $p$ a lui $t$ nu poate să depăşească capacitatea poziţiei respective, $K(p)$, atunci când $t$ se execută.
                 \>
                 \> -- Curs, pagina 23
+            </explanation>
+        </question>
+        <question>
+            <text>Ce inseamna ca un marcaj $M_n$ este accesibil din marcajul initial $M_0$?</text>
+            <answers>
+                <answer correct=true>exista o secventa de executari de tranzitii care transforma $M_0$ in $M_n$</answer>
+                <answer>exista o secventa de executari de tranzitii care transforma $M_n$ in $M_0$</answer>
+                <answer>exista o secventa de executari de tranzitii care ne va duce in $M_n$ din orice pozitie</answer>
+                <answer>exista o secventa de executari de tranzitii care ne va duce in $M_0$ din orice pozitie</answer>
+            </answers>
+            <explanation>
+                \> Un marcaj $M_n$ se spune ca e accesibil din marcajul inițial $M_0$, dacă există o secvență de executări de tranziții, care transformă $M_0$ în $M_n$.
+                \>
+                \> -- Curs, pagina 41
+            </explanation>
+        </question>
+        <question>
+            <text>Ce indica marcajul $M_0 [ \\sigma \> M_n ]$?</text>
+            <answers>
+                <answer correct=true>$M_n$ e accesibil din $M_0$ prin secventa $\\sigma$</answer>
+                <answer>$M_n$ nu e accesibil din $M_0$ prin secventa $\\sigma$</answer>
+                <answer>$M_0$ e mai putin accesibil decat $M_n$ prin secventa $\\sigma$</answer>
+                <answer>$M_0$ e mai accesibil decat $M_n$ prin secventa $\\sigma$</answer>
+            </answers>
+            <explanation>
+                \> Faptul că marcajul $M_n$ este accesibil din $M_0$ prin secvența de executări $\\sigma$ se notează $M_0 [ \\sigma \> M_n ]$.
+                \>
+                \> -- Curs, pagina 41
+            </explanation>
+        </question>
+        <question>
+            <text>Ce reprezinta notatia $R(N, M_0)$?</text>
+            <answers>
+                <answer correct=true>mutimea marcajelor ce pot fi atinse in reteaua $N$ pornind de la marcajul $M_0$</answer>
+                <answer>multimea nodurilor din reteaua $N$</answer>
+                <answer>multimea secventelor de tranzitii care se pot executa in reteaua $N$ pornind din marcajul $M_0$</answer>
+                <answer>multimea arcelor din reteaua $N$</answer>
+            </answers>
+            <explanation>
+                \> Mulțimea tuturor marcajelor care pot fi atinse în rețeaua $(N, M_0 )$, pornind din $M_0$, se notează prin $R(N, M_0)$, sau, simplu, prin $R(M_0)$, atunci când se subînțelege rețeaua $N$ la care ne referim.
+                \>
+                \> -- Curs, pagina 41
+            </explanation>
+        </question>
+        <question>
+            <text>Ce reprezinta notatia $L(N, M_0)$?</text>
+            <answers>
+                <answer correct=true>multimea secventelor de executare posibile in reteaua $N$ pornind din marcajul $M_0$</answer>
+                <answer>multimea secventelor cu nivel de viabilitate 0 posibile in reteaua $N$ pornind din marcajul $M_0$</answer>
+                <answer>mutimea marcajelor ce pot fi atinse in reteaua $N$ pornind de la marcajul $M_0$</answer>
+                <answer>nu este o notatie cunoscuta</answer>
+            </answers>
+            <explanation>
+                \> Mulțimea tuturor secvențelor de executare posibile în rețeaua $(N, M_0)$, pornind din $M_0$, se notează prin $L(N, M_0)$ sau, simplu, prin $L(M_0)$ atunci când se subînțelege rețeaua $N$ la care ne referim.
+                \>
+                \> -- Curs, pagina 41
+            </explanation>
+        </question>
+        <question>
+            <text>Ce inseamna faptul ca o retea Petri este k-marginita?</text>
+            <answers>
+                <answer correct=true>numarul de jetoane din fiecare pozitie nu depaseste numarul finit $k$</answer>
+                <answer>numarul de jetoane din fiecare pozitie nu scade sub valoarea $k$</answer>
+                <answer>numarul maxim de tranzitii pana la revenirea in marcajul initial $M_0$ nu depaseste numarul finit $k$</answer>
+                <answer>numarul minim de tranzitii pana la revenirea in marcajul initial $M_0$ nu scade sub valoarea $k$</answer>
+            </answers>
+            <explanation>
+                \> O rețea Petri $(N, M_0)$ se spune că este k-mărginită sau, pe scurt, mărginită dacă numărul de jetoane din fiecare poziție nu depășește un număr finit $k$ pentru orice marcaj ce este accesibil din starea $M_0$ (adică pentru orice secvență de executări de tranziții, pornind de la marcajul $M_0$).
+                \>
+                \> -- Curs, pagina 41
+            </explanation>
+        </question>
+        <question>
+            <text>Cum se numeste o retea 1-marginita?</text>
+            <answers>
+                <answer>finita</answer>
+                <answer correct=true>sigura</answer>
+                <answer>simpla</answer>
+                <answer>bine definita</answer>
+            </answers>
+            <explanation>
+                \> O rețea Petri $(N, M_0)$ se spune că este sigură dacă ea este 1-mărginită.
+                \>
+                \> -- Curs, pagina 41
+            </explanation>
+        </question>
+        <question>
+            <text>Ce inseamna faptul ca o retea Petri este viabila?</text>
+            <answers>
+                <answer>indiferent in ce marcaj ne aflam, se poate executa orice tranzitie (chiar daca e necesara executarea unui numar finit de alte tranzitii)</answer>
+                <answer>indiferent care este marcajul initial $M_0$, reteaua nu va ajunge in deadlock (indiferent ce secventa de tranzitii se executa)</answer>
+                <answer>inseamna ca reteaua poate fi folosita pentru a modela un proces tehnic</answer>
+                <answer>inseamna ca reteaua este 2-marginita</answer>
+            </answers>
+            <explanation>
+                \> O rețea Petri $(N, M_0)$ se spune că este viabilă (sau, echivalent, $M_0$ se spune că este un marcaj viabil pentru $N$) dacă, indiferent de marcajul care a fost atins pornind de la $M_0$, este posibil ca, în continuare, să fie executată orice tranzacție $t$ a reţelei.
+                \>
+                \> -- Curs, pagina 42
+            </explanation>
+        </question>
+        <question>
+            <text>Cum se numeste un marcaj din care nu se mai poate executa nici o tranzitie?</text>
+            <answers>
+                <answer correct=true>deadlock</answer>
+                <answer>capat</answer>
+                <answer>endpoint</answer>
+                <answer>nod terminal</answer>
+            </answers>
+            <explanation>
+                \> Un marcaj pentru care nici o tranziție a reţelei nu mai poate fi efectuată se numește deadlock sau blocaj.
+                \>
+                \> -- Curs, pagina 42
+            </explanation>
+        </question>
+        <question>
+            <text>Ce inseamna ca o tranzitie e L0-viabila (moarta) ?</text>
+            <answers>
+                <answer correct=true>tranzitia nu se execute in nici o secventa din $L(M_0)$</answer>
+                <answer>tranzitia are cel mai mic numar de executii dintre toate tranzitiile retelei</answer>
+                <answer>tranzitia poate fi executata macar o data intr-o secventa din $L(M_0)$</answer>
+                <answer>nu exista nivelul L0 de viabilitate</answer>
+            </answers>
+            <explanation>
+                \> Viabilă L0 (sau blocată), dacă $t$ nu se mai poate executa în nici o secvență din $L(M_0)$.
+                \>
+                \> -- Curs, pagina 43
+            </explanation>
+        </question>
+        <question>
+            <text>Ce inseamna ca o tranzitie e L1-viabila?</text>
+            <answers>
+                <answer correct=true>tranzitia se poate executa cel putin o data in unele secvente din $L(M_0)$</answer>
+                <answer>tranzitia se poate executa cel putin o data in toate secvente din $L(M_0)$</answer>
+                <answer>tranzitia are cel mai mare numar de executii cel putin o data in unele secvente din $L(M_0)$</answer>
+                <answer>tranzitia se poate executa doar o data in unele secvente din $L(M_0)$</answer>
+            </answers>
+            <explanation>
+                \> Viabilă L1 (potențial executabilă), dacă $t$ se mai poate executa cel puțin o dată în unele secvențe din $L(M_0)$.
+                \>
+                \> -- Curs, pagina 43
+            </explanation>
+        </question>
+        <question>
+            <text>Ce inseamna ca o tranzitie e L2-viablia?</text>
+            <answers>
+                <answer correct=true>tranzitia se poate executa de cel putin $k \> 0$ ori in unele secvente din $L(M_0)</answer>
+                <answer>tranzitia se poate executa de cel putin 2 ori in unele secvente din $L(M_0)$</answer>
+                <answer>tranzitia se poate executa de 2 ori in toate secvente din $L(M_0)$</answer>
+                <answer>tranzitia se poate executa de maxim 2 ori in unele toate din $L(M_0)$</answer>
+            </answers>
+            <explanation>
+                \> Viabilă L2, dacă, pentru orice întreg $k \> 0$, $t$ se mai poate executa de cel puțin $k$ ori în unele secvențe din $L(M_0)$.
+                \>
+                \> -- Curs, pagina 43
+            </explanation>
+        </question>
+        <question>
+            <text>Ce inseamna ca o tranzitie e L3-viablia?</text>
+            <answers>
+                <answer correct=true>tranzitia se poate executa de o infinitate de ori in unele secvente din $L(M_0)$</answer>
+                <answer>tranzitia se poate executa cel putin de 3 ori in unele secvente din $L(M_0)$</answer>
+                <answer>tranzitia se poate executa de 3 ori in toate secvente din $L(M_0)$</answer>
+                <answer>tranzitia se poate executa de maxim 3 ori in unele toate din $L(M_0)$</answer>
+            </answers>
+            <explanation>
+                \> Viabilă L3, dacă $t$ se mai poate executa de un număr finit de ori pentru unele secvențe din $L(M_0)$.
+                \>
+                \> -- Curs, pagina 43
+            </explanation>
+        </question>
+        <question>
+            <text>Ce inseamna ca o tranzitie e L4-viablia (viabila)?</text>
+            <answers>
+                <answer correct=true>tranzitia este viabila din orice marcaj din $R(M_0)$</answer>
+                <answer>tranzitia se poate executa de o infinitate de ori in unele secvente din $L(M_0)$</answer>
+                <answer>tranzitia se poate executa cel putin de 4 ori in unele secvente din $L(M_0)$</answer>
+                <answer>tranzitia se poate executa de maxim 4 ori in unele toate din $L(M_0)$</answer>
+            </answers>
+            <explanation>
+                \> Viabilă L4 (sau viabilă) dacă $t$ este viabilă L1 pentru orice secvență din $L(M_0)$.
+                \>
+                \> -- Curs, pagina 43
+            </explanation>
+        </question>
+        <question>
+            <text>Ce inseamna daca o retea Petri este $L_k$-viabila?</text>
+            <answers>
+                <answer correct=true>fiecare tranzitie este $L_k$-viabila</answer>
+                <answer>cel putin o tranzitie e $L_k$-viabila</answer>
+                <answer>toate tranzitiile sunt maxim $L_{k-1}$-viabila</answer>
+                <answer>nivelul de viabilitate a retelelor Petri este independent de cel al tranzitiilor</answer>
+            </answers>
+            <explanation>
+                \> O rețea Petri $(N, M_0)$ se spune că este viabilă $L_k$, dacă fiecare tranzacție a ei este viabilă $L_k$, $k=1, 2, 3, 4$.
+                \>
+                \> -- Curs, pagina 43
+            </explanation>
+        </question>
+        <question>
+            <text>Ce inseamna daca o retea Petri este strict $L_k$​-viabila?</text>
+            <answers>
+                <answer correct=true>este viabila $L_k$ dar nu e viabila $L_{k+1}$</answer>
+                <answer>este viabila $L_k$ dar nu e viabila $L_{k-1}$</answer>
+                <answer>este viabila $L_k$ doar pentru anumite marcaje initiale $M_0$</answer>
+                <answer>este viabila $L_k$ pentru orice marcaj initial $M_0$</answer>
+            </answers>
+            <explanation>
+                \> Se spune că o tranziție este viabilă $L_k$ strict, dacă ea este viabilă $L_k$ dar nu este viabilă $L_{k+1}$, pentru $k=1, 2, 3$.
+                \>
+                \> -- Curs, pagina 43
+            </explanation>
+        </question>
+        <question>
+            <text>Ce inseamna ca o retea Petri este reversibile?</text>
+            <answers>
+                <answer correct=true>din orice marcaj $M \\in R(M_0)$ se poate ajunge inapoi in $M_0$</answer>
+                <answer>din orice marcaj $M$ se poate ajunge inapoi in $M_0$</answer>
+                <answer>din orice marcaj $M_0$ se poate ajunge inapoi in $M \\in R(M_0)$</answer>
+                <answer>oricare ar fi 2 marcaje $M_1$ si $M_2$, se poate ajunge de la $M_1$ la $M_2$ si de la $M_2$ la $M_1$</answer>
+            </answers>
+            <explanation>
+                \> O rețea Petri $(N, M_0)$ se spune că este reversibilă, dacă pentru orice marcaj $M \\in R(M_0)$, marcajul inițial $M_0$ este, la rândul său, accesibil când se pornește din $M$. Astfel, într-o rețea reversibilă, întotdeauna este posibilă întoarcerea la marcajul inițial.
+                \>
+                \> -- Curs, pagina 46
+            </explanation>
+        </question>
+        <question>
+            <text>Ce inseamna ca un marcaj $M$ din reteaua $(N, M_0)$ este acoperit?</text>
+            <answers>
+                <answer>exista un marcaj $M' \\in R(M_0)$ astfel incat $M'(p) \\geq M(p)$, $\\forall p$</answer>
+                <answer>exista un marcaj $M' \\in R(M_0)$ astfel incat $M'(p) \\leq M(p)$, $\\forall p$</answer>
+                <answer>exista un marcaj $M' \\in R(M_0)$ astfel incat $M' \\geq M_0$</answer>
+                <answer>exista un marcaj $M' \\in R(M_0)$ astfel incat $M' \\leq M_0$</answer>
+            </answers>
+            <explanation>
+                \> Un marcaj $M$ în rețeaua Petri $(N, M_0)$ se spune că este acoperibil (coverable), dacă există un marcaj $M' \\in R(M_0)$ astfel încât $M'(p) \\geq M(p)$ pentru fiecare poziție $p$ a rețelei.
+                \>
+                \> -- Curs, pagina 48
+            </explanation>
+        </question>
+        <question>
+            <text>Ce inseamna ca o retea Petri este persistenta?</text>
+            <answers>
+                <answer correct=true>pentru oricare 2 tranzitii validate, executarea uneia nu o va invalida pe cealalta</answer>
+                <answer>arborele de acoperire a retelei nu se modifica de la o secventa la alta</answer>
+                <answer>toate tranzitiile retelei consuma si produc acelasi numar de jetoane</answer>
+                <answer>pentru orice marcaj $M \\in R(M_0)$, numarul de jetoane este cel putin egal cu numarul de jetoane din marcajul $M_0$</answer>
+            </answers>
+            <explanation>
+                \> O rețea Petri $(N, M_0)$ se spune că este persistentă (persistent), dacă pentru oricare două tranziții validate, executarea uneia dintre ele nu o invalidează pe cea de a doua.
+                \>
+                \> Așadar într-o rețea persistentă, o tranziție, odată ce a fost validată, rămâne validată până la executarea ei.
+                \>
+                \> -- Curs, pagina 48
+            </explanation>
+        </question>
+        <question>
+            <text>Care este ecuati distantei sincrone dintre 2 tranzitii $t_1$ si $t_2$?</text>
+            <answers>
+                <answer correct=true>$d(t_1, t_2) = max_{\\sigma}|\\bar{\\sigma}(t_1) - \\bar{\\sigma}(t_2)|$</answer>
+                <answer>$d(t_1, t_2) = max_{\\sigma}|\\sigma(t_1) - \\sigma(t_2)|$</answer>
+                <answer>$d(t_1, t_2) = max_{\\sigma}|\\bar{\\sigma}(t_1) + \\bar{\\sigma}(t_2)|$</answer>
+                <answer>$d(t_1, t_2) = max_{\\sigma}|\\sigma(t_1) + \\sigma(t_2)|$</answer>
+            </answers>
+            <explanation>
+                \> Fie $t_1$ și $t_2$ două tranziții ale rețelei $(N,M_0)$. Se numește distanță sincronă între $t_1$ și $t_2$ numărul (finit sau nu):
+                \> $$
+                \> \\begin{align*}
+                \> d(t_1, t_2)=max_{\\sigma}|\\bar{\\sigma}(t_1) - \\bar{\\sigma}(t_2)|
+                \> \\end{align*}
+                \> $$
+                \>unde $\\sigma$ notează o secvență de executări pornind din orice marcaj $M \\in R(M_0)$, iar $\\bar{\\sigma}(t_i)$, $i=1, 2$, notează numărul de executări ale tranziției $t_i$ , $i=1, 2$, în secvența $\\sigma$.
+                \>
+                \> -- Curs, pagina 48
+            </explanation>
+        </question>
+        <question>
+            <text>Care este matricea de incidenta a unei retele Petri?</text>
+            <answers>
+                <answer correct=true>$A = [a_{ij}]$, unde $a_{ij} = a_{ij}^+ - a_{ij}^-$</answer>
+                <answer>$A = [a_{ij}]$, unde $a_{ij} = a_{ij}^- - a_{ij}^+$</answer>
+                <answer>$A = [a_{ij}]$, unde $a_{ij} = a_{ij}^+ + a_{ij}^-$</answer>
+                <answer>$A = [a_{ij}]$, unde $a_{ij} = a_{ij}^- + a_{ij}^+$</answer>
+            </answers>
+            <explanation>
+                \> Se consideră o rețea Petri pură $N$ (nu există bucle autonome) cu $n$ tranziții și $m$ poziții. Se numește matrice de incidență (incidence matrix) a rețelei, o matrice $A = [a_{ij}]$ de dimensiuni $n \\times m$, ale cărei elemente sunt numere întregi:
+                \> $$
+                \> \\begin{align*}
+                \> a_{ij} = a_{ij}^+ - a_{ij}^- \\\\
+                \> i = 1, ..., n \\\\
+                \> j=1, ..., m
+                \> \\end{align*}
+                \> $$
+                \> unde:
+                \> - $a_{ij}^+ = W(t_i, p_j)$ este ponderea arcului de la tranziția $t_i$, către poziția sa de ieșire $p_j$;
+                \> - $a_{ij}^- = W(p_j, t_i)$ este ponderea arcului către tranziția $t_i$, de la poziția sa de intrare $p_j$.
+            </explanation>
+        </question>
+        <question>
+            <text>Care e matricea de incidenta de intrare?</text>
+            <answers>
+                <answer>$A^+ = [a_{ij}^+]$</answer>
+                <answer correct=true>$A^- = [a_{ij}^-]$</answer>
+            </answers>
+            <explanation>
+                \> Matricea $A^- = [a_{ij}^-]$ (de dimensiune $n \\times m$) este referită drept matrice de incidență de intrare.
+                \>
+                \> -- Curs, pagina 50
+            </explanation>
+        </question>
+        <question>
+            <text>Care este matricea de incidenta de iesire?</text>
+            <answers>
+                <answer correct=true>$A^+ = [a_{ij}^+]$</answer>
+                <answer>$A^- = [a_{ij}^-]$</answer>
+            </answers>
+            <explanation>
+                \> Matricea $A^+ = [a_{ij}^+]$ (de dimensiune $n \\times m$) este referită drept matrice de incidență de ieșire.
+                \>
+                \> -- Curs, pagina 50
+            </explanation>
+        </question>
+        <question>
+            <text>Care este ecuatia de stare a retelei Petri?</text>
+            <answers>
+                <answer correct=true>$M_k = M_{k - 1} + A^T \\cdot u_k$</answer>
+                <answer>$M_{k - 1} = M_k + A^T \\cdot u_k$</answer>
+                <answer>$M_k = M_{k - 1} - A^T \\cdot u_k$</answer>
+                <answer>$M_{k - 1} = M_k - A^T \\cdot u_k$</answer>
+            </answers>
+            <explanation>
+                \> Această egalitate este uzual folosită sub forma echivalentă:
+                \> $$
+                \> \\begin{align*}
+                \> M_k = M_{k - 1} + A^T \\cdot u_k \\\\
+                \> k=1, 2, …
+                \> \\end{align*}
+                \> $$
+                \> și reprezintă ecuația de stare (state equation) a rețelei Petri.
+                \>
+                \> -- Curs, pagina 51
+            </explanation>
+        </question>
+        <question>
+            <text>Ce reprezinta vectorul de control $u_k$ in ecuatia de stare a retelei Petri?</text>
+            <answers>
+                <answer correct=true>indica tranzitia care s-a executat pentru a trece din $M_{k-1}$ in $M_k$</answer>
+                <answer>indica tranzitiile care nu s-au executat pentru a trece din $M_{k-1}$ in $M_k$</answer>
+                <answer>indica marcujul initial al retelei Petri</answer>
+                <answer>este un vector care reprezinta marcajul curent al retelei Petri</answer>
+            </answers>
+            <explanation>
+                \> Acest lucru poate fi descris global cu ajutorul unui vector coloană $u_k$ (de dimensiune $n \\times 1$) ale cărui elemente sunt toate $0$, cu excepția celui de al $i$-lea element care este $1$ (corespunzător tranziției $t_i$, unde are loc cea de a $k$-a executare a secvenței).
+                \> 
+                \> -- Curs, pagina 50
             </explanation>
         </question>
     </questions>
