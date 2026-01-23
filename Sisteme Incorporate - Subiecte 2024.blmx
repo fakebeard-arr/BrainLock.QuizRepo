@@ -1,0 +1,495 @@
+<root>
+    <version>1</version>
+    <title>Sisteme Incorporate - Subiecte 2024</title>
+    <contribuitors>jovanni</contribuitors>
+    <questions>
+        <question>
+            <topic>R1-A</topic>
+            <text>Elementul central al unui Si este:</text>
+            <answers>
+                <answer>unitatea centrala de prolucrare</answer>
+                <answer>memoria sistemului</answer>
+                <answer>interferele sistemului</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-A</topic>
+            <text>Microcontrollere din familia MCS51 sunt caracterizate prin:</text>
+            <answers>
+                <answer>separarea completa a memoriei program `MP` si a memoriei de date `MD`</answer>
+                <answer>acces `DMA` al memoriei</answer>
+                <answer>memorie de cod si date suprapusa</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-A</topic>
+            <text>Forma generala a unei instructiuni scrisa in limbajul de asamblare MCS51 este:</text>
+            <answers>
+                <answer>`operand1, operand2 ; cod expresie`</answer>
+                <answer>`eticheta: cod_operatie operand_1, oprand_2 ; comentariu`</answer>
+                <answer>`; comentariu cod_operatie operand_1, operand_2`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-A</topic>
+            <text>Directiva `ORG`:</text>
+            <answers>
+                <answer>scrisa inaintea unei instructiuni va fixa prin valoarea expresiei adresa locatiei din memorie la care se va inscrie instructiunea</answer>
+                <answer>scrisa inaintea unei instructiuni va fixa prin valoarea expresiei adresa locatiei din memorie la care se va inscrie primul operand al instructiunii</answer>
+                <answer>scrisa inaintea unei instructiuni va fixa prin valoarea expresiei adresa locatiei din memorie la care se va inscrie primul octet al acestei instructiuni</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-A</topic>
+            <text>Directiva `DB` este utilizata pentru:</text>
+            <answers>
+                <answer>definirea unei constante de un octet sau a unui sir de date cu lungimea de un octet</answer>
+                <answer>definirea unui cod de operatie din memorie</answer>
+                <answer>definirea unei adrese din memorie</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-A</topic>
+            <text>
+                Instructiunea
+                ```a51
+                MOV    A, 78h
+                ```
+                utilizeaza:
+            </text>
+            <answers>
+                <answer>modul de adresare indexata</answer>
+                <answer>modul de adresare directa</answer>
+                <answer>modul de adresare indirecta prin registru</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-A</topic>
+            <text>
+                Instructiunea
+                ```a51
+                MOVX A, @DPTR
+                ```
+                utilizeaza:
+            </text>
+            <answers>
+                <answer>adresarea indexata</answer>
+                <answer>adresarea indirecta prin registru pe 16 biti</answer>
+                <answer>adresarea directa</answer>
+                <answer>adresarea indirecta prin registru pe 8 biti</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-A</topic>
+            <text>Memoria de date externa poate fi accesata:</text>
+            <answers>
+                <answer>prin adresarea directa sau indirecta prin registru</answer>
+                <answer>manual prin adresarea indirecta prin registru</answer>
+                <answer>prin adresarea indirecta sau prin adresare indexata</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-A</topic>
+            <text>
+                Fie urmatoarea secventa de cod:
+                
+                ```a51
+                1|       MOV    71h, #0Bh
+                2|       MOV    A, 71h
+                3|       CJNE   A, #0Ah, next
+                
+                4| next: JC    urmator
+                
+                   urmator:  MOV    A, #20h
+                ```
+                
+                Instructiunile 3 si 4 sunt utilizate:
+            </text>
+            <answers>
+                <answer>pentru salturi indexate</answer>
+                <answer>pentru salturi neconditionale</answer>
+                <answer>pentru verificare mai mic decat</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-A</topic>
+            <text>Curcuitul i8255 are urmatoarele moduri de lucru:</text>
+            <answers>
+                <answer>
+                    - modul 0 intrari/iesiri normale
+                    - modul 1 intrari/iesiri strobate
+                    - modul 2 magistrala bidirectionala
+                </answer>
+                <answer>
+                    - modul 0 intrari/iesiri normale
+                    - modul 1 intrari/iesiri nestrobate
+                    - modul 2 magistrala bidirectionala
+                </answer>
+                <answer>
+                    - modul 0 intrari/iesiri normale cu generare de cereri de intrerupere
+                    - modul 1 intrari/iesiri strobate
+                    - modul 2 magistrala bidirectionala
+                </answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-A</topic>
+            <text>Cuvantul de comanda `83h` transmis unui circuit i8255 semnifica:</text>
+            <answers>
+                <answer>
+                    - portul `PA` modul 0 intrare nestrobata
+                    - portul `PB` modul 1 intrare strobata
+                    - portul `PC` neutilizat
+                </answer>
+                <answer>
+                    - portul `PA` modul 0 intrare normala
+                    - portul `C` partea high `PCH` modul 0 iesire normala
+                    - portul `B` modul 0 intrare normala
+                    - portul `C` partea low `PCL` modul 0 intrare normala
+                </answer>
+                <answer>bitul 1 din `PC` setat pe 1</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-A</topic>
+            <text>Programarea circuitului i8254 se face:</text>
+            <answers>
+                <answer>prin transmiterea unui cuvant de comanda uni pentru toate cele 3 canale</answer>
+                <answer>prin transmiterea unui cuvant de comanda la adresa alocata canalului care se doreste a fi programat</answer>
+                <answer>fiecare canal este programat individual prin scrierea cuvantului de comanda corespunzator si a inca 1 sau 2 octeti la adresa canalului corespunzator reprezentand numarul cu care se preincarca canalul</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-A</topic>
+            <text>Modul de operare 2 al unui circuit i8254 semnifica:</text>
+            <answers>
+                <answer>monostabil programabil</answer>
+                <answer>generator de impulsuri</answer>
+                <answer>monostabil declansabil prin program</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-B</topic>
+            <text>
+                Fie secventa de cod:
+                
+                ```a51
+                MOV    A, #FEh
+                SETB   CY
+                SUBB   A, #03h
+                MOV    75h, A
+                ```
+                
+                Rezultatul aflat in registrul acumulator este si va fi depus in memorie:
+            </text>
+            <answers>
+                <answer>`A = FBh` depus in memoria de date externa la adresa `0075h`</answer>
+                <answer>`A = FCh` depus in memoria de date interna la adresa `75h`</answer>
+                <answer>`A = FAh` depus in memoria de date interna la adresa `75h`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-B</topic>
+            <text>
+                Se consdera ca in memoria de date externa la adresa `34F0h` este memorata valoarea `BFh`. Dupa executia urmatoarei secvente de cod:
+                
+                ```a51
+                MOV    DPTR, #34F0h
+                MOVX   A, @DPTR
+                INC    A
+                ADD    A, #11h
+                INC    DPTR
+                MOVX   @DPTR, A
+                ```
+                
+                Continutul registrului acumulator este si va fi depus:
+            </text>
+            <answers>
+                <answer>`A = E1h` depus in memoria de date interna la adresa `34F1h`</answer>
+                <answer>`A = F1h` depus in memoria de date externa la adresa `34E0h`</answer>
+                <answer>`A = B1h` depus in memoria de date externa la adresa `34E0h`</answer>
+                <answer>`A = D1h` depus in memoria de date externa la adresa `34F1h`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-B</topic>
+            <text>
+                Un circuit i8255 este conectat la un microcontroller P89C51RD2 in zona memoriei de date externa in intervalul de adresare `9000h`-`9003h`. Fie urmatoarea secventa de cod:
+                
+                ```a51
+                1|  MOV    A, #83h
+                2|  MOV    DPTR, #9003h
+                3|  MOVX   @DPTR, A
+                4|  MOV    DPTR, #9000H
+                5|  MOVX   A, @DPTR
+                6|  MOV    DPTR, #9002h
+                7|  MOVX   A, @DPTR
+                ```
+                
+                Semnificatia secventei de cod este:
+            </text>
+            <answers>
+                <answer>
+                    - `1`, `2`, `3` = citire cuvant de comanda de la i8255
+                    - `4`, `5` = citire continut port `PA`
+                    - `6`, `7` = citire continut port `PC`
+                </answer>
+                <answer>
+                    - `1`, `2`, `3` = transmitere cuvant de comandacatre i8255
+                    - `4`, `5` = citire continut port `PA`
+                    - `6`, `7` = citire continut port `PC`
+                </answer>
+                <answer>
+                    - `1`, `2`, `3` = transmitere cuvant de comandacatre i8255
+                    - `4`, `5` = citire continut port `PB`
+                    - `6`, `7` = citire continut port `PA`
+                </answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-B</topic>
+            <text>
+                Fie urmatoarea secventa de cod:
+                
+                ```a51
+                MOV    TMOD, #01h
+                MOV    TL0, #0E0h
+                MOV    TH0, #0BEh
+                SETB   TCON.4
+                ```
+                
+                Efectul acestei secvente de cod este:
+            </text>
+            <answers>
+                <answer>`T1` programat in modul 1 counter, `T0` programat in modul 0 timer, constanta de timp incarcata in `T1` este 35536, `T1` pornit</answer>
+                <answer>`T1` programat in modul 0 timer `T0` programat in modul 1 timer, constanta de timp incarcata in `T0` este 48864, `T0` pornit</answer>
+                <answer>`T1` programat in modul 0 timer `T0` programat in modul 1 timer, constanta de timp incarcata in `T0` este 55536, `T0` pornit</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-B</topic>
+            <text>
+                Fie urmatoarea secventa de cod:
+                
+                ```a51
+                1|  JNB    SCON.0, $
+                2|  CLR    SCON.0
+                3|  MOV    A, SBUF
+                ```
+                
+                Efectul executiei acestei secvente de cod este:
+            </text>
+            <answers>
+                <answer>
+                    - `1` = se asteapta receptia unui caracter
+                    - `2` = se seteaza fanionul `RI`
+                    - `3` = se incarca in registrul accumulator caracterul receptionat
+                </answer>
+                <answer>
+                    - `1` = se asteapta receptia unui caracter
+                    - `2` = se sterge fanionul `RI`
+                    - `3` = se incarca in registrul accumulator caracterul receptionat
+                </answer>
+                <answer>
+                    - `1` = se asteapta receptia unui caracter
+                    - `2` = se sterge fanionul `RI`
+                    - `3` = se incarca in registrul `SBUF` continutul registrului accumulator
+                </answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-B</topic>
+            <text>
+                Fie urmatoarea secventa de cod:
+                
+                ```a51
+                1|       MOV    71h, #0Bh
+                2|       MOV    A, 71h
+                3|       CJNE    A, #0Ah, next
+                
+                4| next: JC    urmator
+                
+                   urmator:  MOV    A, #20h
+                ```
+                
+                Instructiunile `3` si `4` sunt utilizate:
+            </text>
+            <answers>
+                <answer>pentru verificare mai mic decat `0Ah`</answer>
+                <answer>pentru verificare mai mare ca `0Bh`</answer>
+                <answer>pentru verificare mai mic decat `0Bh`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-B</topic>
+            <text>Accesarea memoriei de date interna a unui microcontroler P89C51RD2 se face prin intermediul instructiunilor de tipul:</text>
+            <answers>
+                <answer>`MOVX`</answer>
+                <answer>diferite de `MOVX`</answer>
+                <answer>prin accesare hardware</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-B</topic>
+            <text>
+                Fie urmatoarea secventa de cod:
+                
+                ```a51
+                CLR    IE.7
+                SETB   IE.0
+                SETB   TCON.0
+                ```
+                
+                Efectul acestei secvente de cod este:
+            </text>
+            <answers>
+                <answer>sistemul de intreruperi global este validat, intreruperea externa `INT0` validata si activa pe front crescator</answer>
+                <answer>sistemul de intreruperi global este invalidat, intreruperea externa `INT0` validata si activa pe front cazator</answer>
+                <answer>sistemul de intreruperi global activat, intreruperi externe blocate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-B</topic>
+            <text>
+                Se considera ca in registrul SP este incarcata valoarea `10h`. In urma executiei urmatoarei secvente de cod:
+                
+                ```a51
+                MOV    A, #33h
+                LCALL  Rutina_Add
+                PUSH   ACC
+                ADD    A, #10h
+                MOV    DPTR, #1000h
+                MOVX   @DPTR, A
+                ```
+                
+                Continutul registrului `SP` este (`Rutine_Add` se considera o subrutina definita in `MP`):
+            </text>
+            <answers>
+                <answer>`SP = 0Bh`</answer>
+                <answer>`SP = 10h`</answer>
+                <answer>`SP = 11h`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-B</topic>
+            <text>Registrele `R0` - `R7` sunt:</text>
+            <answers>
+                <answer>locatii de memorie din memoria de date interna in zona primilor 128 de octeti </answer>
+                <answer>locatii de memorie din memoria de date externa</answer>
+                <answer>registre de uz general localizate in zona `SFR`-urilor</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-B</topic>
+            <text>Cuvantul de comanda `B4h` transmis unui circuit i8255 semnifica:</text>
+            <answers>
+                <answer>
+                    - portul `PA` modul 1 intrare nestrobata
+                    - portul `PB` modul 1 intrare strobata
+                    - portul `PC` neutilizat
+                </answer>
+                <answer>
+                    - grupul `A` modul 1 portul `PA` intrare strobata
+                    - `PC6`, `PC7` - iesiri
+                    - grupul B modul 0, portul `B` intrare normala
+                    - portul `C` partea low `PCL` iesiri normale
+                </answer>
+                <answer>
+                    - portul `PA` modul 1 iesire normala
+                    - portul `C` partea high `PCH` modul 0 iesire normala
+                    - portul `B` modul 0 intrare normala
+                    - portul `C` partea low `PCL` modul 0 intrare normala
+                </answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-B</topic>
+            <text>in cazul utilizarii sistemului de comunicatie seriala, fanionul `RI` din registrul `SCON` este folosit pentru:</text>
+            <answers>
+                <answer>detectia receptiei unui caracter prin intermediul sistemului de comunicatie serial</answer>
+                <answer>detectia sfarsitului emisiei unui caracter prin intermediul sistemului de comunicatie serial</answer>
+                <answer>detectia depasirii capacitatii de numarare a caracterelor receptionate/transmise prin intermediul sistemului de comunicatie serial</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-B</topic>
+            <text>
+                Fie urmatoarea secventa de cod, utilizata pentru programarea unui circuit i8254 conectat la un microcontroller P89C511RD2, in zona de adrese `8000h` - `8003h` a memoriei de date externa:
+                
+                ```a51
+                1|  MOV    DPTR, #8003h
+                2|  MOV    A, #32h
+                3|  MOVX   @DPTR, A
+                4|  MOV    DPTR, #8000H
+                5|  MOV    A, #20h
+                6|  MOVX   @DPTR, A
+                7|  MOV    A, #4Eh
+                8|  MOVX   @DPTR, A
+                ```
+                
+                Semnificatia secventei de program este:
+            </text>
+            <answers>
+                <answer>
+                    - `1`, `2`, `3` = canalul 0 programat in modul 1 cu incarcare octet mai putin semnificativ si octet mai semnificativ
+                    - `4`, `5`, `6`, `7`, `8` = transmitere constanta 20'000 la canalul 0
+                </answer>
+                <answer>
+                    - `1`, `2`, `3` = canalul 2 programat in modul 2 cu incarcare octet mai putin semnificativ si punere octet mai semnificativ pe zero
+                    - `4`, `5`, `6`, `7`, `8` = transmitere constanta 25'432 la canalul 2
+                </answer>
+                <answer>
+                    - `1`, `2`, `3` = canalul 1 programat in modul 1 cu incarcare octet mai semnificativ si punere octet mai putin semnificativ pe 0
+                    - `4`, `5`, `6`, `7`, `8` = transmitere constanta 25'432 la canalul 1
+                </answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-B</topic>
+            <text>Sistemele incorporate sunt pentru utilizator:</text>
+            <answers>
+                <answer>sisteme deschise</answer>
+                <answer>sisteme de dezvoltare hardware/software</answer>
+                <answer>sisteme inchise</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-B</topic>
+            <text>In cazul utilizarii sistemului de comunicatie seriala, fanionul `TI` din registrul `SCON`:</text>
+            <answers>
+                <answer>trebuie resetat prin program la terminarea transmisiei unui caracter</answer>
+                <answer>trebuie resetat prin program la inceputul transmisiei unui caracter</answer>
+                <answer>nu este folosit in cazul transmisiei unui caracter</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-B</topic>
+            <text>
+                Instructiunea
+                ```a51
+                MOVX   A, @R0
+                ```
+                este utilizata:
+            </text>
+            <answers>
+                <answer>pentru accesarea unei locatii de memorie de date externa prin adresarea indirecta</answer>
+                <answer>pentru accesarea unei locatii de memorie de date interna prin adresarea indirecta</answer>
+                <answer>pentru accesarea unei locatii de memorie de date interna prin adresarea directa</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>R1-B</topic>
+            <text>
+                Directiva:
+                ```
+                nume EQU expresie
+                ```
+            </text>
+            <answers>
+                <answer>atribuie numelui din campul eticheta o valoarea egala cu cea a expresiei constantei sau simbolului din campul operand</answer>
+                <answer>scrisa inaintea unei instructiuni va fixa prin valoarea expresiei adresa locatiei din memorie la care se va inscrie instructiunea</answer>
+                <answer>scrisa inaintea unei instructiuni va fixa prin valoarea expresiei adresa locatiei din memorie la care se va inscrie primul operand al instructiunii</answer>
+            </answers>
+        </question>
+    </questions>
+</root>
