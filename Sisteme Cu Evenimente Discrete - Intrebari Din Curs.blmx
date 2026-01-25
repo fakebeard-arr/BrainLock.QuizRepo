@@ -75,7 +75,7 @@
             </explanation>
         </question>
         <question>
-            <text>Cum se defineste starea pretelei Petri (notata $M$)?</text>
+            <text>Cum se defineste starea retelei Petri (notata $M_i$)?</text>
             <answers>
                 <answer correct=true>ca vectorul marcajelor</answer>
                 <answer>ca vectorul pozitiilor</answer>
@@ -399,7 +399,7 @@
         <question>
             <text>Ce inseamna faptul ca o retea Petri este viabila?</text>
             <answers>
-                <answer>indiferent in ce marcaj ne aflam, se poate executa orice tranzitie (chiar daca e necesara executarea unui numar finit de alte tranzitii)</answer>
+                <answer correct=true>indiferent in ce marcaj ne aflam, se poate executa orice tranzitie (chiar daca e necesara executarea unui numar finit de alte tranzitii)</answer>
                 <answer>indiferent care este marcajul initial $M_0$, reteaua nu va ajunge in deadlock (indiferent ce secventa de tranzitii se executa)</answer>
                 <answer>inseamna ca reteaua poate fi folosita pentru a modela un proces tehnic</answer>
                 <answer>inseamna ca reteaua este 2-marginita</answer>
@@ -523,7 +523,7 @@
             </explanation>
         </question>
         <question>
-            <text>Ce inseamna ca o retea Petri este reversibile?</text>
+            <text>Ce inseamna ca o retea Petri este reversibila?</text>
             <answers>
                 <answer correct=true>din orice marcaj $M \\in R(M_0)$ se poate ajunge inapoi in $M_0$</answer>
                 <answer>din orice marcaj $M$ se poate ajunge inapoi in $M_0$</answer>
@@ -539,7 +539,7 @@
         <question>
             <text>Ce inseamna ca un marcaj $M$ din reteaua $(N, M_0)$ este acoperit?</text>
             <answers>
-                <answer>exista un marcaj $M' \\in R(M_0)$ astfel incat $M'(p) \\geq M(p)$, $\\forall p$</answer>
+                <answer correct=true>exista un marcaj $M' \\in R(M_0)$ astfel incat $M'(p) \\geq M(p)$, $\\forall p$</answer>
                 <answer>exista un marcaj $M' \\in R(M_0)$ astfel incat $M'(p) \\leq M(p)$, $\\forall p$</answer>
                 <answer>exista un marcaj $M' \\in R(M_0)$ astfel incat $M' \\geq M_0$</answer>
                 <answer>exista un marcaj $M' \\in R(M_0)$ astfel incat $M' \\leq M_0$</answer>
