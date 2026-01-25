@@ -7,28 +7,46 @@
             <topic>R1-A</topic>
             <text>Elementul central al unui Si este:</text>
             <answers>
-                <answer>unitatea centrala de prolucrare</answer>
+                <answer correct=true>unitatea centrala de prolucrare</answer>
                 <answer>memoria sistemului</answer>
                 <answer>interferele sistemului</answer>
             </answers>
+            <explanation>
+                \> Microprocesoare/Microcontrolere – reprezinta unitatea centrala a sistemului, modelul ales pentru implementare depinzand de cerintele impuse sistemului.
+                \>
+                \> -- Curs, pagina 6
+            </explanation>
         </question>
         <question>
             <topic>R1-A</topic>
-            <text>Microcontrollere din familia MCS51 sunt caracterizate prin:</text>
+            <text>Microcontrollere din familia `MCS51` sunt caracterizate prin:</text>
             <answers>
-                <answer>separarea completa a memoriei program `MP` si a memoriei de date `MD`</answer>
+                <answer correct=true>separarea completa a memoriei program `MP` si a memoriei de date `MD`</answer>
                 <answer>acces `DMA` al memoriei</answer>
                 <answer>memorie de cod si date suprapusa</answer>
             </answers>
+            <explanation>
+                \> Caracteristic pentru familia `MCS51` si implicit pentru microcontrolerul `8051` este separarea completa a memoriei program -- `MP` -- si a memoriei de date -- `MD`. Aceasta configuratie se mai numeste si configuratie HAVARD.
+                \>
+                \> -- Curs, pagina 11
+            </explanation>
         </question>
         <question>
             <topic>R1-A</topic>
             <text>Forma generala a unei instructiuni scrisa in limbajul de asamblare MCS51 este:</text>
             <answers>
                 <answer>`operand1, operand2 ; cod expresie`</answer>
-                <answer>`eticheta: cod_operatie operand_1, oprand_2 ; comentariu`</answer>
+                <answer correct=true>`eticheta: cod_operatie operand_1, oprand_2 ; comentariu`</answer>
                 <answer>`; comentariu cod_operatie operand_1, operand_2`</answer>
             </answers>
+            <explanation>
+                \> O instructiune scrisa in limbaj de asamblare are urmatoarea forma generala:
+                \> ```
+                \> eticheta: cod_operatie operand1, operand2 ; comentariu
+                \> ```
+                \>
+                \> -- Lucrarea 1, pagina 6
+            </explanation>
         </question>
         <question>
             <topic>R1-A</topic>
@@ -36,17 +54,27 @@
             <answers>
                 <answer>scrisa inaintea unei instructiuni va fixa prin valoarea expresiei adresa locatiei din memorie la care se va inscrie instructiunea</answer>
                 <answer>scrisa inaintea unei instructiuni va fixa prin valoarea expresiei adresa locatiei din memorie la care se va inscrie primul operand al instructiunii</answer>
-                <answer>scrisa inaintea unei instructiuni va fixa prin valoarea expresiei adresa locatiei din memorie la care se va inscrie primul octet al acestei instructiuni</answer>
+                <answer correct=true>scrisa inaintea unei instructiuni va fixa prin valoarea expresiei adresa locatiei din memorie la care se va inscrie primul octet al acestei instructiuni</answer>
             </answers>
+            <explanation>
+                \> `ORG` – origin – scrisa inaintea unei instructiuni va fixa prin valoarea expresiei adresa locatiei din memorie la care se va inscrie primul octet al acestei instructiuni.
+                \>
+                \> -- Lucrarea 1, pagina 9
+            </explanation>
         </question>
         <question>
             <topic>R1-A</topic>
             <text>Directiva `DB` este utilizata pentru:</text>
             <answers>
-                <answer>definirea unei constante de un octet sau a unui sir de date cu lungimea de un octet</answer>
+                <answer correct=true>definirea unei constante de un octet sau a unui sir de date cu lungimea de un octet</answer>
                 <answer>definirea unui cod de operatie din memorie</answer>
                 <answer>definirea unei adrese din memorie</answer>
             </answers>
+            <explanation>
+                \> `DB` – Define Byte – defineste constante de un octet sau un sir de date cu lungimea de un octet.
+                \>
+                \> -- Lucrarea 1, pagina 10
+            </explanation>
         </question>
         <question>
             <topic>R1-A</topic>
@@ -59,9 +87,23 @@
             </text>
             <answers>
                 <answer>modul de adresare indexata</answer>
-                <answer>modul de adresare directa</answer>
+                <answer correct=true>modul de adresare directa</answer>
                 <answer>modul de adresare indirecta prin registru</answer>
             </answers>
+            <explanation>
+                \> **Adresarea directa**
+                \> 
+                \> \> Obs. Acest mod de adresare este utilizabil numai pentru accesarea memoriei de date interna MDI
+                \>
+                \> Fiecare instructiune, care se bazeaza pe adresarea directa a datelor, contine , ca operanzi (sau operand), adresa locatiei memoriei de date interna in care se afla memorata data necesara executiei instructiunii.
+                \> 
+                \> ```a51
+                \> MOV    A, 65h  ; incarca in acumulator continutul locatiei de
+                \>                ; memorie aflata in MDI la adresa 65h
+                \> ```
+                \> 
+                \> -- Lucrarea 1, pagina 12
+            </explanation>
         </question>
         <question>
             <topic>R1-A</topic>
@@ -74,19 +116,39 @@
             </text>
             <answers>
                 <answer>adresarea indexata</answer>
-                <answer>adresarea indirecta prin registru pe 16 biti</answer>
+                <answer correct=true>adresarea indirecta prin registru pe 16 biti</answer>
                 <answer>adresarea directa</answer>
                 <answer>adresarea indirecta prin registru pe 8 biti</answer>
             </answers>
+            <explanation>
+                \> **Adresarea indirecta prin registru**
+                \>
+                \> Pentru adrese pe 8 biti se pot folosii registrele R0 sau R1 din grupul de registre selectat sau registrul SP. Pentru adrese pe 16 biti registrul folosit nu poate fi decat DPTR.
+                \> 
+                \> Operatorul care indica adresarea indirecta prin registru este caracterul “@”.
+                \> ```a51
+                \> MOVX    A, @DPTR  ; incarca in acumulator continutul locatiei de memorie de
+                \>                   ; adresa aflata in registrul DPTR (locatie in MDX)
+                \> ```
+                \>
+                \> -- Lucrarea 1, pagina 12
+            </explanation>
         </question>
         <question>
             <topic>R1-A</topic>
             <text>Memoria de date externa poate fi accesata:</text>
             <answers>
                 <answer>prin adresarea directa sau indirecta prin registru</answer>
-                <answer>manual prin adresarea indirecta prin registru</answer>
+                <answer correct=true>manual prin adresarea indirecta prin registru</answer>
                 <answer>prin adresarea indirecta sau prin adresare indexata</answer>
             </answers>
+            <explanation>
+                \> **Adresarea indirecta prin registru**
+                \>
+                \> Atat `MD` interna `MDI` cat si cea externa `MDX` pot fi adresate indirect.
+                \>
+                \> -- Lucrarea 1, pagina 12
+            </explanation>
         </question>
         <question>
             <topic>R1-A</topic>
@@ -103,19 +165,38 @@
                    urmator:  MOV    A, #20h
                 ```
                 
-                Instructiunile 3 si 4 sunt utilizate:
+                Instructiunile `3` si `4` sunt utilizate:
             </text>
             <answers>
                 <answer>pentru salturi indexate</answer>
                 <answer>pentru salturi neconditionale</answer>
-                <answer>pentru verificare mai mic decat</answer>
+                <answer correct=true>pentru verificare mai mic decat</answer>
             </answers>
+            <explanation>
+                ```a51
+                1|       MOV    71h, #0Bh    ; pune la adresa 71h valoarea 0Bh
+                2|       MOV    A, 71h       ; citeste in ACC valoarea de la adresa 71h, adica ACC = 0Bh
+                3|       CJNE   A, #0Ah, next    ; compara ACC cu 0Ah, adica 0Bh cu 0Ah; CY este pus pe 0
+                
+                4| next: JC    urmator    ; nu sare pentru ca CY = 0
+                
+                   urmator:  MOV    A, #20h
+                ```
+                
+                Daca valoarea din `ACC` ar fi fost mai mica decat `0Ah`, fanionul `CY` ar fi fost setat si instructiunea `4` ar fi sarit la eticheta `urmator`.
+                
+                \> `JC` – executa salt daca `CY = 1`;
+                \>
+                \> `CJNE` – compara primul operand cu al doilea si executa un salt daca acestia sunt diferiti. Fanionul `CY` este setat daca primul operand este mai mic decat al doilea operand, altfel este resetat.
+                \>
+                \> -- Lucrarea 1, pagina 17
+            </explanation>
         </question>
         <question>
             <topic>R1-A</topic>
             <text>Curcuitul i8255 are urmatoarele moduri de lucru:</text>
             <answers>
-                <answer>
+                <answer correct=true>
                     - modul 0 intrari/iesiri normale
                     - modul 1 intrari/iesiri strobate
                     - modul 2 magistrala bidirectionala
@@ -131,6 +212,14 @@
                     - modul 2 magistrala bidirectionala
                 </answer>
             </answers>
+            <explanation>
+                \> Porturile circuitului `8255` au 3 moduri de functionare, care pot fi selectate prin inscrierea cuvantului de comanda corespunzator in registrul de control.
+                \>
+                \> Cele 3 moduri de lucru sunt:
+                \> - Mod 0 – I/O obisnuita
+                \> - Mod 1 – I/O strobata
+                \> - Mod 2 – Mag. bidirectionala
+            </explanation>
         </question>
         <question>
             <topic>R1-A</topic>
@@ -141,32 +230,71 @@
                     - portul `PB` modul 1 intrare strobata
                     - portul `PC` neutilizat
                 </answer>
-                <answer>
-                    - portul `PA` modul 0 intrare normala
+                <answer correct=true>
+                    - portul `PA` modul 0 iesire normala
                     - portul `C` partea high `PCH` modul 0 iesire normala
                     - portul `B` modul 0 intrare normala
                     - portul `C` partea low `PCL` modul 0 intrare normala
                 </answer>
                 <answer>bitul 1 din `PC` setat pe 1</answer>
             </answers>
+            <explanation>
+                ```
+                83h = 1000 0011b
+                
+                D7 D6 D5 D4 D3 D2 D1 D0
+                 1  0  0  0  0  0  1  1
+                ```
+                
+                Cuvantul de comanda si control pentru definirea modului de lucru are urmatoarea structura:
+                - D7 = 1 -\> Mod definire porturi (I/O Mode)
+                - D6, D5 = 0, 0 -\> Port A: Modul 0
+                - D4 = 0 -\> Port A: Ieșire
+                - D3 = 0 -\> Port C High (PC4-PC7): Ieșire
+                - D2 = 0 -\> Port B: Modul 0
+                - D1 = 1 -\> Port B: Intrare
+                - D0 = 1 -\> Port C Low (PC0-PC3): Intrare
+                
+                Configurația rezultată este:
+                - Port A: Mod 0, ieșire normală.
+                - Port C High (PCH): Mod 0, ieșire normală.
+                - Port B: Mod 0, intrare normală.
+                - Port C Low (PCL): Mod 0, intrare normală.
+            </explanation>
         </question>
         <question>
             <topic>R1-A</topic>
             <text>Programarea circuitului i8254 se face:</text>
             <answers>
-                <answer>prin transmiterea unui cuvant de comanda uni pentru toate cele 3 canale</answer>
+                <answer>prin transmiterea unui cuvant de comanda unic pentru toate cele 3 canale</answer>
                 <answer>prin transmiterea unui cuvant de comanda la adresa alocata canalului care se doreste a fi programat</answer>
-                <answer>fiecare canal este programat individual prin scrierea cuvantului de comanda corespunzator si a inca 1 sau 2 octeti la adresa canalului corespunzator reprezentand numarul cu care se preincarca canalul</answer>
+                <answer correct=true>fiecare canal este programat individual prin scrierea cuvantului de comanda corespunzator si a inca 1 sau 2 octeti la adresa canalului corespunzator reprezentand numarul cu care se preincarca canalul</answer>
             </answers>
+            <explanation>
+                \> Cele 3 canale sunt complet independente unul fata de altul. Fiecare are modul sau de functionare si de numarare, fiecare trebuind sa fie programat individual.
+                \>
+                \> -- Curs, pagina 57
+            </explanation>
         </question>
         <question>
             <topic>R1-A</topic>
             <text>Modul de operare 2 al unui circuit i8254 semnifica:</text>
             <answers>
                 <answer>monostabil programabil</answer>
-                <answer>generator de impulsuri</answer>
+                <answer correct=true>generator de impulsuri</answer>
                 <answer>monostabil declansabil prin program</answer>
             </answers>
+            <explanation>
+                \> Fiecare canal poate functiona in unul din urmatoarele moduri:
+                \> - Mod 0 – numarator de evenimente;
+                \> - Mod 1 – monostabil redeclansabil;
+                \> - Mod 2 – generator de impulsuri;
+                \> - Mod 3 – generator de semnale dreptunghiulare;
+                \> - Mod 4 – monostabil declansabil prin program (soft);
+                \> - Mod 5 – monostabil declansabil prin semnal (hard).
+                \>
+                \> -- Curs, pagina 57
+            </explanation>
         </question>
         <question>
             <topic>R1-B</topic>
@@ -185,8 +313,16 @@
             <answers>
                 <answer>`A = FBh` depus in memoria de date externa la adresa `0075h`</answer>
                 <answer>`A = FCh` depus in memoria de date interna la adresa `75h`</answer>
-                <answer>`A = FAh` depus in memoria de date interna la adresa `75h`</answer>
+                <answer correct=true>`A = FAh` depus in memoria de date interna la adresa `75h`</answer>
             </answers>
+            <explanation>
+                ```a51
+                MOV    A, #FEh    ; pune in ACC valoarea FEh
+                SETB   CY         ; seteaza fanionul CY pe 1
+                SUBB   A, #03h    ; scade din ACC valoarea 03h si inca 1 pentru ca CY = 1; ACC = FAh 
+                MOV    75h, A     ; pune valoarea din a la adresa 75h in MDI (pentru ca e adresare directa)
+                ```
+            </explanation>
         </question>
         <question>
             <topic>R1-B</topic>
@@ -208,8 +344,18 @@
                 <answer>`A = E1h` depus in memoria de date interna la adresa `34F1h`</answer>
                 <answer>`A = F1h` depus in memoria de date externa la adresa `34E0h`</answer>
                 <answer>`A = B1h` depus in memoria de date externa la adresa `34E0h`</answer>
-                <answer>`A = D1h` depus in memoria de date externa la adresa `34F1h`</answer>
+                <answer correct=true>`A = D1h` depus in memoria de date externa la adresa `34F1h`</answer>
             </answers>
+            <explanation>
+                ```a51
+                MOV    DPTR, #34F0h    ; pune DPTR la adresa 34F0h
+                MOVX   A, @DPTR        ; citeste in ACC valoarea din MDE de la adresa 34F0h; ACC = BFh
+                INC    A               ; incrementeaza ACC; ACC = C0h
+                ADD    A, #11h         ; adauga la ACC 11h; ACC = D1h
+                INC    DPTR            ; incrementeaza DPTR; DPTR = 34F1h
+                MOVX   @DPTR, A        ; scrie in MDE valoarea din ACC la adresa DPTR
+                ```
+            </explanation>
         </question>
         <question>
             <topic>R1-B</topic>
@@ -234,17 +380,33 @@
                     - `4`, `5` = citire continut port `PA`
                     - `6`, `7` = citire continut port `PC`
                 </answer>
-                <answer>
-                    - `1`, `2`, `3` = transmitere cuvant de comandacatre i8255
+                <answer correct=true>
+                    - `1`, `2`, `3` = transmitere cuvant de comanda catre i8255
                     - `4`, `5` = citire continut port `PA`
                     - `6`, `7` = citire continut port `PC`
                 </answer>
                 <answer>
-                    - `1`, `2`, `3` = transmitere cuvant de comandacatre i8255
+                    - `1`, `2`, `3` = transmitere cuvant de comanda catre i8255
                     - `4`, `5` = citire continut port `PB`
                     - `6`, `7` = citire continut port `PA`
                 </answer>
             </answers>
+            <explanation>
+                ```a51
+                1|  MOV    A, #83h         ; pune ACC = 83h
+                2|  MOV    DPTR, #9003h    ; pune DPTR = 9003h
+                3|  MOVX   @DPTR, A        ; scrie la DPTR valoarea din ACC; la 9003h scrie 83h
+                4|  MOV    DPTR, #9000H    ; pune DPTR = 9000h
+                5|  MOVX   A, @DPTR        ; incarca in ACC valoarea de la adresa 9000h
+                6|  MOV    DPTR, #9002h    ; pune DPTR = 9002
+                7|  MOVX   A, @DPTR        ; incarca in ACC valoarea de la adresa 9002
+                ```
+                
+                Deci:
+                - `1`, `2`, `3` = scriu cuvant omanda
+                - citire continut port `PA`
+                - citire continut port  `PC`
+            </explanation>
         </question>
         <question>
             <topic>R1-B</topic>
@@ -262,9 +424,36 @@
             </text>
             <answers>
                 <answer>`T1` programat in modul 1 counter, `T0` programat in modul 0 timer, constanta de timp incarcata in `T1` este 35536, `T1` pornit</answer>
-                <answer>`T1` programat in modul 0 timer `T0` programat in modul 1 timer, constanta de timp incarcata in `T0` este 48864, `T0` pornit</answer>
+                <answer correct=true>`T1` programat in modul 0 timer `T0` programat in modul 1 timer, constanta de timp incarcata in `T0` este 48864, `T0` pornit</answer>
                 <answer>`T1` programat in modul 0 timer `T0` programat in modul 1 timer, constanta de timp incarcata in `T0` este 55536, `T0` pornit</answer>
             </answers>
+            <explanation>
+                ```a51
+                MOV    TMOD, #01h    ; setare timer 0 in mod 1 pe 16 biti
+                MOV    TL0, #0E0h    ;  setarea valorii initiala a timer-ului ca BEE0h = 48864d
+                MOV    TH0, #0BEh    ; 
+                SETB   TCON.4        ; porneste timer 0
+                ```
+                
+                Registrul `TMOD` dupa scrierea `01h`:
+                
+                | D7   | D6   | D5  | D4  | D3   | D2   | D1  | D0  |
+                | ---- | ---- | --- | --- | ---- | ---- | --- | --- |
+                | GATE | C/nT | M1  | M0  | GATE | C/nT | M1  | M0  |
+                | 0    | 0    | 0   | 0   | 0    | 0    | 0   | 1   |
+                
+                `TMOD` se imparte in:
+                - D7 - D4 pentru timer 1
+                - D3 - D0 pentru timer 0
+                
+                Modurile de lucru pentru timere sunt:
+                - `0 0` = Modul 0 – contor/temporizator pe 13 biti
+                - `0 1` = Modul 1 – contor/temporizator pe 16 biti
+                - `1 0` = Modul 2 – contor/temporizator pe 8 biti cu autoancarcare
+                - `1 1` = Modul 3 – doua numaratoare pe 8 biti – numai pentru T0
+                
+                Inseamna ca s-a setat timer 0 in mod 1 si timer 1 in mod 0.
+            </explanation>
         </question>
         <question>
             <topic>R1-B</topic>
@@ -285,7 +474,7 @@
                     - `2` = se seteaza fanionul `RI`
                     - `3` = se incarca in registrul accumulator caracterul receptionat
                 </answer>
-                <answer>
+                <answer correct=true>
                     - `1` = se asteapta receptia unui caracter
                     - `2` = se sterge fanionul `RI`
                     - `3` = se incarca in registrul accumulator caracterul receptionat
@@ -296,6 +485,13 @@
                     - `3` = se incarca in registrul `SBUF` continutul registrului accumulator
                 </answer>
             </answers>
+            <explanation>
+                ```a51
+                1|  JNB    SCON.0, $    ; sari pe loc cat timp SCON.0 e pe 0, care reprezinta fanionul RI
+                2|  CLR    SCON.0    ; sterge SCON.0
+                3|  MOV    A, SBUF    ; muta valoarea din SBUF in ACC
+                ```
+            </explanation>
         </question>
         <question>
             <topic>R1-B</topic>
@@ -315,19 +511,39 @@
                 Instructiunile `3` si `4` sunt utilizate:
             </text>
             <answers>
-                <answer>pentru verificare mai mic decat `0Ah`</answer>
+                <answer correct=true>pentru verificare mai mic decat `0Ah`</answer>
                 <answer>pentru verificare mai mare ca `0Bh`</answer>
                 <answer>pentru verificare mai mic decat `0Bh`</answer>
             </answers>
+            <explanation>
+                ```a51
+                1|       MOV    71h, #0Bh    ; pune la adresa 71h valoarea 0Bh
+                2|       MOV    A, 71h       ; citeste in ACC valoarea de la adresa 71h, adica ACC = 0Bh
+                3|       CJNE   A, #0Ah, next    ; compara ACC cu 0Ah, adica 0Bh cu 0Ah; CY este pus pe 0
+                
+                4| next: JC    urmator    ; nu sare pentru ca CY = 0
+                
+                   urmator:  MOV    A, #20h
+                ```
+                
+                Daca valoarea din `ACC` ar fi fost mai mica decat `0Ah`, fanionul `CY` ar fi fost setat si instructiunea `4` ar fi sarit la eticheta `urmator`.
+                
+                \> `JC` – executa salt daca `CY = 1`;
+                \>
+                \> `CJNE` – compara primul operand cu al doilea si executa un salt daca acestia sunt diferiti. Fanionul `CY` este setat daca primul operand este mai mic decat al doilea operand, altfel este resetat.
+                \>
+                \> -- Lucrarea 1, pagina 17
+            </explanation>
         </question>
         <question>
             <topic>R1-B</topic>
             <text>Accesarea memoriei de date interna a unui microcontroler P89C51RD2 se face prin intermediul instructiunilor de tipul:</text>
             <answers>
                 <answer>`MOVX`</answer>
-                <answer>diferite de `MOVX`</answer>
+                <answer correct=true>diferite de `MOVX`</answer>
                 <answer>prin accesare hardware</answer>
             </answers>
+            <explanation>`MOV`: Este setul de instrucțiuni folosit exclusiv pentru memoria internă (registre, RAM direct, RAM indirect).</explanation>
         </question>
         <question>
             <topic>R1-B</topic>
@@ -344,9 +560,16 @@
             </text>
             <answers>
                 <answer>sistemul de intreruperi global este validat, intreruperea externa `INT0` validata si activa pe front crescator</answer>
-                <answer>sistemul de intreruperi global este invalidat, intreruperea externa `INT0` validata si activa pe front cazator</answer>
+                <answer correct=true>sistemul de intreruperi global este invalidat, intreruperea externa `INT0` validata si activa pe front cazator</answer>
                 <answer>sistemul de intreruperi global activat, intreruperi externe blocate</answer>
             </answers>
+            <explanation>
+                ```a51
+                CLR    IE.7    ; invalideaza global sistemul de intreruperi
+                SETB   IE.0    ; valideaza cererea de intrerupere externa /INT0
+                SETB   TCON.0  ; cererea de intrerupere activa pe front coborator
+                ```
+            </explanation>
         </question>
         <question>
             <topic>R1-B</topic>
@@ -367,14 +590,28 @@
             <answers>
                 <answer>`SP = 0Bh`</answer>
                 <answer>`SP = 10h`</answer>
-                <answer>`SP = 11h`</answer>
+                <answer correct=true>`SP = 11h`</answer>
             </answers>
+            <explanation>
+                ```a51
+                MOV    A, #33h
+                LCALL  Rutina_Add    ; salveaza 2 octeti pe stiva, dar acestia sunt stersi dupa revenire; SP = 10h
+                PUSH   ACC           ; salveaza continutul pe stiva, incrementeaza SP; SP = 11h
+                ADD    A, #10h
+                MOV    DPTR, #1000h
+                MOVX   @DPTR, A
+                ```
+                
+                \> stack pointer – `SP` – este un registru pe 8 biti, continutul lui fiind incrementat in timpul executiei instructiilor de depunere in stiva sau de apel a unei subrutine.
+                \>
+                \> -- Curs, pagina 12
+            </explanation>
         </question>
         <question>
             <topic>R1-B</topic>
             <text>Registrele `R0` - `R7` sunt:</text>
             <answers>
-                <answer>locatii de memorie din memoria de date interna in zona primilor 128 de octeti </answer>
+                <answer correct=true>locatii de memorie din memoria de date interna in zona primilor 128 de octeti </answer>
                 <answer>locatii de memorie din memoria de date externa</answer>
                 <answer>registre de uz general localizate in zona `SFR`-urilor</answer>
             </answers>
@@ -388,7 +625,7 @@
                     - portul `PB` modul 1 intrare strobata
                     - portul `PC` neutilizat
                 </answer>
-                <answer>
+                <answer correct=true>
                     - grupul `A` modul 1 portul `PA` intrare strobata
                     - `PC6`, `PC7` - iesiri
                     - grupul B modul 0, portul `B` intrare normala
@@ -401,12 +638,29 @@
                     - portul `C` partea low `PCL` modul 0 intrare normala
                 </answer>
             </answers>
+            <explanation>
+                ```
+                B4h = 1011 0100b
+                
+                D7 D6 D5 D4 D3 D2 D1 D0
+                 1  0  1  1  0  1  0  0
+                ```
+                
+                Cuvantul de comanda si control pentru definirea modului de lucru are urmatoarea structura:
+                - D7 = 1 -\> Mod definire porturi
+                - D6 D5 = 0 1 -\> Grupul A: Modul 1 (I/O strobat)
+                - D4 = 1 -\> Portul PA: Intrare
+                - D3 = 0 -\> PC6, PC7: Ieșiri (în Mod 1 PA intrare, acești biți din PCH rămân liberi pentru I/O)
+                - D2 = 1 -\> Grupul B: Modul 0
+                - D1 = 0 -\> Portul PB: Ieșire (eroare în textul variantei, dar restul parametrilor coincid)
+                - D0 = 0 -\> Portul C Low (PCL): Ieșire
+            </explanation>
         </question>
         <question>
             <topic>R1-B</topic>
-            <text>in cazul utilizarii sistemului de comunicatie seriala, fanionul `RI` din registrul `SCON` este folosit pentru:</text>
+            <text>In cazul utilizarii sistemului de comunicatie seriala, fanionul `RI` din registrul `SCON` este folosit pentru:</text>
             <answers>
-                <answer>detectia receptiei unui caracter prin intermediul sistemului de comunicatie serial</answer>
+                <answer correct=true>detectia receptiei unui caracter prin intermediul sistemului de comunicatie serial</answer>
                 <answer>detectia sfarsitului emisiei unui caracter prin intermediul sistemului de comunicatie serial</answer>
                 <answer>detectia depasirii capacitatii de numarare a caracterelor receptionate/transmise prin intermediul sistemului de comunicatie serial</answer>
             </answers>
@@ -430,7 +684,7 @@
                 Semnificatia secventei de program este:
             </text>
             <answers>
-                <answer>
+                <answer correct=true>
                     - `1`, `2`, `3` = canalul 0 programat in modul 1 cu incarcare octet mai putin semnificativ si octet mai semnificativ
                     - `4`, `5`, `6`, `7`, `8` = transmitere constanta 20'000 la canalul 0
                 </answer>
@@ -443,6 +697,32 @@
                     - `4`, `5`, `6`, `7`, `8` = transmitere constanta 25'432 la canalul 1
                 </answer>
             </answers>
+            <explanation>
+                ```a51
+                1|  MOV    DPTR, #8003h    ; seteaza DPTR = 8003h
+                2|  MOV    A, #32h         ; seteaza ACC = 32h
+                3|  MOVX   @DPTR, A        ; scrie 32h la adresa 8003h (cuvantul de comanda)
+                4|  MOV    DPTR, #8000H    ; seteaza DPTR = 8000h (PA)
+                5|  MOV    A, #20h         ; seteaza ACC = 20h
+                6|  MOVX   @DPTR, A        ; scrie 20h la adresa 8000h (PA)
+                7|  MOV    A, #4Eh         ; seteaza ACC = 4Eh
+                8|  MOVX   @DPTR, A        ; scrie 4Eh la adresa 8000h (PA)
+                ```
+                
+                Cuvantul de control e:
+                ```
+                32h = 0011 0010b
+                ```
+                care inseamna:
+                - SC1 SC0 = 0 0: Selectează Counter 0.
+                - RW1 RW0 = 1 1: Mod de citire/scriere LSB urmat de MSB (16 biți).
+                - M2 M1 M0 = 0 0 1: Selectează Modul 1 (One-shot programabil).
+                - BCD = 0: Numărare binară.
+                
+                Deci:
+                - `1`, `2`, `3` = Canalul 0 este programat în Modul 1 cu incarcare LSB + MSB
+                - `4`, `5`, `6`, `7`, `8` = transmitere constanta 4E20h = 20000d
+            </explanation>
         </question>
         <question>
             <topic>R1-B</topic>
@@ -450,17 +730,23 @@
             <answers>
                 <answer>sisteme deschise</answer>
                 <answer>sisteme de dezvoltare hardware/software</answer>
-                <answer>sisteme inchise</answer>
+                <answer correct=true>sisteme inchise</answer>
             </answers>
+            <explanation>
+                \> Dupa cum se observa SI, sunt sisteme inchise in care SI propriu-zis interactioneaza cu exteriorul prin intermediul sensorilor si a alementelor de ececutie punand la dispozitie si interfete utilizator.
+                \>
+                \> -- Curs, pagina 2
+            </explanation>
         </question>
         <question>
             <topic>R1-B</topic>
             <text>In cazul utilizarii sistemului de comunicatie seriala, fanionul `TI` din registrul `SCON`:</text>
             <answers>
-                <answer>trebuie resetat prin program la terminarea transmisiei unui caracter</answer>
+                <answer correct=true>trebuie resetat prin program la terminarea transmisiei unui caracter</answer>
                 <answer>trebuie resetat prin program la inceputul transmisiei unui caracter</answer>
                 <answer>nu este folosit in cazul transmisiei unui caracter</answer>
             </answers>
+            <explanation>\> `TI` = Este un fanion care atunci cand are valoarea “1” constituie o cerere de intrerupere din cauza unor situatii care apar in procesul de emisie (intreruperea emisiei de la blocul de emisie seriala). Este setat hard, prin logica interna, la sfarsitul timpului afectat emisiei celor 8 biti de date in modul 0 sau la inceputul emisiei bitului de STOP in celelalte moduri. Trebuie resetat prin program (soft).</explanation>
         </question>
         <question>
             <topic>R1-B</topic>
@@ -472,10 +758,11 @@
                 este utilizata:
             </text>
             <answers>
-                <answer>pentru accesarea unei locatii de memorie de date externa prin adresarea indirecta</answer>
+                <answer correct=true>pentru accesarea unei locatii de memorie de date externa prin adresarea indirecta</answer>
                 <answer>pentru accesarea unei locatii de memorie de date interna prin adresarea indirecta</answer>
                 <answer>pentru accesarea unei locatii de memorie de date interna prin adresarea directa</answer>
             </answers>
+            <explanation>`@R0`: Utilizarea registrului `R0` (sau `R1`) cu simbolul `@` reprezintă adresarea indirectă pe 8 biți.</explanation>
         </question>
         <question>
             <topic>R1-B</topic>
@@ -486,10 +773,15 @@
                 ```
             </text>
             <answers>
-                <answer>atribuie numelui din campul eticheta o valoarea egala cu cea a expresiei constantei sau simbolului din campul operand</answer>
+                <answer correct=true>atribuie numelui din campul eticheta o valoarea egala cu cea a expresiei constantei sau simbolului din campul operand</answer>
                 <answer>scrisa inaintea unei instructiuni va fixa prin valoarea expresiei adresa locatiei din memorie la care se va inscrie instructiunea</answer>
                 <answer>scrisa inaintea unei instructiuni va fixa prin valoarea expresiei adresa locatiei din memorie la care se va inscrie primul operand al instructiunii</answer>
             </answers>
+            <explanation>
+                \> `EQU` – equate – atribuie numelui din campul eticheta o valoare egala cu cea a expresiei constantei sau simbolului din campul operand. Cand in campul operand exista un simbol acesta trebuie definit in program inainte de linia cu directiva `EQU`.
+                \>
+                \> -- Lucrarea 1, pagina 9
+            </explanation>
         </question>
     </questions>
 </root>
