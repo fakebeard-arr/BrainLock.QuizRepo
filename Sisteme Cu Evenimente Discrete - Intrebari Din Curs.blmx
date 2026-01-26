@@ -1,10 +1,11 @@
 <root>
     <version>1</version>
-    <title>Sisteme Cu Evenimente Discrete - Intrebari Din Curs</title>
-    <description>Intrebari create pentru examenul din 2025-2026, pe baza cursului (Prof Vasar Cristian)</description>
+    <title>Sisteme Cu Evenimente Discrete - Intrebari Din Curs + Mosteniri 2024-2025</title>
+    <description>Intrebari create pentru examenul din 2025-2026, pe baza cursului (Prof Vasar Cristian) + intrebari din mostenirile din 2024-2025</description>
     <contribuitors>jovanni</contribuitors>
     <questions>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce este un Sistem cu Evenimente Discrete (SED)?</text>
             <answers>
                 <answer correct=true>un sistem cu stari discrete condus de evenimente, care evolueaza independent de timp</answer>
@@ -19,6 +20,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce reprezinta notatia $I(t_j)$?</text>
             <answers>
                 <answer correct=true>multimea pozitiilor de intrare pentru tranzitia $t_j$</answer>
@@ -33,6 +35,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce reprezinta notatia $O(t_j)$?</text>
             <answers>
                 <answer>multimea pozitiilor de intrare pentru tranzitia $t_j$</answer>
@@ -47,6 +50,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce reprezinta notatia $I(p_j)$?</text>
             <answers>
                 <answer>multimea pozitiilor de intrare pentru pozitia $p_j$</answer>
@@ -61,6 +65,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce reprezinta notatia $O(p_j)$?</text>
             <answers>
                 <answer>multimea pozitiilor de intrare pentru tranzitia $p_j$</answer>
@@ -75,6 +80,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Cum se defineste starea retelei Petri (notata $M_i$)?</text>
             <answers>
                 <answer correct=true>ca vectorul marcajelor</answer>
@@ -89,6 +95,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Care este Regula Simpla a Tranzitiei?</text>
             <answers>
                 <answer correct=true>o tranzitie $t_j \\in T$ a unei retele Petri se numeste validata daca $M(p_i) \\geq w(p_i, t_j)$ pentru oricare $p_i \\in I(t_j)$</answer>
@@ -105,6 +112,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Validarea unei tranzitii implica obligatoriu si declansarea ei?</text>
             <answers>
                 <answer>da</answer>
@@ -117,6 +125,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce se intampla in momentul executarii unei tranzitii?</text>
             <answers>
                 <answer correct=true>se consuma $w(p, t)$ jetoane din fiecare $p \\in I(t)$ si se adauga $w(t, p)$ in fiecare $p \\in O(t)$</answer>
@@ -131,6 +140,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Prin ce se caracterizeaza o tranzitie sursa?</text>
             <answers>
                 <answer correct=true>nu are nici o pozitie de intrare</answer>
@@ -145,7 +155,8 @@
             </explanation>
         </question>
         <question>
-            <text>Cate jetoane consum o tranzitie sursa?</text>
+            <topic>Din Curs</topic>
+            <text>Cate jetoane consuma o tranzitie sursa?</text>
             <answers>
                 <answer correct=true>nici un jeton</answer>
                 <answer>un numar egal cu ponderea arcului incident</answer>
@@ -159,6 +170,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Prin ce se caracterizeaza o tranzitie receptor?</text>
             <answers>
                 <answer correct=true>nu are nici o pozitie de iesire</answer>
@@ -173,6 +185,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce este special la o tranzitie receptor?</text>
             <answers>
                 <answer correct=true>consuma jetoane fara a produce</answer>
@@ -187,6 +200,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce este o bucla autonoma?</text>
             <answers>
                 <answer correct=true>o combinatie de o pozitie $p$ si o tranzitie $t$ unde $p$ este intrare si iesire pentru $t$</answer>
@@ -201,6 +215,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce este o retea pura?</text>
             <answers>
                 <answer correct=true>o retea fara bucle autonome</answer>
@@ -215,6 +230,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce este o retea ordinara?</text>
             <answers>
                 <answer>o retea fara bucle autonome</answer>
@@ -229,6 +245,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce este o retea generalizata?</text>
             <answers>
                 <answer>o retea care poate intra in deadlock</answer>
@@ -243,6 +260,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Care e utilitatea retelelor Petri netemporizate?</text>
             <answers>
                 <answer correct=true>sunt utile pentru investigarea proprietatilor care nu depind de timp</answer>
@@ -259,6 +277,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Care e conditia de definire a functiei tranzitiilor de stare pentru $t_j \\in T$?</text>
             <answers>
                 <answer correct=true>$M(p_i) \\geq w(p_i, t_j)$, $\\forall p_i \\in I(t_j)$</answer>
@@ -279,19 +298,20 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Care este functia tranzitiilor de stare a unei retele Petri?</text>
             <answers>
-                <answer correct=true>$M’(p_i) = M(p_i) - w(p_i, t_j) + w(t_j, p_i)$</answer>
-                <answer>$M’(p_i) = M(p_i) + w(p_i, t_j) + w(t_j, p_i)$</answer>
-                <answer>$M’(p_i) = M(p_i) + w(p_i, t_j) - w(t_j, p_i)$</answer>
-                <answer>$M’(p_i) = M(p_i) - w(p_i, t_j) - w(t_j, p_i)$</answer>
+                <answer correct=true>$M'(p_i) = M(p_i) - w(p_i, t_j) + w(t_j, p_i)$</answer>
+                <answer>$M'(p_i) = M(p_i) + w(p_i, t_j) + w(t_j, p_i)$</answer>
+                <answer>$M'(p_i) = M(p_i) + w(p_i, t_j) - w(t_j, p_i)$</answer>
+                <answer>$M'(p_i) = M(p_i) - w(p_i, t_j) - w(t_j, p_i)$</answer>
             </answers>
             <explanation>
                 \> Funcția tranzițiilor de stare, $f : N^n \\times T \\rightarrow N^n$ a unei rețele Petri $(P, T, F, W, M)$ marcate, este definită pentru tranziția $t_j \\in T$ dacă și numai dacă $M(p_i) \\geq w(p_i, t_j)$, $\\forall p_i \\in I(t_j)$. Dacă funcția tranzițiilor de stare $f(M, t_j)$ este definită, atunci se notează $M’ = f(M, t_j)$, unde:
                 \>
                 \> $$
                 \> \\begin{align*}
-                \> M’(p_i) = M(p_i) - w(p_i, t_j) + w(t_j, p_i)
+                \> M'(p_i) = M(p_i) - w(p_i, t_j) + w(t_j, p_i)
                 \> \\end{align*}
                 \> $$
                 \>
@@ -299,6 +319,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Prin ce se diferentiaza Regula Stricta a Tranzitiei de Regula Simpla a Tranzitiei?</text>
             <answers>
                 <answer correct=true>necesita sa existe spatiu in toate pozitiile de iesire pentru jetoanele ce se genereaza dupa executarea tranzitiei</answer>
@@ -313,6 +334,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce inseamna ca un marcaj $M_n$ este accesibil din marcajul initial $M_0$?</text>
             <answers>
                 <answer correct=true>exista o secventa de executari de tranzitii care transforma $M_0$ in $M_n$</answer>
@@ -327,6 +349,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce indica marcajul $M_0 [ \\sigma \> M_n ]$?</text>
             <answers>
                 <answer correct=true>$M_n$ e accesibil din $M_0$ prin secventa $\\sigma$</answer>
@@ -341,6 +364,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce reprezinta notatia $R(N, M_0)$?</text>
             <answers>
                 <answer correct=true>mutimea marcajelor ce pot fi atinse in reteaua $N$ pornind de la marcajul $M_0$</answer>
@@ -355,6 +379,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce reprezinta notatia $L(N, M_0)$?</text>
             <answers>
                 <answer correct=true>multimea secventelor de executare posibile in reteaua $N$ pornind din marcajul $M_0$</answer>
@@ -369,6 +394,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce inseamna faptul ca o retea Petri este k-marginita?</text>
             <answers>
                 <answer correct=true>numarul de jetoane din fiecare pozitie nu depaseste numarul finit $k$</answer>
@@ -383,6 +409,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Cum se numeste o retea 1-marginita?</text>
             <answers>
                 <answer>finita</answer>
@@ -397,6 +424,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce inseamna faptul ca o retea Petri este viabila?</text>
             <answers>
                 <answer correct=true>indiferent in ce marcaj ne aflam, se poate executa orice tranzitie (chiar daca e necesara executarea unui numar finit de alte tranzitii)</answer>
@@ -411,6 +439,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Cum se numeste un marcaj din care nu se mai poate executa nici o tranzitie?</text>
             <answers>
                 <answer correct=true>deadlock</answer>
@@ -425,6 +454,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce inseamna ca o tranzitie e L0-viabila (moarta) ?</text>
             <answers>
                 <answer correct=true>tranzitia nu se execute in nici o secventa din $L(M_0)$</answer>
@@ -439,6 +469,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce inseamna ca o tranzitie e L1-viabila?</text>
             <answers>
                 <answer correct=true>tranzitia se poate executa cel putin o data in unele secvente din $L(M_0)$</answer>
@@ -453,9 +484,10 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce inseamna ca o tranzitie e L2-viablia?</text>
             <answers>
-                <answer correct=true>tranzitia se poate executa de cel putin $k \> 0$ ori in unele secvente din $L(M_0)</answer>
+                <answer correct=true>tranzitia se poate executa de cel putin $k \> 0$ ori in unele secvente din $L(M_0)$</answer>
                 <answer>tranzitia se poate executa de cel putin 2 ori in unele secvente din $L(M_0)$</answer>
                 <answer>tranzitia se poate executa de 2 ori in toate secvente din $L(M_0)$</answer>
                 <answer>tranzitia se poate executa de maxim 2 ori in unele toate din $L(M_0)$</answer>
@@ -467,6 +499,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce inseamna ca o tranzitie e L3-viablia?</text>
             <answers>
                 <answer correct=true>tranzitia se poate executa de o infinitate de ori in unele secvente din $L(M_0)$</answer>
@@ -481,6 +514,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce inseamna ca o tranzitie e L4-viablia (viabila)?</text>
             <answers>
                 <answer correct=true>tranzitia este viabila din orice marcaj din $R(M_0)$</answer>
@@ -495,6 +529,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce inseamna daca o retea Petri este $L_k$-viabila?</text>
             <answers>
                 <answer correct=true>fiecare tranzitie este $L_k$-viabila</answer>
@@ -509,6 +544,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce inseamna daca o retea Petri este strict $L_k$​-viabila?</text>
             <answers>
                 <answer correct=true>este viabila $L_k$ dar nu e viabila $L_{k+1}$</answer>
@@ -523,6 +559,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce inseamna ca o retea Petri este reversibila?</text>
             <answers>
                 <answer correct=true>din orice marcaj $M \\in R(M_0)$ se poate ajunge inapoi in $M_0$</answer>
@@ -537,6 +574,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce inseamna ca un marcaj $M$ din reteaua $(N, M_0)$ este acoperit?</text>
             <answers>
                 <answer correct=true>exista un marcaj $M' \\in R(M_0)$ astfel incat $M'(p) \\geq M(p)$, $\\forall p$</answer>
@@ -551,6 +589,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce inseamna ca o retea Petri este persistenta?</text>
             <answers>
                 <answer correct=true>pentru oricare 2 tranzitii validate, executarea uneia nu o va invalida pe cealalta</answer>
@@ -567,6 +606,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Care este ecuati distantei sincrone dintre 2 tranzitii $t_1$ si $t_2$?</text>
             <answers>
                 <answer correct=true>$d(t_1, t_2) = max_{\\sigma}|\\bar{\\sigma}(t_1) - \\bar{\\sigma}(t_2)|$</answer>
@@ -587,6 +627,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Care este matricea de incidenta a unei retele Petri?</text>
             <answers>
                 <answer correct=true>$A = [a_{ij}]$, unde $a_{ij} = a_{ij}^+ - a_{ij}^-$</answer>
@@ -609,6 +650,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Care e matricea de incidenta de intrare?</text>
             <answers>
                 <answer>$A^+ = [a_{ij}^+]$</answer>
@@ -621,6 +663,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Care este matricea de incidenta de iesire?</text>
             <answers>
                 <answer correct=true>$A^+ = [a_{ij}^+]$</answer>
@@ -633,6 +676,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Care este ecuatia de stare a retelei Petri?</text>
             <answers>
                 <answer correct=true>$M_k = M_{k - 1} + A^T \\cdot u_k$</answer>
@@ -654,6 +698,7 @@
             </explanation>
         </question>
         <question>
+            <topic>Din Curs</topic>
             <text>Ce reprezinta vectorul de control $u_k$ in ecuatia de stare a retelei Petri?</text>
             <answers>
                 <answer correct=true>indica tranzitia care s-a executat pentru a trece din $M_{k-1}$ in $M_k$</answer>
@@ -665,6 +710,85 @@
                 \> Acest lucru poate fi descris global cu ajutorul unui vector coloană $u_k$ (de dimensiune $n \\times 1$) ale cărui elemente sunt toate $0$, cu excepția celui de al $i$-lea element care este $1$ (corespunzător tranziției $t_i$, unde are loc cea de a $k$-a executare a secvenței).
                 \> 
                 \> -- Curs, pagina 50
+            </explanation>
+        </question>
+        <question>
+            <topic>Din Mosteniri 2025</topic>
+            <text>Ce se intelege prin "multimea succesor a tranzitiei `t`"?</text>
+            <answers>
+                <answer correct=true>multimea tuturor pozitiilor care sunt conectate la iesirea tranzitiei `t`</answer>
+                <answer>multimea tuturor pozitiilor care sunt conectate la intrarea tranzitiei `t`</answer>
+                <answer>multimea tuturor tranzitiilor care urmeaza dupa tranzitia `t`</answer>
+                <answer>multimea tuturor tranzitiilor care preced tranzitia `t`</answer>
+            </answers>
+            <explanation>
+                \> Fie F mulțimea tuturor arcelor unei rețele Petri N. Se numesc mulțime predecessor (pre-set) și mulțime successor (post-set) a tranziției t două mulțimi de poziții definite prin:
+                \> - $*t= {p | (p, t) ∈ F}$ = mulțimea tuturor pozițiilor de intrare ale lui $t → I(t_j)$ – mulțimea pozițiilor de intrare în $t_j$
+                \> - $t^*$ = {p | (t, p) ∈ F}$ = mulțimea tuturor pozițiilor de ieșire ale lui $t → O(t_j)$ – mulțimea pozițiilor de ieșire din $t_j$
+                \>
+                \> -- Curs, pagina 20
+            </explanation>
+        </question>
+        <question>
+            <topic>Din Mosteniri 2025</topic>
+            <text>Ce se intelege prin "multimea predecesor a tranzitiei `t`"?</text>
+            <answers>
+                <answer>multimea tuturor pozitiilor care sunt conectate la iesirea tranzitiei `t`</answer>
+                <answer correct=true>multimea tuturor pozitiilor care sunt conectate la intrarea tranzitiei `t`</answer>
+                <answer>multimea tuturor tranzitiilor care urmeaza dupa tranzitia `t`</answer>
+                <answer>multimea tuturor tranzitiilor care preced tranzitia `t`</answer>
+            </answers>
+            <explanation>
+                \> Fie F mulțimea tuturor arcelor unei rețele Petri N. Se numesc mulțime predecessor (pre-set) și mulțime successor (post-set) a tranziției t două mulțimi de poziții definite prin:
+                \> - $*t= {p | (p, t) ∈ F}$ = mulțimea tuturor pozițiilor de intrare ale lui $t → I(t_j)$ – mulțimea pozițiilor de intrare în $t_j$
+                \> - $t^*$ = {p | (t, p) ∈ F}$ = mulțimea tuturor pozițiilor de ieșire ale lui $t → O(t_j)$ – mulțimea pozițiilor de ieșire din $t_j$
+                \>
+                \> -- Curs, pagina 20
+            </explanation>
+        </question>
+        <question>
+            <topic>Din Mosteniri 2025</topic>
+            <text>Ce se intelege prin "retea Petri ordinara"?</text>
+            <answers>
+                <answer>o retea care nu are bucle autonome</answer>
+                <answer>o retea care are bucle autonome</answer>
+                <answer correct=true>o retea care are toate ponderile unitare</answer>
+                <answer>o retea care are toate marcajele unitare</answer>
+            </answers>
+            <explanation>
+                \> O rețea Petri se numește ordinară (ordinary) dacă toate arcele sale au pondere unitară.
+                \>
+                \> -- Curs, pagina 20
+            </explanation>
+        </question>
+        <question>
+            <topic>Din Mosteniri 2025</topic>
+            <text>Ce se intelege prin "retea Petri pura"?</text>
+            <answers>
+                <answer correct=true>o retea care nu are bucle autonome</answer>
+                <answer>o retea care are bucle autonome</answer>
+                <answer>o retea care are toate ponderile unitare</answer>
+                <answer>o retea care are toate marcajele unitare</answer>
+            </answers>
+            <explanation>
+                \> O reţea Petri care nu conţine bucle autonome se numeşte pură.
+                \>
+                \> -- Curs, pagina 19
+            </explanation>
+        </question>
+        <question>
+            <topic>Din Mosteniri 2025</topic>
+            <text>Ce se intelege prin "retea Petri impura"?</text>
+            <answers>
+                <answer>o retea care nu are bucle autonome</answer>
+                <answer correct=true>o retea care are bucle autonome</answer>
+                <answer>o retea care are toate ponderile unitare</answer>
+                <answer>o retea care are toate marcajele unitare</answer>
+            </answers>
+            <explanation>
+                \> O reţea Petri care nu conţine bucle autonome se numeşte pură.
+                \>
+                \> -- Curs, pagina 19
             </explanation>
         </question>
     </questions>
