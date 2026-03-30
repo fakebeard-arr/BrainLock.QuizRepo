@@ -1,6 +1,6 @@
 <root>
     <version>1</version>
-    <title>SO test 1 lab</title>
+    <title>Sisteme de Operare - Laborator test 1</title>
     <questions>
         <question>
             <text>Care este rolul kernel-ului?</text>
@@ -377,7 +377,7 @@
             </answers>
         </question>
         <question>
-            <text>Daca se doreste folosirea caracterelor speciale in cale, ce trebuie facut?</text>
+            <text>Daca se doreste folosirea unui caracter special in cale, ce trebuie facut?</text>
             <answers>
                 <answer correct=true>pus un backslash `\\` inaintea caracterului special</answer>
                 <answer>pus la inceputul si sfarsitul secventei caracterul backtick `</answer>
@@ -896,6 +896,447 @@
                 <answer>fisiere care contin o reprezentare functionala a tuturor dispozitivelor hardware conectate</answer>
                 <answer>directoare speciale care contin fisiere de configurare pentru dispozitivele hardware conectate</answer>
                 <answer>o modalitate de a grupa impreuna programe care emuleaza capacitati fizice ale sistemului</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum se pot afisa toate procesele ce ruleaza pe dispozitiv?</text>
+            <answers>
+                <answer correct=true>comanda `top`</answer>
+                <answer>comanda `CTRL + D`</answer>
+                <answer>comanda `all`</answer>
+                <answer>comanda `list`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>De ce se prefera ca utilizatorul sa comunice cu procesele prin intermediul argumentelor de lansare (launch arguments)?</text>
+            <answers>
+                <answer correct=true>permite inlatuirea comeanzilor prin pipe-uri</answer>
+                <answer>este mai explicit si mai usor de urmarit</answer>
+                <answer>nu exista alte metode de comunicare</answer>
+                <answer>este mai eficient din punct de vedere a memoriei</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce sunt listele de comenzi de tip `AND`?</text>
+            <answers>
+                <answer correct=true>secvente de comenzi care se executa pe rand cat timp rezultatul comenzii anterioare e 0</answer>
+                <answer>secvente de comenzi care se executa in paralel dar depind unele de celelalte</answer>
+                <answer>o lista de parametrii ce pot fi solositi ca si comenzi in scripturi</answer>
+                <answer>secvente de comenzi care se executa pe rand cat timp rezultatul comenzii anterioare e 1</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce sunt listele de comenzi de tip `OR`?</text>
+            <answers>
+                <answer correct=true>secvente de comenzi care se executa pe rand cat timp rezultatul comenzii anterioare e 1</answer>
+                <answer>secvente de comenzi care se executa in paralel dar NU depind unele de celelalte</answer>
+                <answer>o lista de parametrii ce NU pot fi solositi ca si comenzi in scripturi</answer>
+                <answer>secvente de comenzi care se executa pe rand cat timp rezultatul comenzii anterioare e 0</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum pot fi initializate elementele unui sir in bash?</text>
+            <answers>
+                <answer correct=true>`sir[index]=valoare`</answer>
+                <answer>`sir.index=valoare`</answer>
+                <answer>`sir:index=valoare`</answer>
+                <answer>`sir#index=valoare`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum se poate accesa o valoare din sir?</text>
+            <answers>
+                <answer correct=true>${sir[index]}</answer>
+                <answer>sir[index]</answer>
+                <answer>$sir[index]</answer>
+                <answer>sir:index</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum se poate initializa in sir?</text>
+            <answers>
+                <answer correct=true>`sir=( val1 val2 val3 )`</answer>
+                <answer>`sir={ val1 val2 val3 }`</answer>
+                <answer>`sir[*]=val1 val2 val3`</answer>
+                <answer>`sir=val1 val2 val3</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum se afla lungimea unui sir in bash?</text>
+            <answers>
+                <answer correct=true>`${#sir[*]}`</answer>
+                <answer correct=true>`${#sir[@]}`</answer>
+                <answer>`${sir[*]}`</answer>
+                <answer>`${sir[@]}`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum se obtin toate elemente unui sir in bash?</text>
+            <answers>
+                <answer correct=true>`${sir[@]}`</answer>
+                <answer>`${#sir[@]}`</answer>
+                <answer>`${sir[*]}`</answer>
+                <answer>`${#sir[*]}`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum poate fi declarata o variabila de tip sir fara a fi initializata in bash?</text>
+            <answers>
+                <answer correct=true>`declare -a sir`</answer>
+                <answer>`Sir sir`</answer>
+                <answer>`set -s sir`</answer>
+                <answer>`define sir`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum se poate citi un sir in variabila `sir` de la tastatura?</text>
+            <answers>
+                <answer correct=true>`read -a sir`</answer>
+                <answer>`read sir`</answer>
+                <answer>`read sir[*]`</answer>
+                <answer>`read $sir`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Din ce componente e format un pattern REGEX?</text>
+            <answers>
+                <answer correct=true>set de 1+ caractere, ancore, modificatori</answer>
+                <answer>set de 1+ caractere, ancore</answer>
+                <answer>ancore, modificatori</answer>
+                <answer>set de 1+ caractere, o ancora, modificatori</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce rol are operatorul `^` in cazul REGEX?</text>
+            <answers>
+                <answer correct=true>ancora pentru inceputul sirului</answer>
+                <answer>in unele cazuri neaga un set de caractere</answer>
+                <answer>ancora pentru finalul sirului</answer>
+                <answer>indica un set de caractere ce pot aparea in sir</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce rol are operatorul `$` in cazul REGEX?</text>
+            <answers>
+                <answer correct=true>ancora pentru finalul sirului</answer>
+                <answer>inlocuieste un singut caracter</answer>
+                <answer>inlocuieste 0 sau mai multe caractere</answer>
+                <answer>neaga un set de caractere</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce rol are operatorul `*` in cazul REGEX?</text>
+            <answers>
+                <answer correct=true>indica 0 sau mai multe repetari a expresiei precedente</answer>
+                <answer>inlocuieste 1 sau mai multe caractere</answer>
+                <answer>face escape unui caracter</answer>
+                <answer>face escape unui sir de caractere</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce rol are operatorul `.` in cazul REGEX?</text>
+            <answers>
+                <answer correct=true>inlocuieste un singur caracter</answer>
+                <answer>face escape unui caracter</answer>
+                <answer>indica 0 sau mai multe repetari a unei expresii precedente</answer>
+                <answer>ancora pentru finalul sirului</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce rol are operatorul `[ ]` in cazul REGEX?</text>
+            <answers>
+                <answer correct=true>este o lista de caractere ce pot aparea in secventa</answer>
+                <answer>este un range de caratere ce pot aparea in secventa</answer>
+                <answer>indica ca secventa cautata e un cuvant</answer>
+                <answer>indica ca secventa cautate e o linie</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce rol are operatorul `[ - ]` in cazul REGEX?</text>
+            <answers>
+                <answer correct=true>este un range de caractere ce pot aparea in secventa</answer>
+                <answer>este o lista de caractere ce pot aparea in secventa</answer>
+                <answer>este o lista de caractere ce nu pot aparea in secventa</answer>
+                <answer>contine o serie de liste de caractere</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce rol are operatorul `\\` in cazul REGEX?</text>
+            <answers>
+                <answer correct=true>face escape unui caracter</answer>
+                <answer>face escape unei secvente</answer>
+                <answer>ancora pentru inceputul sirului</answer>
+                <answer>inlocuieste un singur caracter</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce rol are operatorul `\< \>` in cazul REGEX?</text>
+            <answers>
+                <answer correct=true>indica ca secventa cautata e un cuvant</answer>
+                <answer>este o lista de caractere ce pot aparea in secventa</answer>
+                <answer>este un range de caractere ce pot aparea in secventa</answer>
+                <answer>indica ca secventa cautata e o linie</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum poate fi accesata linia curenta in cazul AWK?</text>
+            <answers>
+                <answer correct=true>`$0`</answer>
+                <answer>`$#`</answer>
+                <answer>`$?`</answer>
+                <answer>`$1`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum pot fi accesate campurile liniei curent in cazul AWK?</text>
+            <answers>
+                <answer correct=true>`$1`, `$2` ...</answer>
+                <answer>`$#` returneaza lista</answer>
+                <answer>`$0[index]`</answer>
+                <answer>`fields`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce variabila contine numele fisierului de intrare in cazul AWK?</text>
+            <answers>
+                <answer correct=true>`FILENAME`</answer>
+                <answer>`FN`</answer>
+                <answer>`INPUT`</answer>
+                <answer>`NAME`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce variabila contine separatorul liniilor de intrare in cazul AWK?</text>
+            <answers>
+                <answer correct=true>`RS`</answer>
+                <answer>`INL`</answer>
+                <answer>`LINE_SEP`</answer>
+                <answer>`SEPARATOR`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce variabila contine campurilor de iesire in cazul AWK?</text>
+            <answers>
+                <answer correct=true>`OFS`</answer>
+                <answer>`IFS`</answer>
+                <answer>`FIELD_SEP`</answer>
+                <answer>`SEP`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce variabila contine separatorul liniilor de iesire in cazul AWK?</text>
+            <answers>
+                <answer correct=true>`ORS`</answer>
+                <answer>`OUTPUT_SEP`</answer>
+                <answer>`OSEP`</answer>
+                <answer>`FS`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce variabila contine numarul de campuri de pe linia curenta in cazul AWK?</text>
+            <answers>
+                <answer correct=true>`NF`</answer>
+                <answer>`NR`</answer>
+                <answer>`ROW`</answer>
+                <answer>`N`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce variabila contine numarul de inregistrari in cazul AWK?</text>
+            <answers>
+                <answer correct=true>`NR`</answer>
+                <answer>`NF`</answer>
+                <answer>`COUNT`</answer>
+                <answer>`LINES`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce variabila contine separatorul de campuri in cazul AWK?</text>
+            <answers>
+                <answer correct=true>`FS`</answer>
+                <answer>`SEP`</answer>
+                <answer>`SEPARATOR`</answer>
+                <answer>`SPACE`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum se marcheaza structurile REGEX in cazul AWK?</text>
+            <answers>
+                <answer correct=true>`/ ... /`</answer>
+                <answer>`( ... )`</answer>
+                <answer>`r/ ... /r`</answer>
+                <answer>`rg( ... )`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce este un subshell?</text>
+            <answers>
+                <answer correct=true>un proces copul creat de interpretator la momentul lansarii unui script</answer>
+                <answer>un proces creat de utilizator</answer>
+                <answer>un proces ce e legat de un program</answer>
+                <answer>un program ce ruleaza un fundal</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum se defineste explicit un subshell?</text>
+            <answers>
+                <answer correct=true>cu ajutorul `( )`</answer>
+                <answer>cu ajutorul `{ }`</answer>
+                <answer>prin comanda `subshell`</answer>
+                <answer>prin comanda `shell -s`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce vizibilitate au variabilele definite intr-un subshell?</text>
+            <answers>
+                <answer correct=true>nu sunt vizibile din exterior</answer>
+                <answer>sunt vizibile global</answer>
+                <answer>sunt vizibile dar nu sunt modificabile</answer>
+                <answer>sunt persistente</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce sunt shell-urile restrictionate?</text>
+            <answers>
+                <answer correct=true>o masura de limitare a privilegiilor cu care ruleaza un script</answer>
+                <answer>o metoda de a permite rulare in paralel a mai multor scripturi</answer>
+                <answer>shell-uri ce necesita escalare de provilegii</answer>
+                <answer>secvente de script ce nu folosesc comenzi de sistem</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum se poate rula un script intr-un shell restrictionat?</text>
+            <answers>
+                <answer correct=true>`#!/bin/bash -r` in antetul scriptului</answer>
+                <answer>`#!/bin/bash -e` la finalul scriptului</answer>
+                <answer>`bash -r nume_script`</answer>
+                <answer>`restricted nume_script`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum se poate rula o secventa de script intr-un shell restrictionat?</text>
+            <answers>
+                <answer correct=true>`set -r`</answer>
+                <answer>`restricted -s`</answer>
+                <answer>`restrict`</answer>
+                <answer>`force -r`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce comenzi *nu* dezactiveaza shell-urile restrictionate?</text>
+            <answers>
+                <answer correct=true>`run`</answer>
+                <answer>`cd`</answer>
+                <answer>`exec`</answer>
+                <answer>anulare modului restrictionat</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce functionalitati *nu* sunt dezactivate in shell-urile restrictionate?</text>
+            <answers>
+                <answer correct=true>redirectarea intrarii</answer>
+                <answer>modificarile variabilelor `$PATH`, `$SHELL`, `$BASH_ENV`, `$ENV`</answer>
+                <answer>redirectarea iesirii</answer>
+                <answer>invocarea comenzilor ce contin `/`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce caracter/secventa indica un comentariu un bash?</text>
+            <answers>
+                <answer correct=true>`#`</answer>
+                <answer>`$`</answer>
+                <answer>`//`</answer>
+                <answer>`/?/`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum se poate comenta un bloc pe mai multe linii in bash?</text>
+            <answers>
+                <answer correct=true>
+                    ```bash
+                    : '
+                    COMMENT
+                    '
+                    ```
+                </answer>
+                <answer>
+                    ```bash
+                    ///
+                    COMMENT
+                    ///
+                    ```
+                </answer>
+                <answer>nu exista comentarii pentru blocuri de linii in bash</answer>
+                <answer>
+                    ```bash
+                    /*
+                    * COMMENT
+                    */
+                    ```
+                </answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce argument determina comada `wc` sa afiseze doar numarul de linii ale textului?</text>
+            <answers>
+                <answer correct=true>`-l`</answer>
+                <answer>`-r`</answer>
+                <answer>`-c`</answer>
+                <answer>`-all`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce argument determina comada `wc` sa afiseze doar numarul de cuvinte ale textului?</text>
+            <answers>
+                <answer correct=true>`-w`</answer>
+                <answer>`-l`</answer>
+                <answer>`-c`</answer>
+                <answer>`-count`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce argument determina comada `wc` sa afiseze doar numarul de caractere ale textului?</text>
+            <answers>
+                <answer correct=true>`-m`</answer>
+                <answer>`-c`</answer>
+                <answer>`-b`</answer>
+                <answer>`-a`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce argument determina comada `wc` sa afiseze doar numarul de bytes ale textului?</text>
+            <answers>
+                <answer correct=true>`-c`</answer>
+                <answer>`-b`</answer>
+                <answer>`-m`</answer>
+                <answer>`-a`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Dacă doriți să creați o structură de directoare imbricată, cum ar fi `A/B/C`, într-o singură comandă, dar directoarele părinte `A` și `B` nu există încă, care abordare este corectă pe baza surselor?</text>
+            <answers>
+                <answer>`mkdir A/B/C`</answer>
+                <answer correct=true>`mkdir A A/B A/B/C`</answer>
+                <answer>`rmdir A/B/C`</answer>
+                <answer>`mkdir -p A/B/C`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este rezultatul utilizării comenzii `cat part1 part2 \>\> fullText` dacă `fullText` conține deja date?</text>
+            <answers>
+                <answer>datele existente din `fullText` sunt suprascrise</answer>
+                <answer>continuturile din `part1` si `part2` sunt inserate la inceputul fisierului</answer>
+                <answer correct=true>continuturile din `part1` si `part2` sunt inserate la finalul fisierului</answer>
+                <answer>comanda da eroare pentru ca fisierul exista</answer>
+            </answers>
+        </question>
+        <question>
+            <text>În aritmetica shell, care este sintaxa corectă pentru a asigura că operația `i=i+2` are ca rezultat valoarea `2` dacă inițial `i` a fost `0`?</text>
+            <answers>
+                <answer>`expr i+2`</answer>
+                <answer correct=true>`i=$((i+2))`</answer>
+                <answer>`i=i+2`</answer>
+                <answer>`i=$(i+2)`</answer>
             </answers>
         </question>
     </questions>
