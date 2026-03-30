@@ -1,0 +1,902 @@
+<root>
+    <version>1</version>
+    <title>SO test 1 lab</title>
+    <questions>
+        <question>
+            <text>Care este rolul kernel-ului?</text>
+            <answers>
+                <answer correct=true>gestioneaza resursele hardware</answer>
+                <answer>asigura interactiunea intre utilizator si SO</answer>
+                <answer>comunica cu dispozitivele periferice</answer>
+                <answer>creeaza interfata grafica a SO</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este rolul shell-ului?</text>
+            <answers>
+                <answer>gestioneaza resursele hardware</answer>
+                <answer correct=true>asigura interactiunea intre utilizator si SO</answer>
+                <answer>comunica cu dispozitivele periferice</answer>
+                <answer>creeaza interfata grafica a SO</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este rolul filesystem-ului?</text>
+            <answers>
+                <answer correct=true>organizeaza si gestioneaza fisierele de pe stocare</answer>
+                <answer>creeaza interfata grafica a SO</answer>
+                <answer>gestioneaza resursele hardware</answer>
+                <answer>comunica cu dispozitivele periferice</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este rolul device driver-elor?</text>
+            <answers>
+                <answer correct=true>comunica cu dispozitivele periferice</answer>
+                <answer>gestioneaza resursele hardware</answer>
+                <answer>organizeaza si gestioneaza fisierele de pe stocare</answer>
+                <answer>creeaza interfata grafica a SO</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum trateaza Linux interfata cu dispozitivele conectate la sistem?</text>
+            <answers>
+                <answer correct=true>trateaza totul ca fisiere</answer>
+                <answer>ca pe o structura arborescenta de endpoint-uri</answer>
+                <answer>le trateaza pe toate ca fiind un singur pool</answer>
+                <answer>la fel ca si Windows</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Conteaza extensia fisierelor in Linux?</text>
+            <answers>
+                <answer correct=true>nu</answer>
+                <answer>da</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce sunt fisierele pentru Linux?</text>
+            <answers>
+                <answer correct=true>colectii de octeti fara structura speciala</answer>
+                <answer>colectii de octeti clar structurate</answer>
+                <answer>structuri polimorfice de date codate binar</answer>
+                <answer>siruri de caractere</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce sunt directoarele in Linux?</text>
+            <answers>
+                <answer correct=true>structuri pentru gruparea fisierelor si directoarelor</answer>
+                <answer>categorie specifica de fisiere pentru dispozitivele hardware</answer>
+                <answer>fisiere de colectare a stream-urilor de octeti</answer>
+                <answer>reprezentarea echipamentelor externe conectate de SO</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce informatii despre fisiere contin directoarele?</text>
+            <answers>
+                <answer correct=true>numele si locatia pe disk</answer>
+                <answer>dimensiunea si numele</answer>
+                <answer>numele, dimensiunea si locatia pe disk</answer>
+                <answer>dimensiunea si locatia pe disk</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care e radacina structurii de fisiere in Linux?</text>
+            <answers>
+                <answer correct=true>/</answer>
+                <answer>/root</answer>
+                <answer>C:/</answer>
+                <answer>home</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce contine directorul `/bin`?</text>
+            <answers>
+                <answer correct=true>fisiere executabile</answer>
+                <answer>fisiere executabile pentru administratori</answer>
+                <answer>fisiere temporare</answer>
+                <answer>fisiere de configurare</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce contine directorul `/dev`?</text>
+            <answers>
+                <answer correct=true>fisiere ce reprezinta device-uri</answer>
+                <answer>fisiere executabile</answer>
+                <answer>sisteme de fisiere montate</answer>
+                <answer>fisiere temporare</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce contine directorul `/etc`?</text>
+            <answers>
+                <answer correct=true>fisiere de configurare</answer>
+                <answer>fisiere ce reprezinta device-uri</answer>
+                <answer>date disponibile utilizatorilor</answer>
+                <answer>fisiere mari si cache-uri si log-uri</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce contine directorul `/home`?</text>
+            <answers>
+                <answer correct=true>directoarele utilizatorilor</answer>
+                <answer>biblioteci standard</answer>
+                <answer>comenzi pentru administratori</answer>
+                <answer>date disponibile utilizatorilor</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce contine directorul `/lib`?</text>
+            <answers>
+                <answer correct=true>biblioteci standard</answer>
+                <answer>sisteme de fisiere montate</answer>
+                <answer>fisiere executabile</answer>
+                <answer>cache-uri, log-uri si fisiere de dimensiuni mari</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce contine directorul `/mnt`?</text>
+            <answers>
+                <answer correct=true>sisteme de fisiere montate</answer>
+                <answer>fisiere executabile</answer>
+                <answer>fisiere temporare</answer>
+                <answer>date disponibile utilizatorilor</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce contine directorul `/sbin`?</text>
+            <answers>
+                <answer correct=true>executabile (comenzi) pentru administratori</answer>
+                <answer>fisiere executabile</answer>
+                <answer>fisiere de configurare</answer>
+                <answer>biblioteci standard</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce contine directorul `/tmp`?</text>
+            <answers>
+                <answer correct=true>fisiere temporare</answer>
+                <answer>cache-uri, fisiere mari si log-uri</answer>
+                <answer>date disponibile utilizatorilor</answer>
+                <answer>directoarele utilizatorilor</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce contine directorul `/usr`?</text>
+            <answers>
+                <answer correct=true>date disponibile utilizatorilor</answer>
+                <answer>fisiere temporare</answer>
+                <answer>fisiere executabile</answer>
+                <answer>biblioteci standard</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce contine directorul `/var`?</text>
+            <answers>
+                <answer correct=true>fisiere mari, log-uri si cache-uri</answer>
+                <answer>biblioteci standard</answer>
+                <answer>fisiere de configurare</answer>
+                <answer>directoarele utilizatorilor</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Pot mai multe fisiere sa aiba acelasi nume?</text>
+            <answers>
+                <answer correct=true>da, daca se afla in directoare diferite</answer>
+                <answer>da</answer>
+                <answer>nu</answer>
+                <answer>depinde</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Linux este case-sensitive?</text>
+            <answers>
+                <answer>nu</answer>
+                <answer correct=true>da</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum se pot referi fisierele?</text>
+            <answers>
+                <answer correct=true>relativ sau absolut</answer>
+                <answer>relativ</answer>
+                <answer>absolut</answer>
+                <answer>doar dand calea completa de la radacina</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum arata o referire absoluta a unui fisier?</text>
+            <answers>
+                <answer correct=true>`/home/user/file.txt`</answer>
+                <answer>`$/user/file.txt`</answer>
+                <answer>`~file.txt`</answer>
+                <answer>`user/file.txt</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum arata o referire relativa a unui fisier?</text>
+            <answers>
+                <answer correct=true>`./file.txt`</answer>
+                <answer>`~/home/user/file.txt`</answer>
+                <answer>`/user/file.txt`</answer>
+                <answer>`/file.txt`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce reprezinta un `INODE`?</text>
+            <answers>
+                <answer correct=true>indexul unei intrati intr-un sir de date</answer>
+                <answer>id-ul unui fisier</answer>
+                <answer>un director</answer>
+                <answer>proprietarul unui fisier sau director</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce informatii despre fisier stocheaza un `INODE`?</text>
+            <answers>
+                <answer correct=true>data crearii, proprietarul si locatia din memorie</answer>
+                <answer>data crearii si locatia din memorie</answer>
+                <answer>locatia din memorie si proprietarul</answer>
+                <answer>dimensiunea si numele fisierului</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce este un link?</text>
+            <answers>
+                <answer correct=true>combinatia nume de fisier + `INODE`</answer>
+                <answer>calea fisierului si locatia din memorie</answer>
+                <answer>informatiile despre un director</answer>
+                <answer>conexiune intre mai multe fisiere sau directoare</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce reprezinta comanda `pwd`?</text>
+            <answers>
+                <answer correct=true>present working directory</answer>
+                <answer>past word domain</answer>
+                <answer>post-workout decision</answer>
+                <answer>present writing document</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce face coamnda `cd`?</text>
+            <answers>
+                <answer correct=true>schimba directorul in care ne aflam </answer>
+                <answer>sterge directorul curent</answer>
+                <answer>sterge directorul specificat</answer>
+                <answer>copiaza direcotrul in care ne aflam</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce face comanda `ls`?</text>
+            <answers>
+                <answer correct=true>afiseaza continutul directorului curent</answer>
+                <answer>sterge continutul directorului curent</answer>
+                <answer>ascunde directorul curent</answer>
+                <answer>inchide terminalul</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce face comanda `mkdir`?</text>
+            <answers>
+                <answer correct=true>creaza un director nou</answer>
+                <answer>marcheaza directorul curent pentru a fi sters</answer>
+                <answer>marcheaza directorul curent ca fiind ascuns</answer>
+                <answer>afiseaza directorul curent</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce face comanda `rmdir`?</text>
+            <answers>
+                <answer correct=true>sterge directorul specificat</answer>
+                <answer>sterge directorul curent</answer>
+                <answer>re-marcheaza directorul ca fiind disponibil</answer>
+                <answer>mentine directorul deschis</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce face comanda `cp`?</text>
+            <answers>
+                <answer correct=true>copiaza un fisier</answer>
+                <answer>taie continutul fisierului specificat</answer>
+                <answer>creaza un proces</answer>
+                <answer>opreste un proces</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce face comanda `touch`?</text>
+            <answers>
+                <answer correct=true>creaza un fisier sau actualizeaza tipul de acces</answer>
+                <answer>genereaza un eveniment de tip click la o pozitie specificata</answer>
+                <answer>schimba valoare primului parametru</answer>
+                <answer>salveaza ultimele comenzi din terminal</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce face comanda  `rm`?</text>
+            <answers>
+                <answer correct=true>sterge fisiere si directoare</answer>
+                <answer>sterge fisiere</answer>
+                <answer>sterge directoare</answer>
+                <answer>redenumeste fisiere sau directoare</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce face comanda `cat`?</text>
+            <answers>
+                <answer correct=true>afieaza, creaza sau concateneaza fisierele primite ca argument</answer>
+                <answer>creaza fisiere temporate</answer>
+                <answer>creaza un nou fisier de tip director</answer>
+                <answer>creaza o noua radacina pentru un nou sistem de fisiere</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce face comanda `grep`?</text>
+            <answers>
+                <answer correct=true>cauta un sir sau format intr-un fisier</answer>
+                <answer>genereaza o serie de rapoarte</answer>
+                <answer>creaza un nou terminal</answer>
+                <answer>reprezinta semnatura proesului curent</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce face expandatorul `*`?</text>
+            <answers>
+                <answer correct=true>potriveste orice sir de caractere, mai putin cele care incep cu `.`</answer>
+                <answer>potriveste un singur caracter</answer>
+                <answer>potriveste orice sir de caractere</answer>
+                <answer>potriveste orice caracter care nu e `$`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce face expandatorul `?`?</text>
+            <answers>
+                <answer correct=true>potriveste un singur caracter</answer>
+                <answer>potriveste oricate caractere</answer>
+                <answer>potriveste orice cifra</answer>
+                <answer>potriveste orice simbol special</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce face expandatorul `[...]`?</text>
+            <answers>
+                <answer correct=true>potriveste un singur caracter din lista</answer>
+                <answer>potriveste toate caracterele din lista</answer>
+                <answer>potriveste oricate caractere din lista</answer>
+                <answer>potriveste orice caracter din intervalul specificat</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce face expandatorul `{...}`?</text>
+            <answers>
+                <answer correct=true>potriveste un sir de caractere din lista</answer>
+                <answer>potriveste un caracter din sir</answer>
+                <answer>potriveste o lista de caractere / siruri</answer>
+                <answer>potriveste un numar din intevalul specificat</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Daca se doreste folosirea caracterelor speciale in cale, ce trebuie facut?</text>
+            <answers>
+                <answer correct=true>pus un backslash `\\` inaintea caracterului special</answer>
+                <answer>pus la inceputul si sfarsitul secventei caracterul backtick `</answer>
+                <answer>nu se pot folosi caractere special in cale</answer>
+                <answer>trebuie folosita o cale relativa pentru a ignora caracterele speciale</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Daca se doreste folosirea caracterelor speciale in cale, ce trebuie facut?</text>
+            <answers>
+                <answer correct=true>imbracata calea in ghilimele simple `'` sau duble `"`</answer>
+                <answer>pus un backslash \\ la inceputul secventei</answer>
+                <answer>trebuie folosita o cale relativa pentru a ignora caracterele speciale</answer>
+                <answer>fisierele si folderele nu pot folosi caractere speciale in nume, deci nu e o problema</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cara e dezavantajul folosirii ghilimelelor duble `"` pentru a delimita o cale?</text>
+            <answers>
+                <answer correct=true>nu elimina sensul special al caracterelor `$` si `\\`</answer>
+                <answer>nu elimina sensul special al caracterului spatiu ` `</answer>
+                <answer>elimina toate sensurile speciale, inclusiv delimitatorul de cale `/`</answer>
+                <answer>nu are dezavantaje, este recomandat sa fie folosit</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cara e dezavantajul folosirii apostroafelor `'` pentru a delimita o cale?</text>
+            <answers>
+                <answer correct=true>elimina toate sensurile speciale din cale</answer>
+                <answer>nu elimina sensul special al caracterelor `$` si `\\`</answer>
+                <answer>elimina toate sensurile speciale, inclusiv delimitatorul de cale /</answer>
+                <answer>nu are dezavantaje, este recomandat sa fie folosit</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este scopul caracterului `\>`?</text>
+            <answers>
+                <answer correct=true>sa redirectioneze iesirea standard a comenzii</answer>
+                <answer>sa adauge (append) iesirea standard a comenzii la un fisier</answer>
+                <answer>sa redirectioneze iesirea de eroare a comenzii</answer>
+                <answer>sa redirectioneze intrarea standard a comenzii</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este scopul secventei `\>\>`?</text>
+            <answers>
+                <answer correct=true>sa adauge (append) iesirea standard a comenzii la un fisier</answer>
+                <answer>sa redirectioneze iesirea standard a comenzii</answer>
+                <answer>sa redirectioneze iesirea de eroare a comenzii</answer>
+                <answer>sa redirectioneze intrarea standard a comenzii</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este scopul secventei `2\>`?</text>
+            <answers>
+                <answer correct=true>sa redirectioneze iesirea de eroare a comenzii</answer>
+                <answer>sa adauge (append) iesirea standard a comenzii la un fisier</answer>
+                <answer>sa redirectioneze iesirea standard a comenzii</answer>
+                <answer>sa redirectioneze intrarea standard a comenzii</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este scopul caracterului `\<`?</text>
+            <answers>
+                <answer correct=true>sa redirectioneze intrarea standard a comenzii</answer>
+                <answer>sa redirectioneze iesirea standard a comenzii</answer>
+                <answer>sa adauge (append) iesirea standard a comenzii la un fisier</answer>
+                <answer>sa redirectioneze iesirea de eroare a comenzii</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este scopul caracterului pipe `|`?</text>
+            <answers>
+                <answer correct=true>sa conecteze procesele intre ele</answer>
+                <answer>sa permita rularea in serie a mai multor comenzi independente</answer>
+                <answer>sa permita rularea in paralel a mai multor procese</answer>
+                <answer>sa opreasca executia procesului urmator daca cel anterior are eroare</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum se poate intrerupe rularea unui proces?</text>
+            <answers>
+                <answer correct=true>comanda `CTRL + Z`</answer>
+                <answer>comanda `CTRL + C`</answer>
+                <answer>comanda `bg`</answer>
+                <answer>comanda `fg`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum se poate afisa lista proceselor suspendate?</text>
+            <answers>
+                <answer correct=true>comanda `jobs`</answer>
+                <answer>comanda `CTRL + X`</answer>
+                <answer>comanda `bg`</answer>
+                <answer>comanda `fg`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum se poate reporni un proces suspendat?</text>
+            <answers>
+                <answer correct=true>comanda `fg`</answer>
+                <answer>comanda `go`</answer>
+                <answer>coamnda `bg`</answer>
+                <answer>comanda `CTRL + X`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum se poate reporni in fundal un proces suspendat?</text>
+            <answers>
+                <answer correct=true>coamanda `bg`</answer>
+                <answer>comanda `fg`</answer>
+                <answer>comanda `go`</answer>
+                <answer>comanda `gobg`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce afiseaza comanda `history`?</text>
+            <answers>
+                <answer correct=true>istoricul comenzilor</answer>
+                <answer>istoricul utilizatorilor conectati</answer>
+                <answer>istoricul browser-ului</answer>
+                <answer>ultimele aplicatii instalate</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum se pot afisa posibilele comenzi, pe baza primelor caractere scrise?</text>
+            <answers>
+                <answer correct=true>apasand tasta `TAB`</answer>
+                <answer>apazand tasta `~`</answer>
+                <answer>apasand tasta `ENTER`</answer>
+                <answer>apasand tasta `SHIFT`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce variabila contine directorul curent al utilizatorului?</text>
+            <answers>
+                <answer correct=true>`$HOME`</answer>
+                <answer>`$USER`</answer>
+                <answer>`$USERHOME`</answer>
+                <answer>`$UH1`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce variabila contine lista de directoare in care sunt cautate executabilele?</text>
+            <answers>
+                <answer correct=true>`$PATH`</answer>
+                <answer>`$EXEC`</answer>
+                <answer>`$BIN`</answer>
+                <answer>`$XBIN`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce variabila contine numele interpretatorului curent de comenzi?</text>
+            <answers>
+                <answer correct=true>`$SHELL`</answer>
+                <answer>`$PS1`</answer>
+                <answer>`$BASH`</answer>
+                <answer>`$0`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce variabila contine prompterul interpretatorului?</text>
+            <answers>
+                <answer correct=true>`$PS1`</answer>
+                <answer>`$PROMP`</answer>
+                <answer>`$SP`</answer>
+                <answer>`$0`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce variabila contine caracterul utilizat pentru separarea cuvintelor si a liniilor?</text>
+            <answers>
+                <answer correct=true>`$IFS`</answer>
+                <answer>`$CLS`</answer>
+                <answer>`$SEP`</answer>
+                <answer>`$SIF`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce variabila contine numele fisierului executat?</text>
+            <answers>
+                <answer correct=true>`$0`</answer>
+                <answer>`$FX`</answer>
+                <answer>`$#`</answer>
+                <answer>`$$`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce variabila contine numarul de parametrii trimisi fisierului executat?</text>
+            <answers>
+                <answer correct=true>`$#`</answer>
+                <answer>`$$`</answer>
+                <answer>`$-1`</answer>
+                <answer>`$NR`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce variabila contine id-ul de proces al scriptului curent?</text>
+            <answers>
+                <answer correct=true>`$$`</answer>
+                <answer>`$ID`</answer>
+                <answer>`$PID`</answer>
+                <answer>`$DNF`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum se acceseaza parametrii trimisi scriptului curent?</text>
+            <answers>
+                <answer correct=true>prin parametrii pozitionali `$1`, `$2` etc</answer>
+                <answer>prin lista parametrilor `$$`</answer>
+                <answer>prin functia `param`</answer>
+                <answer>prin lista parametrilor `#ARGS`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce variabila contine lista parametrilor procesului curent? </text>
+            <answers>
+                <answer correct=true>`$*`</answer>
+                <answer>`$ARGS`</answer>
+                <answer>`$PARAMS`</answer>
+                <answer>`$&`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum se poate accesa continutul unei variabile in bash?</text>
+            <answers>
+                <answer correct=true>prin prefixarea numelui variabilei cu `$`</answer>
+                <answer>prin utilizarea sufixului `.val`</answer>
+                <answer>prin utilizarea sufixului `-\>`</answer>
+                <answer>prin scrierea numelui variabilei</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Variabilele definite intr-un shell sunt accesibile din alte shell-uri?</text>
+            <answers>
+                <answer correct=true>doar daca sunt exportate cu `export`</answer>
+                <answer>da, by default sunt vizibile global</answer>
+                <answer>nu</answer>
+                <answer>nu, doar daca le definim ca fiind globale</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Intr-o procedura, ce contin parametrii pozitionali `$1`, `$2` etc?</text>
+            <answers>
+                <answer correct=true>parametrii trimisi procedurii</answer>
+                <answer>parametrii trimisi scriptului</answer>
+                <answer>primele variabile definite in procedura</answer>
+                <answer>valorile exportate corpul principal al scriptului catre procedura</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce returneaza comanda `test` daca expresia e adevarata?</text>
+            <answers>
+                <answer correct=true>0</answer>
+                <answer>1</answer>
+                <answer>orice valoare nenula</answer>
+                <answer>un sir gol</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce operator al comenzii `test` verifica egalitatea?</text>
+            <answers>
+                <answer correct=true>`-eq`</answer>
+                <answer>`-e`</answer>
+                <answer>`=`</answer>
+                <answer>`==`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce operator al comenzii `test` verifica inegalitatea?</text>
+            <answers>
+                <answer correct=true>`-ne`</answer>
+                <answer>`-neq`</answer>
+                <answer>`!=`</answer>
+                <answer>`-diff`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce operator al comenzii `test` face verificarea "mai mic"?</text>
+            <answers>
+                <answer correct=true>`-lt`</answer>
+                <answer>`-le`</answer>
+                <answer>`-less`</answer>
+                <answer>`\<`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce operator al comenzii `test` face verificarea "mai mic sau egal"?</text>
+            <answers>
+                <answer correct=true>`-le`</answer>
+                <answer>`-loe`</answer>
+                <answer>`\<=`</answer>
+                <answer>`-lesseq`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce operator al comenzii `test` face verificarea "mai mare"?</text>
+            <answers>
+                <answer correct=true>`-gt`</answer>
+                <answer>`-ge`</answer>
+                <answer>`\>`</answer>
+                <answer>`-b`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce operator al comenzii `test` face verificarea "mai mare sau egal"?</text>
+            <answers>
+                <answer correct=true>`-ge`</answer>
+                <answer>`-goe`</answer>
+                <answer>`\>=`</answer>
+                <answer>`-geq`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce operator al comenzii `test` face verificarea de egalitate a 2 siruri?</text>
+            <answers>
+                <answer correct=true>`=`</answer>
+                <answer>`-eq`</answer>
+                <answer>`!!`</answer>
+                <answer>`-ndf`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce operator al comenzii `test` face verificarea de diferenta a 2 siruri?</text>
+            <answers>
+                <answer correct=true>`!=`</answer>
+                <answer>`-diff`</answer>
+                <answer>`??`</answer>
+                <answer>`-neq`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce operator al comenzii `test` verifica ca un sir sa nu fie `NULL`?</text>
+            <answers>
+                <answer correct=true>`-n`</answer>
+                <answer>`-nl`</answer>
+                <answer>`-nnl`</answer>
+                <answer>`!= null`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce operator al comenzii `test` verifica ca un sir sa fie `NULL`?</text>
+            <answers>
+                <answer correct=true>`-z`</answer>
+                <answer>`-n`</answer>
+                <answer>`-nnl`</answer>
+                <answer>`== null`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce operator al comenzii `test` verifica ca un fisier sa nu fie gol?</text>
+            <answers>
+                <answer correct=true>`-s`</answer>
+                <answer>`-e`</answer>
+                <answer>`-r`</answer>
+                <answer>`-w`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce operator al comenzii `test` verifica daca e un fisier? </text>
+            <answers>
+                <answer correct=true>`-f`</answer>
+                <answer>`-d`</answer>
+                <answer>`-e`</answer>
+                <answer>`-s`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce operator al comenzii `test` verifica daca e un director?</text>
+            <answers>
+                <answer correct=true>`-d`</answer>
+                <answer>`-f`</answer>
+                <answer>`-dr`</answer>
+                <answer>`-e`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce operator al comenzii `test` verifica ca un fisier are permisiunea de citire?</text>
+            <answers>
+                <answer correct=true>`-r`</answer>
+                <answer>`-rd`</answer>
+                <answer>`-x`</answer>
+                <answer>`-e`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce operator al comenzii `test` verifica ca un fisier are permisiunea de scriere?</text>
+            <answers>
+                <answer correct=true>`-w`</answer>
+                <answer>`-t`</answer>
+                <answer>`-x`</answer>
+                <answer>`-e`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce operator al comenzii `test` verifica ca un fisier are permisiunea de executare?</text>
+            <answers>
+                <answer correct=true>`-x`</answer>
+                <answer>`-g`</answer>
+                <answer>`-w`</answer>
+                <answer>`-t`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce operator al comenzii `test` verifica daca fisierul / directorul exista?</text>
+            <answers>
+                <answer correct=true>`-e`</answer>
+                <answer>`-x`</answer>
+                <answer>`-i`</answer>
+                <answer>`-t`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este operatorul comenzii `test` pentru negare logica?</text>
+            <answers>
+                <answer correct=true>`!`</answer>
+                <answer>`-n`</answer>
+                <answer>`-not`</answer>
+                <answer>`-nn`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este operatorul comenzii `test` pentru `SI` logic?</text>
+            <answers>
+                <answer correct=true>`-a`</answer>
+                <answer>`&`</answer>
+                <answer>`&and</answer>
+                <answer>`-and`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este operatorul comenzii `test` pentru `SAU` logic?</text>
+            <answers>
+                <answer correct=true>`-o`</answer>
+                <answer>`-or`</answer>
+                <answer>`|`</answer>
+                <answer>`|or`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce comanda permite realizarea operatiilor matematice (`1 + 3`)?</text>
+            <answers>
+                <answer correct=true>`expr`</answer>
+                <answer>`echo`</answer>
+                <answer>`export`</answer>
+                <answer>`set`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce comanda face o variabila disponibila sub-shellurilor viitoare?</text>
+            <answers>
+                <answer correct=true>`export`</answer>
+                <answer>`expr`</answer>
+                <answer>`global`</answer>
+                <answer>`set`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce comanda produce afisarea la iesirea standard?</text>
+            <answers>
+                <answer correct=true>`echo`</answer>
+                <answer>`print`</answer>
+                <answer>`send`</answer>
+                <answer>`set`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce comanda evaluzeaza si apoi executa argumentele?</text>
+            <answers>
+                <answer correct=true>`eval`</answer>
+                <answer>`echo`</answer>
+                <answer>`exec`</answer>
+                <answer>`set`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce comanda forteaza intreruperea procesului curent?</text>
+            <answers>
+                <answer correct=true>`exit`</answer>
+                <answer>`return`</answer>
+                <answer>`stop`</answer>
+                <answer>`sleep`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce comanda citeste o linie de la intrarea standard?</text>
+            <answers>
+                <answer correct=true>`read`</answer>
+                <answer>`readln`</answer>
+                <answer>`scanln`</answer>
+                <answer>`waitline`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce comanda e folosita pentru activarea/dezactivearea unor optiuni sau pentru pozitionarea unor parametrii pozitionali?</text>
+            <answers>
+                <answer correct=true>`set`</answer>
+                <answer>`locate`</answer>
+                <answer>`place`</answer>
+                <answer>`toggle`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce comanda suspenda executia pentru un numar de secunde dat ca si argument?</text>
+            <answers>
+                <answer correct=true>`sleep`</answer>
+                <answer>`suspend`</answer>
+                <answer>`wait`</answer>
+                <answer>`await`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce sunt dispozitivele in Linux (raportat la filesystem)?</text>
+            <answers>
+                <answer correct=true>fisiere speciale care asigura comunicarea intre procese sau dispozitive hardware</answer>
+                <answer>fisiere care contin o reprezentare functionala a tuturor dispozitivelor hardware conectate</answer>
+                <answer>directoare speciale care contin fisiere de configurare pentru dispozitivele hardware conectate</answer>
+                <answer>o modalitate de a grupa impreuna programe care emuleaza capacitati fizice ale sistemului</answer>
+            </answers>
+        </question>
+    </questions>
+</root>
