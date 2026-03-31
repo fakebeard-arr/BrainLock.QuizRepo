@@ -958,7 +958,7 @@
                 <answer correct=true>`sir=( val1 val2 val3 )`</answer>
                 <answer>`sir={ val1 val2 val3 }`</answer>
                 <answer>`sir[*]=val1 val2 val3`</answer>
-                <answer>`sir=val1 val2 val3</answer>
+                <answer>`sir=val1 val2 val3`</answer>
             </answers>
         </question>
         <question>
@@ -1115,7 +1115,7 @@
             </answers>
         </question>
         <question>
-            <text>Ce variabila contine campurilor de iesire in cazul AWK?</text>
+            <text>Ce variabila contine separatorul campurilor de iesire in cazul AWK?</text>
             <answers>
                 <answer correct=true>`OFS`</answer>
                 <answer>`IFS`</answer>
@@ -1318,7 +1318,7 @@
                 <answer>`mkdir A/B/C`</answer>
                 <answer correct=true>`mkdir A A/B A/B/C`</answer>
                 <answer>`rmdir A/B/C`</answer>
-                <answer>`mkdir -p A/B/C`</answer>
+                <answer correct=true>`mkdir -p A/B/C`</answer>
             </answers>
         </question>
         <question>
@@ -1337,6 +1337,41 @@
                 <answer correct=true>`i=$((i+2))`</answer>
                 <answer>`i=i+2`</answer>
                 <answer>`i=$(i+2)`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                Se da urmatorul fisier:
+                ```
+                1
+                2
+                3
+                4
+                5
+                6
+                7
+                8
+                9
+                10
+                11
+                12
+                what
+                14
+                15
+                16
+                17
+                18
+                19
+                20
+                ```
+                
+                cum se pot extrage liniile de la 10 la 15 folosind comenzile `head` si `tail`?
+            </text>
+            <answers>
+                <answer correct=true>`tail datafile -n +10 | head -n 6`</answer>
+                <answer>`head datafile -n 15 | tail -n 10`</answer>
+                <answer>`tail -n 15 datafile | head -n 5`</answer>
+                <answer>`head -n 10 datafile | tail -n 6`</answer>
             </answers>
         </question>
     </questions>
