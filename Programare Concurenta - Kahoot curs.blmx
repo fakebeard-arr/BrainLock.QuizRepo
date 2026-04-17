@@ -1,0 +1,125 @@
+<root>
+    <version>1</version>
+    <title>Programare Concurenta - Kahoot curs</title>
+    <questions>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Care din urmatoarele optiuni are legatura cu managementul procesorului in sisteme multitasking?</text>
+            <answers>
+                <answer>sa tina evidenta dispozitivelor periferice</answer>
+                <answer correct=true>se aloca procesorul proceselor care au nevoie sa ruleze</answer>
+                <answer>decide cine primeste resursele disponibile</answer>
+                <answer>se aloca memorie necesare pentru rulare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>O parte din timpul de procesor este alocat sistemului de operare pentru a-si realiza sarcinile.</text>
+            <answers>
+                <answer correct=true>adevarat</answer>
+                <answer>fals</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Sistemul in care corectitudinea datelor nu depinde doar de rezultatul logic ci si de timpul in care e produs</text>
+            <answers>
+                <answer>ceas</answer>
+                <answer>procesor</answer>
+                <answer>timp de raspuns</answer>
+                <answer correct=true>sistem in timp real</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>In RTOS de tip soft este crucial ca task-urile sa nu piarda deadline-ul.</text>
+            <answers>
+                <answer>adevarat</answer>
+                <answer correct=true>fals</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Din nucleul sistemului de operare face parte:</text>
+            <answers>
+                <answer correct=true>dispatcherul de taskuri</answer>
+                <answer>interfata cu utilizatorul</answer>
+                <answer>aplicatiile utilizator</answer>
+                <answer>diverse unelte oferite de sistem</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Cand resursa de care are nevoie un task e ocupata, el trece in stare `gata`.</text>
+            <answers>
+                <answer>adevarat</answer>
+                <answer correct=true>fals</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 3</topic>
+            <text>Un proces care asteapta sa ruleaze se afla in starea:</text>
+            <answers>
+                <answer>blocat</answer>
+                <answer correct=true>gata</answer>
+                <answer>in executie</answer>
+                <answer>creat</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 3</topic>
+            <text>Daca sistemul opreste rularea unui task de prioritate scazuta cand apare un task de prioritate ridicata, el este:</text>
+            <answers>
+                <answer>non-preemptiv</answer>
+                <answer>cooperativ</answer>
+                <answer correct=true>preemptiv</answer>
+                <answer>gentleman</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 3</topic>
+            <text>Se pot citi adresele de stiva din registrele de procesor?</text>
+            <answers>
+                <answer correct=true>adevarat</answer>
+                <answer>fals</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 3</topic>
+            <text>Informatiile specifice unui task aflat in rulare se gasesc in:</text>
+            <answers>
+                <answer>lista de asteptare la procesor</answer>
+                <answer>contextul fizic</answer>
+                <answer>lista de taskuri blocate</answer>
+                <answer correct=true>contextul logic</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 3</topic>
+            <text>Situatia in care taskurile se blocheaza, nemaifiind capabile sa isi continue rularea, se numeste:</text>
+            <answers>
+                <answer>deadline</answer>
+                <answer>starvation</answer>
+                <answer correct=true>deadlock</answer>
+                <answer>nutrition</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 3</topic>
+            <text>Contextul fizic nu contine:</text>
+            <answers>
+                <answer correct=true>adresele de stiva</answer>
+                <answer>adresele de cod</answer>
+                <answer>adresele de date</answer>
+                <answer>cuvantul de stare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 3</topic>
+            <text>Functia dispatcher are rolul de a organiza lista de asteptare la procesor.</text>
+            <answers>
+                <answer>adevarat</answer>
+                <answer correct=true>fals</answer>
+            </answers>
+        </question>
+    </questions>
+</root>

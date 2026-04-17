@@ -1,0 +1,1106 @@
+<root>
+    <version>1</version>
+    <title>Cultura si Civilizatie Europeana - Set Complet</title>
+    <description>Grile complete pentru examenul de Cultura si Civilizatie Europeana - toate variantele</description>
+    <contribuitors>@student_upt</contribuitors>
+    <questions>
+        <question>
+            <topic>Concepte de baza</topic>
+            <text>Deviza Uniunii Europene este:</text>
+            <answers>
+                <answer>E pluribus unum</answer>
+                <answer correct=true>Unitate in diversitate</answer>
+                <answer>Uniti vom invinge</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Concepte de baza</topic>
+            <text>Conceptul de civilizatie desemneaza:</text>
+            <answers>
+                <answer>Creatiile sufletesti, spirituale, sistemele de idei si valori</answer>
+                <answer correct=true>Creatiile materiale, mijloacele cu care omul isi adapteaza mediul inconjurator</answer>
+                <answer>Totalitatea manifestarilor creatoare ale omului</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Concepte de baza</topic>
+            <text>Conceptul de cultura desemneaza:</text>
+            <answers>
+                <answer>Creatiile materiale, mijloacele cu care omul isi adapteaza mediul inconjurator</answer>
+                <answer>Manifestarile artistice ale fiintei umane</answer>
+                <answer correct=true>Creatiile sufletesti, spirituale, sistemele de idei si valori</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Cultura europeana</topic>
+            <text>Dupa Andrei Marga, comportamentul economic consacrat de cultura europeana este caracterizat de:</text>
+            <answers>
+                <answer correct=true>Rationalitate si rentabilitate</answer>
+                <answer>Centralizare si dirijism</answer>
+                <answer>Dominare a pietelor</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Cultura europeana</topic>
+            <text>Dupa Andrei Marga, cultura politica europeana este caracterizata de:</text>
+            <answers>
+                <answer>Elitism</answer>
+                <answer>Conservatorism</answer>
+                <answer correct=true>Promovarea dezbaterii publice pe baza argumentelor</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Cultura europeana</topic>
+            <text>Richard von Weizsacker afirma ca:</text>
+            <answers>
+                <answer>Europa fara Rusia este incompleta</answer>
+                <answer>Europa se sfarseste la Zidul Berlinului</answer>
+                <answer correct=true>Europa nu se reduce la Europa Occidentala</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Istoric UE</topic>
+            <text>Comunitatea Europeana a Carbunelui si Otelului (CECO) a fost constituita in urma declaratiei ministrului francez de externe:</text>
+            <answers>
+                <answer>Charles de Gaulle</answer>
+                <answer>Jean Monnet</answer>
+                <answer correct=true>Robert Schuman</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Istoric UE</topic>
+            <text>Tratatul fondator al Comunitatii Europene a Carbunelui si Otelului poarta denumirea de:</text>
+            <answers>
+                <answer>Tratatul de la Roma</answer>
+                <answer>Tratatul de la Amsterdam</answer>
+                <answer correct=true>Tratatul de la Paris</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Istoric UE</topic>
+            <text>Printre cele sase tari fondatoare ale Comunitatii Europene a Carbunelui si Otelului (CECO) se numara:</text>
+            <answers>
+                <answer>Marea Britanie si Danemarca</answer>
+                <answer correct=true>Italia si Olanda</answer>
+                <answer>Spania si Portugalia</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Istoric UE</topic>
+            <text>Printre cele sase tari fondatoare ale CECO se numara:</text>
+            <answers>
+                <answer correct=true>Franta si Germania</answer>
+                <answer>Marea Britanie si Irlanda</answer>
+                <answer>Spania si Portugalia</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Istoric UE</topic>
+            <text>Printre cele sase tari fondatoare ale CECO se numara:</text>
+            <answers>
+                <answer>Suedia si Finlanda</answer>
+                <answer>Marea Britanie si Spania</answer>
+                <answer correct=true>Belgia si Italia</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Istoric UE</topic>
+            <text>Printre cele sase tari fondatoare ale CECO se numara:</text>
+            <answers>
+                <answer>Marea Britanie si Irlanda</answer>
+                <answer>Spania si Portugalia</answer>
+                <answer correct=true>Belgia si Olanda</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Istoric UE</topic>
+            <text>In urma Tratatului de la Roma s-au constituit:</text>
+            <answers>
+                <answer>Curtea Europeana a Drepturilor Omului (CEDO) si NATO</answer>
+                <answer>Comunitatea Europeana de Aparare si CECO</answer>
+                <answer correct=true>Comunitatea Economica Europeana (CEE) si Comunitatea Europeana a Energiei Atomice (Euratom)</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Istoric UE</topic>
+            <text>Tratatul prin care se instituiau CEE si Euratom poarta denumirea de:</text>
+            <answers>
+                <answer>Tratatul de la Maastricht</answer>
+                <answer correct=true>Tratatele de la Roma</answer>
+                <answer>Tratatul de la Amsterdam</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Istoric UE</topic>
+            <text>Tratatul de la Bruxelles semnat in anul 1965 prevedea:</text>
+            <answers>
+                <answer>Infiintarea unei Comunitati Europene de Aparare</answer>
+                <answer>Votul majoritar in locul procedurii unanimitatii</answer>
+                <answer correct=true>Unificarea comisiilor si consiliilor celor trei comunitati europene</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Istoric UE</topic>
+            <text>Actul care a avut rolul de a unifica comisiile si consiliile celor trei comunitati europene poarta denumirea de:</text>
+            <answers>
+                <answer>Tratatul de la Amsterdam</answer>
+                <answer>Tratatul de la Maastricht</answer>
+                <answer correct=true>Tratatul de la Bruxelles</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Istoric UE</topic>
+            <text>Tratatul de instituire a Uniunii Europene, ca entitate ce dispune de trei domenii de actiune denumite piloni, a fost semnat:</text>
+            <answers>
+                <answer correct=true>In 1992 la Maastricht</answer>
+                <answer>In 1997 la Amsterdam</answer>
+                <answer>In 1965 la Bruxelles</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Istoric UE</topic>
+            <text>In anul 1986 au aderat la Comunitatea Europeana:</text>
+            <answers>
+                <answer correct=true>Spania si Portugalia</answer>
+                <answer>Austria, Finlanda si Suedia</answer>
+                <answer>Marea Britanie, Danemarca si Irlanda</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Institutii UE</topic>
+            <text>Consiliul European, principalul instrument de formulare a principiilor si strategiilor UE, este format din:</text>
+            <answers>
+                <answer>Comisari europeni</answer>
+                <answer correct=true>Sefi de stat si de guvern</answer>
+                <answer>Parlamentari europeni</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Institutii UE</topic>
+            <text>Printre atributiile Parlamentului European se numara cea de a:</text>
+            <answers>
+                <answer correct=true>Investiga plangerile cetatenilor Europeni</answer>
+                <answer>Monitoriza toate institutiile, in special Comisia Europeana si Consiliul</answer>
+                <answer>Proteja interesele financiare ale UE realizand controale financiare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Institutii UE</topic>
+            <text>Membrii Parlamentului European se reunesc in grupuri parlamentare in functie de:</text>
+            <answers>
+                <answer>Interese</answer>
+                <answer>Nationalitate</answer>
+                <answer correct=true>Doctrina politica</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Institutii UE</topic>
+            <text>Adoptarea legislatiei comunitare si a bugetului UE se realizeaza prin procedura de codecizie de catre:</text>
+            <answers>
+                <answer>Comisia Europeana si Parlamentul European</answer>
+                <answer correct=true>Consiliul Uniunii Europene si Parlamentul European</answer>
+                <answer>Consiliul Uniunii Europene si Comisia Europeana</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Institutii UE</topic>
+            <text>Comisia Europeana are atributia de a:</text>
+            <answers>
+                <answer correct=true>Formula propuneri de acte legislative si a le trimite spre adoptare Parlamentului si Consiliului Uniunii Europene</answer>
+                <answer>Adopta legile propuse de Parlament si Consiliul Uniunii Europene</answer>
+                <answer>Sanctiona incalcarea legislatiei comunitare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Institutii UE</topic>
+            <text>COREPER (Comitetul Reprezentantilor Permanenti), format din diplomati si functionari, este un nivel de organizare apartinand:</text>
+            <answers>
+                <answer>Parlamentului European</answer>
+                <answer correct=true>Consiliului Uniunii Europene</answer>
+                <answer>Comisiei Europene</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Institutii UE</topic>
+            <text>Comitetul Reprezentantilor Permanenti (COREPER) este un organism al:</text>
+            <answers>
+                <answer correct=true>Consiliului Uniunii Europene</answer>
+                <answer>Parlamentului European</answer>
+                <answer>Comisiei Europene</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Institutii UE</topic>
+            <text>Curtea de Justitie a Comunitatilor Europene este formata din:</text>
+            <answers>
+                <answer correct=true>28 de judecatori</answer>
+                <answer>12 judecatori</answer>
+                <answer>6 judecatori</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Institutii UE</topic>
+            <text>Cazurile de incalcare a drepturilor cetatenilor, firmelor si statelor membre de catre institutiile europene sunt judecate de catre:</text>
+            <answers>
+                <answer>Curtea de Justitie a Comunitatilor Europene</answer>
+                <answer>Curtea de Conturi a Comunitatilor Europene</answer>
+                <answer correct=true>Tribunalul de Prima Instanta a Comunitatilor Europene</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Institutii UE</topic>
+            <text>Curtea de conturi a Comunitatilor Europene:</text>
+            <answers>
+                <answer correct=true>Este o institutie de control financiar ce protejeaza interesele financiare ale UE</answer>
+                <answer>Este o institutie bancara care face politica monetara a UE</answer>
+                <answer>Este o institutie de control juridic care protejeaza drepturile cetatenilor</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Institutii UE</topic>
+            <text>Banca Centrala Europeana are sediul la:</text>
+            <answers>
+                <answer>Luxemburg</answer>
+                <answer correct=true>Frankfurt pe Main</answer>
+                <answer>Strasbourg</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Institutii UE</topic>
+            <text>Banca Europeana de Investitii are rolul de a:</text>
+            <answers>
+                <answer>Sprijini investitiile care au ca scop aparitia si dezvoltarea intreprinderilor mici si mijlocii</answer>
+                <answer>Realiza politica monetara a Comunitatii</answer>
+                <answer correct=true>Finanta investitiile majore in infrastructura statelor membre</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Institutii UE</topic>
+            <text>Fondul European de Investitii are scopul principal de a:</text>
+            <answers>
+                <answer correct=true>Sprijini aparitia si dezvoltarea intreprinderilor mici si mijlocii</answer>
+                <answer>Finanta investitiile majore in infrastructura statelor membre</answer>
+                <answer>Acorda imprumuturi regiunilor care au incheiat parteneriate economice cu UE</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Institutii UE</topic>
+            <text>Institutiile implicate din partea Uniunii Europene in procesul de negociere a aderarii unei noi tari sunt:</text>
+            <answers>
+                <answer>Inalta Autoritate si Consiliul de Ministri</answer>
+                <answer correct=true>Consiliul Uniunii Europene si Comisia Europeana</answer>
+                <answer>Parlamentul European si Curtea de Justitie</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Romania si UE</topic>
+            <text>Romania a depus cererea oficiala de aderare la Uniunea Europeana in anul:</text>
+            <answers>
+                <answer>1990</answer>
+                <answer correct=true>1995</answer>
+                <answer>1998</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Romania si UE</topic>
+            <text>Clauza de salvgardare formulata de UE pentru Romania si Bulgaria prevedea:</text>
+            <answers>
+                <answer>Posibilitatea cetatenilor de a calatori fara viza pentru o perioada de sejur in tarile spatiului Schengen</answer>
+                <answer correct=true>Posibilitatea amanarii cu un an a aderarii daca obiectivele propuse nu sunt indeplinite</answer>
+                <answer>Un sprijin financiar semnificativ, fonduri de preaderare anuale</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Romania si UE</topic>
+            <text>Conditiile pe care un stat candidat trebuie sa le indeplineasca pentru a deveni membru al UE sunt cunoscute sub denumirea de:</text>
+            <answers>
+                <answer correct=true>Criteriile de la Copenhaga</answer>
+                <answer>Acordul European</answer>
+                <answer>Criteriile de convergenta</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Politici UE</topic>
+            <text>Care din urmatoarele nu este un beneficiu al integrarii in UE:</text>
+            <answers>
+                <answer>Libera circulatie a fortei de munca, serviciilor, marfurilor si capitalurilor</answer>
+                <answer>Cresterea nivelului de trai, reducerea decalajelor economice</answer>
+                <answer correct=true>Posibilitatea de a calatori fara viza in statele din afara UE</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Politici UE</topic>
+            <text>Principiul subsidiaritatii afirma ca:</text>
+            <answers>
+                <answer>Pentru a fi luata o decizie in cadrul Uniunii trebuie sa se ia in calcul toate interesele care sunt in joc</answer>
+                <answer correct=true>Deciziile trebuie luate la nivelul cel mai apropiat de cei afectati direct de ele</answer>
+                <answer>In caz de conflict intre legea nationala si dreptul comunitar, norma comunitara se aplica in toate cazurile</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Politici UE</topic>
+            <text>Situatia in care atat statele cat si Uniunea Europeana au dreptul de a actiona simultan intr-un domeniu poarta numele de:</text>
+            <answers>
+                <answer>Competenta complementara</answer>
+                <answer correct=true>Competenta mixta</answer>
+                <answer>Competenta exclusiva a statelor</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Politici UE</topic>
+            <text>Posibilitatea sanctionarii unui stat membru a fost introdusa prin intermediul:</text>
+            <answers>
+                <answer>Tratatul de la Roma</answer>
+                <answer correct=true>Tratatului de la Nisa</answer>
+                <answer>Actului Unic European</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Politici UE</topic>
+            <text>Termenul de acquis comunitar desemneaza:</text>
+            <answers>
+                <answer correct=true>Legislatia Uniunii Europene</answer>
+                <answer>Simbolurile europene</answer>
+                <answer>Sistemul institutional al Uniunii Europene</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Simboluri UE</topic>
+            <text>Imnul Uniunii Europene a fost compus pe un text scris de catre:</text>
+            <answers>
+                <answer correct=true>Friedrich von Schiller</answer>
+                <answer>Johann Wolfgang von Goethe</answer>
+                <answer>Ludwig van Beethoven</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Simboluri UE</topic>
+            <text>Limbile oficiale ale Uniunii Europene sunt in numar de:</text>
+            <answers>
+                <answer>15</answer>
+                <answer correct=true>23</answer>
+                <answer>28</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>State membre</topic>
+            <text>Care din urmatoarele tari nu face parte din Uniunea Europeana?</text>
+            <answers>
+                <answer>Luxemburg</answer>
+                <answer>Malta</answer>
+                <answer correct=true>Liechtenstein</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>State membre</topic>
+            <text>Care din urmatoarele tari nu face parte din Uniunea Europeana?</text>
+            <answers>
+                <answer>Irlanda</answer>
+                <answer correct=true>Islanda</answer>
+                <answer>Marea Britanie</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>State membre</topic>
+            <text>Care din urmatoarele tari face parte din Uniunea Europeana?</text>
+            <answers>
+                <answer>Islanda</answer>
+                <answer>Liechtenstein</answer>
+                <answer correct=true>Cipru</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>State membre</topic>
+            <text>Care din urmatoarele tari scandinave nu face parte din Uniunea Europeana?</text>
+            <answers>
+                <answer>Suedia</answer>
+                <answer>Finlanda</answer>
+                <answer correct=true>Norvegia</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Moneda Euro</topic>
+            <text>Criteriile pe care un stat trebuie sa le indeplineasca pentru a adopta moneda Euro poarta denumirea de:</text>
+            <answers>
+                <answer correct=true>Criteriile de convergenta</answer>
+                <answer>Criteriile de la Copenhaga</answer>
+                <answer>Criteriile de solvabilitate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Geografia Europei</topic>
+            <text>Europa ocupa aproximativ ce procent din populatia lumii?</text>
+            <answers>
+                <answer>7%</answer>
+                <answer correct=true>11%</answer>
+                <answer>15%</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Geografia Europei</topic>
+            <text>Europa se intinde de la Oceanul Arctic pana la:</text>
+            <answers>
+                <answer>Marea Neagra</answer>
+                <answer correct=true>Marea Mediterana</answer>
+                <answer>Marea Nordului</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Geografia Europei</topic>
+            <text>Pe axa est-vest, Europa se intinde de la Muntii Urali pana la:</text>
+            <answers>
+                <answer>Marea Mediterana</answer>
+                <answer>Muntii Pirinei</answer>
+                <answer correct=true>Oceanul Atlantic</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Cultura europeana</topic>
+            <text>Potrivit legendei grecesti, Europa a fost:</text>
+            <answers>
+                <answer>Regina Cretei</answer>
+                <answer correct=true>Fiica regelui Feniciei</answer>
+                <answer>Zeita frumusetii</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Cultura europeana</topic>
+            <text>In legenda greaca, Zeus deghizat in taur a dus-o pe Europa in:</text>
+            <answers>
+                <answer>Grecia</answer>
+                <answer correct=true>Creta</answer>
+                <answer>Troia</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Istoric UE</topic>
+            <text>Cele patru institutii ale CECO prevazute in Tratatul de la Paris din 1951 erau:</text>
+            <answers>
+                <answer>Parlamentul, Consiliul, Comisia si Curtea de Justitie</answer>
+                <answer correct=true>Inalta Autoritate, Consiliul de Ministri, Adunarea Comuna si Curtea de Justitie</answer>
+                <answer>Consiliul European, Parlamentul, Comisia si Curtea de Conturi</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Istoric UE</topic>
+            <text>Adunarea Parlamentara Comuna a devenit Parlamentul European in anul:</text>
+            <answers>
+                <answer>1951</answer>
+                <answer>1958</answer>
+                <answer correct=true>1962</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Tratatul de la Lisabona</topic>
+            <text>Tratatul de la Lisabona a introdus functia de:</text>
+            <answers>
+                <answer>Presedinte al Comisiei Europene cu mandat de 5 ani</answer>
+                <answer correct=true>Presedinte al Consiliului European cu mandat de 2 ani si jumatate</answer>
+                <answer>Presedinte al Parlamentului European cu mandat de 2 ani</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Tratatul de la Lisabona</topic>
+            <text>Tratatul de la Lisabona a creat functia de:</text>
+            <answers>
+                <answer>Comisar pentru afaceri externe</answer>
+                <answer correct=true>Inalt Reprezentant al Uniunii pentru afaceri externe si politica de Securitate</answer>
+                <answer>Ministru al apararii UE</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Tratatul de la Lisabona</topic>
+            <text>Tratatul de la Lisabona a acordat Parlamentului European pozitie de egalitate cu:</text>
+            <answers>
+                <answer>Curtea de Justitie</answer>
+                <answer correct=true>Comisia Europeana si Consiliul European</answer>
+                <answer>Curtea de Conturi</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Tratatul de la Lisabona</topic>
+            <text>Conform Tratatului de la Lisabona, un stat membru:</text>
+            <answers>
+                <answer>Nu poate parasi niciodata Uniunea</answer>
+                <answer correct=true>Are dreptul sa se retraga din Uniune</answer>
+                <answer>Poate fi exclus prin vot unanim</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Criteriile de la Copenhaga</topic>
+            <text>Criteriile de la Copenhaga privind statele candidate includ:</text>
+            <answers>
+                <answer>Doar criterii economice</answer>
+                <answer correct=true>Institutii stabile care sa garanteze democratia, statul de drept si respectarea drepturilor omului</answer>
+                <answer>Doar capacitatea de a adopta acquis-ul comunitar</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Criteriile de la Copenhaga</topic>
+            <text>Acquis-ul comunitar este structurat in:</text>
+            <answers>
+                <answer>15 capitole de negociere</answer>
+                <answer>25 capitole de negociere</answer>
+                <answer correct=true>31 de capitole de negociere</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Criteriile de la Copenhaga</topic>
+            <text>Pentru aderarea la UE, un stat candidat trebuie sa aiba:</text>
+            <answers>
+                <answer>Doar economie de piata functionala</answer>
+                <answer correct=true>Economie de piata functionala care sa poata suporta socul unei deschideri rapide a pietelor nationale</answer>
+                <answer>PIB peste media UE</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Moneda Euro</topic>
+            <text>Pentru adoptarea monedei Euro, deficitul bugetar trebuie sa fie maxim:</text>
+            <answers>
+                <answer>1% din PIB</answer>
+                <answer correct=true>3% din PIB</answer>
+                <answer>5% din PIB</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Moneda Euro</topic>
+            <text>Pentru adoptarea monedei Euro, rata datoriei publice trebuie sa fie maxim:</text>
+            <answers>
+                <answer>40% din PIB</answer>
+                <answer>50% din PIB</answer>
+                <answer correct=true>60% din PIB</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Moneda Euro</topic>
+            <text>Criteriile economice pentru adoptarea Euro includ:</text>
+            <answers>
+                <answer>Doar stabilitatea preturilor</answer>
+                <answer correct=true>Stabilitatea preturilor, disciplina bugetara, stabilitatea cursului de schimb si convergenta ratelor dobanzilor</answer>
+                <answer>Doar convergenta ratelor dobanzilor</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Moneda Euro</topic>
+            <text>Alti indicatori economici care pot fi luati in considerare pentru trecerea la Euro includ:</text>
+            <answers>
+                <answer>Doar balanta de plati</answer>
+                <answer>PIB per capita</answer>
+                <answer correct=true>Balanta de plati si costul fortei de munca</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Concepte de baza</topic>
+            <text>Termenul de civilizatie apare tiparit pentru prima data in anul:</text>
+            <answers>
+                <answer>1750 la Paris</answer>
+                <answer correct=true>1766 la Amsterdam</answer>
+                <answer>1789 la Londra</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Concepte de baza</topic>
+            <text>Termenul de cultura apare in:</text>
+            <answers>
+                <answer>Secolul XVII in limba franceza</answer>
+                <answer correct=true>Secolul XVIII in limba germana</answer>
+                <answer>Secolul XIX in limba engleza</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Concepte de baza</topic>
+            <text>Termenul latin "cultura" initial insemna:</text>
+            <answers>
+                <answer>Educatia copiilor</answer>
+                <answer correct=true>Cultivarea pamantului (cultura agri)</answer>
+                <answer>Studiul artelor</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Concepte de baza</topic>
+            <text>Expresia "cultura animi" la romani semnifica:</text>
+            <answers>
+                <answer>Cultivarea pamantului</answer>
+                <answer correct=true>Educatia spiritului</answer>
+                <answer>Cultivarea relatiilor sociale</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Concepte de baza</topic>
+            <text>S-au gasit cate sensuri diferite pentru termenii de cultura si civilizatie?</text>
+            <answers>
+                <answer>67 de sensuri</answer>
+                <answer correct=true>146 de sensuri</answer>
+                <answer>213 sensuri</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Concepte de baza</topic>
+            <text>Simion Mehedinci defineste cultura ca fiind:</text>
+            <answers>
+                <answer>Suma tuturor creatiilor tehnice</answer>
+                <answer correct=true>Suma tuturor creatiilor sufletesti, intelectuale, etice si estetice</answer>
+                <answer>Totalitatea institutiilor sociale</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Concepte de baza</topic>
+            <text>Pentru Tudor Vianu, civilizatia este:</text>
+            <answers>
+                <answer>Opusa culturii</answer>
+                <answer correct=true>O cultura partiala, axata pe valoarea tehnico-economica</answer>
+                <answer>O forma superioara de cultura</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Cultura europeana</topic>
+            <text>Conform Andrei Marga, stiinta europeana moderna se caracterizeaza prin:</text>
+            <answers>
+                <answer>Cunoasterea cauzelor finale ale lucrurilor</answer>
+                <answer correct=true>Cunoasterea bazata pe experienta si orientata spre identificarea cauzelor eficiente</answer>
+                <answer>Cunoasterea bazata exclusiv pe logica</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Cultura europeana</topic>
+            <text>Cultura juridica europeana se caracterizeaza prin:</text>
+            <answers>
+                <answer>Centralizare si autoritarism</answer>
+                <answer correct=true>Personalism, legalism si formalism</answer>
+                <answer>Traditionalism si conservatorism</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Cultura europeana</topic>
+            <text>In cultura europeana, individul este recunoscut ca:</text>
+            <answers>
+                <answer>Supus al statului</answer>
+                <answer correct=true>Cetatean cu drepturi naturale la viata, libertate si proprietate</answer>
+                <answer>Membru al unei clase sociale</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Cultura europeana</topic>
+            <text>Cultura politica europeana valorizeaza:</text>
+            <answers>
+                <answer>Unanimitatea si conformismul</answer>
+                <answer correct=true>Pluralismul politic, separarea puterilor si dezbaterea publica</answer>
+                <answer>Centralizarea si conducerea autoritara</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Cultura europeana</topic>
+            <text>In cultura europeana, conceptul de adevar este inteles ca:</text>
+            <answers>
+                <answer>Revelatie divina</answer>
+                <answer correct=true>Corespondenta verificabila in experienta dintre propozitii si starile de fapt</answer>
+                <answer>Opinie majoritara</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Istoric UE</topic>
+            <text>Declaratia Schumann a fost facuta la data de:</text>
+            <answers>
+                <answer>18 aprilie 1951</answer>
+                <answer correct=true>9 mai 1950</answer>
+                <answer>25 martie 1957</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Istoric UE</topic>
+            <text>Tratatul de la Paris care a instituit CECO a fost semnat la:</text>
+            <answers>
+                <answer correct=true>18 aprilie 1951</answer>
+                <answer>9 mai 1950</answer>
+                <answer>25 martie 1957</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Istoric UE</topic>
+            <text>Tratatele de la Roma au fost semnate la:</text>
+            <answers>
+                <answer>18 aprilie 1951</answer>
+                <answer>1 ianuarie 1958</answer>
+                <answer correct=true>25 martie 1957</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Istoric UE</topic>
+            <text>Tratatele de la Roma au intrat in vigoare la:</text>
+            <answers>
+                <answer>25 martie 1957</answer>
+                <answer correct=true>1 ianuarie 1958</answer>
+                <answer>1 ianuarie 1959</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Istoric UE</topic>
+            <text>In anii 60, Comunitatea a avut o crestere economica medie de:</text>
+            <answers>
+                <answer>3 procente pe an</answer>
+                <answer correct=true>5 procente pe an</answer>
+                <answer>7 procente pe an</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Istoric UE</topic>
+            <text>Asociatia Europeana a Liberului Schimb (AELS) a fost infiintata in:</text>
+            <answers>
+                <answer>1957</answer>
+                <answer correct=true>1960</answer>
+                <answer>1965</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Istoric UE</topic>
+            <text>Marea Britanie a depus prima cerere de aderare la CE in:</text>
+            <answers>
+                <answer>1957</answer>
+                <answer correct=true>1961</answer>
+                <answer>1973</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Istoric UE</topic>
+            <text>Franta lui De Gaulle a respins cererea Marii Britanii de aderare din motive:</text>
+            <answers>
+                <answer>Politice legate de NATO</answer>
+                <answer correct=true>Economice legate de Politica Agricola Comuna</answer>
+                <answer>Culturale si lingvistice</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Istoric UE</topic>
+            <text>Georges Pompidou a acceptat extinderea comunitara in:</text>
+            <answers>
+                <answer>1965</answer>
+                <answer correct=true>1969</answer>
+                <answer>1973</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Istoric UE</topic>
+            <text>Inalta Autoritate din cadrul CECO a devenit mai tarziu:</text>
+            <answers>
+                <answer>Consiliul European</answer>
+                <answer correct=true>Comisia Europeana</answer>
+                <answer>Parlamentul European</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Istoric UE</topic>
+            <text>Adunarea Comuna a CECO a devenit Parlamentul European in:</text>
+            <answers>
+                <answer>1958</answer>
+                <answer correct=true>1962</answer>
+                <answer>1965</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Institutii UE</topic>
+            <text>Consiliul European se reuneste la:</text>
+            <answers>
+                <answer>Strasbourg</answer>
+                <answer correct=true>Bruxelles, in cladirea Justus Lipsius</answer>
+                <answer>Luxemburg</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Institutii UE</topic>
+            <text>Sedintele Consiliului Uniunii Europene din aprilie, iunie si octombrie au loc la:</text>
+            <answers>
+                <answer>Bruxelles</answer>
+                <answer correct=true>Luxemburg</answer>
+                <answer>Strasbourg</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Institutii UE</topic>
+            <text>COREPER se reuneste:</text>
+            <answers>
+                <answer>Lunar</answer>
+                <answer correct=true>Saptamanal</answer>
+                <answer>Trimestrial</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Institutii UE</topic>
+            <text>Comisia Europeana mai este numita si:</text>
+            <answers>
+                <answer>Parlamentul de la Bruxelles</answer>
+                <answer correct=true>Guvernul de la Bruxelles</answer>
+                <answer>Curtea de la Bruxelles</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Institutii UE</topic>
+            <text>Comisia Europeana este numita "motorul comunitatii" datorita:</text>
+            <answers>
+                <answer>Puterii executive</answer>
+                <answer correct=true>Dreptului sau de initiativa legislativa</answer>
+                <answer>Puterii judecatoresti</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Institutii UE</topic>
+            <text>In 1999, guvernul francez a refuzat sa accepte decizia Comunitatii referitoare la:</text>
+            <answers>
+                <answer>Importul de produse lactate</answer>
+                <answer correct=true>Importul de carne de vita britanica</answer>
+                <answer>Importul de cereale</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Institutii UE</topic>
+            <text>Comisarul roman la UE pentru Politica Regionala este:</text>
+            <answers>
+                <answer>Dacian Ciolos</answer>
+                <answer correct=true>Corina Cretu</answer>
+                <answer>Rovana Plumb</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Institutii UE</topic>
+            <text>Presedintele actual al Comisiei Europene (conform cursului) este:</text>
+            <answers>
+                <answer>Donald Tusk</answer>
+                <answer correct=true>Jean-Claude Juncker</answer>
+                <answer>Antonio Tajani</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Institutii UE</topic>
+            <text>Initial, Adunarea Comuna a CECO avea:</text>
+            <answers>
+                <answer correct=true>78 de membri</answer>
+                <answer>142 de membri</answer>
+                <answer>626 de membri</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Institutii UE</topic>
+            <text>In prezent, Parlamentul European are:</text>
+            <answers>
+                <answer>705 parlamentari</answer>
+                <answer correct=true>751 parlamentari</answer>
+                <answer>785 parlamentari</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Institutii UE</topic>
+            <text>Parlamentul European este ales prin vot popular din:</text>
+            <answers>
+                <answer>3 in 3 ani</answer>
+                <answer correct=true>5 in 5 ani</answer>
+                <answer>7 in 7 ani</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Romania si UE</topic>
+            <text>Romania a fost prima tara din blocul comunist care a stabilit relatii oficiale cu CE in:</text>
+            <answers>
+                <answer correct=true>Martie 1990</answer>
+                <answer>Decembrie 1989</answer>
+                <answer>Iunie 1991</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Romania si UE</topic>
+            <text>In anii 80, relatiile Romaniei cu CE au fost suspendate din cauza:</text>
+            <answers>
+                <answer>Datoriilor externe</answer>
+                <answer correct=true>Incalcarii drepturilor omului</answer>
+                <answer>Politicii economice</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Romania si UE</topic>
+            <text>Romania a semnat Acordul European in:</text>
+            <answers>
+                <answer>1991</answer>
+                <answer correct=true>1993</answer>
+                <answer>1995</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Romania si UE</topic>
+            <text>Criteriile de la Copenhaga au fost stabilite in:</text>
+            <answers>
+                <answer>1991</answer>
+                <answer correct=true>Iunie 1993</answer>
+                <answer>1995</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Romania si UE</topic>
+            <text>Romania a adoptat Strategia Nationala de preaderare la:</text>
+            <answers>
+                <answer>Bucuresti</answer>
+                <answer correct=true>Snagov in 1995</answer>
+                <answer>Sinaia in 1994</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Romania si UE</topic>
+            <text>Consiliul European de la Madrid din 1995 a stabilit ca:</text>
+            <answers>
+                <answer>Toate statele candidate vor adera simultan</answer>
+                <answer correct=true>Fiecare stat candidat va fi tratat in functie de progresele sale</answer>
+                <answer>Doar 5 state vor putea adera</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Romania si UE</topic>
+            <text>Consiliul European de la Helsinki (1999) a decis deschiderea negocierilor cu:</text>
+            <answers>
+                <answer>4 tari</answer>
+                <answer correct=true>6 tari: Bulgaria, Letonia, Lituania, Malta, Romania, Slovacia</answer>
+                <answer>8 tari</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Romania si UE</topic>
+            <text>Lansarea negocierilor de aderare pentru Romania a inceput in:</text>
+            <answers>
+                <answer>Decembrie 1999</answer>
+                <answer correct=true>Februarie 2000 la Bruxelles</answer>
+                <answer>Ianuarie 2001</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Romania si UE</topic>
+            <text>Acquis-ul comunitar este structurat in:</text>
+            <answers>
+                <answer>25 de capitole</answer>
+                <answer correct=true>31 de capitole de negociere</answer>
+                <answer>35 de capitole</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Simboluri UE</topic>
+            <text>Steagul UE a fost adoptat ca insemn oficial in:</text>
+            <answers>
+                <answer>1983 la Strasbourg</answer>
+                <answer correct=true>1985 la summitul de la Milano</answer>
+                <answer>1986 la Bruxelles</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Simboluri UE</topic>
+            <text>Steagul UE a inceput sa fie folosit din:</text>
+            <answers>
+                <answer>1983</answer>
+                <answer>1985</answer>
+                <answer correct=true>1986</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Simboluri UE</topic>
+            <text>Imnul UE a fost adoptat in:</text>
+            <answers>
+                <answer>1983</answer>
+                <answer correct=true>1985 la summitul de la Milano</answer>
+                <answer>1986</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Simboluri UE</topic>
+            <text>Ziua Europei se sarbatoreste la:</text>
+            <answers>
+                <answer>1 ianuarie</answer>
+                <answer correct=true>9 mai</answer>
+                <answer>25 martie</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Simboluri UE</topic>
+            <text>Ziua Europei comemoreaza:</text>
+            <answers>
+                <answer>Tratatul de la Roma</answer>
+                <answer correct=true>Declaratia Robert Schumann din 9 mai 1950</answer>
+                <answer>Tratatul de la Maastricht</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Moneda Euro</topic>
+            <text>Euro a inlocuit in 1999 moneda:</text>
+            <answers>
+                <answer>Mark german</answer>
+                <answer correct=true>ECU (Unitatea Monetara Europeana)</answer>
+                <answer>Franc francez</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Moneda Euro</topic>
+            <text>ECU fusese creat in:</text>
+            <answers>
+                <answer>1957</answer>
+                <answer>1971</answer>
+                <answer correct=true>1979</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Moneda Euro</topic>
+            <text>Numele monedei Euro a fost stabilit la CE de la Madrid in:</text>
+            <answers>
+                <answer>1993</answer>
+                <answer correct=true>Decembrie 1995</answer>
+                <answer>1998</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Moneda Euro</topic>
+            <text>La summitul de la Bruxelles din mai 1998, cate state au fost considerate ca indeplinesc criteriile pentru Euro?</text>
+            <answers>
+                <answer>9 state</answer>
+                <answer correct=true>11 state</answer>
+                <answer>13 state</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Moneda Euro</topic>
+            <text>Euro a intrat in circulatie ca bancnote si monede la:</text>
+            <answers>
+                <answer>1 ianuarie 1999</answer>
+                <answer correct=true>1 ianuarie 2002</answer>
+                <answer>1 ianuarie 2003</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Moneda Euro</topic>
+            <text>Monedele nationale ale statelor din zona euro au fost retrase din circulatie:</text>
+            <answers>
+                <answer>Imediat dupa 1 ianuarie 2002</answer>
+                <answer correct=true>2 luni dupa 1 ianuarie 2002</answer>
+                <answer>6 luni dupa 1 ianuarie 2002</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Moneda Euro</topic>
+            <text>Bancnotele Euro au cate subdiviziuni?</text>
+            <answers>
+                <answer>5 subdiviziuni</answer>
+                <answer correct=true>7 subdiviziuni</answer>
+                <answer>8 subdiviziuni</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Moneda Euro</topic>
+            <text>Monedele Euro au cate subdiviziuni?</text>
+            <answers>
+                <answer>6 subdiviziuni</answer>
+                <answer>7 subdiviziuni</answer>
+                <answer correct=true>8 subdiviziuni</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Moneda Euro</topic>
+            <text>In prezent, cate state din UE folosesc moneda Euro (zona euro)?</text>
+            <answers>
+                <answer>17 state</answer>
+                <answer correct=true>19 state</answer>
+                <answer>23 state</answer>
+            </answers>
+        </question>
+    </questions>
+</root>

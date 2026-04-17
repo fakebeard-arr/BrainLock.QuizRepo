@@ -1,0 +1,173 @@
+<root>
+    <version>1</version>
+    <title>Sisteme De Operare - Menti cursuri</title>
+    <description>Intrebari din grilele Menti de la cursuri</description>
+    <questions>
+        <question>
+            <topic>Shell Scripting</topic>
+            <text>Care este rolul directorului `/etc` în Linux?</text>
+            <answers>
+                <answer correct=true>conține fișierele de configurare ale sistemului</answer>
+                <answer>conține executabilele comenzilor de sistem</answer>
+                <answer>conține cataloagele utilizatorilor</answer>
+                <answer>conține fișierele temporare ale sistemului</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Shell Scripting</topic>
+            <text>Ce afișează comanda `pwd` în shell?</text>
+            <answers>
+                <answer>lista proceselor active din sistem</answer>
+                <answer>permisiunile fișierului curent</answer>
+                <answer correct=true>directorul curent de lucru</answer>
+                <answer>parola utilizatorului curent</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Shell Scripting</topic>
+            <text>Ce reprezintă variabila `$#` în shell scripting?</text>
+            <answers>
+                <answer correct=true>numărul de parametri transmiși scriptului</answer>
+                <answer>numărul de identificare al procesului curent (PID)</answer>
+                <answer>numele fișierului de comenzi rulat</answer>
+                <answer>lista completă cu parametrii transmiși scriptului</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Shell Scripting</topic>
+            <text>Ce realizează operatorul pipe `|` în shell?</text>
+            <answers>
+                <answer>redirecționează ieșirea standard într-un fișier</answer>
+                <answer>execută două comenzi simultan în fundal</answer>
+                <answer correct=true>conectează ieșirea unui proces la intrarea altuia</answer>
+                <answer>suspendă execuția procesului curent</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Shell Scripting</topic>
+            <text>Ce reprezintă variabila de mediu `$PATH` în shell?</text>
+            <answers>
+                <answer correct=true>lista de directoare în care shell-ul caută fișierele executabile ale comenzilor</answer>
+                <answer>calea absolută a fișierului de comenzi (script) care rulează curent</answer>
+                <answer>directorul de lucru curent al utilizatorului autentificat</answer>
+                <answer>numele complet al interpretorului de comenzi activ</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Shell Scripting</topic>
+            <text>
+                Ce face redirecționarea `2\>` în shell? 
+                
+                ```shell
+                $ ls /usr/bin 2\> erori.txt
+                ```
+            </text>
+            <answers>
+                <answer>redirecționează ieșirea standard `stdout` în dublu exemplar</answer>
+                <answer correct=true>redirecționează ieșirea de eroare standard `stderr` într-un fișier</answer>
+                <answer>concatenează ieșirea standard la un fișier existent</answer>
+                <answer>redirecționează intrarea standard dintr-un fișier</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Shell Scripting</topic>
+            <text>care este sintaxa corectă pentru a afla numărul de elemente dintr-un array în bash?</text>
+            <answers>
+                <answer>`${sir.length}`</answer>
+                <answer>`len($sir)`</answer>
+                <answer>`count(${sir[*]})`</answer>
+                <answer correct=true>`${#sir[@]}`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Shell Scripting</topic>
+            <text>Ce reprezintă simbolul `^` în expresiile regulate?</text>
+            <answers>
+                <answer correct=true>inceputul liniei sau negarea unui set de caractere</answer>
+                <answer>zero sau mai multe repetări ale caracterului precedent</answer>
+                <answer>sfârșitul liniei de text căutate</answer>
+                <answer>un singur caracter oarecare din text</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Shell Scripting</topic>
+            <text>Ce variabilă predefinită în awk reprezintă numărul curent al înregistrării (liniei)?</text>
+            <answers>
+                <answer>`NF`</answer>
+                <answer correct=true>`NR`</answer>
+                <answer>`FS`</answer>
+                <answer>`ORS`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Shell Scripting</topic>
+            <text>Ce se întâmplă cu variabilele definite într-un subshell după ce acesta se termină?</text>
+            <answers>
+                <answer>variabilele devin disponibile automat în shell-ul părinte</answer>
+                <answer>variabilele sunt exportate global în toate shell-urile</answer>
+                <answer>Variabilele sunt salvate în fișierul de configurare `$ENV`</answer>
+                <answer correct=true>modificările nu afectează shell-ul părinte</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Ce rol are utilitarul make în dezvoltarea software?</text>
+            <answers>
+                <answer>un compilator C care generează fișiere executabile din cod sursă</answer>
+                <answer correct=true>determină relațiile de dependență între fișiere și automatizează compilarea</answer>
+                <answer>un interpretor de comenzi specializat pentru scripturi de build</answer>
+                <answer>un manager de pachete pentru instalarea bibliotecilor C</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Care este sintaxa corectă pentru a referenția un macro definit în Makefile?</text>
+            <answers>
+                <answer correct=true>`$(nume)` sau `${nume}`</answer>
+                <answer>`$[nume]` sau `#(nume)`</answer>
+                <answer>`%{nume}` sau `!(nume)`</answer>
+                <answer>`@{nume}` sau `&(nume)`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Ce reprezintă variabila `$@` în regulile unui Makefile?</text>
+            <answers>
+                <answer>lista tuturor dependențelor fișierului țintă</answer>
+                <answer>dependențele actualizate mai recent decât ținta</answer>
+                <answer correct=true>tinta curentă care se construiește</answer>
+                <answer>numele fișierului sursă care se compilează curent</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Ce face ținta specială clean într-un Makefile?</text>
+            <answers>
+                <answer correct=true>șterge fișierele obiect `.o` și executabilul generat</answer>
+                <answer>curăță variabilele de mediu definite în Makefile</answer>
+                <answer>resetează toate macrourile la valorile lor implicite</answer>
+                <answer>elimină sufixele înregistrate cu directiva `.SUFFIXES`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Care este ordinea corectă de prioritate a definițiilor macro în make?</text>
+            <answers>
+                <answer>definiții interne -\> variabile de mediu -\> fișier descriere -\> linia de comandă</answer>
+                <answer>fișierul de descriere -\> linia de comandă -\> variabile de mediu -\> definiții interne</answer>
+                <answer>variabile de mediu -\> linia de comandă -\> definiții interne -\> fișier descriere</answer>
+                <answer correct=true>linia de comandă -\> fișierul de descriere -\> variabile de mediu -\> definiții interne</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Ce semnifică variabila `$?` într-o regulă Makefile?</text>
+            <answers>
+                <answer correct=true>dependențele actualizate mai recent decât ținta curentă</answer>
+                <answer>codul de ieșire returnat de ultima comandă executată</answer>
+                <answer>numărul total de dependențe ale țintei curente</answer>
+                <answer>Fișierul sursă (`$\<`) care declanșează regula de sufix</answer>
+            </answers>
+        </question>
+    </questions>
+</root>
