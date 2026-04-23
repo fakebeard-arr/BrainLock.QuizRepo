@@ -1,0 +1,613 @@
+<root>
+    <version>1</version>
+    <title>Retele De Calculatoare</title>
+    <description>Grile din lab + curs pentru testul 1 la laborator</description>
+    <contribuitors>@jovanni</contribuitors>
+    <questions>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>Cum se numeste modul de comunicare unde un emitator transmite informatii la un singur receptor din retea?</text>
+            <answers>
+                <answer correct=true>unicast</answer>
+                <answer>singlecast</answer>
+                <answer>boardcast</answer>
+                <answer>directcast</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>Cum se numeste modul de comunicare unde un emitator transmite informatii la mai multi receptori din retea?</text>
+            <answers>
+                <answer correct=true>multicast</answer>
+                <answer>boardcast</answer>
+                <answer>targetedcast</answer>
+                <answer>transmission</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>Cum se numeste modul de comunicare unde un emitator transmite informatii la toti receptorii din retea?</text>
+            <answers>
+                <answer correct=true>broadcast</answer>
+                <answer>cast</answer>
+                <answer>totalcast</answer>
+                <answer>ping</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>Cum se numeste modul de comunicare in care un dispozitiv transmite, celalalt receptioneaza, iar rolurile nu se scimba?</text>
+            <answers>
+                <answer correct=true>simplex</answer>
+                <answer>direct</answer>
+                <answer>peer-to-peer</answer>
+                <answer>duplex</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>Cum se numeste modul de comunicare in care un dispozitiv transmite, celalalt receptioneaza, apoi rolurile se schimba?</text>
+            <answers>
+                <answer correct=true>haf-duplex</answer>
+                <answer>duplex</answer>
+                <answer>client-server</answer>
+                <answer>direct</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>Cum se numeste modul de comunicare in care ambele dispozitive pot transmite si receptiona simultan?</text>
+            <answers>
+                <answer correct=true>full-duplex</answer>
+                <answer>duplex</answer>
+                <answer>double-link</answer>
+                <answer>direct</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>Cum se numeste tipul de retea cu un singur canal, care e partajat intre toate dispozitivele retelei?</text>
+            <answers>
+                <answer correct=true>cu difuzare</answer>
+                <answer>punc-la-punct</answer>
+                <answer>stea</answer>
+                <answer>bus</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>Cum se numeste tipul de retea care dispune de numeroase conexiuni intre perechi de dispozitive din retea?</text>
+            <answers>
+                <answer correct=true>punct-la-punct</answer>
+                <answer>cu difuzare</answer>
+                <answer>star</answer>
+                <answer>mesh</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>Dupa tehnologia de transmitere, ce tip de retea e folosita pentru retele mici, locale?</text>
+            <answers>
+                <answer correct=true>cu difuzare</answer>
+                <answer>punct-la-punct</answer>
+                <answer>bus</answer>
+                <answer>client-server</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>Dupa tehnologia de transmitere, ce tip de retea e folosita pentru retele mari?</text>
+            <answers>
+                <answer correct=true>punct-la-punct</answer>
+                <answer>broadcast</answer>
+                <answer>cu difuzare</answer>
+                <answer>star</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>Dupa scara de operare, cum se numesc retelele private, la nivel de camere / incapere / campus?</text>
+            <answers>
+                <answer correct=true>LAN</answer>
+                <answer>WAN</answer>
+                <answer>PAN</answer>
+                <answer>GSM</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>Dupa scara de operare, cum se numesc retelele la nivel de oras, fie ele publice sau private?</text>
+            <answers>
+                <answer correct=true>MAN</answer>
+                <answer>GAN</answer>
+                <answer>LAN</answer>
+                <answer>WAN</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>Dupa scara de operare, cum se numesc retelele care acopera arii geografice intinse (tari, continente)?</text>
+            <answers>
+                <answer correct=true>WAN</answer>
+                <answer>GAN</answer>
+                <answer>CAN</answer>
+                <answer>GSM</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>Dupa scara de operare, cum se numesc retelele ce se intind la nivel global?</text>
+            <answers>
+                <answer correct=true>GAN</answer>
+                <answer>HAN</answer>
+                <answer>GSM</answer>
+                <answer>TSC</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>Dupa topologie, cum se numesc retelele ce conecteaza dispozitivele cu un singur cablu numit "trunchi"?</text>
+            <answers>
+                <answer correct=true>BUS</answer>
+                <answer>STAR</answer>
+                <answer>RING</answer>
+                <answer>CAN</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>Dupa topologie, cum se numesc retelele unde toate dispozitivele de conecteaza la un nod principal, iar orice mesaj transmis in retea trece prin acel nod?</text>
+            <answers>
+                <answer correct=true>STAR</answer>
+                <answer>BUS</answer>
+                <answer>MESH</answer>
+                <answer>RING</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>Dupa topologie, cum se numesc retelele in care toate dispozitivele sunt conectate succesiv doua-cate-doua, iar ultimul e legat la primul?</text>
+            <answers>
+                <answer correct=true>RING</answer>
+                <answer>BUS</answer>
+                <answer>STAR</answer>
+                <answer>MESH</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>Dupa topologie, cum se numesc retelele in care dispozitivele sunt interconectate intre ele?</text>
+            <answers>
+                <answer correct=true>MESH</answer>
+                <answer>PEER-TO-PEER</answer>
+                <answer>DIRECT</answer>
+                <answer>FLAT</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>Dupa topologie, daca nu toate dispozitivele sunt conectate la toate celelalte dispozitive, reteaua este de tip:</text>
+            <answers>
+                <answer correct=true>PARTIAL-MESH</answer>
+                <answer>FULL-MESH</answer>
+                <answer>STAR</answer>
+                <answer>STARLINK</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>Dupa topologie, daca fiecare dispozitiv e conectat la toate celelalte dispozitivele, reteaua e de tip: </text>
+            <answers>
+                <answer correct=true>FULL-MESH</answer>
+                <answer>PARTIAL-MESH</answer>
+                <answer>COMPLETA</answer>
+                <answer>STAR</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>Dupa sistemul in care opereaza, cum se numeste tipul de retea in care toate resursele dispozitivelor sunt puse la comun?</text>
+            <answers>
+                <answer correct=true>PEER-TO-PEER</answer>
+                <answer>COMUNISTA</answer>
+                <answer>SOCIALA</answer>
+                <answer>CLIENT-SEREVR</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>Dupa sistemul in care opereaza, cum se numeste tipul de retea care are in componenta un server specializat?</text>
+            <answers>
+                <answer correct=true>CLIENT-SERVER</answer>
+                <answer>PEER-TO-PEER</answer>
+                <answer>GAN</answer>
+                <answer>STAR</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>In ce versiune Internetul este de tip static, unde utilizatorii pot doar sa citesca informatia dar nu pot modifica/contribui?</text>
+            <answers>
+                <answer correct=true>Web 1.0</answer>
+                <answer>Web 2.0</answer>
+                <answer>Web 3.0</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>In ce versiune Internetul e de tip social, unde utilizatorii creza, distribuie si interactioneaza cu continutul?</text>
+            <answers>
+                <answer>Web 1.0</answer>
+                <answer correct=true>Web 2.0</answer>
+                <answer>Web 3.0</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>In ce versiune Internetul e de tip decentralizat si inteligent, iar informatiile sunt decentralizate si personalizate pentru fiecare utilizator?</text>
+            <answers>
+                <answer>Web 1.0</answer>
+                <answer>Web 2.0</answer>
+                <answer correct=true>Web 3.0</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 1</topic>
+            <text>Ce versiune a internetului mai e numita Semantic Web?</text>
+            <answers>
+                <answer>Web 1.0</answer>
+                <answer>Web 2.0</answer>
+                <answer correct=true>Web 3.0</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>In functie de locatia de acces a datelor, ce tip de retea e folosita pentru utilizare strict interna intr-o institutie?</text>
+            <answers>
+                <answer correct=true>INTRANET</answer>
+                <answer>PRIVATNET</answer>
+                <answer>SINGLENET</answer>
+                <answer>INTERNET</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>In functie de locatia de acces a datelor, ce tip de retea e folosita pentru utilizarea in exterior a resurselor unei institutii?</text>
+            <answers>
+                <answer correct=true>EXTRANET</answer>
+                <answer>INTERNET</answer>
+                <answer>PUBLICNET</answer>
+                <answer>DATANET</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>In functie de locatia de acces a datelor, ce tip de retea e folosita pentru utilizatori externi, fara acces la structurile interne ale insitutiei?</text>
+            <answers>
+                <answer correct=true>INTERNET</answer>
+                <answer>DATANET</answer>
+                <answer>NET</answer>
+                <answer>EXTRANET</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>Ce defineste un protocol de comunicare?</text>
+            <answers>
+                <answer correct=true>ce se comunica, cum se comunica si cand se comunica</answer>
+                <answer>ce se comunica, cum se transmite si cand se raspunde</answer>
+                <answer>ce se transmite, cum se transmite si cum se raspunde</answer>
+                <answer>cand se raspunde, cum se transmite si pe unde se transmite</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>Ce parte a unui protocol defineste structura/formatul datelor si ordinea in care sunt prezentate?</text>
+            <answers>
+                <answer correct=true>sintaxa</answer>
+                <answer>semantica</answer>
+                <answer>caracteristicile</answer>
+                <answer>sincronizarea temporala</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>Ce parte a unui protocol defineste rolul fiecarei sectiuni de date?</text>
+            <answers>
+                <answer correct=true>semantica</answer>
+                <answer>sintaxa</answer>
+                <answer>reteta</answer>
+                <answer>sincronizarea temporala</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>Ce parte a unui protocol precizeaza cand se transmit datele si cu ce viteza?</text>
+            <answers>
+                <answer correct=true>sincronizarea temporala</answer>
+                <answer>directia de transfer</answer>
+                <answer>protocolul suportat</answer>
+                <answer>sintaxa</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>Care model de retea e structurat pe 7 straturi?</text>
+            <answers>
+                <answer correct=true>OSI</answer>
+                <answer>TCP/IP</answer>
+                <answer>TLS</answer>
+                <answer>Telnet</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>Care model de retea a fost propus de ISO pentru a strandardiza protocoalele?</text>
+            <answers>
+                <answer correct=true>OSI</answer>
+                <answer>TCP/IP</answer>
+                <answer>TLS</answer>
+                <answer>HTTP/S</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>Care model de retea nu este utilizat in practica si ramane model didactic?</text>
+            <answers>
+                <answer correct=true>OSI</answer>
+                <answer>TCP/IP</answer>
+                <answer>VOIP</answer>
+                <answer>SSH</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>Pentru modelul OSI, ce strat faciliteaza accesul utilizatorului si aplicatiei la retea?</text>
+            <answers>
+                <answer correct=true>APPLICATION</answer>
+                <answer>PRESENTATION</answer>
+                <answer>NETWORK</answer>
+                <answer>DATA LINK</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>Pentru modelul OSI, ce strat defineste modul de formatare a datelor (encoding, codificare)?</text>
+            <answers>
+                <answer>APPLICATION</answer>
+                <answer correct=true>PRESENTATION</answer>
+                <answer>TRANSPORT</answer>
+                <answer>PHYSICAL</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>Pentru modelul OSI, ce strat gestioneaza crearea si distrugerea de sesiuni de date?</text>
+            <answers>
+                <answer correct=true>SESSION</answer>
+                <answer>PRESENTATION</answer>
+                <answer>APPLICATION</answer>
+                <answer>TRANSMISSION</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Pentru modelul OSI, ce strat transmite date intre procese?</text>
+            <answers>
+                <answer correct=true>TRANSPORT</answer>
+                <answer>APPLICATION</answer>
+                <answer>DATA LINK</answer>
+                <answer>NETWORK</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>Pentru modelul OSI, ce strat transmite date de la sursa la destinatie, indiferent de numarul de retele implicate?</text>
+            <answers>
+                <answer correct=true>NETWORK</answer>
+                <answer>TRANSPORT</answer>
+                <answer>DATA LINK</answer>
+                <answer>PHYSICAL</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>Pentru modelul OSI, ce strat abstractizeaza mediul fizic, definindu-l ca pe un canal de cominicatii capabil sa transmita date fara erori?</text>
+            <answers>
+                <answer correct=true>DATA LINK</answer>
+                <answer>PHYSICAL</answer>
+                <answer>INTERNET</answer>
+                <answer>TRANSPORT</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>Pentru modelul OSI, ce strat coordoneaza functiile necesare transmiterii unui flux de biti pe mediul fizic intre dispozitive?</text>
+            <answers>
+                <answer correct=true>PHYSICAL</answer>
+                <answer>DATA LINK</answer>
+                <answer>TRANSPORT</answer>
+                <answer>INTERNET</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>Care model de retea e structurat pe 4 straturi?</text>
+            <answers>
+                <answer correct=true>TCP/IP</answer>
+                <answer>OSI</answer>
+                <answer>HTTP</answer>
+                <answer>HTTPS</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>Care model de retea a fost definit in urma dezvoltarii protocoalelor, in vederea documentarii acestora?</text>
+            <answers>
+                <answer correct=true>TCP/IP</answer>
+                <answer>OSI</answer>
+                <answer>TLS</answer>
+                <answer>ARP</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>Pentru modelul TCP/IP, ce start contine protocoale/metode de comunicare intre aplicatii?</text>
+            <answers>
+                <answer correct=true>APPLICATION</answer>
+                <answer>TRANSPORT</answer>
+                <answer>INTERNET</answer>
+                <answer>NETWORK ACCESS/LINK</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>Pentru modelul TCP/IP, ce strat face transportul de date intre procese?</text>
+            <answers>
+                <answer correct=true>TRANSPORT</answer>
+                <answer>APPLICATION</answer>
+                <answer>INTERNET</answer>
+                <answer>NETWORK ACCESS/LINK</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>Pentru modelul TCP/IP, ce strat pregateste datele pentru mediul de transmisie si le transmite?</text>
+            <answers>
+                <answer>APPLICATION</answer>
+                <answer>TRANSPORT</answer>
+                <answer>INTERNET</answer>
+                <answer correct=true>NETWORK ACCESS/LINK</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>Ce nivel(uri) din modelul OSI corespund(e) nivelului APPLICATION in modelul TCP/IP?</text>
+            <answers>
+                <answer correct=true>APPLCIATION, PRESENTATION, SESSION</answer>
+                <answer>APPLICATION, SESSION</answer>
+                <answer>APPLICATION</answer>
+                <answer>PRESENTATION, TRANSPORT, NETWORK</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>Ce nivel(uri) din modelul OSI corespund(e) nivelului TRANSPORT in modelul TCP/IP?</text>
+            <answers>
+                <answer correct=true>TRANSPORT</answer>
+                <answer>NETWORK</answer>
+                <answer>TRANSPORT, NETWORK</answer>
+                <answer>TRANSPORT, DATA LINK</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>Ce nivel(uri) din modelul OSI corespund(e) nivelului INTERNET in modelul TCP/IP?</text>
+            <answers>
+                <answer correct=true>NETWORK</answer>
+                <answer>SESSION</answer>
+                <answer>DATA LINK</answer>
+                <answer>DATA LINK, PHYSICAL</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>Ce nivel(uri) din modelul OSI corespund(e) nivelului APPLICATION in modelul TCP/IP?</text>
+            <answers>
+                <answer correct=true>DATA LINK, PHYSICAL</answer>
+                <answer>PHYSICAL</answer>
+                <answer>DATA LINK</answer>
+                <answer>NETWORK, DATA LINK</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>Cum se numeste unitatea de masura aferenta fiecarui nivel a modelelor de retea?</text>
+            <answers>
+                <answer correct=true>PDU, Protocol Data Unit</answer>
+                <answer>SDU, Service Data Unit</answer>
+                <answer>MTU, Maximum Transmission Unit</answer>
+                <answer>API, Application Programming Interlace</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>In procesul de incapsulare/decapsulare a datelor, cum se numeste setul de date aferent nivelului APPLICATION?</text>
+            <answers>
+                <answer correct=true>mesaj</answer>
+                <answer>segment</answer>
+                <answer>packet</answer>
+                <answer>frame</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>In procesul de incapsulare/decapsulare a datelor, cum se numeste setul de date aferent nivelului TRANSPORT?</text>
+            <answers>
+                <answer>mesaj</answer>
+                <answer correct=true>segment</answer>
+                <answer>packet</answer>
+                <answer>frame</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>In procesul de incapsulare/decapsulare a datelor, cum se numeste setul de date aferent nivelului INTERNET?</text>
+            <answers>
+                <answer>mesaj</answer>
+                <answer>segment</answer>
+                <answer correct=true>packet</answer>
+                <answer>frame</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>In procesul de incapsulare/decapsulare a datelor, cum se numeste setul de date aferent nivelului DATA LINK?</text>
+            <answers>
+                <answer correct=true>mesaj</answer>
+                <answer>segment</answer>
+                <answer>packet</answer>
+                <answer>frame</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>In procesul de incapsulare a datelor, ce adauga stratul APPLICATION mesajului primit de la stratul superior?</text>
+            <answers>
+                <answer correct=true>nimic</answer>
+                <answer>un antet de nivel 1</answer>
+                <answer>un trailer de nivel 1</answer>
+                <answer>un antet de nivel 2</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>In procesul de incapsulare a datelor, ce adauga stratul TRANSPORT mesajului primit de la stratul superior?</text>
+            <answers>
+                <answer correct=true>un antet de nivel 4</answer>
+                <answer>un antet de nivel 2</answer>
+                <answer>un trailer de nivel 3</answer>
+                <answer>nimic</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>In procesul de incapsulare a datelor, ce adauga stratul INTERNET mesajului primit de la stratul superior?</text>
+            <answers>
+                <answer correct=true>un antet de nivel 3</answer>
+                <answer>un antet de nivel 2</answer>
+                <answer>un antet si un trailer</answer>
+                <answer>nimic</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 2</topic>
+            <text>In procesul de incapsulare a datelor, ce adauga stratul DATA LINK mesajului primit de la stratul superior?</text>
+            <answers>
+                <answer correct=true>un antet si un trailer de nivel 2</answer>
+                <answer>un antet de nive 2</answer>
+                <answer>un trailer de nivel 1</answer>
+                <answer>nimic</answer>
+            </answers>
+        </question>
+    </questions>
+</root>
