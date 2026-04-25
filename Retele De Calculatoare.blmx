@@ -609,5 +609,1030 @@
                 <answer>nimic</answer>
             </answers>
         </question>
+        <question>
+            <topic>lucrarea 3</topic>
+            <text>Ce probleme pot aparea in cablurile de fibra optica?</text>
+            <answers>
+                <answer correct=true>dispersie cromatica</answer>
+                <answer>interferenta electromagnetica</answer>
+                <answer>zgomot</answer>
+                <answer>coroziune</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 3</topic>
+            <text>Ce probleme pot aparea in cablurile de fibra optica?</text>
+            <answers>
+                <answer correct=true>dispersie modale</answer>
+                <answer>interferenta EMP</answer>
+                <answer>fluctuatii de temperatura</answer>
+                <answer>coroziune</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 3</topic>
+            <text>Ce probleme pot aparea in cablurile de fibra optica?</text>
+            <answers>
+                <answer correct=true>nealiniarea miezurilor</answer>
+                <answer>codare ineficienta</answer>
+                <answer>fluctuatii temperatura</answer>
+                <answer>zgomot</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 3</topic>
+            <text>Ce probleme pot aparea in cablurile de fibra optica?</text>
+            <answers>
+                <answer correct=true>crapaturi in miez</answer>
+                <answer>discrepante in semnal</answer>
+                <answer>transmitere ineficienta</answer>
+                <answer>viteze mici de transmisie</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 3</topic>
+            <text>Care este denumirea studiului proprietatilor codurilor si aplicarea lor in aplicatii specifice?</text>
+            <answers>
+                <answer correct=true>teoria codarii</answer>
+                <answer>coding challange</answer>
+                <answer>criptografie</answer>
+                <answer>encoding</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 3</topic>
+            <text>Care componenta a codarii datelor este restructurarea datelor astfel incat sa reducem dimensiunea mesajului transmis?</text>
+            <answers>
+                <answer correct=true>compresia datelor</answer>
+                <answer>controlul erorilor</answer>
+                <answer>criptografie</answer>
+                <answer>codare de linie</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 3</topic>
+            <text>Care componenta a codarii datelor asigura transmiterea informatiei cu pierderi minime?</text>
+            <answers>
+                <answer correct=true>controlul erorilor</answer>
+                <answer>compresia datelor</answer>
+                <answer>criptografie</answer>
+                <answer>codare de linie</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 3</topic>
+            <text>Care componenta a codarii datelor se ocupa cu obfuscarea mesajului?</text>
+            <answers>
+                <answer correct=true>criptografia</answer>
+                <answer>controlul erorilor</answer>
+                <answer>compresia datelor</answer>
+                <answer>codarea de linie</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 3</topic>
+            <text>Care componenta a codarii datelor asigura transferul de date din format binar in semnal electric sau optic?</text>
+            <answers>
+                <answer correct=true>codarea de linie</answer>
+                <answer>compresia datelor</answer>
+                <answer>controlul erorilor</answer>
+                <answer>criptografie</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 3</topic>
+            <text>In procesul de transmisie a informatiei, care componenta e responsabila de compresia datelor?</text>
+            <answers>
+                <answer correct=true>emitatorul</answer>
+                <answer>receptorul</answer>
+                <answer>canalul de transmisie</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 3</topic>
+            <text>In procesul de transmisie a informatiei, care componenta e responsabila de codurile de linie?</text>
+            <answers>
+                <answer correct=true>canalul de transmisie</answer>
+                <answer>emitatorul</answer>
+                <answer>receptorul</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 3</topic>
+            <text>In procesul de transmisie a informatiei, care componenta e responsabila de controlul erorilor</text>
+            <answers>
+                <answer>emitatorul</answer>
+                <answer correct=true>receptorul</answer>
+                <answer>canalul de transmisie</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 3</topic>
+            <text>In procesul de transmisie a informatiei, care componenta e responsabila de criptografie?</text>
+            <answers>
+                <answer correct=true>emitatorul si receptorul</answer>
+                <answer>emitatorul</answer>
+                <answer>receptorul</answer>
+                <answer>canalul de transmisie</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 3</topic>
+            <text>Ce medii sunt folosite de fibra optica pentru a transmite informatii?</text>
+            <answers>
+                <answer correct=true>stica sau plastic</answer>
+                <answer>laminatii de sticla si plastic</answer>
+                <answer>sticla</answer>
+                <answer>metal</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 3</topic>
+            <text>Pe baza carui principiu fizic functioneaza fibra optica?</text>
+            <answers>
+                <answer correct=true>reflexia interna totala</answer>
+                <answer>refractia interna</answer>
+                <answer>transformata Fourier continua</answer>
+                <answer>viteza luminii in vid</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 3</topic>
+            <text>In functie de numarul de raze de lumina transmite, care sunt tipurile de fibra optica?</text>
+            <answers>
+                <answer correct=true>singlemode, multimode</answer>
+                <answer>direct, phase-shift</answer>
+                <answer>plain, compatible</answer>
+                <answer>simple, complex</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Care tip de adresa e utilizata la nivel de acces de retea?</text>
+            <answers>
+                <answer correct=true>MAC</answer>
+                <answer>IP</answer>
+                <answer>DNS</answer>
+                <answer>VIP</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Care tip de adresa e utilizata le nivelul Internet?</text>
+            <answers>
+                <answer correct=true>IP</answer>
+                <answer>MAC</answer>
+                <answer>VoIP</answer>
+                <answer>CAM</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Care tip de adresa e utilizata la nivel de acces de retea?</text>
+            <answers>
+                <answer correct=true>fizica</answer>
+                <answer>logica</answer>
+                <answer>digitala</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Care tip de adresa e utilizata le nivelul Internet?</text>
+            <answers>
+                <answer correct=true>logica</answer>
+                <answer>fizica</answer>
+                <answer>publica</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Ce tip de adresa este MAC?</text>
+            <answers>
+                <answer correct=true>fizica</answer>
+                <answer>logica</answer>
+                <answer>publica</answer>
+                <answer>privata</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Ce tip de adresa este IP?</text>
+            <answers>
+                <answer correct=true>logica</answer>
+                <answer>fizica</answer>
+                <answer>publica</answer>
+                <answer>privata</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Ce campuri apartin antetul de nivel Internet?</text>
+            <answers>
+                <answer>MAC sursa si destinatie, tip protocol</answer>
+                <answer>IP sursa si destiantie, tip protocol</answer>
+                <answer>tip protocol, port si TTL</answer>
+                <answer>adresa logica, adresa fizica si datele</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>De ce tip este adresa MAC a unui dispozitiv?</text>
+            <answers>
+                <answer correct=true>unica global</answer>
+                <answer>unica per sesiune</answer>
+                <answer>unica pentru producatorul dispozitivului</answer>
+                <answer>asignata aleator la conectare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Pe cati biti e adresa MAC?</text>
+            <answers>
+                <answer correct=true>48</answer>
+                <answer>32</answer>
+                <answer>24</answer>
+                <answer>128</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Din cate caractere hexa e formata o adresa MAC?</text>
+            <answers>
+                <answer correct=true>12</answer>
+                <answer>16</answer>
+                <answer>8</answer>
+                <answer>6</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Pe cati biti e adresa IPv4?</text>
+            <answers>
+                <answer correct=true>32</answer>
+                <answer>24</answer>
+                <answer>48</answer>
+                <answer>128</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Ce separator foloseste IPv4 intre grupuri?</text>
+            <answers>
+                <answer correct=true>`.`</answer>
+                <answer>`:`</answer>
+                <answer>`-`</answer>
+                <answer>`_`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Care biti din adresa IPv4 definesc reteaua?</text>
+            <answers>
+                <answer correct=true>primii 24</answer>
+                <answer>ultimii 12</answer>
+                <answer>primii 8</answer>
+                <answer>toti bitii</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Care biti din adresa IPv4 definesc host-ul?</text>
+            <answers>
+                <answer correct=true>ultimii 8</answer>
+                <answer>ultimii 16</answer>
+                <answer>primii 24</answer>
+                <answer>primii 6</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Care este dimensiunea unei masti IPv4?</text>
+            <answers>
+                <answer correct=true>32 biti</answer>
+                <answer>12 biti</answer>
+                <answer>24 biti</answer>
+                <answer>128 biti</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Care biti identifica reteaua intr-o masca IPv4?</text>
+            <answers>
+                <answer correct=true>bitii de 1</answer>
+                <answer>bitii de 0</answer>
+                <answer>primii 24 biti</answer>
+                <answer>ultimii 8 biti</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Care biti identifica host-ul intr-o masca IPv4?</text>
+            <answers>
+                <answer correct=true>bitii de 0</answer>
+                <answer>bitii de 1</answer>
+                <answer>primii 8</answer>
+                <answer>ultimii 8</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Care este structura unei masti IPv4?</text>
+            <answers>
+                <answer>primii biti pe 1, ultimii biti pe 0</answer>
+                <answer>primii biti pe 0, ultimii biti pe 1</answer>
+                <answer>alterneaza un bit de 1 cu unul de 0</answer>
+                <answer>nu are o structura fixa</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Ce reprezinta `/24` din secventa `192.168.0.102/24`?</text>
+            <answers>
+                <answer correct=true>masca retelei</answer>
+                <answer>adresa host-ului</answer>
+                <answer>adresa de gateway</answer>
+                <answer>numarul de dispozitive din retea</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Ce tip de adresa este `128.542.12.1`?</text>
+            <answers>
+                <answer correct=true>IPv4</answer>
+                <answer>IPv6</answer>
+                <answer>MAC</answer>
+                <answer>ARP</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Ce tip de adresa este `54-E1-AD-BF-E2-AB`?</text>
+            <answers>
+                <answer correct=true>MAC</answer>
+                <answer>IPv4</answer>
+                <answer>IP</answer>
+                <answer>IPv6</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Ce tip de adresa este `00:50:56:ac:0a:e9`?</text>
+            <answers>
+                <answer correct=true>MAC</answer>
+                <answer>IP</answer>
+                <answer>IPv4</answer>
+                <answer>IPv6</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Care este dimensiunea unei adrese IPv6?</text>
+            <answers>
+                <answer correct=true>128 biti</answer>
+                <answer>48 biti</answer>
+                <answer>64 biti</answer>
+                <answer>24 biti</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Ce tip de adresa este `2013:0000:10EF:0000:0000:09C0:8764:1308`?</text>
+            <answers>
+                <answer correct=true>IPv6</answer>
+                <answer>IPv4</answer>
+                <answer>MAC</answer>
+                <answer>ARP</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Ce tip de adresa este `2013:0000:10EF:0:0:09C0:8764:1308`?</text>
+            <answers>
+                <answer>IPv6</answer>
+                <answer correct=true>IPv6 abreviata</answer>
+                <answer>IPv4</answer>
+                <answer>incorecta</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Care este adresa completa a versiunii abreviate 2013:10EF::09C0:8764:1308?</text>
+            <answers>
+                <answer correct=true>`2013:10EF:0000:0000:0000:09C0:8764:1308`</answer>
+                <answer>`2013:10EF:0000:0000:09C0:8764:1308`</answer>
+                <answer>`2013:10EF:0000:0000:09C0:8764:1308:0000`</answer>
+                <answer>`2013:10EF:09C0:8764:1308`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Cum s-ar abrevia adresa `2013:10EF:0000:0000:0000:09C0:8764:1308`?</text>
+            <answers>
+                <answer correct=true>`2013:10EF::09C0:8764:1308`</answer>
+                <answer>`2013:10EF:::09C0:8764:1308`</answer>
+                <answer>`2013:10EF:09C0:8764:1308`</answer>
+                <answer>`2013:10EF:0:0:0:09C0:8764:1308`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Cum se abreviaza adresa `2013:0000:0000:10EF:0000:0000:09C0:8764`?</text>
+            <answers>
+                <answer>`2013::10EF::09C0:8764`</answer>
+                <answer correct=true>`2013:0:0:10EF::09C0:8764`</answer>
+                <answer>`2013:0:0:10EF:0:0:09C0:8764`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>In procesul de abreviere a adresalor IPv6, care grupuri de zerouri adiacente de inlocuiesc cu `::`?</text>
+            <answers>
+                <answer correct=true>cea mai lunga secventa</answer>
+                <answer>toate secventele prezente</answer>
+                <answer>prima secventa</answer>
+                <answer>ultima secventa</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>In procesul de abreviere a adresalor IPv6, cate secvente de grupuri de zerouri adiacente se pot inlocui cu `::`?</text>
+            <answers>
+                <answer correct=true>maxim una</answer>
+                <answer>minim una</answer>
+                <answer>toate</answer>
+                <answer>nici una</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Care este structura adresei MAC multicast?</text>
+            <answers>
+                <answer correct=true>`01-00-5E-xx-xx-xx`</answer>
+                <answer>`01-00-5R-xx-xx-xx`</answer>
+                <answer>`FF-FF-FF-FF-FF-FF`</answer>
+                <answer>`00-00-00-00-00-00`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Care este structura adresei MAC de destinatie broadcast?</text>
+            <answers>
+                <answer correct=true>`FF-FF-FF-FF-FF-FF`</answer>
+                <answer>`00-00-00-00-00-00`</answer>
+                <answer>`01-00-5E-xx-xx-xx`</answer>
+                <answer>`5E-16-EF-98-B3-00`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Pentru adresele IPv4, care este range-ul pentru multicast?</text>
+            <answers>
+                <answer correct=true>`224.0.0.0` -\> `239.255.255.255`</answer>
+                <answer>`244.255.255.0` -\> `255.255.255.255`</answer>
+                <answer>`220.x.x.x` -\> `221.x.x.255`</answer>
+                <answer>`255.255.255.255`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Pentru IPv4, care este range-ul pentru broadcast?</text>
+            <answers>
+                <answer correct=true>bitii de hoast pe 1</answer>
+                <answer>`192.168.0.0` -\> `192.168.255.255`</answer>
+                <answer>`192.168.x.x`</answer>
+                <answer>`13.1.1.0` -\> `25.0.0.0`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Pentru IPv6, modul de comunicare de la 1 la oricare se numeste:</text>
+            <answers>
+                <answer correct=true>ANYCAST</answer>
+                <answer>BROADCAST</answer>
+                <answer>MULTICAST</answer>
+                <answer>DIRECTCAST</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>In IPv6, ce mod de comunicare inlocuitese ANYCAST fata de IPv4?</text>
+            <answers>
+                <answer correct=true>BROADCAST</answer>
+                <answer>SINGLECAST</answer>
+                <answer>MULTICAST</answer>
+                <answer>este un mod complet nou</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Care este structura antetului protocolului IP?</text>
+            <answers>
+                <answer correct=true>TTL / hop limit, IP sursa, IP destinatie, optiuni</answer>
+                <answer>IP sursa, TTL, IP destinatie, hop limit, optiuni</answer>
+                <answer>IP sursa, IP destinatie, TTL, optiuni</answer>
+                <answer>IP destinatie, TTL, optiuni, hop limit</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Care e diferenta dintre antetele protocolului IPv4 si IPv6?</text>
+            <answers>
+                <answer correct=true>TTL este inlocuit cu Hop Limit</answer>
+                <answer>IPv6 nu mai necesita campul IP sursa</answer>
+                <answer>dimestiunea antetului IPv6 este mai mare decat IPv4</answer>
+                <answer>nu este nici o diferenta</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Care este scopul protocolului ARP?</text>
+            <answers>
+                <answer correct=true>mapeaza o adresa fizica unei adrese logice</answer>
+                <answer>confirma ce dispozitive sunt libere in retea</answer>
+                <answer>gaseste drumul optim intre 2 dispozitive</answer>
+                <answer>ruteaza pachete intre 2 retele conectate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Care e sursa acronimului ARP?</text>
+            <answers>
+                <answer correct=true>Address Resolution Protocol</answer>
+                <answer>Arrival Response Protocol</answer>
+                <answer>Automatic Routing Process</answer>
+                <answer>Address Routing Procedure</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Ce este ARP Cache?</text>
+            <answers>
+                <answer correct=true>o tabela cu asocieri MAC-IP</answer>
+                <answer>un sistem de rutare de pachete</answer>
+                <answer>o lista de pachete care necesita un raspuns ACK</answer>
+                <answer>o zona de stocare a datelor</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 5</topic>
+            <text>Care este scopul nivelului TRANSPORT?</text>
+            <answers>
+                <answer correct=true>stabilirea comunicatiei intre aplicatii</answer>
+                <answer>trimiterea de ping-uri in retea</answer>
+                <answer>transmiterea mesajelor in retea</answer>
+                <answer>segmentarea informatiei in pachete</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 5</topic>
+            <text>Ce protocol apartine nivelului Transport?</text>
+            <answers>
+                <answer correct=true>TCP</answer>
+                <answer>HTTP</answer>
+                <answer>DNS</answer>
+                <answer>ARP</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 5</topic>
+            <text>Ce protocol apartine nivelului Transport?</text>
+            <answers>
+                <answer correct=true>UDP</answer>
+                <answer>HTTP</answer>
+                <answer>HTTPS</answer>
+                <answer>ARP</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 5</topic>
+            <text>Care protocol Transport e orientat pe conexiuni?</text>
+            <answers>
+                <answer correct=true>TCP</answer>
+                <answer>UDP</answer>
+                <answer>HTTP</answer>
+                <answer>HTTPS</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 5</topic>
+            <text>Care protocol Transport nu e orientat pe conexiuni?</text>
+            <answers>
+                <answer correct=true>UDP</answer>
+                <answer>TCP</answer>
+                <answer>HTTP</answer>
+                <answer>IP</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 5</topic>
+            <text>Care protocol Transport ofera un circuit virtual in care are loc comunicatia?</text>
+            <answers>
+                <answer correct=true>TCP</answer>
+                <answer>UPD</answer>
+                <answer>HTTP/S</answer>
+                <answer>IPv6</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 5</topic>
+            <text>Care protocol Transport se asigura ca datele ajung la destinatie?</text>
+            <answers>
+                <answer correct=true>TCP</answer>
+                <answer>UDP</answer>
+                <answer>HTTP/S</answer>
+                <answer>IP</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 5</topic>
+            <text>Care protocol Transport nu se asigura ca datele ajung la destinatie?</text>
+            <answers>
+                <answer correct=true>UDP</answer>
+                <answer>TCP</answer>
+                <answer>HTTP</answer>
+                <answer>HTTPS</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 5</topic>
+            <text>Ce protocol Transport foloseste sistemul Fereastra Glisanta?</text>
+            <answers>
+                <answer correct=true>TCP</answer>
+                <answer>UDP</answer>
+                <answer>IPv4</answer>
+                <answer>IPv6</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 5</topic>
+            <text>Ce protocol Transport trimite segmente fara numar de ordine?</text>
+            <answers>
+                <answer correct=true>UDP</answer>
+                <answer>TCP</answer>
+                <answer>IP</answer>
+                <answer>ARP</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 6</topic>
+            <text>Ce port e folosit de protocolul POP3 (email)?</text>
+            <answers>
+                <answer correct=true>110</answer>
+                <answer>80</answer>
+                <answer>221</answer>
+                <answer>531</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 6</topic>
+            <text>Ce port este folosit de protocolul HTTP?</text>
+            <answers>
+                <answer correct=true>80</answer>
+                <answer>8080</answer>
+                <answer>443</answer>
+                <answer>110</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 6</topic>
+            <text>Ce port este folosit de protocolul HTTPS?</text>
+            <answers>
+                <answer correct=true>443</answer>
+                <answer>80</answer>
+                <answer>120</answer>
+                <answer>512</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 6</topic>
+            <text>Care porturi sunt "bine cunoscute" (well known)?</text>
+            <answers>
+                <answer correct=true>0 -\> 1023</answer>
+                <answer>1024 -\> 4096</answer>
+                <answer>1024 -\> 49151</answer>
+                <answer>49152 -\> 150448</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 6</topic>
+            <text>Ce porturi sunt "rezervate"?</text>
+            <answers>
+                <answer correct=true>1024 -\> 49151</answer>
+                <answer>49152 -\> 65535</answer>
+                <answer>0 -\> 1023</answer>
+                <answer>0 -\> 1024</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 6</topic>
+            <text>Care porturi sunt "dinamice"?</text>
+            <answers>
+                <answer correct=true>49152 -\> 65535</answer>
+                <answer>1024 -\> 49151</answer>
+                <answer>0 -\> 1024</answer>
+                <answer>12500 -\> 50128</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 6</topic>
+            <text>Ce este un socket?</text>
+            <answers>
+                <answer correct=true>combinatia adresa IP + port</answer>
+                <answer>locul unde bagam steckerul dar nu degetul</answer>
+                <answer>adresa IP de destinatie a unui packet</answer>
+                <answer>un sistem de comunicare intre servere</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 6</topic>
+            <text>Ce este un port?</text>
+            <answers>
+                <answer correct=true>un identificator unic pentru fiecare aplicatie</answer>
+                <answer>ultimele 3 cifre dintr-o adresa IPv4</answer>
+                <answer>ultima secventa de caractere din adresele IPv4/IPv6</answer>
+                <answer>o modalitate de diminuare a congestiei traficului pe retea</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 6</topic>
+            <text>Ce port este ales aleator de cel care initiaza o conexiune?</text>
+            <answers>
+                <answer correct=true>portul sursa</answer>
+                <answer>portul destinatie</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 6</topic>
+            <text>Ce port e folosit pentru identificare aplicatiei la receptie?</text>
+            <answers>
+                <answer correct=true>port destinatie</answer>
+                <answer>port sursa</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 6</topic>
+            <text>Ce face protocolul DHCP?</text>
+            <answers>
+                <answer correct=true>ofera o adresa IP valida dispozitivelor din retea</answer>
+                <answer>converteste adrese IP în adrese MAC</answer>
+                <answer>cripteaza traficul de retea pentru securitate</answer>
+                <answer>stabileste conexiuni intre servere web si clienti</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 6</topic>
+            <text>Ce nu ofera DHCP dispozitivelor din retea?</text>
+            <answers>
+                <answer>o adresa IP publica</answer>
+                <answer>o adresa IP valida</answer>
+                <answer>o masca de retea</answer>
+                <answer>o adresa de gateway</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 6</topic>
+            <text>Ce este adresa de Gateway?</text>
+            <answers>
+                <answer correct=true>adresa router-ului din retea</answer>
+                <answer>adresa publica a retelei</answer>
+                <answer>adresa publica a dispozitivului</answer>
+                <answer>adresa serverului DNS</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 6</topic>
+            <text>Ce tip de alocare se poate folosi cu DHCP?</text>
+            <answers>
+                <answer correct=true>dinamica / statica</answer>
+                <answer>dinamica</answer>
+                <answer>statica</answer>
+                <answer>dinamica doar pentru IPv4</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 6</topic>
+            <text>Ce protocol e folosit de DHCP pentru comunicare?</text>
+            <answers>
+                <answer correct=true>UPD</answer>
+                <answer>TCP</answer>
+                <answer>Telnet</answer>
+                <answer>VoIP</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 6</topic>
+            <text>DHCP poate rula pe un server dedicat, nu doar pe un router?</text>
+            <answers>
+                <answer correct=true>da</answer>
+                <answer>nu</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 6</topic>
+            <text>DHCP poate rula ca aplicatie colocata pe un server?</text>
+            <answers>
+                <answer correct=true>da</answer>
+                <answer>nu</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 6</topic>
+            <text>In antetul DHCP, ce camp identifica unic fiecare schimb de mesaje cu un host?</text>
+            <answers>
+                <answer correct=true>Transaction Identifier</answer>
+                <answer>Transmission Counter</answer>
+                <answer>Specific Host Counter</answer>
+                <answer>Unique Message Identifier</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 6</topic>
+            <text>Pentru ce e folosit protocolul FTP?</text>
+            <answers>
+                <answer correct=true>transfer de fisiere</answer>
+                <answer>comunicatii instante</answer>
+                <answer>live streaming</answer>
+                <answer>orice, de la website-uri la terminale virtuale</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 6</topic>
+            <text>Cate porturi utilizeaza FTP?</text>
+            <answers>
+                <answer correct=true>2, un canal de control si unui de date</answer>
+                <answer>un singur canal multiplexat</answer>
+                <answer>cate un port pentru fiecare conextiune</answer>
+                <answer>un port global la care se poate conecta un singur utilizator</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 6</topic>
+            <text>Ce porturi sunt utilizate de FTP?</text>
+            <answers>
+                <answer correct=true>`20` pt date si `21` pt control</answer>
+                <answer>`21` penstru date si `20` pentru control</answer>
+                <answer>`80` pentru date si `443` pentru control</answer>
+                <answer>`443` pentru control si `80` pentru date</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 6</topic>
+            <text>Ce protocol Transport e folosit de FTP?</text>
+            <answers>
+                <answer>UDP</answer>
+                <answer correct=true>TCP</answer>
+                <answer>TCP/IP</answer>
+                <answer>DHCP</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 7</topic>
+            <text>In ce categorie se incadreaza retelele de telefonie mobila (3G, 4G etc)?</text>
+            <answers>
+                <answer correct=true>WWAN</answer>
+                <answer>WLAN</answer>
+                <answer>LAN</answer>
+                <answer>WAN</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 7</topic>
+            <text>In ce categorie se incadreaza retelele WiFi?</text>
+            <answers>
+                <answer correct=true>WLAN</answer>
+                <answer>WPAN</answer>
+                <answer>WWAN</answer>
+                <answer>WGAN</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 7</topic>
+            <text>In ce categorie se incadreaza retelele Bluetooth, ZigBee?</text>
+            <answers>
+                <answer correct=true>WPAN</answer>
+                <answer>WLAN</answer>
+                <answer>WMAN</answer>
+                <answer>WAN</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 7</topic>
+            <text>Ce standard e folosit de retelel 1G pentru transmisia de date?</text>
+            <answers>
+                <answer correct=true>nici unul</answer>
+                <answer>GSM</answer>
+                <answer>WCDMA</answer>
+                <answer>MIMO</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 7</topic>
+            <text>Ce standard e folosit de retelel 2G pentru transmisia de date?</text>
+            <answers>
+                <answer correct=true>GSM</answer>
+                <answer>nici unul</answer>
+                <answer>WCDMA</answer>
+                <answer>LTE</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 7</topic>
+            <text>Ce standard e folosit de retelel 3G pentru transmisia de date?</text>
+            <answers>
+                <answer correct=true>WCDMA</answer>
+                <answer>LTE</answer>
+                <answer>MINO</answer>
+                <answer>nici unul</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 7</topic>
+            <text>Ce standard e folosit de retelel 4G pentru transmisia de date?</text>
+            <answers>
+                <answer correct=true>LTE</answer>
+                <answer>WCDMA</answer>
+                <answer>MIMO</answer>
+                <answer>mmWawes</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 7</topic>
+            <text>Ce standard e folosit de retelel 5G pentru transmisia de date?</text>
+            <answers>
+                <answer correct=true>MIMO</answer>
+                <answer>GSM</answer>
+                <answer>nici unul</answer>
+                <answer>WiMAX</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 7</topic>
+            <text>Ce generatii de retele celulare folosesc PSTN (Packet Switched Telephone Network) pentru comunicatii?</text>
+            <answers>
+                <answer correct=true>1G / 2G</answer>
+                <answer>2G / 3G</answer>
+                <answer>1G</answer>
+                <answer>2G / 3G / 4G</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 7</topic>
+            <text>Ce generatii de retele celulare folosesc UMTS (Universal Mobile Telecommunications System) pentru comunicatii?</text>
+            <answers>
+                <answer correct=true>3G</answer>
+                <answer>2G / 3G</answer>
+                <answer>2G / 3G / 4G</answer>
+                <answer>4G</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 7</topic>
+            <text>Ce generatii de retele celulare folosesc Internet pentru comunicatii?</text>
+            <answers>
+                <answer correct=true>4G / 5G</answer>
+                <answer>5G / 6G</answer>
+                <answer>2G / 3G / 4G</answer>
+                <answer>2G / 3G / 4G / 5G</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 7</topic>
+            <text>Ce retea a fost creata dedicat pentru dispozitivele mobile?</text>
+            <answers>
+                <answer>PSTN</answer>
+                <answer correct=true>UMTS</answer>
+                <answer>Internet</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 7</topic>
+            <text>Care este standardul folosit de retelele WiFi?</text>
+            <answers>
+                <answer correct=true>802.11</answer>
+                <answer>801.22</answer>
+                <answer>11a</answer>
+                <answer>11a/g/n</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 7</topic>
+            <text>Cate variante a standardului WiFi 802.11 exista?</text>
+            <answers>
+                <answer correct=true>6</answer>
+                <answer>12</answer>
+                <answer>8</answer>
+                <answer>9</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 7</topic>
+            <text>Care varianta nu face parte din standardul 802.11?</text>
+            <answers>
+                <answer>802.11a</answer>
+                <answer>802.11b</answer>
+                <answer>802.11n</answer>
+                <answer correct=true>802.11f</answer>
+            </answers>
+        </question>
     </questions>
 </root>
