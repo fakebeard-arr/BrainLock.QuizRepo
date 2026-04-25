@@ -1,0 +1,355 @@
+<root>
+    <version>1</version>
+    <title>Retele De Calculatoare - Mosteniri</title>
+    <questions>
+        <question>
+            <text>Care este separatorul intre gruparile de cifre hexazecilame intr-o adresa IPv6?</text>
+            <answers>
+                <answer>`-`</answer>
+                <answer>`.`</answer>
+                <answer correct=true>`:`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Campul `Preambul` din antetul de Acces Retea (Network Access) este utilizat in ce scop?</text>
+            <answers>
+                <answer correct=true>pentru a sincroniza dispozitivele de emisie si receptie</answer>
+                <answer>pentru a efectual detectarea erorilor</answer>
+                <answer>pentru a transporta adresa MAC destinatie</answer>
+                <answer>pentru a indica protocolul datelor incapsulate</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este scopul mastii de retea in adresarea IPv4?</text>
+            <answers>
+                <answer>sa cripteze adresa IP</answer>
+                <answer correct=true>sa identifice pareta de retea a unei adrese IP</answer>
+                <answer>sa identifice costul in cadrul retelei</answer>
+                <answer>sa determine router-ul urmator</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este scopul convertoarelor media in retea?</text>
+            <answers>
+                <answer>sa amplifice semnalele de retea</answer>
+                <answer>sa gestioneze traficul</answer>
+                <answer correct=true>sa converteasca semnalul electric intr-un semnal luminos si invers</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cati biti contine o adresa IPv4?</text>
+            <answers>
+                <answer>48 biti</answer>
+                <answer>64 biti</answer>
+                <answer>128 biti</answer>
+                <answer correct=true>32 biti</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este scopul campului `Transaction Identifier` din antetul protocolului DHCP?</text>
+            <answers>
+                <answer correct=true>sa identifice in mod unic fiecare schimb de mesaje cu un host</answer>
+                <answer>sa specifice adresa hardware a clientului</answer>
+                <answer>sa identifice tipul de mesaj DHCP</answer>
+                <answer>sa indice numarul de hopuri</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este scopul partii `Organizationally Unique Identifier` (OUI) a unei adrese MAC?</text>
+            <answers>
+                <answer>pentru a indica dispozitivul specific</answer>
+                <answer>pentru a oferi o adresa unica intr-o retea</answer>
+                <answer correct=true>pentru a identifica producatorul interfetei de retea</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care interval de numere de prot este utilizat pentru porturi bine cunoscute?</text>
+            <answers>
+                <answer correct=true>0 -\> 1023</answer>
+                <answer>1024 -\> 49151</answer>
+                <answer>49152 -\> 65535</answer>
+                <answer>se poate utiliza orice numar de port</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este scopul functiei `Hide WiFi` din setarile wireless ale unui router? </text>
+            <answers>
+                <answer>sa impiedice conectarea utilizatorilor neautorizati</answer>
+                <answer>sa cripteze semnalele WiFi</answer>
+                <answer correct=true>sa impiedice difuzarea SSID, astfel incat clientii sa se poata conecta doar daca stiu numele retelei</answer>
+                <answer>sa dezactiveze complet functionalitatea WiFi</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum functioneaza Modulatia Amplitudinii (AM)?</text>
+            <answers>
+                <answer correct=true>amplitudinea semnalului purtator e variata</answer>
+                <answer>frecventa semnalului purtator e variata</answer>
+                <answer>faza semnalului purtator e variata</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care mesaj DHCP este trimis de serverul DHCP ca raspuns la un mesaj `DHCP Discover`, care contine o oferta de adresa IP?</text>
+            <answers>
+                <answer>DHCP Decline</answer>
+                <answer>DHCP Request</answer>
+                <answer>DHCP Ack</answer>
+                <answer correct=true>DHCP Offer</answer>
+            </answers>
+            <explanation>
+                În procesul standard DHCP:
+                - Clientul trimite `DHCP Discover` (caută servere DHCP)
+                - Serverul răspunde cu `DHCP Offer` (oferă o adresă IP disponibilă)
+                - Clientul trimite `DHCP Request` (acceptă oferta)
+                - Serverul finalizează cu `DHCP ACK` (confirmă alocarea)
+            </explanation>
+        </question>
+        <question>
+            <text>Ce benzi de frecvente sunt utilizate pentru retelele WiFi?</text>
+            <answers>
+                <answer>numai 5GHz</answer>
+                <answer correct=true>2,4GHz, 5GHz si uneori 60GHz</answer>
+                <answer>numai 60GHz</answer>
+                <answer>numai 2,4GHz</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Functionarea cablurilor de fibra optica se bazeaza pe ce principii fizice?</text>
+            <answers>
+                <answer>difractie si interferenta</answer>
+                <answer correct=true>reflexie si refractie</answer>
+                <answer>polarizare si reflexie</answer>
+                <answer>absorbtie si transmisie</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce comanda poate fi utilizata in promptul de comanda Windows (CMD) pentru a afisa conexiunile de retea active si porturile?</text>
+            <answers>
+                <answer>`arp -a`</answer>
+                <answer>`ping`</answer>
+                <answer correct=true>`netstat`</answer>
+                <answer>`ipconfig`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care din urmatoarele este un nivel al modelului OSI?</text>
+            <answers>
+                <answer>Acces la retea</answer>
+                <answer>Internet</answer>
+                <answer correct=true>Transport</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care din urmatoarele este un prefix de adresa IPv4 Unicast Global valid?</text>
+            <answers>
+                <answer correct=true>`2000::/3`</answer>
+                <answer>`::1/128`</answer>
+                <answer>`FE80::/10`</answer>
+                <answer>`FEC0::/10`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Transferul de date de la un host la altul prin retele diferite se bazeaza pe ce tip de adresa?</text>
+            <answers>
+                <answer>numarul portului fizic</answer>
+                <answer>adresa Ethernet</answer>
+                <answer correct=true>adresa IP</answer>
+                <answer>adresa MAC</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce tip de adresare e asociat cu adresele MAC?</text>
+            <answers>
+                <answer>adresarea logica</answer>
+                <answer correct=true>adresarea fizica</answer>
+                <answer>adresarea retelei</answer>
+                <answer>adresarea aplicatiei</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce tip de cerere ARP este transmisa de obicei de un emitator atunci cand trebuie sa gaseasca adresa MAC asociata cu o adresa IP cunoscuta din aceasi retea locala?</text>
+            <answers>
+                <answer correct=true>Braodcast</answer>
+                <answer>Anycast</answer>
+                <answer>Unicast</answer>
+                <answer>Multicast</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce este un socket, in conteztul programarii in retea?</text>
+            <answers>
+                <answer correct=true>o grupare de o adresa IP si un numar de port</answer>
+                <answer>un port fizic pe un dispozitiv de retea</answer>
+                <answer>un tip de conector de cablu de retea</answer>
+                <answer>o interfata software pentru comunicarea in retea</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum difera comunicarea Multicast de comunicarea Broadcast?</text>
+            <answers>
+                <answer>Multicast are doi expeditori</answer>
+                <answer>Broadcast trimite datele catre un singur receptor</answer>
+                <answer correct=true>Multicast vizeaza un grup specific de receptori</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce se intempla cu datele la nivelul Transport inainte de a fi trimise la nivelul Retea?</text>
+            <answers>
+                <answer>sunt criptate pentru o transmisie sigura</answer>
+                <answer>sunt transmise fizic pe suportul de retea</answer>
+                <answer>sunt directionate catre reteaua de destinatie corespunzatoare</answer>
+                <answer correct=true>sunt impartite in segmente (pentru TCP) sau in datagrame (pentru UDP) si li se adauga un antet de nivel Transport</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care din urmatoarele afirmatii descrie cel mai bine procesul de Braodcast?</text>
+            <answers>
+                <answer>un emitator transmite la un singur receptor</answer>
+                <answer correct=true>un emitator comunica la toti receptorii</answer>
+                <answer>un emitator si mai multi dar nu toti receptorii</answer>
+                <answer>mai multi emitatori transmit unui singur receptor</answer>
+                <answer>toti emitatorii transmit la toate receptoarele</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Daca ar fi sa ne uitam la un schimb complet de mesaje dintre un PC si un server DHCP atunci al 3-lea mesaj ar fi:</text>
+            <answers>
+                <answer>un mesaj de acceptare (ACK)</answer>
+                <answer>un semaj de oferta (Offer)</answer>
+                <answer>un mesaj de descoperire (Discover)</answer>
+                <answer correct=true>un mesaj de cerere (Request)</answer>
+                <answer>nici un raspuns nu e corect</answer>
+            </answers>
+            <explanation>
+                În procesul standard DHCP:
+                - Clientul trimite `DHCP Discover` (caută servere DHCP)
+                - Serverul răspunde cu `DHCP Offer` (oferă o adresă IP disponibilă)
+                - Clientul trimite `DHCP Request` (acceptă oferta)
+                - Serverul finalizează cu `DHCP ACK` (confirmă alocarea)
+            </explanation>
+        </question>
+        <question>
+            <text>Care din urmatoarele este o adresa logica (IP) corecta?</text>
+            <answers>
+                <answer>`01-1a-3f-f1-c4-c6`</answer>
+                <answer>`00:3e:b6:18:c2:78`</answer>
+                <answer correct=true>`156.254.87.18`</answer>
+                <answer>`9c-35-58-5f-4c-7d`</answer>
+                <answer>`18.256.110.45`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>In antetul TCP nu avem informatii despre:</text>
+            <answers>
+                <answer>numarul de port destinatie</answer>
+                <answer correct=true>numarul de hop-uri pana la destinatie</answer>
+                <answer>numarul de secventa receptionat</answer>
+                <answer>numarul de secventa trimis</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care din urmatoarele este o adresa fizica (MAC) valida?</text>
+            <answers>
+                <answer>`00:14:78:ah:9c:2b`</answer>
+                <answer>`73:124:68:10`</answer>
+                <answer correct=true>`00-1a-3f-f1-4c-c6`</answer>
+                <answer>`255.256.216.1`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>La procesul de decapsulare realizat dupa modelul de referinta TCP/IP, la al catelea nivel se gaseste portul sursa si portul destinatie?</text>
+            <answers>
+                <answer>al 2-lea</answer>
+                <answer>al 3-lea</answer>
+                <answer correct=true>al 4-lea</answer>
+                <answer>primul</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este adresa IPv6 corecta, daca pornim de la MAC `6C-3B-B1-EF-7E-38` si parcurgem etapele procesului EUI-64?</text>
+            <answers>
+                <answer>`6C-3B-B1-FE-FF-EF-7E-38`</answer>
+                <answer>`6C-3B-B1-FF-FE-EF-7E-38`</answer>
+                <answer>`6E-3B-B1-FE-FF-EF-7E-38`</answer>
+                <answer correct=true>`6E-3B-B1-FF-FE-EF-7E-38`</answer>
+            </answers>
+            <explanation>
+                - pas 1: se imapte adresa MAC in 2: `6C-3B-B1`, `EF-7E-38`
+                - pas 2: se insereasa secventa `FF-FE` intre cele 2 jumatati
+                - pas 3: se modifica bitul 1 din prima secventa a primei jumatati din 0 pe 1
+                ```
+                6C = 0110 1100 -\> 0110 1110 = 6E
+                ```
+                
+                deci rezultatul e: `6E-3B-B1-FF-FE-EF-7E-38`
+            </explanation>
+        </question>
+        <question>
+            <text>Care este adresa IPv6 corecta daca pornim de la adresa MAC `C0-8F-02-52-A3-AA` si parcurgem etapele procesului EUI-64?</text>
+            <answers>
+                <answer>`C0-8F-02-FE-FE-52-A3-AA`</answer>
+                <answer>`C2-8F-02-FE-FF-52-A3-AA`</answer>
+                <answer>`C0-8F-02-FF-FF-52-A3-AA`</answer>
+                <answer correct=true>`C2-8F-02-FF-FE-52-A3-AA`</answer>
+            </answers>
+            <explanation>
+                - pas 1: se imapte adresa MAC in 2: `C0-8F-02`, `52-A3-AA`
+                - pas 2: se insereasa secventa `FF-FE` intre cele 2 jumatati
+                - pas 3: se modifica bitul 1 din prima secventa a primei jumatati din 0 pe 1
+                ```
+                C0 = 1100 0000 -\> 1100 0010 = C2
+                ```
+                
+                deci rezultatul e: `C2-8F-02-FF-FE-52-A3-AA`
+            </explanation>
+        </question>
+        <question>
+            <text>In cadrul carui nivel din stiva TCP/IP este folosit protocolul UDP?</text>
+            <answers>
+                <answer>0</answer>
+                <answer>1</answer>
+                <answer>2</answer>
+                <answer correct=true>3</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Pe cati octeti este reprezentata o adresa logica (IPv4)?</text>
+            <answers>
+                <answer correct=true>4</answer>
+                <answer>6</answer>
+                <answer>8</answer>
+                <answer>32</answer>
+                <answer>48</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Daca discutam despre un socket de comunicatii, acesta reprezinta:</text>
+            <answers>
+                <answer>o adresa MAC si o adresa IP</answer>
+                <answer>o adresa IP si o pereche de numere de porturi</answer>
+                <answer>o adresa IP, o adresa MAC si un numar de port</answer>
+                <answer correct=true>o adresa IP si un numar de port</answer>
+                <answer>o adresa MAC si un numar de port</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Daca am dori sa trimitem un email, ce protocol vom folosi la nivelul Transport?</text>
+            <answers>
+                <answer>UDP</answer>
+                <answer correct=true>TCP</answer>
+                <answer>ARP</answer>
+                <answer>DHCP</answer>
+                <answer>nici un protocol prezent nu face parte din suita celor aferente nivelului Transport</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care din urmatoarele afirmatii referitoare la protocolul UDP este incorecta?</text>
+            <answers>
+                <answer correct=true>ofera fiabilitate crescuta</answer>
+                <answer>are un adaos scazut de biti de control</answer>
+                <answer>nu este orientat pe conexiune</answer>
+                <answer>foloseste in structura antetului numere de porturi pentru sursa si destinatie</answer>
+            </answers>
+        </question>
+    </questions>
+</root>

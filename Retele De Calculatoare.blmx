@@ -1634,5 +1634,55 @@
                 <answer correct=true>802.11f</answer>
             </answers>
         </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Pentru o adresa IPv6, cum arata o adresa valida Unicast Global?</text>
+            <answers>
+                <answer correct=true>`2000::/3`</answer>
+                <answer>`2021::/7`</answer>
+                <answer>`FE80::/10`</answer>
+                <answer>`FEC0::/10`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Pentru o adresa IPv6, cum arata o adresa valida Unicast Link Local?</text>
+            <answers>
+                <answer correct=true>`FE80::/10`</answer>
+                <answer>`FE50::/8`</answer>
+                <answer>`2000::/3`</answer>
+                <answer>`FEC0::/10`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>Pentru o adresa IPv6, cum arata o adresa valida Unicast Site Local?</text>
+            <answers>
+                <answer correct=true>`FEC0::/10`</answer>
+                <answer>`2000::/10`</answer>
+                <answer>`2000::/3`</answer>
+                <answer>`FE80::/8`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>In procesul de generare IPv6 bazat pe EUI-64, ce secventa se insereaza in mijlocul adresei MAC?</text>
+            <answers>
+                <answer correct=true>`FF-FE`</answer>
+                <answer>`FE-EF`</answer>
+                <answer>`FE-FF`</answer>
+                <answer>`FF-FF`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>lucrarea 4</topic>
+            <text>In procesul de generare IPv6 bazat pe EUI-64, care bit se modifica din 0 in 1?</text>
+            <answers>
+                <answer correct=true>al 7-lea din primul octet</answer>
+                <answer>al 7-lea din ultimul octet</answer>
+                <answer>al 2-lea din primul octet</answer>
+                <answer>al 5-lea din al treilea octet</answer>
+            </answers>
+        </question>
     </questions>
 </root>
