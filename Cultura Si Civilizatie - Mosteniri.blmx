@@ -1,0 +1,339 @@
+<root>
+    <version>1</version>
+    <title>Cultura Si Civilizatie - Mosteniri</title>
+    <questions>
+        <question>
+            <topic>V1</topic>
+            <text>Autorul lucrarii `Culturi eleate si culturi heraclitice` este:</text>
+            <answers>
+                <answer>Ovidiu Drimba</answer>
+                <answer correct=true>Anton Dumitriu</answer>
+                <answer>Simion Mehedinti</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V1</topic>
+            <text>Termenul `civilizatie` a aparut la 1766 si a fost introdus in circulatie de catre:</text>
+            <answers>
+                <answer>Oswald Spengler</answer>
+                <answer correct=true>Voltaire</answer>
+                <answer>Tudor Vianu</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V1</topic>
+            <text>`Europa` este numele unui satelit al planetei:</text>
+            <answers>
+                <answer correct=true>Jupiter</answer>
+                <answer>Saturn</answer>
+                <answer>Marte</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V1</topic>
+            <text>Tratatul fondator al Uniunii Europene a fost:</text>
+            <answers>
+                <answer>Tratatul de la Paris</answer>
+                <answer correct=true>Tratatul de la Roma</answer>
+                <answer>Tratatul de la Bruxelles</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V1</topic>
+            <text>Institutia supranumita "Motorul Comunitatii" este:</text>
+            <answers>
+                <answer>Parlamentul European</answer>
+                <answer correct=true>Comisia Europeana</answer>
+                <answer>Consiliul De Ministrii</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V1</topic>
+            <text>Acordurile Europene incheiate incepand din anul 1991 aveau drept obiectiv:</text>
+            <answers>
+                <answer>stabilirea unor relatii de cooperare intre statele membre</answer>
+                <answer>reducerea decalajelor economice</answer>
+                <answer correct=true>pregatirea aderarii la comunitate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V1</topic>
+            <text>Romania a devenit, alaturi de Bulgaria, membra cu drepturi depline a UE de la:</text>
+            <answers>
+                <answer>1 ianuarie 2008</answer>
+                <answer correct=true>1 ianuarie 2007</answer>
+                <answer>1 ianuarie 2006</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V1</topic>
+            <text>Autorul roman care a propus cinci factori drept criterii de apartenenta la Europa este:</text>
+            <answers>
+                <answer correct=true>Andrei Marga</answer>
+                <answer>Anton Dumitru</answer>
+                <answer>Andrei Plesu</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V2</topic>
+            <text>Autorul lucrarii `Istoria culturii si civilizatiei` este:</text>
+            <answers>
+                <answer>Simion Mehedinti</answer>
+                <answer>Anton Dumitru</answer>
+                <answer correct=true>Ovidiu Drimba</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V2</topic>
+            <text>Intre cultura si civilizatie exista un raport de:</text>
+            <answers>
+                <answer correct=true>interactiune</answer>
+                <answer>evolutie paralela absoluta</answer>
+                <answer>subordonare sau incluziune</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V2</topic>
+            <text>Teza dupa care Europa nu se reduce la Europa Occidentala ii apartine lui:</text>
+            <answers>
+                <answer>Andrei Marga</answer>
+                <answer>Richard Von Weizsacker</answer>
+                <answer correct=true>Heinrich Boll</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V2</topic>
+            <text>Tratatul care stipula intrarea in uz a monedei unice si infiintarea Bancii Centrale Europene a fost:</text>
+            <answers>
+                <answer>Tratatul de la Nisa</answer>
+                <answer correct=true>Tratatul de la Maastricht</answer>
+                <answer>Tratatul de la Amsterdam</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V2</topic>
+            <text>Care din urmatoarele tari scandinave nu face parte din Uniunea Europeana?</text>
+            <answers>
+                <answer>Suedia</answer>
+                <answer correct=true>Norvegia</answer>
+                <answer>Finlanda</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V2</topic>
+            <text>Tribunalele din Prima Instanta A Comunitatii Europene:</text>
+            <answers>
+                <answer correct=true>judeca procese de concurenta neloiala intre firme</answer>
+                <answer>decide in probleme de natura constitutionala</answer>
+                <answer>cerceteaza modalitatile in care au fost cheltuiti banii publici europeni</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V2</topic>
+            <text>Olli Rehn si Guenter Verheugen, numele de care se leaga aderarea Romaniei la EU, au fost:</text>
+            <answers>
+                <answer>parlamentari europeni</answer>
+                <answer>parintii fondatori ai Uniunii Europene</answer>
+                <answer correct=true>comisari europeni</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V2</topic>
+            <text>Principiul potrivit caruia, pentru a fi luata o decizie in cadrul Uniunii, trebuie verificata daca mai intai masura este necesara si just, luand in calcul toate interesele care sunt in joc, poarta numele de:</text>
+            <answers>
+                <answer correct=true>principiul proportionalitatii</answer>
+                <answer>principiul subsidiaritatiii</answer>
+                <answer>principiul echitatii</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V3</topic>
+            <text>Autorul lucrarii `Civilizatie si cultura` este:</text>
+            <answers>
+                <answer correct=true>Simion Mehedinti</answer>
+                <answer>Anton Dumitru</answer>
+                <answer>Ovidiu Dramba</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V3</topic>
+            <text>Etimologia termenului "civilizatie" deriva din latina clasica unde adjectivul "civilis" si substantivul "civilitas" desemneaza calitatile generale ale cetateanului , anume:</text>
+            <answers>
+                <answer>cultivarea, educatia spiritului</answer>
+                <answer>harnicia si deotamentul</answer>
+                <answer correct=true>politetea si amabilitatea</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V3</topic>
+            <text>Afirmatia ca Europa se sfarseste la Zidul Berlinului ii apartine lui:</text>
+            <answers>
+                <answer>Andrei Marga</answer>
+                <answer>Henrich Boll</answer>
+                <answer correct=true>Richard Von Weizsacker</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V3</topic>
+            <text>Parlamentul European a avut cel mai mult de castigat pentru ca a dobandit puterea de codecizie asupra unei mari parti din propunerile legislative prin intermediul:</text>
+            <answers>
+                <answer correct=true>Tratatului de la Amsterdam</answer>
+                <answer>Actului Unic European</answer>
+                <answer>Tratatului de la Nisa</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V3</topic>
+            <text>Fondul European De Investitii:</text>
+            <answers>
+                <answer>realizeaza politica monetara a Comunitatii</answer>
+                <answer>finanteaza investitii majore in infrastructura statelor membre</answer>
+                <answer correct=true>finanteaza indirect proiecte comunitare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V3</topic>
+            <text>Conditia fundamentala de aderare la UE prevazuta de Criteriile De La Copenhaga este:</text>
+            <answers>
+                <answer correct=true>democratia</answer>
+                <answer>libertatea</answer>
+                <answer>dreptatea</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V3</topic>
+            <text>`E pluribus unum`:</text>
+            <answers>
+                <answer>este deviza UE</answer>
+                <answer>nu este o deviza, ci o expresie in limba latina</answer>
+                <answer correct=true>reprezinta deviza SUA</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V3</topic>
+            <text>Care din urmatoarele institutii euripene se intruneste de doua pana la patru ori pe an si de cate ori exista situatii exceptionale:</text>
+            <answers>
+                <answer>Consiliul Uniunii Europene</answer>
+                <answer correct=true>Consiliul European</answer>
+                <answer>Comisia Europeana</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V4</topic>
+            <text>Adoptarea ligislatiei comunitare si a bugetului UE se realizeaza prin procedura de codecizie de catre:</text>
+            <answers>
+                <answer>Comisia Europeana si Parlamentul European</answer>
+                <answer correct=true>Consiliul Uniunii Europene si Parlamenul European</answer>
+                <answer>Consiliul Uniunii Europene si Comisia Europeana</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V4</topic>
+            <text>Cazurile de incalcare a drepturilor cetatenilor, firmelor si statelor membre de catre institutiile europene sunt judecate de catre:</text>
+            <answers>
+                <answer correct=true>Curtea De Justitie a Comunitatii Europene</answer>
+                <answer>Curtea De Conturi a Comunitatii Europene</answer>
+                <answer>Tribunalul De Prima Instanta a Comunitatii Europene</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V4</topic>
+            <text>Romania a depus cererea oficiala de aderar la Uniunea Europeana in anul:</text>
+            <answers>
+                <answer>1990</answer>
+                <answer correct=true>1995</answer>
+                <answer>1998</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V4</topic>
+            <text>Clauza de salvgardare formulata de UE pentru Romania si Bulgaria prevedea:</text>
+            <answers>
+                <answer>posibilitatea cetatenilor de a calatori fara viza pentru o peroiada de sejur in tarile spatiului Schengen</answer>
+                <answer correct=true>posibilitatea amanarii cu un an a aderarii daca obiectivele propuse nu sunt indeplinite</answer>
+                <answer>un sprijin financiar semnificativ, fonduri de preaderare anuale care au ajuns in 2006 la un miliard de euro</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V4</topic>
+            <text>Banca Centrala Europeana are sediul la</text>
+            <answers>
+                <answer>Luxemburn</answer>
+                <answer correct=true>Frankfurt pe Main</answer>
+                <answer>Strasbourg</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V4</topic>
+            <text>Tratatul de la Brouxelles semnat in anul 1965 prevedea:</text>
+            <answers>
+                <answer>infiintarea unei Comunitati Europene De Aparare</answer>
+                <answer>votul majoritat in locul procedurii unanimitatii</answer>
+                <answer correct=true>unificarea comisiilor si consiliilor celor 3 comunitati europene</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V4</topic>
+            <text>Fondul European De Investitii are scopul principal de a:</text>
+            <answers>
+                <answer correct=true>sprijini aparitia si dezvoltarea intreprinderilor mici si mijlocii</answer>
+                <answer>finantarea investitiilor majore in infrastructura statelor membre</answer>
+                <answer>acordarea imprumuturilor regiunilor care au incheiat parteneriate economice cu UE</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V5</topic>
+            <text>Criteriile pe care un stat trebuie sa le indeplinesca pentru a adopta moneda euro poarta numele de:</text>
+            <answers>
+                <answer correct=true>criteriile de convergenta</answer>
+                <answer>criteriile de la Copenhaga</answer>
+                <answer>criteriile de solvabilitate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V5</topic>
+            <text>Termenul de `cultura` provine din antichitate de la:</text>
+            <answers>
+                <answer>traci</answer>
+                <answer>greci</answer>
+                <answer correct=true>romani</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V5</topic>
+            <text>Romania a devenit membra NATO in anul:</text>
+            <answers>
+                <answer>1997</answer>
+                <answer correct=true>2004</answer>
+                <answer>2007</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V5</topic>
+            <text>Capacitatea de a adopta aquis-ul comunitar reprezinta unul dintre criteriile acordului de la:</text>
+            <answers>
+                <answer>Maastricht</answer>
+                <answer>Lisabona</answer>
+                <answer correct=true>Copenhaga</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V5</topic>
+            <text>Comunitatea Europeana De Aparare:</text>
+            <answers>
+                <answer correct=true>a fost o porpunere respinsa</answer>
+                <answer>a fost infiintata in 1954</answer>
+                <answer>este o propunere aflata pe ordinea de zi a Parlamentului European</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V5</topic>
+            <text>Pilonul cooperarii in materie de justitie si afaceri interne face parte din:</text>
+            <answers>
+                <answer correct=true>tratatul de la Maastricht</answer>
+                <answer>tratatul de la Roma</answer>
+                <answer>tratatul de la Amsterdam</answer>
+            </answers>
+        </question>
+    </questions>
+</root>
