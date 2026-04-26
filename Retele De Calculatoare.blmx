@@ -563,10 +563,10 @@
             <topic>lucrarea 2</topic>
             <text>In procesul de incapsulare/decapsulare a datelor, cum se numeste setul de date aferent nivelului DATA LINK?</text>
             <answers>
-                <answer correct=true>mesaj</answer>
+                <answer>mesaj</answer>
                 <answer>segment</answer>
                 <answer>packet</answer>
-                <answer>frame</answer>
+                <answer correct=true>frame</answer>
             </answers>
         </question>
         <question>
