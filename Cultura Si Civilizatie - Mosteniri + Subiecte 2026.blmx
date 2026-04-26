@@ -1,6 +1,6 @@
 <root>
     <version>1</version>
-    <title>Cultura Si Civilizatie - Mosteniri</title>
+    <title>Cultura Si Civilizatie - Mosteniri + Subiecte 2026</title>
     <questions>
         <question>
             <topic>V1</topic>
@@ -211,7 +211,7 @@
         </question>
         <question>
             <topic>V3</topic>
-            <text>Care din urmatoarele institutii euripene se intruneste de doua pana la patru ori pe an si de cate ori exista situatii exceptionale:</text>
+            <text>Care din urmatoarele institutii europene se intruneste de doua pana la patru ori pe an si de cate ori exista situatii exceptionale:</text>
             <answers>
                 <answer>Consiliul Uniunii Europene</answer>
                 <answer correct=true>Consiliul European</answer>
@@ -238,7 +238,7 @@
         </question>
         <question>
             <topic>V4</topic>
-            <text>Romania a depus cererea oficiala de aderar la Uniunea Europeana in anul:</text>
+            <text>Romania a depus cererea oficiala de aderare la Uniunea Europeana in anul:</text>
             <answers>
                 <answer>1990</answer>
                 <answer correct=true>1995</answer>
@@ -333,6 +333,33 @@
                 <answer correct=true>tratatul de la Maastricht</answer>
                 <answer>tratatul de la Roma</answer>
                 <answer>tratatul de la Amsterdam</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V5</topic>
+            <text>In domeniul educatiei, tineretului si formarii profesionale, UE a infiintat programul Erasmus care are ca scop:</text>
+            <answers>
+                <answer>cooperarea intre institutiile de cercetare</answer>
+                <answer correct=true>cooperarea intre universitati</answer>
+                <answer>cooperarea interscolara</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V5</topic>
+            <text>Competetele mixte in privinta politicilor Uniunii Europene sunt acelea in care:</text>
+            <answers>
+                <answer>atat UE cat si statele au dreptul de a actiona simultan in acel domeniu</answer>
+                <answer>compotentele UE si ale statelor memebre sunt in proportie de 50-50%</answer>
+                <answer correct=true>statele pot intreprinde masuri numai daca UE nu actioneaza ea insasi in domeniu</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>V5</topic>
+            <text>Criteriile de la Maastricht au in vedere:</text>
+            <answers>
+                <answer correct=true>moneda unica</answer>
+                <answer>libera circulatie in spatiul Schengen</answer>
+                <answer>aderarea la Uniunea Europeana</answer>
             </answers>
         </question>
     </questions>
