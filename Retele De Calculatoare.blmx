@@ -828,7 +828,7 @@
             <topic>lucrarea 4</topic>
             <text>Ce campuri apartin antetul de nivel Internet?</text>
             <answers>
-                <answer>MAC sursa si destinatie, tip protocol</answer>
+                <answer correct=true>MAC sursa si destinatie, tip protocol</answer>
                 <answer>IP sursa si destiantie, tip protocol</answer>
                 <answer>tip protocol, port si TTL</answer>
                 <answer>adresa logica, adresa fizica si datele</answer>
@@ -938,7 +938,7 @@
             <topic>lucrarea 4</topic>
             <text>Care este structura unei masti IPv4?</text>
             <answers>
-                <answer>primii biti pe 1, ultimii biti pe 0</answer>
+                <answer correct=true>primii biti pe 1, ultimii biti pe 0</answer>
                 <answer>primii biti pe 0, ultimii biti pe 1</answer>
                 <answer>alterneaza un bit de 1 cu unul de 0</answer>
                 <answer>nu are o structura fixa</answer>
@@ -1115,12 +1115,12 @@
         </question>
         <question>
             <topic>lucrarea 4</topic>
-            <text>In IPv6, ce mod de comunicare inlocuitese ANYCAST fata de IPv4?</text>
+            <text>Care dintre următoarele metode de transmitere este eliminată în IPv6?</text>
             <answers>
                 <answer correct=true>BROADCAST</answer>
                 <answer>SINGLECAST</answer>
                 <answer>MULTICAST</answer>
-                <answer>este un mod complet nou</answer>
+                <answer>ANYCAST</answer>
             </answers>
         </question>
         <question>
@@ -1383,7 +1383,7 @@
             <topic>lucrarea 6</topic>
             <text>Ce nu ofera DHCP dispozitivelor din retea?</text>
             <answers>
-                <answer>o adresa IP publica</answer>
+                <answer correct=true>o adresa IP publica</answer>
                 <answer>o adresa IP valida</answer>
                 <answer>o masca de retea</answer>
                 <answer>o adresa de gateway</answer>
