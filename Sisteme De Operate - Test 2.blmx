@@ -500,7 +500,7 @@
                 <answer>drivere dispozitiv</answer>
                 <answer>I/O supervizor</answer>
                 <answer>I/O logic</answer>
-                <answer>metode acces</answer>
+                <answer correct=true>metode acces</answer>
             </answers>
         </question>
         <question>
@@ -540,7 +540,7 @@
             <answers>
                 <answer>fisiere obisnuite</answer>
                 <answer>directoare</answer>
-                <answer>procese</answer>
+                <answer correct=true>procese</answer>
             </answers>
         </question>
         <question>
@@ -549,7 +549,7 @@
             <answers>
                 <answer>fisiere speciale</answer>
                 <answer>pipe-uri</answer>
-                <answer>sectoare</answer>
+                <answer correct=true>sectoare</answer>
             </answers>
         </question>
         <question>
