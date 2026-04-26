@@ -1,0 +1,674 @@
+<root>
+    <version>1</version>
+    <title>Sisteme De Operate - Test 2</title>
+    <questions>
+        <question>
+            <topic>Make</topic>
+            <text>Ce este Make?</text>
+            <answers>
+                <answer correct=true>generator de comenzi</answer>
+                <answer>compilator C/C++</answer>
+                <answer>tool pentru urmarirea versiunilor</answer>
+                <answer>text editor</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Care este scopul Make?</text>
+            <answers>
+                <answer correct=true>generarea unei secvente de comenzi shell</answer>
+                <answer>compilarea programelor C/C++</answer>
+                <answer>urmarirea versiunilor unui proiect cu posibilitate de restaurare</answer>
+                <answer>editarea fisierelor text</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Pe baza a ce principui functioneaza Make?</text>
+            <answers>
+                <answer correct=true>determina relatiile de dependinta intre fisiere</answer>
+                <answer>citeste fisierele pe rand si le trimite compilatorului</answer>
+                <answer>nu ii pasa de relatiile dintre fisiere, doar salveaza versiunile</answer>
+                <answer>deschide fiecare fisier in mod edit</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Care e sintaxa corecta pentru Make?</text>
+            <answers>
+                <answer correct=true>
+                    ```make
+                    targets: requirements
+                        command
+                        command
+                    ```
+                </answer>
+                <answer>
+                    ```make
+                    requirements: tragets
+                        command
+                        command
+                    ```
+                </answer>
+                <answer>
+                    ```make
+                    command: requirements
+                        end block
+                    ```
+                </answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>In sintaxa Make, ce reprezinta un target (tinta)?</text>
+            <answers>
+                <answer correct=true>unul sau mai multe nume de fisiere, separate prin spatiu</answer>
+                <answer>unul sau mai multe nume de fisiere, separate prin virgula</answer>
+                <answer>o comanda care se va executa</answer>
+                <answer>un fisier pe care se bazeaza un alt fisier</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>In sintaza Make, ce reprezinta comenzile?</text>
+            <answers>
+                <answer correct=true>lista de pasi care genereaza fisierele din tinta</answer>
+                <answer>comenzile care pregatesc codul pentru executie</answer>
+                <answer>instructiuni pentru actualizarea sistemului Linux</answer>
+                <answer>Make nu utilizeaza comenzi ci instructiuni</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>In sintaza make, ce reprezinta requirements (dependintele)?</text>
+            <answers>
+                <answer correct=true>nume de fisiere separate prin spatiu care trebuie sa existe inainte de a rula comenzile</answer>
+                <answer> variabile de mediu pentru shell</answer>
+                <answer>lista de unelte/compilatoare la care trebuie sa aiba acces Make</answer>
+                <answer>referinte catre alte comenzi ce trebuie rulate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Ce afirmatie e adevarata despre comenzile Make?</text>
+            <answers>
+                <answer correct=true>fiecare linie de comenzi trebuie sa inceapa cu un caracter `TAB`</answer>
+                <answer>nu poate sa contina comentarii</answer>
+                <answer>nu poate contine referinte la alte comenzi</answer>
+                <answer>este rulata de un interpretator intern Make</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Ce caracter(e) e folosit pentru comentarii in Make?</text>
+            <answers>
+                <answer correct=true>`#`</answer>
+                <answer>`//`</answer>
+                <answer>`/*`</answer>
+                <answer>`$$`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>In Make, comentariile continua pana la finalul liniei?</text>
+            <answers>
+                <answer correct=true>da</answer>
+                <answer>nu</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Cum se numeste fisierul default pe care il cauta Make la rulare?</text>
+            <answers>
+                <answer correct=true>`makefile`</answer>
+                <answer>`makeitfile`</answer>
+                <answer>`Make.it`</answer>
+                <answer>`runMake`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Cate tinte poate contine un fisier Make?</text>
+            <answers>
+                <answer correct=true>oricate</answer>
+                <answer>1</answer>
+                <answer>maxim 8</answer>
+                <answer>depinde de versiunea de Make</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Daca un fisier `makefile` are mai multe tinte si este apelat fara parametru, ce tinta se va rula?</text>
+            <answers>
+                <answer correct=true>prima</answer>
+                <answer>ultima</answer>
+                <answer>fara dependinte</answer>
+                <answer>nici una</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Daca un fisier makefile este apelat cu parametru, ce tinta se va rula?</text>
+            <answers>
+                <answer correct=true>tinta cu numele dat prin parametru</answer>
+                <answer>toate tintele care nu au numele dat prin parametru</answer>
+                <answer>primele `N` tinte, unde `N` este valoarea parametrului</answer>
+                <answer>toate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Pot exista tinte fara dependinte in Make?</text>
+            <answers>
+                <answer correct=true>da</answer>
+                <answer>nu</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>
+                Ce tip de tinta este urmatoarea:
+                
+                ```make
+                clean:
+                    /bin/rm -f *.o
+                ```
+            </text>
+            <answers>
+                <answer correct=true>tinta fara dependinte</answer>
+                <answer>tinta invalida, nu exista comanda `/bin/rm`</answer>
+                <answer>o tinta generata automat de Make</answer>
+                <answer>tinta invalida, `clean` nu este un fisier</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Cum se defineste un macro in Make?</text>
+            <answers>
+                <answer correct=true>`nume = sir de caractere`</answer>
+                <answer>`$nume := sir de caractere`</answer>
+                <answer>`asign nume, sir de caractere`</answer>
+                <answer>Make nu suporta macro-uri</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Cum se face referirea unui macro in Make?</text>
+            <answers>
+                <answer correct=true>`${macro}` sau `$(macro)`</answer>
+                <answer>`$macro`</answer>
+                <answer>`#macro`</answer>
+                <answer>`@{macro}`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>In Make, este permisa utilizarea caracterului `TAB` inaintea unui macro?</text>
+            <answers>
+                <answer>da</answer>
+                <answer correct=true>nu</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Ce caracter nu poate apare intr-o linie de macro in Make inaintea semnului egal (=)?</text>
+            <answers>
+                <answer correct=true>`:`</answer>
+                <answer>`;`</answer>
+                <answer>`space`</answer>
+                <answer>`!`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>In Make, ce caracter indica ca linia curenta continua pe linia urmatoare?</text>
+            <answers>
+                <answer>`/`</answer>
+                <answer correct=true>`\\`</answer>
+                <answer>`\>`</answer>
+                <answer>`\<`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Cum e tratat `\\` de Make?</text>
+            <answers>
+                <answer correct=true>`\\` si toate spatiile / taburile / liniile noi sunt inlocuite cu un singur caracter</answer>
+                <answer>este folosit pentru a marca începutul unui comentariu pe o singură linie</answer>
+                <answer>fortează Make sa interpreteze toate caile de fisiere care urmează după el ca fiind exclusiv in format Windows</answer>
+                <answer>`\\` forteaza urmatoarea comanda sa ruleze in mod "silent"</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Ce caractere speciale se evita in macrourile Make?</text>
+            <answers>
+                <answer correct=true>`\>` si `\\`</answer>
+                <answer>`\\` si `/`</answer>
+                <answer>`\>` si `\<`</answer>
+                <answer>orice caracter special</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>
+                In Make, pentru urmatorul macro, care optiune de accesare e corecta?
+                
+                ```make
+                A = some_text
+                ```
+            </text>
+            <answers>
+                <answer correct=true>`$A`</answer>
+                <answer>`@A`</answer>
+                <answer>`{A}`</answer>
+                <answer>`(\>A)`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>
+                Care va fi continulul urmatorului macro Make:
+                
+                ```make
+                A = 
+                ```
+            </text>
+            <answers>
+                <answer correct=true>un sir nul</answer>
+                <answer>va da eroare pentru ca nu are valoare</answer>
+                <answer>un spatiu alb `space`</answer>
+                <answer>valoarea `0`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>
+                Conteaza ordinea in care se definesc macro-urile, daca vor fi folosite pentru imbricare?
+                
+                ```make
+                SOURCES = ${MY_SRC} ${SHARED_SRC}
+                MY_SRC = analizeaza.c prelucreaza.c
+                SHARED_DIR = /home/proiect/src
+                SHARED_SRC = ${SHARED_DIR}/depend.c
+                ```
+            </text>
+            <answers>
+                <answer>da</answer>
+                <answer correct=true>nu</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Unde poate fi definit un macro Make, care va fi utilizat de o comanda?</text>
+            <answers>
+                <answer correct=true>inaintea liniei care il utilizeaza</answer>
+                <answer>oriunde in fisier</answer>
+                <answer>pe prima linie a fisierului Make</answer>
+                <answer>nu conteaza</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Ce se intampla daca un macro Make e definit de 2 ori in acelasi fisier?</text>
+            <answers>
+                <answer correct=true>va fi folosita valoarea ultimei definiri</answer>
+                <answer>va aparea o eroare la rularea fisierului Make</answer>
+                <answer>a doua definire va fi ignorata</answer>
+                <answer>se va utiliza prima valoare data</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Variabilele shell-ului pot fi folosite in interiorul fisierelor Make?</text>
+            <answers>
+                <answer correct=true>da</answer>
+                <answer>nu</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Cum sunt considerate variablilele de shell de catre Make?</text>
+            <answers>
+                <answer correct=true>macro-uri</answer>
+                <answer>variabile speciale</answer>
+                <answer>sunt ignorate</answer>
+                <answer>depinde de tip</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Care este ordinea prioritatilor macro-urilor in Make?</text>
+            <answers>
+                <answer>definiții interne -\> variabile de mediu -\> fișier descriere -\> linia de comandă</answer>
+                <answer>fișierul de descriere -\> linia de comandă -\> variabile de mediu -\> definiții interne</answer>
+                <answer>variabile de mediu -\> linia de comandă -\> definiții interne -\> fișier descriere</answer>
+                <answer correct=true>linia de comandă -\> fișierul de descriere -\> variabile de mediu -\> definiții interne</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>
+                Fie macro-ul Make:
+                ```make
+                SRC = def.c calc.c cauta.c
+                ```
+                
+                Care comanda efectueaza substitutia din `.c` in `.o`?
+            </text>
+            <answers>
+                <answer correct=true>`ls ${SRC:.c=.o}`</answer>
+                <answer>`ls ${SRC}:.c=.o`</answer>
+                <answer>`ls ${SRC.repl(.c, .o)}`</answer>
+                <answer>`ls ${SRC:.o=.c}`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>
+                Fie macro-ul Make:
+                ```make
+                SCR = cauta.c.o.c
+                ```
+                
+                Care va fi rezultatul substitutiei:
+                ```make
+                ${SRC:.c=.o}
+                ```
+            </text>
+            <answers>
+                <answer correct=true>`cauta.c.o.o`</answer>
+                <answer>`cauta.o.o.o`</answer>
+                <answer>`cauta.o.o.c`</answer>
+                <answer>`outa.o.o.o`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Care afirmatie e adevarata referitor la substitutiile in Make?</text>
+            <answers>
+                <answer correct=true>au loc doar la finalul unui macro sau inaintea unui spatiu</answer>
+                <answer>au loc doar pentru prima aparitie a pattern-ului in macro</answer>
+                <answer>inlocuiesc toate aparitiile patter-ului</answer>
+                <answer>functioneaza doar pe macro-uri de tip sir de caractere</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Ce reprezinta variabila `$@` in Make?</text>
+            <answers>
+                <answer correct=true>tinta curenta</answer>
+                <answer>tinta trecuta</answer>
+                <answer>prima dependinta</answer>
+                <answer>numele fisierului curent</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Ce reprezinta variabila `$?` in Make?</text>
+            <answers>
+                <answer correct=true>lista de dependinte actualizate</answer>
+                <answer>dependintele tintei curente</answer>
+                <answer>tinta curenta</answer>
+                <answer>comenzile tintei</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Ce reprezinta variabila `$\<` in Make?</text>
+            <answers>
+                <answer correct=true>dependinta care a determinat utilizarea unei reguli de substitutie</answer>
+                <answer>toate dependintele modificare</answer>
+                <answer>fluxul de intrare `stdin`</answer>
+                <answer>operatorul de redirectionare in cazul Make</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Ce este adevarat despre tintele vide in Make?</text>
+            <answers>
+                <answer correct=true>sunt tot timpul out-of-date</answer>
+                <answer>se evalueaza primele la rulare</answer>
+                <answer>nu exista tinte vide</answer>
+                <answer>sunt tot timpul up-to-date</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>In Make, in ce conditii se executa o tinta vida daca e apelata?</text>
+            <answers>
+                <answer correct=true>tot timpul</answer>
+                <answer>doar daca nu e up-to-date</answer>
+                <answer>depinde de dependinte</answer>
+                <answer>depinde de comenzi</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Make</topic>
+            <text>Ce afirmatie e adevarata despre dependintele vide in Make?</text>
+            <answers>
+                <answer correct=true>sunt tot timpul mai up-to-date decat tinta</answer>
+                <answer>sunt folosite ca placeholder</answer>
+                <answer>nu fac parte din fisierele `makefile`</answer>
+                <answer>sunt ignoreate de Make</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>filesystem</topic>
+            <text>Ce componenta a sistemului de fisiere e responsabila cu comunicarea cu dispozitivele de stocare si pornirea/oprirea operatiilor I/O?</text>
+            <answers>
+                <answer correct=true>driver dispozitiv</answer>
+                <answer>I/O fizic</answer>
+                <answer>I/O supervizor</answer>
+                <answer>I/O logic</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>filesystem</topic>
+            <text>Ce componenta a sistemului de fisiere e responsabila cu schimburile de date cu mediile de stocare?</text>
+            <answers>
+                <answer>driver dispozitiv</answer>
+                <answer correct=true>I/O fizic</answer>
+                <answer>I/O supervizor</answer>
+                <answer>I/O logic</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>filesystem</topic>
+            <text>Ce componenta a sistemului de fisiere e responsabila cu initializarea/terminarea tuturor operatiilor I/O si selectia dispozitivelor?</text>
+            <answers>
+                <answer>driver dispozitiv</answer>
+                <answer>I/O fizic</answer>
+                <answer correct=true>I/O supervizor</answer>
+                <answer>I/O logic</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>filesystem</topic>
+            <text>Ce componenta a sistemului de fisiere permite aplicatiilor/utilizatorilor sa acceseze inregistrari de pe dispozitivele de stocare?</text>
+            <answers>
+                <answer>I/O fizic</answer>
+                <answer>I/O supervizor</answer>
+                <answer correct=true>I/O logic</answer>
+                <answer>metode acces</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>filesystem</topic>
+            <text>Ce componenta a sistemului de fisiere ofera interfata standard intre aplicatii si sistemul de fisiere?</text>
+            <answers>
+                <answer>drivere dispozitiv</answer>
+                <answer>I/O supervizor</answer>
+                <answer>I/O logic</answer>
+                <answer>metode acces</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>filesystem</topic>
+            <text>Ce informatii despre fisiere contin directoarele?</text>
+            <answers>
+                <answer correct=true>nume, adresa, dimensiune, organizare</answer>
+                <answer> adresa, proprietarul, permisiunile</answer>
+                <answer>permisiunile, proprietarul, istoricul operatiilor</answer>
+                <answer>dimensiunea, numele, proprietarul, adresa</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>filesystem</topic>
+            <text>Care din urmatoarele operatii nu se pot efectua pe un director?</text>
+            <answers>
+                <answer>cautarea</answer>
+                <answer>crearea de fisiere</answer>
+                <answer>stergerea de fisiere</answer>
+                <answer>listarea directorului</answer>
+                <answer correct=true>ordonarea directorului</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>filesystem</topic>
+            <text>Care sunt drepturile de acces la fisiere?</text>
+            <answers>
+                <answer correct=true>read, write, execute</answer>
+                <answer>execute, create, modify</answer>
+                <answer>read, modify, run</answer>
+                <answer>reference, delete, copy</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>filesystem</topic>
+            <text>Care din urmatoarele optiuni nu e un tip de fisier in Linux?</text>
+            <answers>
+                <answer>fisiere obisnuite</answer>
+                <answer>directoare</answer>
+                <answer>procese</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>filesystem</topic>
+            <text>Care din urmatoarele optiuni nu e un tip de fisier in Linux?</text>
+            <answers>
+                <answer>fisiere speciale</answer>
+                <answer>pipe-uri</answer>
+                <answer>sectoare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>filesystem</topic>
+            <text>Ce este un INODE?</text>
+            <answers>
+                <answer correct=true>o structura de date ce stocheaza metadatele unui fisier</answer>
+                <answer>un tip de sistem de operare folosit pentru gestionarea fisierelor</answer>
+                <answer>un program care comprima automat fisierele pe disc</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>filesystem</topic>
+            <text>Ce informatii nu sunt stocate de INODE?</text>
+            <answers>
+                <answer correct=true>nume</answer>
+                <answer>proprietar</answer>
+                <answer>dimensiune</answer>
+                <answer>permisiuni</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>filesystem</topic>
+            <text>Ce informatii nu sunt stocate de INODE?</text>
+            <answers>
+                <answer>timestamp-uri</answer>
+                <answer>locatia pe disk</answer>
+                <answer correct=true>nume</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>filesystem</topic>
+            <text>Ce este un director in Linux?</text>
+            <answers>
+                <answer correct=true>lista de asocieri nume fisier - numar INODE</answer>
+                <answer>o serie de INODE-uri legare secvential</answer>
+                <answer>lista de fisiere</answer>
+                <answer>un fisier special care contine INODE-urile fisierelor</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>filesystem</topic>
+            <text>Ce comanda afiseaza numarul INODE-urilor?</text>
+            <answers>
+                <answer correct=true>`ls -i`</answer>
+                <answer>`ls -s`</answer>
+                <answer>`ls -si`</answer>
+                <answer>`ls -node`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>filesystem</topic>
+            <text>Ce tip de fisier este reprezentat prin `-`?</text>
+            <answers>
+                <answer correct=true>fisier normal</answer>
+                <answer>director</answer>
+                <answer>socket</answer>
+                <answer>symlink</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>filesystem</topic>
+            <text>Ce tip de fisier este reprezentat prin `d`?</text>
+            <answers>
+                <answer correct=true>director</answer>
+                <answer>driver</answer>
+                <answer>dispozitiv caracter</answer>
+                <answer>dispozitiv bloc</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>filesystem</topic>
+            <text>Ce tip de fisier este reprezentat prin `l`?</text>
+            <answers>
+                <answer>fisier simplu</answer>
+                <answer correct=true>legatura simbolica</answer>
+                <answer>socket</answer>
+                <answer>legatura de date</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>filesystem</topic>
+            <text>Ce tip de fisier este reprezentat prin `b`?</text>
+            <answers>
+                <answer correct=true>dispozitiv bloc</answer>
+                <answer>dispozitiv caracter</answer>
+                <answer>director</answer>
+                <answer>socket</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>filesystem</topic>
+            <text>Ce tip de fisier este reprezentat prin `c`?</text>
+            <answers>
+                <answer correct=true>dispozitiv caracter</answer>
+                <answer>dispozitiv bloc</answer>
+                <answer>fisier proces</answer>
+                <answer>socket</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>filesystem</topic>
+            <text>Ce tip de fisier este reprezentat prin `s`?</text>
+            <answers>
+                <answer correct=true>socket</answer>
+                <answer>fisier specificatii</answer>
+                <answer>intrare manual</answer>
+                <answer>legatura simbolica</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>filesystem</topic>
+            <text>Ce comanda se foloseste pentru schimbarea permisiunilor in Linux?</text>
+            <answers>
+                <answer correct=true>`chmod`</answer>
+                <answer>`chown`</answer>
+                <answer>`mod`</answer>
+                <answer>`editp`</answer>
+            </answers>
+        </question>
+    </questions>
+</root>

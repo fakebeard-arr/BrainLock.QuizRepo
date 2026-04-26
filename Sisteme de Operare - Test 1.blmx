@@ -1,6 +1,6 @@
 <root>
     <version>1</version>
-    <title>Sisteme de Operare - Laborator test 1</title>
+    <title>Sisteme de Operare - Test 1</title>
     <questions>
         <question>
             <text>Care este rolul kernel-ului?</text>
