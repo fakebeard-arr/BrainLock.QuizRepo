@@ -511,7 +511,7 @@
         </question>
         <question>
             <topic>lucrarea 2</topic>
-            <text>Ce nivel(uri) din modelul OSI corespund(e) nivelului APPLICATION in modelul TCP/IP?</text>
+            <text>Ce nivel(uri) din modelul OSI corespund(e) nivelului NETWORKA ACCESS/LINK in modelul TCP/IP?</text>
             <answers>
                 <answer correct=true>DATA LINK, PHYSICAL</answer>
                 <answer>PHYSICAL</answer>
