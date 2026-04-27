@@ -24,7 +24,7 @@
         </question>
         <question>
             <topic>Make</topic>
-            <text>Pe baza a ce principui functioneaza Make?</text>
+            <text>Pe baza a ce principiu functioneaza Make?</text>
             <answers>
                 <answer correct=true>determina relatiile de dependinta intre fisiere</answer>
                 <answer>citeste fisierele pe rand si le trimite compilatorului</answer>
@@ -70,7 +70,7 @@
         </question>
         <question>
             <topic>Make</topic>
-            <text>In sintaza Make, ce reprezinta comenzile?</text>
+            <text>In sintaxa Make, ce reprezinta comenzile?</text>
             <answers>
                 <answer correct=true>lista de pasi care genereaza fisierele din tinta</answer>
                 <answer>comenzile care pregatesc codul pentru executie</answer>
@@ -80,7 +80,7 @@
         </question>
         <question>
             <topic>Make</topic>
-            <text>In sintaza make, ce reprezinta requirements (dependintele)?</text>
+            <text>In sintaxa Make, ce reprezinta requirements (dependintele)?</text>
             <answers>
                 <answer correct=true>nume de fisiere separate prin spatiu care trebuie sa existe inainte de a rula comenzile</answer>
                 <answer> variabile de mediu pentru shell</answer>
@@ -100,7 +100,7 @@
         </question>
         <question>
             <topic>Make</topic>
-            <text>Ce caracter(e) e folosit pentru comentarii in Make?</text>
+            <text>Ce caracter e folosit pentru comentarii in Make?</text>
             <answers>
                 <answer correct=true>`#`</answer>
                 <answer>`//`</answer>
@@ -302,7 +302,7 @@
             <topic>Make</topic>
             <text>Unde poate fi definit un macro Make, care va fi utilizat de o comanda?</text>
             <answers>
-                <answer correct=true>inaintea liniei care il utilizeaza</answer>
+                <answer correct=true>inaintea comenzii care il utilizeaza</answer>
                 <answer>oriunde in fisier</answer>
                 <answer>pe prima linie a fisierului Make</answer>
                 <answer>nu conteaza</answer>
@@ -389,7 +389,7 @@
             <answers>
                 <answer correct=true>au loc doar la finalul unui macro sau inaintea unui spatiu</answer>
                 <answer>au loc doar pentru prima aparitie a pattern-ului in macro</answer>
-                <answer>inlocuiesc toate aparitiile patter-ului</answer>
+                <answer>inlocuiesc toate aparitiile pattern-ului</answer>
                 <answer>functioneaza doar pe macro-uri de tip sir de caractere</answer>
             </answers>
         </question>
@@ -447,7 +447,7 @@
             <topic>Make</topic>
             <text>Ce afirmatie e adevarata despre dependintele vide in Make?</text>
             <answers>
-                <answer correct=true>sunt tot timpul mai up-to-date decat tinta</answer>
+                <answer correct=true>sunt tot timpul mai actuale decat tinta</answer>
                 <answer>sunt folosite ca placeholder</answer>
                 <answer>nu fac parte din fisierele `makefile`</answer>
                 <answer>sunt ignoreate de Make</answer>
@@ -549,7 +549,7 @@
             <answers>
                 <answer>fisiere speciale</answer>
                 <answer>pipe-uri</answer>
-                <answer correct=true>sectoare</answer>
+                <answer correct=true>sector</answer>
             </answers>
         </question>
         <question>
