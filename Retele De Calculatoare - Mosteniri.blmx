@@ -23,7 +23,7 @@
             <text>Care este scopul mastii de retea in adresarea IPv4?</text>
             <answers>
                 <answer>sa cripteze adresa IP</answer>
-                <answer correct=true>sa identifice pareta de retea a unei adrese IP</answer>
+                <answer correct=true>sa identifice partea de retea a unei adrese IP</answer>
                 <answer>sa identifice costul in cadrul retelei</answer>
                 <answer>sa determine router-ul urmator</answer>
             </answers>
@@ -63,7 +63,7 @@
             </answers>
         </question>
         <question>
-            <text>Care interval de numere de prot este utilizat pentru porturi bine cunoscute?</text>
+            <text>Care interval de numere de port este utilizat pentru porturi bine cunoscute?</text>
             <answers>
                 <answer correct=true>0 -\> 1023</answer>
                 <answer>1024 -\> 49151</answer>
@@ -349,6 +349,504 @@
                 <answer>are un adaos scazut de biti de control</answer>
                 <answer>nu este orientat pe conexiune</answer>
                 <answer>foloseste in structura antetului numere de porturi pentru sursa si destinatie</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Acronimul DHCP inseamna:</text>
+            <answers>
+                <answer correct=true>Dynamic Host Configuration Protocol</answer>
+                <answer>Dynamic Host Control Protocol</answer>
+                <answer>Domain Host Control Protocol</answer>
+                <answer>Distant Host Control Protocol</answer>
+                <answer>nici un raspuns nu este corect</answer>
+            </answers>
+        </question>
+        <question>
+            <text>De la ce provine acronimul UDP?</text>
+            <answers>
+                <answer>Used Datagram Protocol</answer>
+                <answer>User Digital Protocol</answer>
+                <answer correct=true>User Datagram Protocol</answer>
+                <answer>User Data Protocol</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Daca discutam de portul 67, utilizat in general de BOOTP sau DHCP, acesta face parte din categoria:</text>
+            <answers>
+                <answer>porturi rezervate</answer>
+                <answer>porturi utilizabile</answer>
+                <answer correct=true>porturi bine cunoscut</answer>
+                <answer>porturi dinamice</answer>
+            </answers>
+        </question>
+        <question>
+            <text>La interogarea unui site web se utilizeaza printre altele protocolul DNS. Acesta foloseste la destinatie, portul 53. Din ce categorie de porturi face acesta parte?</text>
+            <answers>
+                <answer>porturi rezervate</answer>
+                <answer>porturi statice</answer>
+                <answer correct=true>porturi bine cunoscute</answer>
+                <answer>porturi dinamice</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Daca discutam de portul 110, utilizat in general pentru aplicatii de POP3 (e-mail), acesta face parte din categoria porturilor:</text>
+            <answers>
+                <answer>porturi utilizabile</answer>
+                <answer>porturi rezervate</answer>
+                <answer>porturi dinamice</answer>
+                <answer correct=true>porturi bine cunoscute</answer>
+            </answers>
+        </question>
+        <question>
+            <text>In antetul TCP nu avem informati despre:</text>
+            <answers>
+                <answer>numarul de secventa transmis</answer>
+                <answer correct=true>numarul de hop-uri pana la destinatie</answer>
+                <answer>numarul de port destinatie</answer>
+                <answer>numarul de secventa receptionat</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Daca am purta o conversatie video intre 2 persoane, utilizand aplicatia WhatsApp, ce tip de comunicatie am folosi?</text>
+            <answers>
+                <answer correct=true>full-duplex</answer>
+                <answer>simplex</answer>
+                <answer>broadcast</answer>
+                <answer>multicast</answer>
+                <answer>topologie stea</answer>
+            </answers>
+        </question>
+        <question>
+            <text>La procesul de incapsulare, realizat dupa modelul de referinta TCP/IP, la al catelea nivel se adauga portul sursa si portul destinatie?</text>
+            <answers>
+                <answer>primul</answer>
+                <answer>2</answer>
+                <answer correct=true>3</answer>
+                <answer>4</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este adresa IPv6 corecta, daca pornim de adresa MAC `EB-D8-AB-22-C6-C4` si parcurgem etapele procesului EUI-64?</text>
+            <answers>
+                <answer>`EB-D8-AB-FE-FE-22-C6-C4`</answer>
+                <answer correct=true>`E9-D8-AB-FF-FE-22-C6-C4`</answer>
+                <answer>`EB-D8-AB-FF-FE-22-C6-C4`</answer>
+                <answer>`E9-D8-AB-FE-FF-22-C6-C4`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Nivelul Retea din stiva OSI are functiile mapate pe care nivel din stiva TCP/IP?</text>
+            <answers>
+                <answer>Prezentare</answer>
+                <answer>Sesiune</answer>
+                <answer>Tranport</answer>
+                <answer correct=true>Internet</answer>
+                <answer>Aplicatii</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Pe cati octeti este reprezentata o adresa logica (IPv4)?</text>
+            <answers>
+                <answer correct=true>4</answer>
+                <answer>6</answer>
+                <answer>8</answer>
+                <answer>32</answer>
+                <answer>48</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Din cate caractere hexazecimale este formata o adresa MAC?</text>
+            <answers>
+                <answer>8</answer>
+                <answer>10</answer>
+                <answer correct=true>12</answer>
+                <answer>32</answer>
+                <answer>48</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                Ce afirmatie descrie corect procesul de reinnoire a unei adrese IP, utilizand protocolul
+                DHCP:
+            </text>
+            <answers>
+                <answer>foloseste un singur mesaj</answer>
+                <answer>foloseste 3 mesaje transportate prin UDP</answer>
+                <answer>foloseste 4 mesaje</answer>
+                <answer>foloseste zero mesaje dintre care unul este `Offer`</answer>
+                <answer correct=true>nici un raspuns nu este corect</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care dintre urmatoarele este o adresa logica (IP) utilizabila?</text>
+            <answers>
+                <answer>`18.256.110.45`</answer>
+                <answer>`9c-35-58-5f-gc-7d`</answer>
+                <answer>`00-1a-3f-f1-c4-c6`</answer>
+                <answer correct=true>`139.204.217.35`</answer>
+                <answer>`00:3e:b6:18:c2:78`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                Care este adresa IPv6 corecta, daca pornim de adresa MAC C2-47-DF-84-20-A6 si
+                parcurgem etapele procesului EUI-64?
+            </text>
+            <answers>
+                <answer>`C2-47-DF-FF-FE-84-20-A6`</answer>
+                <answer>`C0-47-DF-FE-FF-84-20-A6`</answer>
+                <answer correct=true>`C0-47-DF-FF-FE-84-20-A6`</answer>
+                <answer>`C2-47-DF-FF-FF-84-20-A6`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                Care este adresa IPv6 corecta, daca pornim de adresa MAC 88-AA-AA-3C-B9-3D si
+                parcurgem etapele procesului EUI-64?
+            </text>
+            <answers>
+                <answer>`88-AA-AA-FE-FF-3C-B9-3D`</answer>
+                <answer>`88-AA-AA-FF-FE-3C-B9-3D`</answer>
+                <answer correct=true>`8A-AA-AA-FF-FE-3C-B9-3D`</answer>
+                <answer>`8A-AA-AA-FE-FF-3C-B9-3D`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care dintre urmatoarele este o adresa logica (IP) utilizabila?</text>
+            <answers>
+                <answer correct=true>`139.204.217.35`</answer>
+                <answer>`00-1a-3f-f1-c4-c6`</answer>
+                <answer>`9c-35-58-5f-gc-7d`</answer>
+                <answer>`18.256.110.45`</answer>
+                <answer>`00:3e:b6:18:c2:78`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                Care este adresa IPv6 corecta, daca pornim de adresa MAC `06-00-00-00-00-00` si
+                parcurgem etapele procesului EUI-64?
+            </text>
+            <answers>
+                <answer correct=true>`04-00-00-FF-FE-00-00-00`</answer>
+                <answer>`04-00-00-FF-FF-00-00-00`</answer>
+                <answer>`04-00-00-FE-FF-00-00-00`</answer>
+                <answer>`06-00-00-FF-FE-00-00-00`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care dintre urmatoarele adrese estee o adresa fizica (MAC) corecta pentru broadcast?</text>
+            <answers>
+                <answer>`192.168.0.0`</answer>
+                <answer>`01-00-5E-A8-9B-5F`</answer>
+                <answer>`198.16.252.98`</answer>
+                <answer>`176.16.232.67`</answer>
+                <answer correct=true>`FF-FF-FF-FF-FF-FF`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                In timpul derularii procesului de decapsulare, in ce ordine vor fi traversate nivelele din
+                modelul de referinta TCP/IP:
+            </text>
+            <answers>
+                <answer>Aplicatie -\> Internet -\> Transport -\> Acces la retea</answer>
+                <answer>Aplicatie -\> Internet -\> Acces la retea -\> Transport</answer>
+                <answer>Aplicatie -\> Transport -\> Internet -\> Acces la retea</answer>
+                <answer correct=true>Acces la retea -\> Internet -\> Transport -\> Aplicatie</answer>
+                <answer>Aplicatie -\> Transport -\> Acces la retea -\> Internet</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care dintre urmatoarele afirmatii referitoare la protocolul UDP este incorecta?</text>
+            <answers>
+                <answer>foloseste in structura antetului numere de porturi pentru sursa si destinatie</answer>
+                <answer>are un adaos scazut de biti de control</answer>
+                <answer>nu este orientat pe conexiune</answer>
+                <answer correct=true>ofera fiabilitate crescuta</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care din urmatoarele nu reprezinta o topologie de retea?</text>
+            <answers>
+                <answer>Point-to-Point</answer>
+                <answer>Bus</answer>
+                <answer>Star</answer>
+                <answer>Mesh</answer>
+                <answer correct=true>Authonomus (Autonoma)</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Pe cati biti este scrisa o adresa logica (IPv4)?</text>
+            <answers>
+                <answer>4</answer>
+                <answer>6</answer>
+                <answer>8</answer>
+                <answer correct=true>32</answer>
+                <answer>48</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Daca discutam despre portul 8080, port uzual folosit pentru aplicatii de web, acesta face parte din categoria porturilor:</text>
+            <answers>
+                <answer correct=true>porturi rezervate</answer>
+                <answer>porturi bine cunoscute</answer>
+                <answer>porturi dinamice</answer>
+                <answer>porturi utilizabile</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Nivelul Retea dupa modelul de referinta OSI este echivalentul carui nivel dupa modelul de referinta TCP/IP?</text>
+            <answers>
+                <answer correct=true>Internet</answer>
+                <answer>Transport</answer>
+                <answer>Aplicatie</answer>
+                <answer>Prezentare</answer>
+                <answer>Sesiune</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Nivelul Access la Retea (Network Access) din stiva TCP/IP se mapeaza pe cate niveluri din stiva OSI?</text>
+            <answers>
+                <answer>1</answer>
+                <answer correct=true>2</answer>
+                <answer>3</answer>
+                <answer>4</answer>
+                <answer>nu exista mapare de pe TCP/IP pe OSI pentru acest nivel</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                Daca ne referim la incheierea comunicatiei TCP, venita din partea clientului, afirmatia
+                falsa este:
+            </text>
+            <answers>
+                <answer>este un proces ce se desfasoara in 4 pasi</answer>
+                <answer correct=true>procedeul este descris de metoda "three way handshake"</answer>
+                <answer>serverul transmite 2 mesaje</answer>
+                <answer>clientul transmite primul si ultimul mesaj</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Daca am dori sa transmitem un e-mail, ce protocol vom folosi la nivelul de Transport?</text>
+            <answers>
+                <answer correct=true>TCP</answer>
+                <answer>UDP</answer>
+                <answer>ARP</answer>
+                <answer>DHCP</answer>
+                <answer>nici un protocol prezentat nu face parte din suita celor aferente nivelului Transport</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care dintre urmatoarele este o adresa fizica (MAC) valida?</text>
+            <answers>
+                <answer>`13.170.193.252`</answer>
+                <answer>`255.256.216.1`</answer>
+                <answer correct=true>`00-1a-3f-e1-4d-c6`</answer>
+                <answer>`73.124.68.10`</answer>
+                <answer>`00:14:78:ac:9c:hb`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care dintre urmatoarele afirmatii referitoare la protocolul UDP este incorecta?</text>
+            <answers>
+                <answer>este un protocol simplu si rapid</answer>
+                <answer correct=true>este un protocol ce ofera servicii fiabile</answer>
+                <answer>are in structura antetului sau 4 campuri</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Daca ar fi sa ne uitam la un schimb de mesaje de renoire dintre un PC si un server DHCP atunci al 3-lea mesaj ar fi:</text>
+            <answers>
+                <answer>un mesaj de cerere `Request`</answer>
+                <answer>un mesaj de acceptare `ACK`</answer>
+                <answer>un mesaj de descoperire `Discover`</answer>
+                <answer>un mesaj de oferta `Offer`</answer>
+                <answer correct=true>nici un raspuns nu este corect</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Daca discutam despre un socket de comunicatii, acesta reprezinta:</text>
+            <answers>
+                <answer>o adresa MAC si o adresa IP</answer>
+                <answer>o adresa MAC si un numar de port</answer>
+                <answer>o adresa IP si o pereche de numere de porturi</answer>
+                <answer correct=true>o adresa IP si un numar de port</answer>
+                <answer>o adresa IP, o adresa MAC si un numar de port</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Pe cati octeti se reprezinta o adresa MAC?</text>
+            <answers>
+                <answer>4</answer>
+                <answer correct=true>6</answer>
+                <answer>8</answer>
+                <answer>32</answer>
+                <answer>48</answer>
+            </answers>
+        </question>
+        <question>
+            <text>In cazul unui ruter WiFi, care dintre urmatoarele afirmatii **nu** este corecta:</text>
+            <answers>
+                <answer>permite posibilitatea controlului parental</answer>
+                <answer>este un punct de acces in retea</answer>
+                <answer>permite conectarea mai multor dispozitive pe benzi de frecventa diferite (2,4GHz sau 5GHz)</answer>
+                <answer correct=true>nu permite adaugarea unui SSID cu nume propriu</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Daca e sa avem o conversatie Skype (conferinta live), vom putea folosi care din modurile de transmisie de date?</text>
+            <answers>
+                <answer>broadcast</answer>
+                <answer correct=true>full-duplex</answer>
+                <answer>simplex</answer>
+                <answer>semi-duplex</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                Care este adresa IPv6 corecta, daca pornim de adresa MAC `D5-E2-60-2D-50-40` si
+                parcurgem etapele procesului EUI-64?
+            </text>
+            <answers>
+                <answer>`D7-E2-60-FE-FF-2D-50-40`</answer>
+                <answer>`D5-E2-60-FF-FE-2D-50-40`</answer>
+                <answer>`D5-E2-60-FE-FF-2D-50-40`</answer>
+                <answer correct=true>`D7-E2-60-FF-FE-2D-50-40`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                Care este adresa IPv6 corecta, daca pornim de adresa MAC `D4-D2-52-48-AC-EC` si
+                parcurgem etapele procesului EUI-64?
+            </text>
+            <answers>
+                <answer>`D4-D2-52-FF-FE-48-AC-EC`</answer>
+                <answer>`D4-D2-52-FE-FF-48-AC-EC`</answer>
+                <answer>`D6-D2-52-FE-FF-48-AC-EC`</answer>
+                <answer correct=true>`D6-D2-52-FF-FE-48-AC-EC`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Adresele provenite de la un server DHCP sunt temporar alocate.</text>
+            <answers>
+                <answer correct=true>adevarat</answer>
+                <answer>fals</answer>
+                <answer>toate raspunsurile sunt corecte</answer>
+                <answer>nici un raspuns nu este corect</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                Nivelul Aplicatie din modelul de referinta TCP/IP este echivalentul a cator nivele din
+                modelul de referinta OSI?
+            </text>
+            <answers>
+                <answer>1</answer>
+                <answer>2</answer>
+                <answer correct=true>3</answer>
+                <answer>4</answer>
+                <answer>5</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care dintre urmatoarele este o adresa fizica (MAC)</text>
+            <answers>
+                <answer>`255.256.216.1`</answer>
+                <answer>`13.170.193.252`</answer>
+                <answer>`00:14:78:ac:9c:hb`</answer>
+                <answer correct=true>`00-1a-3f-e1-4d-c6`</answer>
+                <answer>`73.124.68.10`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                Care este adresa IPv6 corecta, daca pornim de adresa MAC `60-BE-02-01-01-09` si
+                parcurgem etapele procesului EUI-64?
+            </text>
+            <answers>
+                <answer correct=true>`62-BE-02-FF-FE-01-01-09`</answer>
+                <answer>`60-BE-02-FF-FE-01-01-09`</answer>
+                <answer>`62-BE-02-FE-FF-01-01-09`</answer>
+                <answer>`60-BE-02-FE-FE-01-01-09`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care din urmatoarele este o adresa fizica (MAC) corecta pentru broadcast?</text>
+            <answers>
+                <answer>`176.16.232.67`</answer>
+                <answer>`198.16.252.98`</answer>
+                <answer>`192.168.0.0`</answer>
+                <answer correct=true>`FF:FF:FF:FF:FF:FF`</answer>
+                <answer>`01-00-5e-a8-9b-5f`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Nivelul Internet de la modelul TCP/IP cu ce nivel este echivalent de la modelul OSI?</text>
+            <answers>
+                <answer correct=true>Network</answer>
+                <answer>Presentation</answer>
+                <answer>Applications</answer>
+                <answer>Transport</answer>
+                <answer>Session</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Daca discutam de portul 67, utilizat in general de BOOTP sau DHCP, acesta face parte din categoria:</text>
+            <answers>
+                <answer correct=true>porturi bine cunoscute</answer>
+                <answer>porturi rezervate</answer>
+                <answer>porturi utilizabile</answer>
+                <answer>porturi dinamice</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Daca ne gandim la WiFi ce afirmatie este corecta?</text>
+            <answers>
+                <answer>poate permite acces parental</answer>
+                <answer>este cuprins din mai multe substandarde</answer>
+                <answer>permite diverse solutii de criptare cu algoritmi de complexitati diferite pentru a securiza transmisia</answer>
+                <answer>permite accesul la retea prin intermediul unor AP-uri</answer>
+                <answer correct=true>toate variantele sunt corecte</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                Care este adresa IPv6 corecta, daca pornim de adresa MAC `D6-D2-52-48-AC-F0` si
+                parcurgem etapele procesului EUI-64?
+            </text>
+            <answers>
+                <answer>`D6-D2-52-FE-FF-48-AC-F0`</answer>
+                <answer correct=true>`D4-D2-52-FF-FE-48-AC-F0`</answer>
+                <answer>`D4-D2-52-FE-FF-48-AC-F0`</answer>
+                <answer>`D6-D2-52-FF-FE-48-AC-F0`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care din urmatoarele afirmatii este incorecta cand ne referim la DHCP?</text>
+            <answers>
+                <answer>nici un raspuns nu este corect</answer>
+                <answer>parametri primiti de la DHCP sunt in regim de inchiriere</answer>
+                <answer correct=true>foloseste pentru protocol de transport TCP-ul, avand certitudinea corectitudinii datelor</answer>
+                <answer>pentru un PC avand Windows, putem reinnoi informatiile dand comenzile `ipconfig /release` urmat de `ipconfig /renew`</answer>
+                <answer>toate tranzitile dintre un singur client si un server vor folosi acelasi Transaction ID</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care din urmatoarele nu reprezinta un set de grupuri de numere de porturi:</text>
+            <answers>
+                <answer correct=true>porturi neutilizabile</answer>
+                <answer>porturi rezervate</answer>
+                <answer>porturi utilizabile</answer>
+                <answer>porturi bine cunoscute</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Din cati biti este format antetul protocolului UDP?</text>
+            <answers>
+                <answer>64 octeti</answer>
+                <answer>8 octeti</answer>
+                <answer>8 biti</answer>
+                <answer correct=true>64 biti</answer>
             </answers>
         </question>
     </questions>

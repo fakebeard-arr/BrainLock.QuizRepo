@@ -36,7 +36,7 @@
         </question>
         <question>
             <topic>lucrarea 1</topic>
-            <text>Cum se numeste modul de comunicare in care un dispozitiv transmite, celalalt receptioneaza, iar rolurile nu se scimba?</text>
+            <text>Cum se numeste modul de comunicare in care un dispozitiv transmite, celalalt receptioneaza, iar rolurile nu se schimba?</text>
             <answers>
                 <answer correct=true>simplex</answer>
                 <answer>direct</answer>
@@ -48,7 +48,7 @@
             <topic>lucrarea 1</topic>
             <text>Cum se numeste modul de comunicare in care un dispozitiv transmite, celalalt receptioneaza, apoi rolurile se schimba?</text>
             <answers>
-                <answer correct=true>haf-duplex</answer>
+                <answer correct=true>half-duplex</answer>
                 <answer>duplex</answer>
                 <answer>client-server</answer>
                 <answer>direct</answer>
@@ -156,7 +156,7 @@
         </question>
         <question>
             <topic>lucrarea 1</topic>
-            <text>Dupa topologie, cum se numesc retelele unde toate dispozitivele de conecteaza la un nod principal, iar orice mesaj transmis in retea trece prin acel nod?</text>
+            <text>Dupa topologie, cum se numesc retelele unde toate dispozitivele se conecteaza la un nod principal, iar orice mesaj transmis in retea trece prin acel nod?</text>
             <answers>
                 <answer correct=true>STAR</answer>
                 <answer>BUS</answer>
@@ -451,7 +451,7 @@
         </question>
         <question>
             <topic>lucrarea 2</topic>
-            <text>Pentru modelul TCP/IP, ce start contine protocoale/metode de comunicare intre aplicatii?</text>
+            <text>Pentru modelul TCP/IP, ce strat contine protocoale/metode de comunicare intre aplicatii?</text>
             <answers>
                 <answer correct=true>APPLICATION</answer>
                 <answer>TRANSPORT</answer>
@@ -471,7 +471,7 @@
         </question>
         <question>
             <topic>lucrarea 2</topic>
-            <text>Pentru modelul TCP/IP, ce strat pregateste datele pentru mediul de transmisie si le transmite?</text>
+            <text>Pentru modelul TCP/IP, ce strat pregateste datele pentru mediul de transmisie si la transmite?</text>
             <answers>
                 <answer>APPLICATION</answer>
                 <answer>TRANSPORT</answer>
@@ -778,7 +778,7 @@
         </question>
         <question>
             <topic>lucrarea 4</topic>
-            <text>Care tip de adresa e utilizata le nivelul Internet?</text>
+            <text>Care tip de adresa e utilizata la nivelul Internet?</text>
             <answers>
                 <answer correct=true>IP</answer>
                 <answer>MAC</answer>
@@ -797,7 +797,7 @@
         </question>
         <question>
             <topic>lucrarea 4</topic>
-            <text>Care tip de adresa e utilizata le nivelul Internet?</text>
+            <text>Care tip de adresa e utilizata la nivelul Internet?</text>
             <answers>
                 <answer correct=true>logica</answer>
                 <answer>fizica</answer>
@@ -956,7 +956,7 @@
         </question>
         <question>
             <topic>lucrarea 4</topic>
-            <text>Ce tip de adresa este `128.542.12.1`?</text>
+            <text>Ce tip de adresa este `128.142.12.1`?</text>
             <answers>
                 <answer correct=true>IPv4</answer>
                 <answer>IPv6</answer>
@@ -1470,7 +1470,7 @@
             <text>Ce porturi sunt utilizate de FTP?</text>
             <answers>
                 <answer correct=true>`20` pt date si `21` pt control</answer>
-                <answer>`21` penstru date si `20` pentru control</answer>
+                <answer>`21` pentru date si `20` pentru control</answer>
                 <answer>`80` pentru date si `443` pentru control</answer>
                 <answer>`443` pentru control si `80` pentru date</answer>
             </answers>
