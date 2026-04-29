@@ -260,8 +260,8 @@
             <text>La procesul de decapsulare realizat dupa modelul de referinta TCP/IP, la al catelea nivel se gaseste portul sursa si portul destinatie?</text>
             <answers>
                 <answer>al 2-lea</answer>
-                <answer>al 3-lea</answer>
-                <answer correct=true>al 4-lea</answer>
+                <answer correct=true>al 3-lea</answer>
+                <answer>al 4-lea</answer>
                 <answer>primul</answer>
             </answers>
         </question>
