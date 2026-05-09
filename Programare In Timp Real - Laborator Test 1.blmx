@@ -1,0 +1,553 @@
+<root>
+    <version>1</version>
+    <title>Programare In Timp Real - Laborator Test 1</title>
+    <questions>
+        <question>
+            <text>Ce versiune a limbajului e C++0x?</text>
+            <answers>
+                <answer correct='true'>C++ 10</answer>
+                <answer>C++ 11</answer>
+                <answer>C++ 20</answer>
+                <answer>C++ 1</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce contin fisierele `.h` (header)?</text>
+            <answers>
+                <answer correct='true'>declaratii de clase si functii</answer>
+                <answer>implementare de clase</answer>
+                <answer>implementare de functii si variabile</answer>
+                <answer>documentatia aferenta fisierelor sursa</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce contin fisierele `.cpp`?</text>
+            <answers>
+                <answer correct='true'>implementarea concreta</answer>
+                <answer>declaratii de clase si functii</answer>
+                <answer>biblioteci de sistem</answer>
+                <answer>variabilele sursa</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum se importa fisierele care fac parte din proiectul curent?</text>
+            <answers>
+                <answer correct='true'>folosind `" "`</answer>
+                <answer>folosind `\< \>`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum se importa fisierele care fac parte din bibliotecile sistemului?</text>
+            <answers>
+                <answer correct='true'>folosind `\< \>`</answer>
+                <answer>folosind `" "`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care din urmatoarele este apel implicit de constructor pentru clasa `Test`?</text>
+            <answers>
+                <answer correct='true'>`Test t;`</answer>
+                <answer>`Test t = Test();`</answer>
+                <answer>`Test t = create Test();`</answer>
+                <answer>`Test t = 12;`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care din urmatoarele este apel explicit de constructor pentru clasa `Test`?</text>
+            <answers>
+                <answer correct='true'>`Test t = Test();`</answer>
+                <answer>`Test t;`</answer>
+                <answer>`Test t = create Test();`</answer>
+                <answer>`Test t = 12;`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care din urmatoarele nu este un tip valid de constructor?</text>
+            <answers>
+                <answer correct='true'>test constructor</answer>
+                <answer>constructor default</answer>
+                <answer>constructor parametrizat</answer>
+                <answer>copy constructor</answer>
+                <answer>move constructor</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este declaratia unui copy constructor?</text>
+            <answers>
+                <answer correct='true'>`Test (const Test& object);`</answer>
+                <answer>`Test (Test&& object);`</answer>
+                <answer>`Test (Test object);`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este declaratia unui move constructor?</text>
+            <answers>
+                <answer correct='true'>`Test (Test&& object);`</answer>
+                <answer>`Test (const Test& object);`</answer>
+                <answer>`Test (var Test& object);`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                Fie secventa urmatoare de cod:
+                ```cpp
+                Test t1;
+                Test t2 = t1
+                ```
+                
+                Linia 2:
+            </text>
+            <answers>
+                <answer correct='true'>apeleaza copy constructor</answer>
+                <answer>apeleaza move constructor</answer>
+                <answer>apeleaza operatorul `=`</answer>
+                <answer>copiaza referinta obiectului `t1`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                Fie secventa urmatoare de cod:
+                ```cpp
+                Test t1;
+                Test t2(t1);
+                ```
+                
+                Linia 2:
+            </text>
+            <answers>
+                <answer correct='true'>apeleaza copy constructor</answer>
+                <answer>apeleaza test constructor</answer>
+                <answer>muta referinta opectului `t1`</answer>
+                <answer>produce eroare</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                Fie secventa urmatoare de cod:
+                ```cpp
+                Test t1, t2;
+                t2 = t1;
+                ```
+                
+                Linia 2:
+            </text>
+            <answers>
+                <answer correct='true'>apeleaza operatorul `=`</answer>
+                <answer>apeleaza test constructor</answer>
+                <answer>apeleaza copy constructor</answer>
+                <answer>produce eroare</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce este destructorul unei clase in C++?</text>
+            <answers>
+                <answer correct='true'>functie ce se apeleaza cand clasa ajunge out-of-scope</answer>
+                <answer>functie ce se apeleaza cand programul ramane fara memorie</answer>
+                <answer>fanion ce arata daca obiectul este activ</answer>
+                <answer>indicator pentru garbage collector</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                Care e ordinea apelarii destructorilor pentru mai multe instantieri de clase?
+                ```cpp
+                Test t1;
+                Test t2;
+                Test t3;
+                ```
+            </text>
+            <answers>
+                <answer correct='true'>in ordinea inversa construirii</answer>
+                <answer>in ordinea construirii</answer>
+                <answer>in functie de cum ies din scop</answer>
+                <answer>in ordine complet</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                Daca se creeaza un vector de obiecte tip clasa, in ce ordine se vor apela destructorii?
+                ```cpp
+                Test v[3];
+                ```
+            </text>
+            <answers>
+                <answer>1, 2, 3</answer>
+                <answer correct='true'>3, 2, 1</answer>
+                <answer>aleatoare</answer>
+                <answer>2, 1, 3</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                Ce creeaza urmatorul template?
+                ```cpp
+                std::list\<int\>
+                ```
+            </text>
+            <answers>
+                <answer correct='true'>lista dublu inlantuita</answer>
+                <answer>lista simplu inlantuita</answer>
+                <answer>vector de int</answer>
+                <answer>tablou de int</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                Ce creeaza urmatorul template?
+                ```cpp
+                std::vector\<str::string\>
+                ```
+            </text>
+            <answers>
+                <answer correct='true'>vector dinamic de string-uri</answer>
+                <answer>vector static de string-uri</answer>
+                <answer>lista dublu inlantuita</answer>
+                <answer>tabou de int-uri</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                Ce creeaza urmatorul template?
+                ```cpp
+                std::array\<bool, 10\>
+                ```
+            </text>
+            <answers>
+                <answer correct='true'>tablou de dimensiune fixa, cu 10 elemente</answer>
+                <answer>tablou dinamic, initializat cu 10 elemente</answer>
+                <answer>lista cu 10 elemente</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este biblioteca standard de unde face parte clasa `thread`?</text>
+            <answers>
+                <answer correct='true'>`\<thread\>`</answer>
+                <answer>`\<multithread\>`</answer>
+                <answer>`\<stdlib\>`</answer>
+                <answer>`\<threading\>`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Cum se creaza un thread nou?</text>
+            <answers>
+                <answer correct='true'>`std::thread t(apelabil);`</answer>
+                <answer>`std::thread t;`</answer>
+                <answer>`thread t = new apelabil();`</answer>
+                <answer>`create thread t = apelabil`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce este un function pointer?</text>
+            <answers>
+                <answer correct='true'>numele unei functii</answer>
+                <answer>metoda unei clase</answer>
+                <answer>pointer la o instructiune</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce este un memeber function?</text>
+            <answers>
+                <answer correct='true'>metoda unei clase</answer>
+                <answer>numele unei functii</answer>
+                <answer>pointer la o instructiune</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este sintaxa pentru crearea unui nou thread folosind un function pointer?</text>
+            <answers>
+                <answer correct='true'>`std::thread t(nume_functie);`</answer>
+                <answer>`std::thread t(*nume_functie);`</answer>
+                <answer>`std::thread t(&nume_functie);`</answer>
+                <answer>`std::thread t(addres& nume_functie);`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este sintaxa pentru crearea unui nou thread folosind un memeber function?</text>
+            <answers>
+                <answer correct='true'>`std::thread t(&Class::metoda, object);`</answer>
+                <answer>`std::thread t(Class::metoda, object);`</answer>
+                <answer>`std::thread t(&Class::metoda);`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este sintaxa pentru crearea unui nou thread folosind o metoda statica?</text>
+            <answers>
+                <answer correct='true'>`std::thread t(&Class::metoda);`</answer>
+                <answer>`std::thread t(&Class::metoda, object);`</answer>
+                <answer>`std::thread t(Class::metoda, object);`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce este un functor?</text>
+            <answers>
+                <answer correct='true'>clasa ce are operatorul `()` supraincarcat</answer>
+                <answer>o funcție care returnează întotdeauna `bool`.</answer>
+                <answer>un pointer la funcție declarat cu `typedef`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este sintaxa pentru crearea unui nou thread folosind un functor instantiat `Clasa object`?</text>
+            <answers>
+                <answer correct='true'>`std::thread t(object)`</answer>
+                <answer>`std::thread t(&object)`</answer>
+                <answer>`std::thread t(object())`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este sintaxa pentru crearea unui nou thread folosind un functor?</text>
+            <answers>
+                <answer correct='true'>`std::thread t((Clasa()));`</answer>
+                <answer>`std::thread t(Clasa);`</answer>
+                <answer>`std::thread t(create Clasa());`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este sintaxa pentru crearea unui nou thread folosind un functor?</text>
+            <answers>
+                <answer correct='true'>`std::thread t { Clasa() };`</answer>
+                <answer>`std::thread t { Clasa };`</answer>
+                <answer>`std::thread t { Clasa()() };`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este sintaxa pentru crearea unui nou thread folosind o functie lambda (anonima)?</text>
+            <answers>
+                <answer correct='true'>`std::thread t([]() { ... });`</answer>
+                <answer>`std::thread t({ ... });`</answer>
+                <answer>`std::thread t([) { ... });`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Este necesar sa fie apelata metoda `start()` pe un thread in C++?</text>
+            <answers>
+                <answer correct='true'>nu</answer>
+                <answer>da</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Daca este apelata metoda `join()` pe un thread, programul principal:</text>
+            <answers>
+                <answer correct='true'>asteapta terminarea thread-ului</answer>
+                <answer>incheie executia inaintea thread-ului</answer>
+                <answer>incheie executia indiferent de starea thread-ului</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Daca este apelata metoda `detach()` pe un thread, programul principal:</text>
+            <answers>
+                <answer correct='true'>incheie executia indiferent de starea thread-ului</answer>
+                <answer>asteapta terminarea thread-ului</answer>
+                <answer>incheie executia inaintea thread-ului</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Metoda `joinable()` a thread-urilor indica:</text>
+            <answers>
+                <answer correct='true'>daca putem apela `join()`/`detach()`</answer>
+                <answer>daca s-a incheiat executia</answer>
+                <answer>daca putem incheia programul principal</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Clasa wrapper peste `thread` care apeleaza automat `join()` este:</text>
+            <answers>
+                <answer correct='true'>`jthread`</answer>
+                <answer>`m_thread`</answer>
+                <answer>`Thread`</answer>
+                <answer>`joinable_thread`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Fenomenul din prigramarea concurenta in care mai multe thread-uri acceseaza acceasi resursa si cel putin unul din ele o modifica se numeste:</text>
+            <answers>
+                <answer correct='true'>data race</answer>
+                <answer>concurrent execution</answer>
+                <answer>multithreading</answer>
+                <answer>semi-concurenta</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Daca functia executata de thread este marcata cu `const`, poate avea loc data race?</text>
+            <answers>
+                <answer correct='true'>nu</answer>
+                <answer>da</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce este o resursa critica?</text>
+            <answers>
+                <answer correct='true'>resursa pe care o aceeseaza mai multe thread-uri</answer>
+                <answer>resursa declarata la nivel global in program</answer>
+                <answer>resursa interna pe care o utilizeaza thread-urile</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Mecanismul care asigura ca o portiune de cod se va executa de un singur thread la un moment dat este:</text>
+            <answers>
+                <answer correct='true'>`mutex`</answer>
+                <answer>`jthread`</answer>
+                <answer>`caller`</answer>
+                <answer>`smart_pointer`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Daca nu se apeleaza `unlock()` pe un mutex la iesirea din functie, ce se intampla cu programul?</text>
+            <answers>
+                <answer correct='true'>se blocheaza</answer>
+                <answer>arunca eroare</answer>
+                <answer>se incheie</answer>
+                <answer>se incheie cu succes</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Wrapper-ul peste `mutex` care apeleaza `lock()` in constructor si `unlock()` in destructor se numeste:</text>
+            <answers>
+                <answer correct='true'>`lock_guard`</answer>
+                <answer>`unique_lock`</answer>
+                <answer>`smart_lock`</answer>
+                <answer>`static_lock`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>O instanta `lock_guard` poate fi deblocata de utilizator?</text>
+            <answers>
+                <answer correct='true'>nu</answer>
+                <answer>da</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Wrapper-ul peste `mutex` pe care il putem inchide/deschide la nevoie este:</text>
+            <answers>
+                <answer>`lock`</answer>
+                <answer>`lock_guard`</answer>
+                <answer correct='true'>`unique_lock`</answer>
+                <answer>`smart_lock`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Fenomenul in care 2 thread-uri asteapta unul dupa celalalt se numeste:</text>
+            <answers>
+                <answer correct='true'>deadlock</answer>
+                <answer>hang</answer>
+                <answer>freeze</answer>
+                <answer>BSOD</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care din urmatoarele optiuni nu ne scapa de deadlock?</text>
+            <answers>
+                <answer correct='true'>folosim referinta la o variabila</answer>
+                <answer>folosim un singur mutex</answer>
+                <answer>inchidem mutex-urile in aceeasi ordine</answer>
+                <answer>inchidem toate mutexurile deodata</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce functie asigura inchiderea tuturor mutex-urilor simultan?</text>
+            <answers>
+                <answer correct='true'>`std::lock`</answer>
+                <answer>`std::mu_lock`</answer>
+                <answer>`std::atomic`</answer>
+                <answer>`std::thread`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Pentru a construi un `unique_lock` folosind un mutex deja inchis se foloseste argumentul:</text>
+            <answers>
+                <answer correct='true'>`std::adopt_lock`</answer>
+                <answer>`std::defer_lock`</answer>
+                <answer>`std::adopt`</answer>
+                <answer>`std::wait_lock`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Tipurile de date care permit accesul si modificarea in aplicatii multithreading cu garantia ca nu vom da in data race se numesc:</text>
+            <answers>
+                <answer correct='true'>tipuri atomice</answer>
+                <answer>tipuri constante</answer>
+                <answer>tipuri sigure</answer>
+                <answer>tipuri read-only</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce template permite crearea unui tip de date atomic?</text>
+            <answers>
+                <answer>`atomic\<\>`</answer>
+                <answer correct='true'>`std::atomic\<\>`</answer>
+                <answer>`std::atomic_ref\<\>`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce template permite crearea de referinte atomice la resurse critice, fara a altera tipul de date?</text>
+            <answers>
+                <answer correct='true'>`std::atomic_ref\<\>`</answer>
+                <answer>`std::atomic\<\>`</answer>
+                <answer>`std::atomic_pointer\<\>`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce reprezinta tipul `std::once_flag`?</text>
+            <answers>
+                <answer correct='true'>un steag binar</answer>
+                <answer>un indicator de calitate</answer>
+                <answer>daca o resursa exista sau nu</answer>
+                <answer>daca mutex-ul a fost inchis</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce face `std::call_once`?</text>
+            <answers>
+                <answer correct='true'>executa o functie o singura data</answer>
+                <answer>este un wrapper peste `std::once_flag`</answer>
+                <answer>creaza un steag binar</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Care este sintaza pentru `std::call_once`?</text>
+            <answers>
+                <answer correct='true'>`std::call_once(flag, [] { ... });`</answer>
+                <answer>`std::call_once(flag);`</answer>
+                <answer>`std::call_once([]() { ... });`</answer>
+                <answer>`std::call_once(flag, []() { ... });`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Ce este `condition_variable`?</text>
+            <answers>
+                <answer correct='true'>o metoda de sincronizare care permite thread-urilor sa astepte ca o conditie sa se indeplineasca inainte de a avansa</answer>
+                <answer>o variabilă globală folosită pentru comunicarea între thread-uri, de tip steag binar</answer>
+                <answer>un tip special de mutex care blochează permanent accesul la memorie</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Daca conditia e falsa, `condition_variable`:</text>
+            <answers>
+                <answer correct='true'>deschide mutex-ul</answer>
+                <answer>inchide mutex-ul</answer>
+                <answer>continua executia</answer>
+            </answers>
+        </question>
+        <question>
+            <text>
+                Care este sintaxa pentru asteptarea pana ce o conditie devina adevarata, folosind `condition_variable`?
+                ```cpp
+                std::condition_variable cv;
+                std::unoque_lock lock;
+                ```
+            </text>
+            <answers>
+                <answer correct='true'>`cv.wait(lock, [] {...});`</answer>
+                <answer>`cv.await(lock, [] {...});`</answer>
+                <answer>`cv.untill(lock, [] {...});`</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Metodele `notify_one` si `notify_all` din `condition_variable`:</text>
+            <answers>
+                <answer correct='true'>permite altor thread-uri ce asteapta sa isi continue executia</answer>
+                <answer>opreste executia altor thread-uri pentru ca thread-ul curent sa isi poata continua executia</answer>
+                <answer>notifica programul curent de terminarea executiri thread-ului</answer>
+            </answers>
+        </question>
+    </questions>
+</root>
