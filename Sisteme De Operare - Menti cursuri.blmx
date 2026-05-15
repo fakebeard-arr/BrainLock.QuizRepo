@@ -7,7 +7,7 @@
             <topic>Shell Scripting</topic>
             <text>Care este rolul directorului `/etc` în Linux?</text>
             <answers>
-                <answer correct=true>conține fișierele de configurare ale sistemului</answer>
+                <answer correct='true'>conține fișierele de configurare ale sistemului</answer>
                 <answer>conține executabilele comenzilor de sistem</answer>
                 <answer>conține cataloagele utilizatorilor</answer>
                 <answer>conține fișierele temporare ale sistemului</answer>
@@ -19,7 +19,7 @@
             <answers>
                 <answer>lista proceselor active din sistem</answer>
                 <answer>permisiunile fișierului curent</answer>
-                <answer correct=true>directorul curent de lucru</answer>
+                <answer correct='true'>directorul curent de lucru</answer>
                 <answer>parola utilizatorului curent</answer>
             </answers>
         </question>
@@ -27,7 +27,7 @@
             <topic>Shell Scripting</topic>
             <text>Ce reprezintă variabila `$#` în shell scripting?</text>
             <answers>
-                <answer correct=true>numărul de parametri transmiși scriptului</answer>
+                <answer correct='true'>numărul de parametri transmiși scriptului</answer>
                 <answer>numărul de identificare al procesului curent (PID)</answer>
                 <answer>numele fișierului de comenzi rulat</answer>
                 <answer>lista completă cu parametrii transmiși scriptului</answer>
@@ -39,7 +39,7 @@
             <answers>
                 <answer>redirecționează ieșirea standard într-un fișier</answer>
                 <answer>execută două comenzi simultan în fundal</answer>
-                <answer correct=true>conectează ieșirea unui proces la intrarea altuia</answer>
+                <answer correct='true'>conectează ieșirea unui proces la intrarea altuia</answer>
                 <answer>suspendă execuția procesului curent</answer>
             </answers>
         </question>
@@ -47,7 +47,7 @@
             <topic>Shell Scripting</topic>
             <text>Ce reprezintă variabila de mediu `$PATH` în shell?</text>
             <answers>
-                <answer correct=true>lista de directoare în care shell-ul caută fișierele executabile ale comenzilor</answer>
+                <answer correct='true'>lista de directoare în care shell-ul caută fișierele executabile ale comenzilor</answer>
                 <answer>calea absolută a fișierului de comenzi (script) care rulează curent</answer>
                 <answer>directorul de lucru curent al utilizatorului autentificat</answer>
                 <answer>numele complet al interpretorului de comenzi activ</answer>
@@ -64,7 +64,7 @@
             </text>
             <answers>
                 <answer>redirecționează ieșirea standard `stdout` în dublu exemplar</answer>
-                <answer correct=true>redirecționează ieșirea de eroare standard `stderr` într-un fișier</answer>
+                <answer correct='true'>redirecționează ieșirea de eroare standard `stderr` într-un fișier</answer>
                 <answer>concatenează ieșirea standard la un fișier existent</answer>
                 <answer>redirecționează intrarea standard dintr-un fișier</answer>
             </answers>
@@ -76,14 +76,14 @@
                 <answer>`${sir.length}`</answer>
                 <answer>`len($sir)`</answer>
                 <answer>`count(${sir[*]})`</answer>
-                <answer correct=true>`${#sir[@]}`</answer>
+                <answer correct='true'>`${#sir[@]}`</answer>
             </answers>
         </question>
         <question>
             <topic>Shell Scripting</topic>
             <text>Ce reprezintă simbolul `^` în expresiile regulate?</text>
             <answers>
-                <answer correct=true>inceputul liniei sau negarea unui set de caractere</answer>
+                <answer correct='true'>inceputul liniei sau negarea unui set de caractere</answer>
                 <answer>zero sau mai multe repetări ale caracterului precedent</answer>
                 <answer>sfârșitul liniei de text căutate</answer>
                 <answer>un singur caracter oarecare din text</answer>
@@ -94,7 +94,7 @@
             <text>Ce variabilă predefinită în awk reprezintă numărul curent al înregistrării (liniei)?</text>
             <answers>
                 <answer>`NF`</answer>
-                <answer correct=true>`NR`</answer>
+                <answer correct='true'>`NR`</answer>
                 <answer>`FS`</answer>
                 <answer>`ORS`</answer>
             </answers>
@@ -106,7 +106,7 @@
                 <answer>variabilele devin disponibile automat în shell-ul părinte</answer>
                 <answer>variabilele sunt exportate global în toate shell-urile</answer>
                 <answer>Variabilele sunt salvate în fișierul de configurare `$ENV`</answer>
-                <answer correct=true>modificările nu afectează shell-ul părinte</answer>
+                <answer correct='true'>modificările nu afectează shell-ul părinte</answer>
             </answers>
         </question>
         <question>
@@ -114,7 +114,7 @@
             <text>Ce rol are utilitarul make în dezvoltarea software?</text>
             <answers>
                 <answer>un compilator C care generează fișiere executabile din cod sursă</answer>
-                <answer correct=true>determină relațiile de dependență între fișiere și automatizează compilarea</answer>
+                <answer correct='true'>determină relațiile de dependență între fișiere și automatizează compilarea</answer>
                 <answer>un interpretor de comenzi specializat pentru scripturi de build</answer>
                 <answer>un manager de pachete pentru instalarea bibliotecilor C</answer>
             </answers>
@@ -123,7 +123,7 @@
             <topic>Make</topic>
             <text>Care este sintaxa corectă pentru a referenția un macro definit în Makefile?</text>
             <answers>
-                <answer correct=true>`$(nume)` sau `${nume}`</answer>
+                <answer correct='true'>`$(nume)` sau `${nume}`</answer>
                 <answer>`$[nume]` sau `#(nume)`</answer>
                 <answer>`%{nume}` sau `!(nume)`</answer>
                 <answer>`@{nume}` sau `&(nume)`</answer>
@@ -135,7 +135,7 @@
             <answers>
                 <answer>lista tuturor dependențelor fișierului țintă</answer>
                 <answer>dependențele actualizate mai recent decât ținta</answer>
-                <answer correct=true>tinta curentă care se construiește</answer>
+                <answer correct='true'>tinta curentă care se construiește</answer>
                 <answer>numele fișierului sursă care se compilează curent</answer>
             </answers>
         </question>
@@ -143,7 +143,7 @@
             <topic>Make</topic>
             <text>Ce face ținta specială clean într-un Makefile?</text>
             <answers>
-                <answer correct=true>șterge fișierele obiect `.o` și executabilul generat</answer>
+                <answer correct='true'>șterge fișierele obiect `.o` și executabilul generat</answer>
                 <answer>curăță variabilele de mediu definite în Makefile</answer>
                 <answer>resetează toate macrourile la valorile lor implicite</answer>
                 <answer>elimină sufixele înregistrate cu directiva `.SUFFIXES`</answer>
@@ -156,17 +156,233 @@
                 <answer>definiții interne -\> variabile de mediu -\> fișier descriere -\> linia de comandă</answer>
                 <answer>fișierul de descriere -\> linia de comandă -\> variabile de mediu -\> definiții interne</answer>
                 <answer>variabile de mediu -\> linia de comandă -\> definiții interne -\> fișier descriere</answer>
-                <answer correct=true>linia de comandă -\> fișierul de descriere -\> variabile de mediu -\> definiții interne</answer>
+                <answer correct='true'>linia de comandă -\> fișierul de descriere -\> variabile de mediu -\> definiții interne</answer>
             </answers>
         </question>
         <question>
             <topic>Make</topic>
             <text>Ce semnifică variabila `$?` într-o regulă Makefile?</text>
             <answers>
-                <answer correct=true>dependențele actualizate mai recent decât ținta curentă</answer>
+                <answer correct='true'>dependențele actualizate mai recent decât ținta curentă</answer>
                 <answer>codul de ieșire returnat de ultima comandă executată</answer>
                 <answer>numărul total de dependențe ale țintei curente</answer>
                 <answer>Fișierul sursă (`$\<`) care declanșează regula de sufix</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Fisiere - 1</topic>
+            <text>Ce caracterizează organizarea de tip aglomerare a fișierelor?</text>
+            <answers>
+                <answer correct='true'>inregistrările pot avea câmpuri diferite, lungime indicată explicit și căutare exhaustivă</answer>
+                <answer>organizarea fizică pe disc este identică cu organizarea logică a fișierului</answer>
+                <answer>Conține un câmp cheie identic cu câmpul cheie din fișierul principal</answer>
+                <answer>utilizează un index exhaustiv cu câte o intrare pentru fiecare înregistrare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Fisiere - 1</topic>
+            <text>Ce caracterizează organizarea secvențială a fișierelor?</text>
+            <answers>
+                <answer>inregistrările pot avea câmpuri diferite și lungime variabilă</answer>
+                <answer>fiecare înregistrare conține un câmp cheie și o referință în fișierul principal</answer>
+                <answer correct='true'>organizarea fizică pe disc este identică cu organizarea logică a fișierului</answer>
+                <answer>permite accesarea directă a oricărei înregistrări fără parcurgere secvențială</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Fisiere - 1</topic>
+            <text>Ce tipuri de indexare există în organizarea indexată a fișierelor?</text>
+            <answers>
+                <answer correct='true'>indexare exhaustivă (o intrare per înregistrare) și indexare parțială (numai pentru înregistrările de interes)</answer>
+                <answer>indexare primară și indexare secundară bazate pe câmpul cheie</answer>
+                <answer>indexare statică (fixă la creare) și indexare dinamică (modificabilă la runtime)</answer>
+                <answer>indexare directă și indexare inversată bazată pe valoarea câmpului</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Fisiere - 1</topic>
+            <text>Care sunt clasele de utilizatori definite pentru controlul accesului la fișiere?</text>
+            <answers>
+                <answer>administrator, utilizator standard și utilizator guest</answer>
+                <answer>proprietar, grup primar și grup secundar</answer>
+                <answer correct='true'>utilizatori specifici, grupuri de utilizatori și toți utilizatorii</answer>
+                <answer>utilizatori locali, utilizatori de rețea și utilizatori anonimi</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Fisiere - 1</topic>
+            <text>Care sunt cele trei tipuri de alocare a spațiului pe disc pentru fișiere?</text>
+            <answers>
+                <answer correct='true'>contiguă, înlănțuită și indexată</answer>
+                <answer>secvențială, aleatorie și hibridă</answer>
+                <answer>statică, dinamică și virtuală</answer>
+                <answer>primară, secundară și terțiară</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Fisiere - 1</topic>
+            <text>Care sunt criteriile de organizare a unui sistem de fișiere?</text>
+            <answers>
+                <answer>viteză de citire, viteză de scriere, redundanță, portabilitate și securitate</answer>
+                <answer>acces rapid, actualizare rapidă, economie de spațiu, întreținere simplă și siguranță</answer>
+                <answer>compatibilitate, scalabilitate, portabilitate, fiabilitate și performanță</answer>
+                <answer>fragmentare minimă, compresie, criptare, backup automat și jurnalizare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Fisiere - 2</topic>
+            <text>Care este convenția pentru descriptorii de fișiere standard în sistemele UNIX?</text>
+            <answers>
+                <answer correct='true'>
+                    0 - intrare standard
+                    1 - ieșire standard
+                    2 - ieșire standard de eroare
+                </answer>
+                <answer>
+                    1 - intrare standard
+                    2 - ieșire standard
+                    3 - ieșire de eroare
+                </answer>
+                <answer>
+                    0 - ieșire standard
+                    1 - intrare standard
+                    2 - ieșire de eroare
+                </answer>
+                <answer>
+                    0 - ieșire de eroare
+                    1 - intrare standard
+                    2 - ieșire standard
+                </answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Fisiere - 2</topic>
+            <text>Ce efect are flag-ul `O_TRUNC` folosit la apelul sistem `open()`?</text>
+            <answers>
+                <answer>forțează scrierile succesive la sfârșitul fișierului</answer>
+                <answer>determină eșuarea apelului dacă fișierul există și `O_CREAT` este poziționat</answer>
+                <answer correct='true'>dacă fișierul există, îi șterge conținutul</answer>
+                <answer>forțează scrierea efectivă pe disc la fiecare apel write</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Fisiere - 2</topic>
+            <text>Care este rolul apelurilor sistem `stat`, `fstat` și `lstat`?</text>
+            <answers>
+                <answer>crearea unui fișier nou și inițializarea inode-ului acestuia</answer>
+                <answer correct='true'>obținerea informațiilor despre un fișier (inode, dimensiune, drepturi, timpi de acces)</answer>
+                <answer>deschiderea unui fișier pentru citire sau scriere</answer>
+                <answer>eliberarea descriptorului unui fișier deja deschis</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Fisiere - 2</topic>
+            <text>Care este rolul inode-ului în sistemul de fișiere?</text>
+            <answers>
+                <answer>stochează doar conținutul propriu-zis al fișierului, fără metadate</answer>
+                <answer>conține numele complet al fișierului și calea absolută</answer>
+                <answer>reprezintă bufferul kernelului folosit la operațiile de scriere</answer>
+                <answer correct='true'>asigură o structură ierarhică, tratare consistentă a fișierelor și protejarea lor</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Fisiere - 2</topic>
+            <text>Care sunt principalele dezavantaje ale folosirii bufferelor la apelurile read/write?</text>
+            <answers>
+                <answer>performanța scade considerabil pentru că fiecare octet se scrie individual pe disc</answer>
+                <answer>bufferele consumă memorie virtuală și nu permit accesul concurent al proceselor</answer>
+                <answer correct='true'>eroarea pe disc sau căderea kernelului pot produce pierderea datelor, iar ordinea scrierilor fizice nu poate fi controlată</answer>
+                <answer>scrierile se realizează sincron, blocând complet procesul până la finalizare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Fisiere - 2</topic>
+            <text>Ce returnează apelul sistem `readdir()` la fiecare invocare?</text>
+            <answers>
+                <answer>numărul de fișiere rămase nelistate din director</answer>
+                <answer correct='true'>un pointer la o structură `dirent` ce conține numele și inode-ul intrării din director</answer>
+                <answer>conținutul complet al unui fișier din director</answer>
+                <answer>drepturile de acces ale utilizatorului curent asupra directorului</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Fisiere - 2</topic>
+            <text>Ce informații conține structura dirent returnată de `readdir()`?</text>
+            <answers>
+                <answer correct='true'>numărul inode-ului și numele intrării</answer>
+                <answer>dimensiunea fișierului și data ultimei modificări</answer>
+                <answer>drepturile de acces și proprietarul intrării</answer>
+                <answer>calea absolută către fișier și descriptorul său</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Procese - 1</topic>
+            <text>Care sunt cele trei categorii principale de memorie discutate la alocarea memoriei procesului?</text>
+            <answers>
+                <answer>memoria cache, memoria RAM și memoria ROM</answer>
+                <answer>memoria statică, memoria dinamică și memoria heap</answer>
+                <answer correct='true'>memoria principală, memoria secundară și memoria virtuală</answer>
+                <answer>memoria locală, memoria partajată și memoria distribuită</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Procese - 1</topic>
+            <text>Care este principala problemă a partiționării dinamice a memoriei?</text>
+            <answers>
+                <answer>necesitatea unei tabele de pagini de dimensiune mare</answer>
+                <answer>fragmentarea internă cauzată de partițiile de dimensiune fixă</answer>
+                <answer correct='true'>nevoia de compactare, datorită lungimii și numărului variabil al partițiilor</answer>
+                <answer>imposibilitatea de a aloca segmente non-contigue</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Procese - 1</topic>
+            <text>Care dintre următoarele nu este un algoritm de alocare a memoriei prezentat la curs?</text>
+            <answers>
+                <answer>Best-fit</answer>
+                <answer>First-fit</answer>
+                <answer>Next-fit</answer>
+                <answer correct='true'>Last-fit</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Procese - 1</topic>
+            <text>Ce avantaj oferă alocarea paginată a memoriei?</text>
+            <answers>
+                <answer>permite definirea explicită a segmentelor reentrante</answer>
+                <answer>elimină complet nevoia unei tabele de translatare a adreselor</answer>
+                <answer>crește dimensiunea fizică a memoriei principale</answer>
+                <answer correct='true'>evită fragmentarea memoriei interne prin folosirea de zone de dimensiune fixă</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Procese - 1</topic>
+            <text>Ce caracterizează memoria virtuală?</text>
+            <answers>
+                <answer>o zonă rapidă de cache între procesor și memoria principală</answer>
+                <answer>memoria alocată exclusiv segmentelor reentrante ale unui proces</answer>
+                <answer correct='true'>capacitatea de a adresa un spațiu mai mare decât memoria fizică, fără a încărca tot procesul în memorie</answer>
+                <answer>un strat hardware care înlocuiește complet memoria principală</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Procese - 1</topic>
+            <text>Care este rolul unității Memory Management Unit (MMU)?</text>
+            <answers>
+                <answer>inlocuiește complet memoria principală cu cea virtuală</answer>
+                <answer correct='true'>translatează adresele virtuale (logice) în adrese fizice la alocarea paginată</answer>
+                <answer>stochează codul executabil al fiecărui proces</answer>
+                <answer>aplică algoritmul Best-fit pentru partiționarea dinamică</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Procese - 1</topic>
+            <text>Cum este structurată o adresă într-o schemă de paginare pe două niveluri?</text>
+            <answers>
+                <answer correct='true'>adresa este formată din (Pt1, Pt2, d) - doi indici în tabele și un deplasament</answer>
+                <answer>adresa este compusă doar dintr-un singur index și un offset</answer>
+                <answer>adresa este identică cu cea din partiționarea fixă</answer>
+                <answer>adresa conține doar numele segmentului și deplasamentul în acesta</answer>
             </answers>
         </question>
     </questions>
