@@ -1,0 +1,404 @@
+<root>
+    <version>1</version>
+    <title>Programare In Timp Real - Kahoot curs</title>
+    <questions>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Care din urmatoarele optiuni are legatura cu managementul procesorului in sisteme multitasking?</text>
+            <answers>
+                <answer>sa tina evidenta dispozitivelor periferice</answer>
+                <answer correct='true'>se aloca procesorul proceselor care au nevoie sa ruleze</answer>
+                <answer>decide cine primeste resursele disponibile</answer>
+                <answer>se aloca memorie necesare pentru rulare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>O parte din timpul de procesor este alocat sistemului de operare pentru a-si realiza sarcinile.</text>
+            <answers>
+                <answer correct='true'>adevarat</answer>
+                <answer>fals</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Sistemul in care corectitudinea datelor nu depinde doar de rezultatul logic ci si de timpul in care e produs</text>
+            <answers>
+                <answer>ceas</answer>
+                <answer>procesor</answer>
+                <answer>timp de raspuns</answer>
+                <answer correct='true'>sistem in timp real</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>In RTOS de tip soft este crucial ca task-urile sa nu piarda deadline-ul.</text>
+            <answers>
+                <answer>adevarat</answer>
+                <answer correct='true'>fals</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Din nucleul sistemului de operare face parte:</text>
+            <answers>
+                <answer correct='true'>dispatcherul de taskuri</answer>
+                <answer>interfata cu utilizatorul</answer>
+                <answer>aplicatiile utilizator</answer>
+                <answer>diverse unelte oferite de sistem</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Cand resursa de care are nevoie un task e ocupata, el trece in stare `gata`.</text>
+            <answers>
+                <answer>adevarat</answer>
+                <answer correct='true'>fals</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 3</topic>
+            <text>Un proces care asteapta sa ruleaze se afla in starea:</text>
+            <answers>
+                <answer>blocat</answer>
+                <answer correct='true'>gata</answer>
+                <answer>in executie</answer>
+                <answer>creat</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 3</topic>
+            <text>Daca sistemul opreste rularea unui task de prioritate scazuta cand apare un task de prioritate ridicata, el este:</text>
+            <answers>
+                <answer>non-preemptiv</answer>
+                <answer>cooperativ</answer>
+                <answer correct='true'>preemptiv</answer>
+                <answer>gentleman</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 3</topic>
+            <text>Se pot citi adresele de stiva din registrele de procesor?</text>
+            <answers>
+                <answer correct='true'>adevarat</answer>
+                <answer>fals</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 3</topic>
+            <text>Informatiile specifice unui task aflat in rulare se gasesc in:</text>
+            <answers>
+                <answer>lista de asteptare la procesor</answer>
+                <answer>contextul fizic</answer>
+                <answer>lista de taskuri blocate</answer>
+                <answer correct='true'>contextul logic</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 3</topic>
+            <text>Situatia in care taskurile se blocheaza, nemaifiind capabile sa isi continue rularea, se numeste:</text>
+            <answers>
+                <answer>deadline</answer>
+                <answer>starvation</answer>
+                <answer correct='true'>deadlock</answer>
+                <answer>nutrition</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 3</topic>
+            <text>Contextul fizic nu contine:</text>
+            <answers>
+                <answer correct='true'>adresele de stiva</answer>
+                <answer>adresele de cod</answer>
+                <answer>adresele de date</answer>
+                <answer>cuvantul de stare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 3</topic>
+            <text>Functia dispatcher are rolul de a organiza lista de asteptare la procesor.</text>
+            <answers>
+                <answer>adevarat</answer>
+                <answer correct='true'>fals</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 6</topic>
+            <text>Daca un task care ruleaza este oprit pentru a putea rula un altul, atunci vorbim despre:</text>
+            <answers>
+                <answer>blocare</answer>
+                <answer>suspendare</answer>
+                <answer>non-preemptivitate</answer>
+                <answer correct='true'>preemptivitate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 6</topic>
+            <text>In dispecerizarea non-preemptiva:</text>
+            <answers>
+                <answer correct='true'>dispetcher-ul doar porneste task-ul</answer>
+                <answer>dispether-ul comuta taskul</answer>
+                <answer>procesorul se partajeaza in time slice</answer>
+                <answer>nu este lista de asteptare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 6</topic>
+            <text>Dispecerizarea primul venit - primul servit (first come - first served):</text>
+            <answers>
+                <answer>este preemptiva</answer>
+                <answer correct='true'>este non-preemptiva</answer>
+                <answer>nu este functionala</answer>
+                <answer>se foloseste in linux</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 6</topic>
+            <text>Care dintre urmatoarele metode este preemptiva?</text>
+            <answers>
+                <answer>shortest job first</answer>
+                <answer correct='true'>round robin</answer>
+                <answer>first come - first served</answer>
+                <answer>priority based scheduling</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 6</topic>
+            <text>Sistemele de operare care nu au interactiune cu utilizatorul se numesc:</text>
+            <answers>
+                <answer>sisteme in timp real</answer>
+                <answer>preemptive</answer>
+                <answer>BIOS</answer>
+                <answer correct='true'>batch</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 6</topic>
+            <text>Windows are un sistem de dispecerizare cu:</text>
+            <answers>
+                <answer correct='true'>32 nivele de prioritate</answer>
+                <answer>140 nivele de prioritate</answer>
+                <answer>expired queues</answer>
+                <answer>nice tasks</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 6</topic>
+            <text>Algoritmul de dispecerizare din linux 2.6.23 se numeste:</text>
+            <answers>
+                <answer correct='true'>complete fair scheduler</answer>
+                <answer>multilevel feedback queues</answer>
+                <answer>dispatcher</answer>
+                <answer>O(n)</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 7</topic>
+            <text>Orice entitate de care are nevoie un task pentru a putea fi rulat se numeste:</text>
+            <answers>
+                <answer>algoritm</answer>
+                <answer>instructiune</answer>
+                <answer correct='true'>resursa</answer>
+                <answer>programator</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 7</topic>
+            <text>Resursa care admite oricate sesiuni de lucru asupra ei derulate simultan se numeste resursa:</text>
+            <answers>
+                <answer>critica</answer>
+                <answer correct='true'>reentranta</answer>
+                <answer>locala</answer>
+                <answer>banalizata</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 7</topic>
+            <text>Portiunea de program in care se acceseaza resursa critica se numeste:</text>
+            <answers>
+                <answer>dezactivare de intreruperi</answer>
+                <answer>fanioane de excluziune</answer>
+                <answer correct='true'>sectiune critica</answer>
+                <answer>sectiune reentranta</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 7</topic>
+            <text>O resursa partajata prin excludere mutuala, cate sesiuni de lucru suporta in paralel</text>
+            <answers>
+                <answer correct='true'>1</answer>
+                <answer>2</answer>
+                <answer>3</answer>
+                <answer>oricate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 7</topic>
+            <text>Operatiile care se pot executa asupra unui fanion sunt:</text>
+            <answers>
+                <answer>insolubile</answer>
+                <answer>insipide</answer>
+                <answer>invizibile</answer>
+                <answer correct='true'>indivizibile</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 7</topic>
+            <text>Un task care executa operatia `TAS` asupra unui fanion pasiv = 1:</text>
+            <answers>
+                <answer correct='true'>asteapta activ</answer>
+                <answer>asteapta pasiv</answer>
+                <answer>se blocheaza</answer>
+                <answer>ocupa resursa</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 7</topic>
+            <text>Fanioanele de excluziune active:</text>
+            <answers>
+                <answer correct='true'>elimina asteptarea activa</answer>
+                <answer>favorizeaza fenomene de interblocare</answer>
+                <answer>determina task-urile sa astept activ</answer>
+                <answer>blocheaza rularea dispatcher-ului</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 8</topic>
+            <text>Care dintre urmatoarele variante descrie cel mai complet un semafor, conform definitiei lui Dijkstra:</text>
+            <answers>
+                <answer>variabila `I`</answer>
+                <answer>primitivele `P` si `V`</answer>
+                <answer>coada `C`</answer>
+                <answer correct='true'>variabila `I`, coada `C`, primitivele `P` si `V`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 8</topic>
+            <text>Primitiva `V` se foloseste pentru:</text>
+            <answers>
+                <answer correct='true'>eliberarea resurseri</answer>
+                <answer>accesarea resursei</answer>
+                <answer>suprascrierea resursei</answer>
+                <answer>modificarea continutului resursei</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 8</topic>
+            <text>Care din urmatoarele variante descrie corect semnificatia expresiei `I \<= 0`?</text>
+            <answers>
+                <answer>numarul de taskuri care pot folosi resursa pentru ca e libera</answer>
+                <answer>resursa poate fi folosita</answer>
+                <answer>resursa este libera</answer>
+                <answer correct='true'>numarul de taskuri blocate pentru ca resursa e ocupata</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 8</topic>
+            <text>Daca o resursa are N puncte de reentranta, valoarea initiala a semaforului este:</text>
+            <answers>
+                <answer>1</answer>
+                <answer correct='true'>N</answer>
+                <answer>0</answer>
+                <answer>-N</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 8</topic>
+            <text>Rezolvarea problemei filozofilor implica:</text>
+            <answers>
+                <answer>intelegerea criticii ratiunii pure</answer>
+                <answer>resurse alimentare</answer>
+                <answer>folosirea dialogului socratic</answer>
+                <answer correct='true'>partajare mutual exclusiva</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 8</topic>
+            <text>Care dintre urmatoarele este o caracteristica a blocurilor resursa?</text>
+            <answers>
+                <answer correct='true'>au un proprietar</answer>
+                <answer>permit asteptarea activa</answer>
+                <answer>au un contor</answer>
+                <answer>nu folosesc primitiva `V`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 8</topic>
+            <text>Inversarea prioritatii se refera la:</text>
+            <answers>
+                <answer correct='true'>blocarea rularii unui task de prioritate ridicata</answer>
+                <answer>modificarea prioritatii unui task</answer>
+                <answer>blocarea rularii unui task de prioritate scazuta</answer>
+                <answer>partajare resurse</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>Intotdeauna activitatile taskurilor sunt derulate independent?</text>
+            <answers>
+                <answer>da</answer>
+                <answer>doar cand se sincronizeaza cu un evenimen</answer>
+                <answer correct='true'>nu</answer>
+                <answer>doar cand se sincronizeaza intre ele</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>Care din urmatoarele optiuni nu este un tip de eveniment?</text>
+            <answers>
+                <answer>abstract</answer>
+                <answer>concret</answer>
+                <answer>perimat</answer>
+                <answer correct='true'>ignorat</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>Sincronizarea directa se face prin:</text>
+            <answers>
+                <answer>rendez-vu</answer>
+                <answer>semafoare</answer>
+                <answer>folosirea functiilor `s_wait()` si `s_signal()`</answer>
+                <answer correct='true'>folosirea functiilor `sleep()` si `wake_up()`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>Sincronizarea taskurilor cu un eveniment E folosind un semafor este:</text>
+            <answers>
+                <answer>fara memorarea evenimentului</answer>
+                <answer correct='true'>cu memorarea evenimentului</answer>
+                <answer>directa</answer>
+                <answer>justa</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>Cate semafoare sunt folosite in implementarea mecanismului producator-consumator?</text>
+            <answers>
+                <answer>1</answer>
+                <answer>2</answer>
+                <answer correct='true'>3</answer>
+                <answer>nu se folosesc semafoare</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Pentru accesarea mutual exclusiva a tamponului la mecanismul producator-consumator, semaforul are valoarea initiala:</text>
+            <answers>
+                <answer correct='true'>1</answer>
+                <answer>0</answer>
+                <answer>N</answer>
+                <answer>oricat</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>Sincronizarea prin blocuri eveniment este</text>
+            <answers>
+                <answer>cu memorarea evenimentului</answer>
+                <answer correct='true'>fara memorarea evenimentului</answer>
+                <answer>metoda optima</answer>
+                <answer>folosit pentru sincronizarea taskurilor intre ele</answer>
+            </answers>
+        </question>
+    </questions>
+</root>
