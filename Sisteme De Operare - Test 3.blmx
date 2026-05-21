@@ -1,0 +1,966 @@
+<root>
+    <version>1</version>
+    <title>Sisteme De Operare - Test 3</title>
+    <questions>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>In sistemele monoprocesor, memoria e impartita intre:</text>
+            <answers>
+                <answer correct='true'>sistemul de operare si programele aflate in executie</answer>
+                <answer>firele de lucru ale programelor in rulare</answer>
+                <answer>nu e impartita</answer>
+                <answer>memora RAM si memoria DISK</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Care date ale unui proces poate accesa alt proces?</text>
+            <answers>
+                <answer correct='true'>nimic, procesele sunt izolate</answer>
+                <answer>zona de cod</answer>
+                <answer>zona de variabile</answer>
+                <answer>zona de stack</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Procesele pot accesa zona de memorie a SO (kernal)?</text>
+            <answers>
+                <answer correct='true'>nu, sunt complet izolate</answer>
+                <answer>da, daca sunt rulate ca root</answer>
+                <answer>doar daca au privilegii</answer>
+                <answer>doar zona de cod, nu zona de date</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>SO vede programele ca pe:</text>
+            <answers>
+                <answer correct='true'>o serie de module compilate independent</answer>
+                <answer>un bloc monolitic pe care trebuie sa il incarce in memorie</answer>
+                <answer>ca o zona de date si una de cod</answer>
+                <answer>o serie de sectoare de dimensiuni diferite</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Programele care ruleaza intr-un SO Linux pot avea grade diferite de protectie?</text>
+            <answers>
+                <answer correct='true'>da</answer>
+                <answer>nu</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Care este o metoda de organizare a memoriei virtuale?</text>
+            <answers>
+                <answer correct='true'>segmentare</answer>
+                <answer>partitionare fixa</answer>
+                <answer>partitionare dinamica</answer>
+                <answer>impartire independeta</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Care este o metoda de organizare a memoriei virtuale?</text>
+            <answers>
+                <answer correct='true'>paginarea</answer>
+                <answer>modularizarea</answer>
+                <answer>impartirea in sectoare fizice si virtuale</answer>
+                <answer>partitionarea</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Care tip de partitionare presupune impartirea memoriei in segemente de dimensiune egala?</text>
+            <answers>
+                <answer correct='true'>partitionarea fixa</answer>
+                <answer>modularizarea</answer>
+                <answer>partitionare dinamica</answer>
+                <answer>partitionare independenta</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Care tip de partitionare presupune impartirea memoriei in mai multe categorii de segemente de dimensiuni diferite?</text>
+            <answers>
+                <answer correct='true'>partitionare fixa cu partitii variabile</answer>
+                <answer>partitionare fixa</answer>
+                <answer>partitionare fixa dinamica</answer>
+                <answer>partitionare independenta</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>In care tip de partitionare programele sunt incarcate in cea mai mica categorie de partitii in care incap, sau sunt puse intr-o coada daca nu exista partitie din acea categorie libera?</text>
+            <answers>
+                <answer correct='true'>partitionare fixa cu partitii variabile</answer>
+                <answer>partitionare dinamica</answer>
+                <answer>partitionare fixa dinamica</answer>
+                <answer>partitionare inteligenta</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>In care tip de partitionare programele sunt incarcate in cea mai mica partitie disponibila in care incap, sau sunt puse intr-o coada de asteptare globala?</text>
+            <answers>
+                <answer correct='true'>partitionare fixa cu partitii variabile</answer>
+                <answer>partitionare dinamica</answer>
+                <answer>partitionare fixa dinamica</answer>
+                <answer>partitionare inteligenta</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Care tip de partitionare presupune impartirea memoriei in partitii de dimensiuni variabile?</text>
+            <answers>
+                <answer correct='true'>partitionare dinamica</answer>
+                <answer>partitionare inteligenta</answer>
+                <answer>partitionare lazy</answer>
+                <answer>buddy party</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Algoritmul de alegere a partitiei unui proces care cauta prin toata tabela de memorie pentru cel mai mic segment in care incape procesul se numeste:</text>
+            <answers>
+                <answer correct='true'>Best Fit</answer>
+                <answer>First Fit</answer>
+                <answer>Last Fit</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Algoritmul de alegere a partitiei unui proces care cauta prima partitie in care incape procesul se numeste:</text>
+            <answers>
+                <answer correct='true'>First Fit</answer>
+                <answer>Last Fit</answer>
+                <answer>Next Fit</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Algoritmul de alegere a partitiei unui proces care cauta prima partitie in care incape procesul, incepand de la ultima zona alcocata se numeste:</text>
+            <answers>
+                <answer correct='true'>Next Fit</answer>
+                <answer>Best Fit</answer>
+                <answer>Smart Fit</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Care tip de partitionare presupune impartirea memoriei sub forma unui arbore binar?</text>
+            <answers>
+                <answer correct='true'>dinamica de tip buddy</answer>
+                <answer>dinamica inteligenta</answer>
+                <answer>statica simpla</answer>
+                <answer>simpla independenta</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Ce inseamna paginarea in contextul memoriei RAM si a proceselor?</text>
+            <answers>
+                <answer correct='true'>impartirea memoriei fizice si a memoriei procesului in bucati de aceasi dimensiune</answer>
+                <answer>imaprtirea memoriei intre procesele care ruleaza</answer>
+                <answer>fiecare stick de RAM primeste o pagina separata</answer>
+                <answer>paginile contin zone de memorie separata si sunt independete</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Dupa procesul de paginare, segmentele rezulate din zona de memorie a procesului se numesc:</text>
+            <answers>
+                <answer correct='true'>pagini</answer>
+                <answer>segmente</answer>
+                <answer>frame-uri</answer>
+                <answer>tool-uri</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Dupa procesul de paginare, segmentele rezulate din memoria fizica se numesc:</text>
+            <answers>
+                <answer correct='true'>frame-uri</answer>
+                <answer>pagini</answer>
+                <answer>segmente</answer>
+                <answer>stack-uri</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Dupa procesul de pagina, fiecare proces ocupa un numar de frame-uri:</text>
+            <answers>
+                <answer correct='true'>egal cu numarul de pagini</answer>
+                <answer>mai mare decat numarul de pagini</answer>
+                <answer>mai mic decat numarul de pagini</answer>
+                <answer>nedeterminat</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Dupa procesul de pagina, paginile procesului sunt secventiale?</text>
+            <answers>
+                <answer correct='true'>da</answer>
+                <answer>nu</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Dupa procesul de paginare, frame-urile ocupate de un proces sunt secventiale?</text>
+            <answers>
+                <answer correct='true'>nu</answer>
+                <answer>da</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Care este scopul memoriei virtuale?</text>
+            <answers>
+                <answer correct='true'>permite executia programelor fara a le incarca complet in memorie</answer>
+                <answer>permite modificarea datelor de catre altre procese in timpul rularii</answer>
+                <answer>are loc deoarece nu exista destula memorie pentru toate procesele</answer>
+                <answer>nu este utilizata decat in sisteme de nisa</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Care e dimensiunea maxima a proceselor care pot utiliza memoria virtuala?</text>
+            <answers>
+                <answer correct='true'>oricat de mare</answer>
+                <answer>20 Kilo</answer>
+                <answer>4 Mega</answer>
+                <answer>1.2 Giga</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Cand nu sunt folosite, unde se stocheaza paginile virtuale ale unui proces?</text>
+            <answers>
+                <answer correct='true'>pe disk</answer>
+                <answer>intr-o zona speciala in RAM</answer>
+                <answer>in procesor</answer>
+                <answer>oriunde e spatiu liber</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Care este rolul MMU (Memory Management Unit)?</text>
+            <answers>
+                <answer correct='true'>face legatua intre adresele din memoria virtuala si adresele fizice</answer>
+                <answer>se ocupa de separarea intre zona de cod si de date a proceselor</answer>
+                <answer>se ocupa de operatiile de I/O ale SO</answer>
+                <answer>mentine interitatea informatiei</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Functionalitatea MMU (Memory Management Unit) se bazeaza pe:</text>
+            <answers>
+                <answer correct='true'>o tabela de adrese</answer>
+                <answer>un algoritm numeric</answer>
+                <answer>o structura de date de tip LIFO</answer>
+                <answer>depinde de implementare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>O procedura (functie) care e folosita la comun de mai multe procese se numeste:</text>
+            <answers>
+                <answer correct='true'>reentranta</answer>
+                <answer>comuna</answer>
+                <answer>dispecerizata</answer>
+                <answer>permanenta</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Ce solitii au aparut pentru a combate tabele uriase de adrese a paginilor?</text>
+            <answers>
+                <answer correct='true'>un sistem ierarhic de tabele</answer>
+                <answer>pagini de dimensiuni mai mari</answer>
+                <answer>un sistem heuristic de pozitionare a datelor</answer>
+                <answer>a crescut viteza procesoarelor</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Daca o adresa virtuala e de tipul `(Pt1, Pt2, d)`, cate nivele de tabele de pagini sunt folosite de sistem?</text>
+            <answers>
+                <answer>1</answer>
+                <answer correct='true'>2</answer>
+                <answer>3</answer>
+                <answer>0</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Ce camp nu face parte dintr-o inregistrare a tabelei de pagini?</text>
+            <answers>
+                <answer correct='true'>adresa urmatoarei instructiuni</answer>
+                <answer>adresa paginii fizice</answer>
+                <answer>un bit care indica daca pagina virtuala a fost incarcata</answer>
+                <answer>3 biti de protectie</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Ce camp nu face parte dintr-o inregistrare a tabelei de pagini?</text>
+            <answers>
+                <answer correct='true'>bit care indica owner-ul</answer>
+                <answer>bit care indica daca in pagina s-a scris</answer>
+                <answer>bit care indica daca pagina a fost preferentiata</answer>
+                <answer>bit caching enabled</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Pentru arhitecturi moderne (x64), cate tabele de pagini foloseste Linux?</text>
+            <answers>
+                <answer correct='true'>4</answer>
+                <answer>3</answer>
+                <answer>2</answer>
+                <answer>depide de distributie</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Memoria de mici dimensiuni care contine 8-32 de inregistrari, construita in MMU (Memory Management Unit) si care memorieaza informatii despre cele mai recente pagini utilizare, se numeste:</text>
+            <answers>
+                <answer correct='true'>memoria asociativa</answer>
+                <answer>memoria volatila</answer>
+                <answer>memoria MEPR</answer>
+                <answer>memoria paginata</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Cum acceseaza MMU memoria asociativa pentru cautarea unui numar de pagina?</text>
+            <answers>
+                <answer correct='true'>in paralel</answer>
+                <answer>in serie</answer>
+                <answer>cum poate</answer>
+                <answer>in ordinea in care au fost incarcate inregistrarile</answer>
+            </answers>
+            <explanation>Memoria asociativa e o memorie cu acces paralel, adica se scaneaza toate inregistraile odata; are complexitate O(1).</explanation>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Ce se intampla daca pagina curent necesara nu e gasita in memoria sociativa si MMU trebuie sa o caute in tabela de pagini?</text>
+            <answers>
+                <answer correct='true'>sunt stoacare datele paginii si inlocuiesc o alta inregistrare daca nu mai e spatiu</answer>
+                <answer>se folosesc datele paginii si nu se salveaza in memoria asociativa</answer>
+                <answer>se salveaza in memoria asociativa doar daca mai sunt inregistrari libere</answer>
+                <answer>in functie de nr re requesturi pentru acea pagina, MMU poate sa o salveze in memoria asociativa</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Ce tip de alocare de memorie separa porgramul in segmente si ii aloca zone de memorie diferite pentru fiecare segment?</text>
+            <answers>
+                <answer correct='true'>alocare segmentata</answer>
+                <answer>alocare dinamica</answer>
+                <answer>alocare masiva</answer>
+                <answer>alocare best-fit</answer>
+            </answers>
+            <explanation>In loc sa fie alocata o singura zona de memorie RAM pentru tot programul, se aloca segmente individuale pentru diferite portiuni ale programului. Asta inseamna ca e mult mai usor sa gasesti spatiu gol pentru program decat in cazul alocatii dinamice (cu o singura zona continua).</explanation>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>In cazul alocatii segmentate, adresa virtuala contine:</text>
+            <answers>
+                <answer correct='true'>nr segment, offset in segment</answer>
+                <answer>nr segment, nr pagina</answer>
+                <answer>nr pagina, deplasament</answer>
+                <answer>adresa de baza, offset</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>In cazul alocatii segmentate, tabela de segmente contine pentru fiecare segment:</text>
+            <answers>
+                <answer correct='true'>adresa de baza, lungimea</answer>
+                <answer>adresa de baza, deplasament</answer>
+                <answer>nu de pagina, adresa fizice</answer>
+                <answer>nt segment, lungimea</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Utilizarea strategiei de alocare segmentata duce la fragmentarea memoriei?</text>
+            <answers>
+                <answer correct='true'>da</answer>
+                <answer>nu</answer>
+            </answers>
+            <explanation>Da, fragmentare tot apare pentru ca inca trebuie potrivite segmente de lungimi arbitrare in zone libere de memorie de dimensiune arbitrara.</explanation>
+        </question>
+        <question>
+            <topic>Managementul Memoriei</topic>
+            <text>Care sunt avantajele alocarii segmentate?</text>
+            <answers>
+                <answer correct='true'>protectie si partajare usoara</answer>
+                <answer>nu apare segmentarea memoriei</answer>
+                <answer>nu mai sunt necesare tabele in memorie</answer>
+                <answer>nu mai trebuie implementate mecanisme de protectie</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Ce este un proces?</text>
+            <answers>
+                <answer correct='true'>instanta a unui program aflata in memorie</answer>
+                <answer>zona de memorie rezervata SO</answer>
+                <answer>orice program instalat pe calculator</answer>
+                <answer>totul e un proces</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Care din urmatoarele nu fac parte din structura fizica a unui proces?</text>
+            <answers>
+                <answer correct='true'>zona buffer</answer>
+                <answer>cod program</answer>
+                <answer>date</answer>
+                <answer>variabile</answer>
+                <answer>fisiere deschise</answer>
+                <answer>mediu de rulare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Identificatorul unic al unui proces in sistem se numeste:</text>
+            <answers>
+                <answer correct='true'>PID</answer>
+                <answer>GID</answer>
+                <answer>UID</answer>
+                <answer>RID</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Procesul care primeste intotdeauna PIDul 1 este:</text>
+            <answers>
+                <answer correct='true'>`init`</answer>
+                <answer>`boot`</answer>
+                <answer>`linker`</answer>
+                <answer>nu este de fiecare data acelasi proces</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Fiecare proces apartine unui grup, iar fiecare grup are un ID numit:</text>
+            <answers>
+                <answer correct='true'>GID</answer>
+                <answer>UID</answer>
+                <answer>EGID</answer>
+                <answer>TID</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Fiecare proces are unrmatorul set de identificatori asociati:</text>
+            <answers>
+                <answer correct='true'>PID, UID, GID, EUID, EGID</answer>
+                <answer>UID, GID, PUID, EUID</answer>
+                <answer>GID, UID, PID</answer>
+                <answer>PID, UID</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>De obicei UID, EUID si GID, EGID sunt identici, mai putin atunci cand EUID si EGID sunt modificati cu functiile:</text>
+            <answers>
+                <answer correct='true'>`setuid()`, `setgid()`</answer>
+                <answer>`moduid()`, `modgid()`</answer>
+                <answer>`changemod()`</answer>
+                <answer>`idswap()`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Ce reprezinta UID si GID?</text>
+            <answers>
+                <answer correct='true'>identitatea utilizatorului care a lansat procesul</answer>
+                <answer>nivelul de permisiuni curent al procesului</answer>
+                <answer>nivelul de permisiuni al utilizatorului procesului</answer>
+                <answer>zona de memorie care s-a alocat procesului</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Ce reprezinta EUID si EGID?</text>
+            <answers>
+                <answer correct='true'>nivelul curent de permisiuni ale procesului</answer>
+                <answer>nivelul de permisiuni al utilizatorului procesului</answer>
+                <answer>identitatea utilizatorului care a lansat procesul</answer>
+                <answer>de cat timp ruleaza procesul</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>In algoritmul de verificare a accesului procesului la fisiere, daca `EUID = 0`:</text>
+            <answers>
+                <answer correct='true'>are acces fara restrictii</answer>
+                <answer>se aplica drepturile proprietarului</answer>
+                <answer>se aplica drepturile grupului</answer>
+                <answer>se aplica drepturile `others`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>In algoritmul de verificare a accesului procesului la fisiere, daca `EUID = UID fisier`:</text>
+            <answers>
+                <answer correct='true'>se aplica drepturile proprietarului</answer>
+                <answer>are acces fara restrictii</answer>
+                <answer>se aplica drepturile `others`</answer>
+                <answer>se aplica drepturile grupului</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>In algoritmul de verificare a accesului procesului la fisiere, daca `EGID = GID fisier`:</text>
+            <answers>
+                <answer correct='true'>se aplica drepturile grupului</answer>
+                <answer>are acces fara restrictii</answer>
+                <answer>se aplica drepturile proprietarului</answer>
+                <answer>se aplica drepturile `others`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>In algoritmul de verificare a accesului procesului la fisiere, cand se aplica drepturile `others`?</text>
+            <answers>
+                <answer>cand procesul nu are `EUID = 0`</answer>
+                <answer correct='true'>cand nu se aplica nici un alt pas</answer>
+                <answer>cand user-ul e necunoscut</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Pentru a crea un nou proces se foloseste:</text>
+            <answers>
+                <answer correct='true'>`fork()`</answer>
+                <answer>`split()`</answer>
+                <answer>`nproc()`</answer>
+                <answer>`merge()`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Noul proces creat cu `fork()` este:</text>
+            <answers>
+                <answer correct='true'>identic cu procesul parinte, mai putin PIDul</answer>
+                <answer>are acelasi PID ca parintele dar diferite zone de cod</answer>
+                <answer>nu e identic cu parintele</answer>
+                <answer>e un alt program</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>`fork()` returneaza in procesul copil:</text>
+            <answers>
+                <answer correct='true'>0</answer>
+                <answer>PID copil</answer>
+                <answer>PID parinte</answer>
+                <answer>GID</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>`fork()` returneaza in procesul parinte</text>
+            <answers>
+                <answer correct='true'>PID copil</answer>
+                <answer>0</answer>
+                <answer>-1</answer>
+                <answer>GID</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>La crearea unui proces copil, ce se intampla cu descriptorii de fisiere deschisi de parinte?</text>
+            <answers>
+                <answer correct='true'>sunt copiati in copil</answer>
+                <answer>nu sunt copiati in copil</answer>
+                <answer>sunt creati descritpri noi</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Functia `exec()`:</text>
+            <answers>
+                <answer correct='true'>inlocuieste un proces cu altul</answer>
+                <answer>ruleaza o comanda in terminal</answer>
+                <answer>creaza un proces noi diferit de procesul din care e apelat</answer>
+                <answer>nu exista</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Orice cod scris dupa un apel `exec()`:</text>
+            <answers>
+                <answer correct='true'>nu va fi niciodata executat</answer>
+                <answer>se va executa dupa incheierea porgramului apelat</answer>
+                <answer>nu se stie daca va mai fi executat</answer>
+                <answer>se continua executia lui intr-un proces separat</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Pentru ca `exec` sa caute programul in PATH se foloseste:</text>
+            <answers>
+                <answer correct='true'>`execlp()` sau `execvp()`</answer>
+                <answer>`execl()`</answer>
+                <answer>`execv()`</answer>
+                <answer>`execle()` sau `execve()`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Pentru ca sa poata fi transmise variabile de mediu custom in apelul `exec` se folosese:</text>
+            <answers>
+                <answer correct='true'>`execle()` sau `execve()`</answer>
+                <answer>`execlp()` sau `execvp()`</answer>
+                <answer>`execl()` sau `execv()`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Variabilele de mediu se transmit implicit prin variabila:</text>
+            <answers>
+                <answer correct='true'>`external char** environ`</answer>
+                <answer>`char** environ`</answer>
+                <answer>`external char* environ`</answer>
+                <answer>`char environ`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Cum poate utilizatorul indica interpretatorului de comenzi sa nu astepte terminarea rularii unei comenzi?</text>
+            <answers>
+                <answer correct='true'>`&` la finalul comenzii</answer>
+                <answer>`--nowait`</answer>
+                <answer>`\\` la finalul comenzii</answer>
+                <answer>`--porceed`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Cand un proces isi incheie executia se apeleaza:</text>
+            <answers>
+                <answer correct='true'>`void exit(int status)`</answer>
+                <answer>`void finished(int status)`</answer>
+                <answer>`void exit()`</answer>
+                <answer>`void des()`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Apelul functiei `pid_t wait(int* status` are ca efect:</text>
+            <answers>
+                <answer correct='true'>suspendarea executuei procesului pana ce un proces copil si-a terminat executia</answer>
+                <answer>suspenda executia proceselor copil</answer>
+                <answer>permite executia programului pana ce parintele isi incheie executia</answer>
+                <answer>ignora procesele copil</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Valoarea `status` pe care o seteaza `wait()` reprezinta:</text>
+            <answers>
+                <answer correct='true'>codul de exit si modul de terminare</answer>
+                <answer>codul de exit</answer>
+                <answer>PIDul procesului care si-a terminat executia</answer>
+                <answer>codul de eroare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Pentru a obtine codul de exit din valoarea `status` returnata de `wait()` se foloseste macro-ul:</text>
+            <answers>
+                <answer correct='true'>`WEXITSTATUS()`</answer>
+                <answer>`WHASSTATUS()`</answer>
+                <answer>`WISCREATED()`</answer>
+                <answer>`WGETEXITCODE()`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Pentru a astepta dupa terminare executiei unui anumit proces copil se foloseste:</text>
+            <answers>
+                <answer correct='true'>`waitpid()`</answer>
+                <answer>`waitchild()`</answer>
+                <answer>`watchprocess()`</answer>
+                <answer>`sleep()`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Daca `waitpid()` primeste un `pid` \> 0 atunci:</text>
+            <answers>
+                <answer correct='true'>asteapta dupa copilul cu acel PID</answer>
+                <answer>asteapta orice copil</answer>
+                <answer>asteapta orice copil din acelasi grup</answer>
+                <answer>asteapta orice copil din grupul specificat prin valoarea absoluta a `pid`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Daca `waitpid()` primeste un `pid` = 0 atunci:</text>
+            <answers>
+                <answer correct='true'>asteapta orice copil din acelasi grup</answer>
+                <answer>asteapta dupa copilul cu acel PID</answer>
+                <answer>asteapta orice copil</answer>
+                <answer>asteapta orice copil din grupul specificat prin valoarea absoluta a `pid`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Daca `waitpid()` primeste un `pid` = -1 atunci:</text>
+            <answers>
+                <answer correct='true'>asteapta orice copil</answer>
+                <answer>asteapta orice copil din acelasi grup</answer>
+                <answer>asteapta dupa copilul cu acel PID</answer>
+                <answer>asteapta orice copil din grupul specificat prin valoarea absoluta a `pid`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Daca `waitpid()` primeste un `pid` \< -1 atunci:</text>
+            <answers>
+                <answer>asteapta orice copil din grupul specificat prin valoarea absoluta a `pid`</answer>
+                <answer>asteapta orice copil din acelasi grup</answer>
+                <answer>asteapta orice copil</answer>
+                <answer>asteapta dupa copilul cu acel PID</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Pentru a nu suspenda executia procesului, `waitpid` foloseste optiunea:</text>
+            <answers>
+                <answer correct='true'>`WNOHANG`</answer>
+                <answer>`WCONTINUE`</answer>
+                <answer>`WNOSLEEP`</answer>
+                <answer>`WGOFASTBRR`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Un proces zombie este un proces copil care:</text>
+            <answers>
+                <answer correct='true'>si-a terminat executia inainte ca parintele sa apeleze `wait()`</answer>
+                <answer>a ramas fara parinte</answer>
+                <answer>nu si-a treminat executia</answer>
+                <answer>e blocat intr-o bucla infinita</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Apeluri de Sistem</topic>
+            <text>Linux organizeaza procesele:</text>
+            <answers>
+                <answer correct='true'>intr-un arbore</answer>
+                <answer>intr-o lista</answer>
+                <answer>intr-o coada</answer>
+                <answer>intr-un stack</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Semnale</topic>
+            <text>Daca un semnal apare in timpul executiei unui apel de sistem:</text>
+            <answers>
+                <answer correct='true'>apelul se incheie si se returneaza `EINT`</answer>
+                <answer>apelul se continua dupa tratarea intreruperii</answer>
+                <answer>kernal-ul se ocupa de executia apelului</answer>
+                <answer>nu se intampla nimic</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Semnale</topic>
+            <text>Semnalul care intrerupe procesul (Ctrl+C):</text>
+            <answers>
+                <answer correct='true'>SIGINT</answer>
+                <answer>SIGALRM</answer>
+                <answer>SIGKILL</answer>
+                <answer>SIGSTOP</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Semnale</topic>
+            <text>Semnalul care suspenda procesul (Ctrl+Z):</text>
+            <answers>
+                <answer correct='true'>SIGSTOP</answer>
+                <answer>SIGKILL</answer>
+                <answer>SIGINT</answer>
+                <answer>SIGALRM</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Semnale</topic>
+            <text>Semnalul care termina procesul:</text>
+            <answers>
+                <answer correct='true'>SIGKILL</answer>
+                <answer>SIGSTOP</answer>
+                <answer>SIGALT</answer>
+                <answer>SIGNAL</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Semnale</topic>
+            <text>Semnalul trimis de ceasul intern dupa un interval specificat e:</text>
+            <answers>
+                <answer correct='true'>SIGALRM</answer>
+                <answer>SIGSTOP</answer>
+                <answer>SIGHINT</answer>
+                <answer>SIGTERM</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Semnale</topic>
+            <text>Ce se intampla daca un program nu definste handler pentru semnale?</text>
+            <answers>
+                <answer correct='true'>fiecare semnal are un comportament implicit definit de kernal</answer>
+                <answer>programului nu ii e permis sa ruleze</answer>
+                <answer>nu se poate intrerupe programul</answer>
+                <answer>programul nu raspunde la semnalele respective</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Semnale</topic>
+            <text>Care din urmatoarele nu este un mod de a trata aparitia unui semnal:</text>
+            <answers>
+                <answer correct='true'>trimite un raspuns</answer>
+                <answer>incheie executia</answer>
+                <answer>ignora semnalul (daca poate)</answer>
+                <answer>executa handler-ul implicit</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Semnale</topic>
+            <text>Apelul de atribuire a unui nou handler pentru un semnal returneaza:</text>
+            <answers>
+                <answer correct='true'>pointer catre handler-ul precedent</answer>
+                <answer>nimic (`void`)</answer>
+                <answer>1 daca s-a atribuit cu succes, altfel 0</answer>
+                <answer>ID-ul semnalului</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Semnale</topic>
+            <text>Pentru a trimite un semnal SIGALRM in `n` secunde se apeleaza:</text>
+            <answers>
+                <answer correct='true'>`alarm(n)`</answer>
+                <answer>`signal(n)`</answer>
+                <answer>`arm(n)`</answer>
+                <answer>`timer(n)`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Semnale</topic>
+            <text>Pentru a trimite un semnal unui alt proces se foloseste functia:</text>
+            <answers>
+                <answer correct='true'>`kill()`</answer>
+                <answer>`signal()`</answer>
+                <answer>`send()`</answer>
+                <answer>`receive()`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Semnale</topic>
+            <text>Pentru ca legatura dintre handler si signal sa persiste in cazul aparitiei unui alt signal in timpul executiei handler-ului se foloseste:</text>
+            <answers>
+                <answer correct='true'>structura `sigaction`</answer>
+                <answer>variabila `handler`</answer>
+                <answer>`sigaction` sau `handler`</answer>
+                <answer>trebuie re-atribuit handler-ul cu `signal()`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Semnale</topic>
+            <text>Pentru a bloca/debloca semnale in afara unui handler, nu doar in interiorul lui, se foloseste:</text>
+            <answers>
+                <answer correct='true'>`sigporcmask()`</answer>
+                <answer>`signalmask()`</answer>
+                <answer>`killmask()`</answer>
+                <answer>`mask()`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Pipes</topic>
+            <text>Pipe-urile sunt:</text>
+            <answers>
+                <answer correct='true'>metode de comunicare intre procese</answer>
+                <answer>conducte bidirectionale</answer>
+                <answer>tevile de gaz (daca ai)</answer>
+                <answer>implementate cu o lista</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Pipes</topic>
+            <text>Mecanismul de functionare a pipe-urilor se bazeaza pe:</text>
+            <answers>
+                <answer correct='true'>2 descriptori de fisiere</answer>
+                <answer>o lista</answer>
+                <answer>o coada</answer>
+                <answer>un stack si o coada</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Pipes</topic>
+            <text>Pentru crearea unui pipe se foloseste:</text>
+            <answers>
+                <answer correct='true'>`pipe()`</answer>
+                <answer>`newpipe()`</answer>
+                <answer>`propipe()`</answer>
+                <answer>`pfd()`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Pipes</topic>
+            <text>Descriptorii de fisiere pentru cele 2 capete a pipe-ului se salveaza in:</text>
+            <answers>
+                <answer correct='true'>un tablou de 2 elemente</answer>
+                <answer>2 variabile globale</answer>
+                <answer>2 variabile locale</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Pipes</topic>
+            <text>Pentru duplicarea descriptorilor de fisiere se foloseste:</text>
+            <answers>
+                <answer>`dup()`</answer>
+                <answer>`dup2()`</answer>
+                <answer correct='true'>`dup()` si `dup2()`</answer>
+                <answer>`fdup()`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Pipes</topic>
+            <text>`dup()` va returna:</text>
+            <answers>
+                <answer correct='true'>cel mai mic file descriptor inchis</answer>
+                <answer>primul file descriptor pe care il gaseste</answer>
+                <answer>primul file descriptor deschis</answer>
+                <answer>un nou file descriptor</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Pipes</topic>
+            <text>Pentru detectarea sfarsitului transmisiei de date intre procese prin intermediul pipe-urilor, trebuie:</text>
+            <answers>
+                <answer correct='true'>inchisi descriptorii pipe-ului cand nu mai sunt folositi</answer>
+                <answer>trimis un semnal SIGEND</answer>
+                <answer>trimis o valoarea `NULL`</answer>
+                <answer>se detecteaza automat terminarea transmisiei</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Semnale</topic>
+            <text>Comanda pentru afisarea tuturor semnalelor este:</text>
+            <answers>
+                <answer correct='true'>`kill -l`</answer>
+                <answer>`kill -s`</answer>
+                <answer>`signals -l`</answer>
+                <answer>`sign -l`</answer>
+            </answers>
+        </question>
+    </questions>
+</root>
