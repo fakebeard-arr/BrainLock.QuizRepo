@@ -1,0 +1,337 @@
+<root>
+    <version>1</version>
+    <title>Managementul Clasei De Elevi</title>
+    <questions>
+        <question>
+            <topic>r1/2023</topic>
+            <text>Componentele fundamentale ale activitatii cadrului didactic in activitatea einstructiv-educativa cu clasa de elevi:</text>
+            <answers>
+                <answer correct='true'>planifica, organizeaza, comunica, conduce, coordoneaza, indruma, motiveaza, consiliaza, controleaza, evalueaza</answer>
+                <answer>planifica, organizeaza, comunica, conduce, indruma, coordoneaza, desemneaza, consiliaza, evalueaza, controleaza</answer>
+                <answer>controleaza, evalueaza, atentioneaza, reaminteste, trezeste interesul, stabileaste reguli, evidentiaza etc</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r1/2023</topic>
+            <text>Structura dimensionala a managementului clasei de elevi este articulata pe urmatoarele dimensiuni:</text>
+            <answers>
+                <answer>ergonomica, psihologica, sociala, normativa, operationala, morala</answer>
+                <answer>ergonomica, novatoare, enciclopedica, normativa, operationala</answer>
+                <answer correct='true'>ergonomica, psihologica, sociala, normativa, operationala, inovatoare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r1/2023</topic>
+            <text>Principalele componente ale capacitatii de munca a elevilor sunt urmatoarele:</text>
+            <answers>
+                <answer>totala, necesara activitatii didactice, de relaxare, de rezerva</answer>
+                <answer correct='true'>nominala, functionala, disponibila, auxiliara</answer>
+                <answer>nominala, functionala, utila, crescuta</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r1/2023</topic>
+            <text>Caracteristicile clasei ca grup social sunt:</text>
+            <answers>
+                <answer>numarul membrilor clasei, interactiunile la nivelul membrilor, emanciparea membrilor clasei, diferentele sociale</answer>
+                <answer>obiectivele grupului, castigurile obtinute de elevi, simplitatea si antipatiile din grupul clasa</answer>
+                <answer correct='true'>intinderea clasei, interactiunile membrilor clasei, scopurile pe termen scurt si pe termen lung, structura grupului, compozitia si organizarea grupului</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r1/2023</topic>
+            <text>Pentru diagnosticarea starii grupului clasa, a coeziunii acestuia si climatului scolar se folosesc:</text>
+            <answers>
+                <answer>testele de personalitate</answer>
+                <answer>testele de creativitate</answer>
+                <answer correct='true'>tehnici sociometrice</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r1/2023</topic>
+            <text>Studierea structurii informatiei in grupul de clasa a dus la identificarea urmatoarelor tipuri de grupuri:</text>
+            <answers>
+                <answer>grup de fete, grup de baieti, grup mixt</answer>
+                <answer correct='true'>grup primar, grup secundar, grup suport</answer>
+                <answer>grup egalitar, grup specializat, grup manipular</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r1/2023</topic>
+            <text>Kalman prezinta stadiile influentei sociale ca fiind:</text>
+            <answers>
+                <answer>rezistenta, indiferenta, acceptarea</answer>
+                <answer correct='true'>complianta, identificarea, internalizarea</answer>
+                <answer>curiozitatea, seductia, acceptarea</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r1/2023</topic>
+            <text>Pentru motivarea elevilor in raport cu activitatea scolara se poate folosi printre altele:</text>
+            <answers>
+                <answer correct='true'>cultivarea increderii in sine a elevilor</answer>
+                <answer>exmatricularea pe o perioada determinata din scoala</answer>
+                <answer>administrarea unor sanctiuni dure celor care nu vor sa invete</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r1/2023</topic>
+            <text>Profesorul poate genera un comportament perturbator in randul elevilor sai prin:</text>
+            <answers>
+                <answer correct='true'>lipsa de experienta, probleme de comunicare, diferentele de atitudine, probleme personale, proiectarea inadecvata a lectiei, resurse materiale inadecvate sau insuficiente, mediul fizic si emotional inadecvat</answer>
+                <answer>prin utilizarea unei voci clare, ferme, calme si a contactului din priviri</answer>
+                <answer>solicitarea sprijinului parintilor</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r1/2023</topic>
+            <text>Problemele de comunicare ale profesorului pot genera comportamente inadecvate ale elevilor sai prin faptul ca:</text>
+            <answers>
+                <answer>profesorul manifesta o concordanta intre comunicarea verbala si nonverbala</answer>
+                <answer correct='true'>profesorul transmite inadecvat asteptarile sale in raport cu elevii si cu performantele intelectuale ale acestora</answer>
+                <answer>profesorul se straduieste sa vorbeasca clar</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r1/2023</topic>
+            <text>Principalele teorii ale oboselii se divid in:</text>
+            <answers>
+                <answer>teoria de factura embriogenetica si teorii psihologice</answer>
+                <answer>teorii psihologice si teorii sociale</answer>
+                <answer correct='true'>teoriile toxinelor si teoriile pierderii resurselor energetice ale organelor care lucreaza</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r1/2023</topic>
+            <text>Diferenta intre oboseala primara si secundara se face dupa criteriul:</text>
+            <answers>
+                <answer>efectului acestuia asupra organismului</answer>
+                <answer correct='true'>antrenamentul unei persoane in raport cu o anumita activitate</answer>
+                <answer>arealul organismului afectat de oboseaza</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r1/2023</topic>
+            <text>Disciplina pozitiva presupune:</text>
+            <answers>
+                <answer>utilizarea unor gesturi in contradictie cu afirmatiile verbale</answer>
+                <answer correct='true'>utilizarea unei voci clare, ferme, calme si a contactului din priviri</answer>
+                <answer>influenta comportamentului elevului folosind amenintati sau strigate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r1/2023</topic>
+            <text>Atentia personala din partea profesorului, scrisorile/telefoanele adresate parintilor, materialele, premiile acordate impreuna cu parintii, premiile de grul fac parte dintr-un:</text>
+            <answers>
+                <answer correct='true'>implementarea unui sistem de asertiuni pozitive</answer>
+                <answer>exersarea unor stiluri pozitive de raspuns</answer>
+                <answer>recunoasterea si indepartarea blocajelor</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r1/2023</topic>
+            <text>Pregatirea "scenei" din modelul Fred Jones presupune printre altele urmatoarele:</text>
+            <answers>
+                <answer>medierea colegilor in cazul aparitiei situatiilor conflictuale</answer>
+                <answer correct='true'>aranjarea salii de clasa, discutii cu parintii la inceputul semestrului, stabilirea unui set de norme ce trebuie prezentate si explicate, constientizarea naturii situatiilor conflictuale in sala de clasa</answer>
+                <answer>invatarea de catre elevi a alegerilor responsabile</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r1/2023</topic>
+            <text>Conform modelului disciplinei diferentiate, care sunt stadiile de evolutie ale individului din punct de vedere al disciplinei?</text>
+            <answers>
+                <answer>stadiul puterii, stadiul recompensei, stadiul relatiilor interpersonale, stadiul ordinii sociale</answer>
+                <answer>stadiul puterii, stadiul puterii si al recompensei, stadiul relatiilor intrapersonale, stadiul ordinii sociale</answer>
+                <answer correct='true'>stadiul puterii, stadiul puterii si al recompensei, stadiul relatiilor interpersonale, stadiul ordinii sociale</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r1/2023</topic>
+            <text>Care din modelele de rezolvarea a problemelor de comportament recomanda terapia realitatii ca mijloc de a disciplina?</text>
+            <answers>
+                <answer correct='true'>modelul Glasser</answer>
+                <answer>modelul Kounin</answer>
+                <answer>modelul modificarilor de comportament</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r1/2023</topic>
+            <text>Premisa modelului modificarilor de comportament este aceea ca modificarile de comportament se datoreaza:</text>
+            <answers>
+                <answer correct='true'>consecintelor pe care le au, pozitive sau negative</answer>
+                <answer>dezvoltarea autodisciplinei</answer>
+                <answer>medierii colegilor</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r2/2023</topic>
+            <text>Pentru atingerea obiectivelor de perfectionare si eficienta se recomanda abordarea activitatilor din clasa de elevin in formula noua si moderna, aceea a managementului clasei pe baza urmatoarelor argumente:</text>
+            <answers>
+                <answer>filozofice, rationale, ontologice, organizationale, psohologice, manageriale</answer>
+                <answer correct='true'>organizationale, epistemice, istorice, sociologice, psihologice, manageriale</answer>
+                <answer>organizationale, epistemice, istorice, sociologice, statistice, logice</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r2/2023</topic>
+            <text>Dimensiunea ergonomica a managementului clasei face referire la urmatoarele aspecte:</text>
+            <answers>
+                <answer correct='true'>amenajarea salii de clasa, vizibilitatea, dimensiunea mobilierului in sala de clasa</answer>
+                <answer>amenajarea clasei, culoarea peretilor clasei, inaltimea clasei</answer>
+                <answer>numarul elevilor in clasa, curetenia clasei, dimensiunea mobilierului in sala de clasa</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r2/2023</topic>
+            <text>Structura capacitatii de asimilare a unui elev este conditionata de urmatorii factori:</text>
+            <answers>
+                <answer correct='true'>nivelul dezvoltarii biopsihologice, starea de pregatire la nivelul abilitatii, cunostintele, componenta motivationala</answer>
+                <answer>inaltimea si greutatea acestuia, stadiul memoriei, nivelul de inteligenta</answer>
+                <answer>starea de sanatate, motivatia, caracterul</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r2/2023</topic>
+            <text>Sintalitatea se defineste ca fiind:</text>
+            <answers>
+                <answer correct='true'>personalitatea unui grup</answer>
+                <answer>personalitatea unui elev din grupul clasa</answer>
+                <answer>vechimea grupului clasa</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r2/2023</topic>
+            <text>Yona Friedman, studiind structura informatiei in grupul-clasa, a enuntat urmatoarea lege:</text>
+            <answers>
+                <answer>"grupurile sociale sunt un loc propice de colportare a zvonurilor"</answer>
+                <answer correct='true'>"nici un grup egalitar compus din fiinte umane nu poate avea mai mult de 16 membrii"</answer>
+                <answer>"orice grup social are nevoie de un lider care sa il pastreze unit"</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r2/2023</topic>
+            <text>Tipologia normativa cu relevanta pentru clasa de elevi este urmatoarea:</text>
+            <answers>
+                <answer correct='true'>normele explicite si normele implicite</answer>
+                <answer>obiceiuri, legi, ritualuri</answer>
+                <answer>reguli valabile in clasa si altele valabile in afara clasei</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r2/2023</topic>
+            <text>Dimensiunea inovatoare a managementului clasei de elevi face referire la:</text>
+            <answers>
+                <answer>schimbarea normelor grupului clasa</answer>
+                <answer>elaborarea unui simbol al grupului</answer>
+                <answer correct='true'>optimizarea interactiunilor si microdeciziilor educationale</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r2/2023</topic>
+            <text>Enumerati minim trei cauze ale comportamentului perturbator al elevului:</text>
+            <answers>
+                <answer>antipatie in raport cu scoala</answer>
+                <answer>nevoie de recunoastere sociala</answer>
+                <answer>izolarea sociala</answer>
+                <answer>comportament impulsiv</answer>
+                <answer>ignorarea regulilor</answer>
+                <answer>conflicte intre sisteme opuse de reguli</answer>
+                <answer>transferul afectiv</answer>
+                <answer>agresivitatea umana innascuta</answer>
+                <answer>anxietatea</answer>
+                <answer>modul de manifestare a profesorului</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r2/2023</topic>
+            <text>Profesorul poate genera un comportament perturbator al elevului prin faptul ca:</text>
+            <answers>
+                <answer correct='true'>intra in sala de clasa fara a avea un proiect, o structura clara a antivitatilor anticipate</answer>
+                <answer>vrea sa raspunda nevoilor in intereselor elevilor din clasa respectiva</answer>
+                <answer>prin proiectarea lectiei care potenteaza creativitatea si initiativa</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r2/2023</topic>
+            <text>Unul dintre initiatorii frecventi ai situatiilor conflictuale in sala de clasa il constituie elevii prin:</text>
+            <answers>
+                <answer>dorinta nestapanita de a invata</answer>
+                <answer correct='true'>presiunile din partea colegilor, absenta succesului academic, lipsa hranei si somnului, plictiseala</answer>
+                <answer>adoptarea unui comportament umil in legatura cu profesorul de la clasa</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r2/2023</topic>
+            <text>In cazul oboselii, teoria pierderii resurselor energetice ale organelor care lucreaza este cunoscuta si sub denumirea de:</text>
+            <answers>
+                <answer>teoria sistemului nervos central</answer>
+                <answer>teoria lui Yona Friedman</answer>
+                <answer>teoria lui Parkinson</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r2/2023</topic>
+            <text>Disciplina pozitiva presupune:</text>
+            <answers>
+                <answer correct='true'>utilizarea unor gesturi care sa sprijine afirmatiile verbale</answer>
+                <answer>utilizarea unei voci iritate</answer>
+                <answer>influentarea comportamentului elevului folosind amenintari sau strigate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r2/2023</topic>
+            <text>Disciplina pozitiva presupune:</text>
+            <answers>
+                <answer>utilizarea unor gesturi in contradictie cu afirmatiile verbale</answer>
+                <answer>evitarea contactului din priviri</answer>
+                <answer correct='true'>influentarea comportamentului elevului fara amenintari sau strigate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r2/2023</topic>
+            <text>Modelul Fred Jones pleaca de la urmatoarele coordonate:</text>
+            <answers>
+                <answer correct='true'>aproximativ 50% din timpul destinat lectiei este pierdut; cea mai mare parte din timpul pierdut poate fi evitata; eficienta limbrajul trupului; sistemul de stimulente; sprijinul institutional pozitiv; sisteme de intarire, pregatirea "scenei"</answer>
+                <answer>terapia realitatii</answer>
+                <answer>nivelele de disciplina diferentiata</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r2/2023</topic>
+            <text>La cate nivele de disciplina face referire sistemul disciplinei diferentiate?</text>
+            <answers>
+                <answer>la trei nivele</answer>
+                <answer correct='true'>la patru nivele</answer>
+                <answer>la cinci nivele</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r2/2023</topic>
+            <text>Un element important in sistemul disciplinei diferentiate il constituie:</text>
+            <answers>
+                <answer>terapia realitatii</answer>
+                <answer correct='true'>fereastra celor 14 zile</answer>
+                <answer>medierea colegilor</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r2/2023</topic>
+            <text>Ideile cheie ale modelului Kounin includ:</text>
+            <answers>
+                <answer>principiul saturarii, principiul intaririi negative</answer>
+                <answer correct='true'>efectul de unda, atentia distributiva, controlul simultan, tranzitia eficienta si satietatea</answer>
+                <answer>principiul anularii si principiul alternativei incompatibile</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>r2/2023</topic>
+            <text>Modelul medierii colegilor se poate incepe doar daca:</text>
+            <answers>
+                <answer>se semneaza un contract</answer>
+                <answer>se rezolva problema</answer>
+                <answer correct='true'>toate partile aflate in conflict sunt de acord</answer>
+            </answers>
+        </question>
+    </questions>
+</root>
