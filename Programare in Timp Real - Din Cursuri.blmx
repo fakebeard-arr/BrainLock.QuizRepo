@@ -1,0 +1,2064 @@
+<root>
+    <version>1</version>
+    <title>Programare in Timp Real - Din Cursuri</title>
+    <questions>
+        <question>
+            <topic>Curs 1</topic>
+            <text>Activitatea de construire a unui program care contine procese multiple ce se executa in paralel se numeste:</text>
+            <answers>
+                <answer correct='true'>programare concurenta</answer>
+                <answer>programare secventiala</answer>
+                <answer>programarea task-urilor</answer>
+                <answer>programare in timp real</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 1</topic>
+            <text>Un program este:</text>
+            <answers>
+                <answer correct='true'>codul sursa de pe disk</answer>
+                <answer>codul executabil din RAM</answer>
+                <answer>procesul de incarcare a codului din disk in RAM</answer>
+                <answer>o abstractizare a codului sursa la nivelul sistemului de operare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 1</topic>
+            <text>Un proces este:</text>
+            <answers>
+                <answer correct='true'>instanta a unui program</answer>
+                <answer>un program</answer>
+                <answer>componenta a unui program</answer>
+                <answer>instructiunile binare ale programului</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 1</topic>
+            <text>Care din urmatoarele au alocate resurse proprii si nu le partajeaza cu altii?</text>
+            <answers>
+                <answer correct='true'>proces</answer>
+                <answer>program</answer>
+                <answer>thread</answer>
+                <answer>task</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 1</topic>
+            <text>Care din urmatoarele poate contine mai multe fire de executie?</text>
+            <answers>
+                <answer correct='true'>proces</answer>
+                <answer>program</answer>
+                <answer>thread</answer>
+                <answer>task</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 1</topic>
+            <text>Care din urmatoarele este izolat in memorie si nu poate corupe alte entitati de acelasi fel?</text>
+            <answers>
+                <answer correct='true'>proces</answer>
+                <answer>program</answer>
+                <answer>thread</answer>
+                <answer>task</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 1</topic>
+            <text>Cea mai mica secventa de instructiuni care poate fi dispecerizata independent se numeste:</text>
+            <answers>
+                <answer correct='true'>thread</answer>
+                <answer>task</answer>
+                <answer>process</answer>
+                <answer>program</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 1</topic>
+            <text>Care din urmatoarele se executa concurent si imparte resurse?</text>
+            <answers>
+                <answer correct='true'>thread</answer>
+                <answer>task</answer>
+                <answer>process</answer>
+                <answer>program</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 1</topic>
+            <text>Care din urmatoarele poate afecta/corupe alte entiati de acelasi fel?</text>
+            <answers>
+                <answer correct='true'>thread</answer>
+                <answer>task</answer>
+                <answer>program</answer>
+                <answer>process</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 1</topic>
+            <text>Care din urmatoarele se executa in paralel si sunt in competitie pentru aceleasi resurse critice?</text>
+            <answers>
+                <answer correct='true'>task</answer>
+                <answer>thread</answer>
+                <answer>program</answer>
+                <answer>process</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 1</topic>
+            <text>Care din urmatoarele coopereaza pentru realizarea anumitor sarcini si interactioneaza sincronizat?</text>
+            <answers>
+                <answer correct='true'>task</answer>
+                <answer>thread</answer>
+                <answer>program</answer>
+                <answer>process</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 1</topic>
+            <text>Programarea secventiala presupune:</text>
+            <answers>
+                <answer correct='true'>ordinea scrisa a instructiunilor devine ordinea executiei acestora, fara a se suprapune</answer>
+                <answer>instructiunile succesive se vor executa inntr-o ordine nedeterministica</answer>
+                <answer>unele instructiuni se vor suprapune, datorita unor factori externi</answer>
+                <answer>succesiune de pasi ce descrie modul de sincronizare a evenimentelor</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 1</topic>
+            <text>Programarea nesecventiala presupune:</text>
+            <answers>
+                <answer correct='true'>mai multe entitati de program, executate in acelasi timp</answer>
+                <answer>instructiuni care se vor executa in aceasi ordine in care au fost scrise</answer>
+                <answer>lipsa necesitatii sincronizarii entitatilor de program</answer>
+                <answer>timpul de executie are o durata deterministica</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 1</topic>
+            <text>Executia simultana a unor procese (posibil) relationate, pentru realizarea unui scop comun se numeste programare:</text>
+            <answers>
+                <answer correct='true'>paralela</answer>
+                <answer>concurenta</answer>
+                <answer>in timp real</answer>
+                <answer>distribuita</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 1</topic>
+            <text>Care din urmatoarele modele de programare se coordoneaza doar prin operatii de asteptare a inceperii/terminarii altor entitati implicate?</text>
+            <answers>
+                <answer correct='true'>paralela</answer>
+                <answer>concurenta</answer>
+                <answer>in timp real</answer>
+                <answer>distribuita</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 1</topic>
+            <text>Descompunerea unei probleme in subprobleme ce pot fi rezolvate independent (in paralel) duce la programare:</text>
+            <answers>
+                <answer correct='true'>concurenta</answer>
+                <answer>paralela</answer>
+                <answer>in timp real</answer>
+                <answer>distribuita</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 1</topic>
+            <text>Programarea concurenta la care se adauga restrictii de timp se numeste:</text>
+            <answers>
+                <answer correct='true'>in timp real</answer>
+                <answer>urgenta</answer>
+                <answer>distribuita</answer>
+                <answer>asincrona</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 1</topic>
+            <text>Programarea care se bazeaza pe procesare la distanta, cu contexte strict separate, se numeste:</text>
+            <answers>
+                <answer correct='true'>distribuita</answer>
+                <answer>separata</answer>
+                <answer>in cloud</answer>
+                <answer>offsite</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 1</topic>
+            <text>Care din urmatoarele modele de programare schimba informatii doar prin transfer de mesaje?</text>
+            <answers>
+                <answer correct='true'>distribuita</answer>
+                <answer>concurenta</answer>
+                <answer>paralela</answer>
+                <answer>in timp real</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 1</topic>
+            <text>Paralelismul implica concurenta?</text>
+            <answers>
+                <answer correct='true'>da</answer>
+                <answer>nu</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 1</topic>
+            <text>Concurenta implica paralelism?</text>
+            <answers>
+                <answer>nu</answer>
+                <answer>da</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 1</topic>
+            <text>Procesarea in paralelsau cvasi-paralel a mai multor task-uri se numeste:</text>
+            <answers>
+                <answer correct='true'>multitasking</answer>
+                <answer>multithreading</answer>
+                <answer>multiprocessing</answer>
+                <answer>multiawaiting</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 1</topic>
+            <text>Multitasking cooperativ se mai numeste:</text>
+            <answers>
+                <answer correct='true'>multithreading</answer>
+                <answer>multiprocessing</answer>
+                <answer>multihelping</answer>
+                <answer>multicoding</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 1</topic>
+            <text>Multitasking non-cooperativ se mai numeste:</text>
+            <answers>
+                <answer>multiprocessing</answer>
+                <answer>multithreading</answer>
+                <answer>multitasking</answer>
+                <answer>multicoding</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 1</topic>
+            <text>Programarea concurenta are ca scop:</text>
+            <answers>
+                <answer>cresterea eficientei programelor consumatoare de timp</answer>
+                <answer>reactie mai rapida a calculatorului</answer>
+                <answer>imbunatatirea performantelor</answer>
+                <answer correct='true'>toate raspunsurile sunt corecte</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Memoria principala este:</text>
+            <answers>
+                <answer correct='true'>memoria direct accesibila de CPU</answer>
+                <answer>locul unde se stocheaza informatiile</answer>
+                <answer>HDD sau SSD</answer>
+                <answer>memoria de pe CPU</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>In sistemele multitasking cine decide ce proces primeste procesorul si pentru cat timp?</text>
+            <answers>
+                <answer correct='true'>sistemul de operare</answer>
+                <answer>programul</answer>
+                <answer>procesorul</answer>
+                <answer>Memory Management Unit</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Alocarea si dezalocarea resurselor procesorului e o activitate realizata de:</text>
+            <answers>
+                <answer correct='true'>sistemul de operare</answer>
+                <answer>programul curent in executie</answer>
+                <answer>o componenta a procesorului</answer>
+                <answer>ultimul program din lista de asteptare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Acronimul RTOS vine de la:</text>
+            <answers>
+                <answer correct='true'>Real Time Operating System</answer>
+                <answer>Real-Time Office Systems</answer>
+                <answer>Ritus Temporis Operandi Simplificatus</answer>
+                <answer>Remote Telecommunications Operating Service</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>In cadrul unui RTOS, corectitudinea depinde de:</text>
+            <answers>
+                <answer correct='true'>rezultatul logic si timpul de raspuns</answer>
+                <answer>rezultatul logic</answer>
+                <answer>marja de eroare a timpului de raspuns</answer>
+                <answer>timpul de raspuns</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>In cadrul unui RTOS, intervalul de timp pentru procesarea intrarilor si raspunsul la acestea este:</text>
+            <answers>
+                <answer correct='true'>suficient de mic pentru a controla mediul</answer>
+                <answer>irelevant pentru utilizator</answer>
+                <answer>intr-o marja de eroare definita de utilizator</answer>
+                <answer>necesar intre 1 si 3 secunde</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>In cadrul RTOS, **timpul de raspuns** se refera la perioada de timp:</text>
+            <answers>
+                <answer correct='true'>in care sistemul raspunde la o intrare</answer>
+                <answer>in care sistemul termina de procesat evenimentul viitor</answer>
+                <answer>de la activarea unui task pana cand el trebuie finalizat</answer>
+                <answer>in care ruleaza un task</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>In cadrul RTOS, **deadline** se refera la perioada de timp:</text>
+            <answers>
+                <answer correct='true'>de la activarea unui task pana cand el trebuie finalizat</answer>
+                <answer>in care sistemul raspunde la o intrare</answer>
+                <answer>in care sistemul termina de trimis un mesaj</answer>
+                <answer>in care ruleaza un task</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Pentru un RTOS de tip SOFT, pierderea unui deadline:</text>
+            <answers>
+                <answer correct='true'>nu este o problema</answer>
+                <answer>inseamna consecinte fatale</answer>
+                <answer>datele nu pot fi folosite</answer>
+                <answer>toate raspunsurile sunt corecte</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Pentru un RTOS de tip HARD, pierderea unui deadline:</text>
+            <answers>
+                <answer correct='true'>inseamna ca datele sunt gresite</answer>
+                <answer>nu este o problema pentru utilizator</answer>
+                <answer>invalideaza executia</answer>
+                <answer>duce la pierderi de memorie</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Pentru un RTOS de tip FIRM, pierderea unui deadline:</text>
+            <answers>
+                <answer correct='true'>inseamna ca datele nu mai pot fi folosite</answer>
+                <answer>inseamna ca datele sunt gresite</answer>
+                <answer>duce la pierderi de vieti</answer>
+                <answer>toate raspunsurile sunt adevarate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Kernel-ul nu are ca obiective:</text>
+            <answers>
+                <answer>comunicarea si managementul memoriei</answer>
+                <answer>managementul si sincronizarea task-urilor</answer>
+                <answer>tratarea intreruperilor</answer>
+                <answer correct='true'>o interfata grafica cu utilizatorul</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Programul sau portiunea de program care poate fi executat si rulat se numeste:</text>
+            <answers>
+                <answer correct='true'>task</answer>
+                <answer>proces</answer>
+                <answer>program</answer>
+                <answer>thread</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Fiecare task primeste:</text>
+            <answers>
+                <answer correct='true'>prioritate, stiva, acces la procesor</answer>
+                <answer>acces la procesor</answer>
+                <answer>un ID si o prioritate</answer>
+                <answer>memorie si RAM</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Starile unui task sunt:</text>
+            <answers>
+                <answer correct='true'>necreat, creat, gata, in rulare, in asteptare</answer>
+                <answer>necreat, creat, in rulare, in asteptare, anulat</answer>
+                <answer>creat, gata, in rulare, in asteptare</answer>
+                <answer>creat, gata, in rulare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Un task in starea NECREAT e:</text>
+            <answers>
+                <answer correct='true'>pe disk, nu are zone de cod, date, stiva</answer>
+                <answer>cunoscut de sistem, are un identificator</answer>
+                <answer>apt de rulare, dar nu detine procesorul</answer>
+                <answer>inapt de rulare din cauza unei conditii de rulare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Un task in starea NECREAT poate sa fie incarcat in memorie?</text>
+            <answers>
+                <answer correct='true'>da</answer>
+                <answer>nu</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Un task in starea NECREAT poate trece in starea:</text>
+            <answers>
+                <answer correct='true'>creat</answer>
+                <answer>in asteptare</answer>
+                <answer>in executie</answer>
+                <answer>gata</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Un task in starea CREAT e:</text>
+            <answers>
+                <answer correct='true'>cunoscut de sistem, are un identificator</answer>
+                <answer>pe disk, nu are zone de cod, date, stiva</answer>
+                <answer>apt de rulare, dar nu detine procesorul</answer>
+                <answer>inapt de rulare din cauza unei conditii de rulare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Un task in starea CREAT primeste:</text>
+            <answers>
+                <answer correct='true'>un identificator</answer>
+                <answer correct='true'>un nivel de prioritate</answer>
+                <answer correct='true'>zona de cod, date, stiva</answer>
+                <answer>un interval de rulare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Un task in starea CREAT poate trece in starea:</text>
+            <answers>
+                <answer correct='true'>necreat</answer>
+                <answer correct='true'>gata</answer>
+                <answer>in rulare</answer>
+                <answer>in asteptare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Un task in starea GATA e:</text>
+            <answers>
+                <answer correct='true'>apt de rulare, dar nu detine procesorul</answer>
+                <answer correct='true'>intr-o lista de asteptare</answer>
+                <answer>in rulare pe procesor</answer>
+                <answer>inapt de rulare din cauza unor conditii de rulare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Dupa o sesiune la procesor, un task care nu s-a finalizat si nu s-a blocat:</text>
+            <answers>
+                <answer correct='true'>revine in lista de asteptare</answer>
+                <answer correct='true'>ajunge in starea GATA</answer>
+                <answer>ajunge in starea TERMINAT</answer>
+                <answer>ajunge in starea IN RULARE</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Un task in starea GATA poate trece in starea:</text>
+            <answers>
+                <answer correct='true'>in executie</answer>
+                <answer correct='true'>in rulare</answer>
+                <answer>necreat</answer>
+                <answer>creat</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Un task in starea IN EXECUTIE:</text>
+            <answers>
+                <answer correct='true'>detine procesorul in acest moment</answer>
+                <answer>apt de rulare, dar nu detine procesorul</answer>
+                <answer>pe disk, nu are zone de cod, date, stiva</answer>
+                <answer>cunoscut de sistem, are un identificator</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>In urma unei tranzitii unui task GATA -\> IN EXECUTIE:</text>
+            <answers>
+                <answer correct='true'>se restaureaza contextul de rulare</answer>
+                <answer>se creaza un context nou</answer>
+                <answer>se foloseste contextul task-ului precedent</answer>
+                <answer>se foloseste contextul task-ului precedent daca acesta a iesit din rulare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>La iesirea unui task din starea IN EXECUTIE:</text>
+            <answers>
+                <answer correct='true'>se salveaza contextul de rulare</answer>
+                <answer>se sterge contextul de rulare</answer>
+                <answer>urmatorul task va folosi contextul de rulare</answer>
+                <answer>ajunge in starea NECREAT</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Un task in starea GATA poate trece in starea:</text>
+            <answers>
+                <answer correct='true'>gata</answer>
+                <answer correct='true'>in asteptare</answer>
+                <answer correct='true'>creat</answer>
+                <answer>necreat</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Un task in starea IN ASTEPTARE:</text>
+            <answers>
+                <answer correct='true'>inapt sa ruleze din cauza unei conditii de rulare</answer>
+                <answer>apt de rulare, dar nu detine procesorul</answer>
+                <answer>detine procesorul in acest moment</answer>
+                <answer>cunoscut de sistem, nu are un identificator</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>La momentul blocarii unui task:</text>
+            <answers>
+                <answer correct='true'>renunta la procesor</answer>
+                <answer correct='true'>ajunge in starea IN ASTEPTARE</answer>
+                <answer>ajunge in starea GATA</answer>
+                <answer>isi pierde conteztul de rulare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Un task in starea IN ASTEPTARE poate trece in starea:</text>
+            <answers>
+                <answer>gata</answer>
+                <answer>in asteptare</answer>
+                <answer>in executie</answer>
+                <answer>creat</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 2</topic>
+            <text>Un task in starea IN ASTEPTARE poate trece in alta starea:</text>
+            <answers>
+                <answer correct='true'>cand sunt indeplinite conditiile care au dus la blocare</answer>
+                <answer>cand ii vine randul la procesor</answer>
+                <answer>cand se deblocheaza mutex/semafor</answer>
+                <answer>printr-un mesaj la dispatcher</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 3+4</topic>
+            <text>Dispecerul este:</text>
+            <answers>
+                <answer correct='true'>rutina de tratare a unei intreruperi</answer>
+                <answer>o functie in C care e aplata de task-uri</answer>
+                <answer>un concept implementat fizic in procesor</answer>
+                <answer>nici un raspuns nu e corect</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 3+4</topic>
+            <text>Dispecerul e apelat:</text>
+            <answers>
+                <answer correct='true'>de ceasul sistemului, la finalul perioadei te timp dedicata taskului curent</answer>
+                <answer correct='true'>programatic, ca rutina de tratare a unei intreruperi logice</answer>
+                <answer>programatic, ca functie externa a tak-ului aflat in rulare</answer>
+                <answer>automat de procesor la terminarea rularii task-ului curent</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 3+4</topic>
+            <text>Registrele de stiva SS (Stack Segment) si SP (Stack Pointer) se pot accesa prin variabilele:</text>
+            <answers>
+                <answer correct='true'>`_SS` si `_SP`</answer>
+                <answer>`SS` si `SP`</answer>
+                <answer>`t-\>SS` si `t-\>SP`</answer>
+                <answer>`*SS` si `*SP`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 3+4</topic>
+            <text>Unde se salveaza `SS` si `SP` la momentul salvarii conteztului task-ului?</text>
+            <answers>
+                <answer correct='true'>in variabile special in PSB</answer>
+                <answer>in stiva task-ului</answer>
+                <answer>in acelasi loc ca si resul contextului fizic</answer>
+                <answer>nu se salveaza, ele pot fi determinate pe baza celorlalte stari ale task-ului</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 3+4</topic>
+            <text>Stiva task-urilor contine, in sesiuni ulterioare de rulare:</text>
+            <answers>
+                <answer correct='true'>date salvate anterior in procesul de comutare</answer>
+                <answer>valori eronate</answer>
+                <answer>valori ramase in memorie de la alta rulare</answer>
+                <answer>nimic</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 3+4</topic>
+            <text>Stiva task-ului contine, la prima sesiune de rulare:</text>
+            <answers>
+                <answer correct='true'>Fake Stack Frame</answer>
+                <answer correct='true'>o colectie de date introduse de OS</answer>
+                <answer>nimic, e setata pe 0</answer>
+                <answer>valori anterioare ramase de la task-ul precedent</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 3+4</topic>
+            <text>Starea completa a procesorului la un moment dat se reprezentat de:</text>
+            <answers>
+                <answer correct='true'>contextul fizic</answer>
+                <answer>contextul logic</answer>
+                <answer>contextul moral</answer>
+                <answer>contextul curent</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 3+4</topic>
+            <text>Informatiile SO despre cum si cand ruleaza task-urile se gasesc in:</text>
+            <answers>
+                <answer correct='true'>contextul logic</answer>
+                <answer>contextul fizic</answer>
+                <answer>contextul actual</answer>
+                <answer>Process Control Base</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 3+4</topic>
+            <text>Din PCB (Process Control Block) fac parte:</text>
+            <answers>
+                <answer correct='true'>contextul fizic</answer>
+                <answer correct='true'>contextul logic</answer>
+                <answer correct='true'>alte informatii despre proces</answer>
+                <answer>informatii de stare despre kernal</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 3+4</topic>
+            <text>Contextul fizic, inainte de scoaterea de pe procesor a task-ului, se salveaza:</text>
+            <answers>
+                <answer correct='true'>pe stiva task-ului</answer>
+                <answer>in contextul logic</answer>
+                <answer>in PCB asociat task-ului</answer>
+                <answer>nu se salveaza</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 3+4</topic>
+            <text>Inainte de iesirea de pe procesor a unui task, registrele SS si SP se salveaza in:</text>
+            <answers>
+                <answer correct='true'>contextul logic</answer>
+                <answer>contextul fizic</answer>
+                <answer>stack</answer>
+                <answer>heap</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>Ce reprezinta procesul de dispecerizare?</text>
+            <answers>
+                <answer correct='true'>alegerea unui task din lista de asteptare</answer>
+                <answer>introducerea unui task in lista de asteptare</answer>
+                <answer>stergerea unui task</answer>
+                <answer>terminarea unui task si eliberarea memoriei</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>In lista de asteptare la procesor se gasesc doar task-uri:</text>
+            <answers>
+                <answer correct='true'>rulabile</answer>
+                <answer>procesate</answer>
+                <answer>compilate</answer>
+                <answer>accesibile</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>Dispecerizarea prim rotatie foloseste o lista:</text>
+            <answers>
+                <answer correct='true'>circulara</answer>
+                <answer>finita</answer>
+                <answer>cu un singur capat</answer>
+                <answer>pentru toate task-urile</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>In dispecerizare prin rotatie, task-ul care detine procesorul se afla:</text>
+            <answers>
+                <answer correct='true'>pe ultima pozitie</answer>
+                <answer>pe prima pozitie</answer>
+                <answer>oriunde in lista</answer>
+                <answer>extras din lista inainte de rulare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>In dispecerizarea prin rotatie, cand se alege urmatorul task care va rula, acesta va fi:</text>
+            <answers>
+                <answer correct='true'>primul din lista</answer>
+                <answer>ultimul din lista</answer>
+                <answer>un task oarecare</answer>
+                <answer>task-ul cu cel mai scurt timp de executie</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>Dupa comutare, task-ul care tocmai a parasit procesorul poate:</text>
+            <answers>
+                <answer correct='true'>ramane in lista de asteptare</answer>
+                <answer correct='true'>fi mutat in lista de task-uri blocare</answer>
+                <answer>bloca procesorul deca nu e sters</answer>
+                <answer>sa isi mentina pozitia in capul listei de asteptare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>In lista folosita de dispecerizarea prin rotatie, index-ul unei pozitii reprezinta:</text>
+            <answers>
+                <answer correct='true'>ID-ul taskului de pe acea pozitie</answer>
+                <answer>ID-ul urmatorului task in rulare</answer>
+                <answer>care este primul task din lista</answer>
+                <answer>pozitia din lista pe care e task-ul</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>In lista folosita de dispecerizarea prin rotatie, valoarea din casuta cu indexul 1 reprezinta:</text>
+            <answers>
+                <answer correct='true'>ID-ul task-ului care va rula dupa task-ul 1</answer>
+                <answer>pozitia task-ului cu ID 1 in lista de asteptare</answer>
+                <answer>ID-ul task-ului care detine procesorul</answer>
+                <answer>ID-ul primului task din lista</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>In dispecerizarea prin rotatie, pe care pozitie se insereaza un nou task in lista de asteptare?</text>
+            <answers>
+                <answer correct='true'>in capul listei</answer>
+                <answer>in coada listei</answer>
+                <answer>prima pozitie libera</answer>
+                <answer>pe pozitia curenta</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>
+                Fie o lista de asteptare la procesor goala:
+                ```
+                | VAL |     |     |     |     |     |     |       |
+                | --- | --- | --- | --- | --- | --- | --- | ----- |
+                | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                ```
+                
+                Folosind algoritmul de dispecerizare prin rotatie, dupa introducerea task-urilor cu ID 1, 2 si 3 si dupa ce primul task isi termina timpul de procesor, lista de asteptare va arata:
+            </text>
+            <answers>
+                <answer correct='true'>
+                    ```
+                    | VAL |     | 3   | 1   | 2   |     |     | 3     |
+                    | --- | --- | --- | --- | --- | --- | --- | ----- |
+                    | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                    ```
+                </answer>
+                <answer>
+                    ```
+                    | VAL |     | 3   | 1   | 2   |     |     | 1     |
+                    | --- | --- | --- | --- | --- | --- | --- | ----- |
+                    | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                    ```
+                </answer>
+                <answer>
+                    ```
+                    | VAL |     | 2   | 3   | 1   |     |     | 3     |
+                    | --- | --- | --- | --- | --- | --- | --- | ----- |
+                    | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                    ```
+                </answer>
+                <answer>
+                    ```
+                    | VAL |     | 1   | 2   | 3   |     |     | 3     |
+                    | --- | --- | --- | --- | --- | --- | --- | ----- |
+                    | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                    ```
+                </answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>
+                Fie lista de asteptare la procesor:
+                ```
+                | VAL |     | 3   | 1   | 2   |     |     | 3     |
+                | --- | --- | --- | --- | --- | --- | --- | ----- |
+                | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                ```
+                
+                Folosind algoritmul de dispecerizare prin rotatie, dupa terminarea rularii task-ului curent si eliminarea sa din lista, lista de asteptare va fi:
+            </text>
+            <answers>
+                <answer correct='true'>
+                    ```
+                    | VAL |     | 2   | 1   |     |     |     | 2     |
+                    | --- | --- | --- | --- | --- | --- | --- | ----- |
+                    | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                    ```
+                </answer>
+                <answer>
+                    ```
+                    | VAL |     | 3   | 1   | 2   |     |     | 1     |
+                    | --- | --- | --- | --- | --- | --- | --- | ----- |
+                    | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                    ```
+                </answer>
+                <answer>
+                    ```
+                    | VAL |     |     | 1   | 2   |     |     | 3     |
+                    | --- | --- | --- | --- | --- | --- | --- | ----- |
+                    | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                    ```
+                </answer>
+                <answer>
+                    ```
+                    | VAL |     | 1   | 2   |     |     |     | 2     |
+                    | --- | --- | --- | --- | --- | --- | --- | ----- |
+                    | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                    ```
+                </answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>In dispecerizarea prin prioritate:</text>
+            <answers>
+                <answer correct='true'>fiecare task are asociata o prioritate</answer>
+                <answer correct='true'>exista mai multe liste de asteptare</answer>
+                <answer>task-ul cu prioritate mai mare numeric e mai puternic</answer>
+                <answer>ruleaza task-ul cu prioritate mai mica primul</answer>
+            </answers>
+        </question>
+        <question>
+            <text>In dispecerizarea prin prioritate:</text>
+            <answers>
+                <answer correct='true'>fiecare nivel de prioritate contine un singur task</answer>
+                <answer correct='true'>va rula task-ul cu prioritatea cea mai mare</answer>
+                <answer correct='true'>valoarea cea mai mica a prioritatii inseamna prioritate mai puternica</answer>
+                <answer>nu mai este necesara folosirea scheduler-ului</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>In dispecerizarea prin prioritate, index-ul pozitiei in lista de asteptare reprezinta:</text>
+            <answers>
+                <answer correct='true'>prioritatea task-ului cu ID-ul de la acea pozitie</answer>
+                <answer>prioritatea task-ului cu acel index</answer>
+                <answer>pozitia task-ului in lista de asteptare</answer>
+                <answer>urmatorul task care va rula</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>
+                Fie lista de asteptare la procesor:
+                ```
+                | VAL |     |     | 2   | 1   |     |     | 3     |
+                | --- | --- | --- | --- | --- | --- | --- | ----- |
+                | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                ```
+                
+                Folosind dispecerizarea prin prioritizare, cum va arata lista de asteptare dupa introducerea taskului cu ID 3 si prioritate 0?
+            </text>
+            <answers>
+                <answer correct='true'>
+                    ```
+                    | VAL | 3   |     | 2   | 1   |     |     | 0     |
+                    | --- | --- | --- | --- | --- | --- | --- | ----- |
+                    | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                    ```
+                </answer>
+                <answer>
+                    ```
+                    | VAL | 3   |     | 2   | 1   |     |     | 3     |
+                    | --- | --- | --- | --- | --- | --- | --- | ----- |
+                    | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                    ```
+                </answer>
+                <answer>
+                    ```
+                    | VAL |     | 3   | 2   | 1   |     |     | 3     |
+                    | --- | --- | --- | --- | --- | --- | --- | ----- |
+                    | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                    ```
+                </answer>
+                <answer>
+                    ```
+                    | VAL |     | 3   | 1   | 2   |     |     | 3     |
+                    | --- | --- | --- | --- | --- | --- | --- | ----- |
+                    | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                    ```
+                </answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>
+                Fie lista de asteptare la procesor:
+                ```
+                | VAL | 3   |     | 2   | 1   |     |     | 0     |
+                | --- | --- | --- | --- | --- | --- | --- | ----- |
+                | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                ```
+                
+                Folosind dispecerizarea prin prioritizare, care este ID-ul task-ului care ruleaza la procesor?
+            </text>
+            <answers>
+                <answer correct='true'>3</answer>
+                <answer>0</answer>
+                <answer>2</answer>
+                <answer>1</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>
+                Fie lista de asteptare la procesor:
+                ```
+                | VAL | 3   |     | 2   | 1   |     |     | 0     |
+                | --- | --- | --- | --- | --- | --- | --- | ----- |
+                | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                ```
+                
+                Folosind dispecerizarea prin prioritizare, daca timpul de procesor a task-ului curent a expirat dar task-ul nu si-a terminat executia, care este ID-ul task-ului care va rula urmatorul la procesor?
+            </text>
+            <answers>
+                <answer correct='true'>3</answer>
+                <answer>0</answer>
+                <answer>2</answer>
+                <answer>1</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>
+                Fie lista de asteptare la procesor:
+                ```
+                | VAL | 3   |     | 2   | 1   |     |     | 0     |
+                | --- | --- | --- | --- | --- | --- | --- | ----- |
+                | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                ```
+                
+                Folosind dispecerizarea prin prioritizare, daca timpul de procesor a task-ului curent si-a terminat executia si iese de la procesor, care este ID-ul task-ului care va rula urmatorul la procesor?
+            </text>
+            <answers>
+                <answer correct='true'>2</answer>
+                <answer>1</answer>
+                <answer>0</answer>
+                <answer>3</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>Cate liste in memorie foloseste dispecerizarea prin prioritate si rotatie?</text>
+            <answers>
+                <answer>1</answer>
+                <answer>2</answer>
+                <answer>3</answer>
+                <answer>cate una pentru fiecare nivel de prioritate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>In dispecerizarea prin prioritate si rotatie, fiecare nivel de prioritate:</text>
+            <answers>
+                <answer correct='true'>este o lista circulara logica</answer>
+                <answer>contine un singur task</answer>
+                <answer>contine ID-ul task-ului urmator</answer>
+                <answer>nu poate fi gol</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>In dispecerizarea prin prioritate si rotatie, lista de asteptare la procesor e:</text>
+            <answers>
+                <answer correct='true'>o inlantuire de liste circulare</answer>
+                <answer>o lista circulara</answer>
+                <answer>o lista de task-uri</answer>
+                <answer>toate raspunsurile sunt corecte</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>In dispecerizarea prin prioritate si rotatie, va fi selectat pentru rulare:</text>
+            <answers>
+                <answer correct='true'>primul task din lista de prioritate maxima</answer>
+                <answer>task-ul de prioritate maxima</answer>
+                <answer>primul task din lista de asteptare</answer>
+                <answer>urmatorul task din lista de asteptare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>Fenomenul de starvation care poate aparea in dispecerizarea prin prioritate si rotatie inseamna:</text>
+            <answers>
+                <answer correct='true'>task-urile de prioritate mica nu ajung sa ruleze</answer>
+                <answer correct='true'>task-urile de prioritate mare ruleaza exclusiv</answer>
+                <answer>task-urile de prioritate mare nu ajung sa ruleze</answer>
+                <answer>fiecare task ruleaza un interval mic de timp</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>
+                Fie urmatoarele liste de asteptare la procesor:
+                - prioritati:
+                ```
+                | VAL |     | 4   |     | 5   | 2   |     | 1     |
+                | --- | --- | --- | --- | --- | --- | --- | ----- |
+                | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                ```
+                - task-uri:
+                ```
+                | VAL | 4   | 0   | 2   | 5   | 1   |     |
+                | --- | --- | --- | --- | --- | --- | --- |
+                | ID  | 0   | 1   | 2   | 5   | 4   | 5   |
+                ```
+                
+                Folosind dispecerizarea prin prioritate si rotatie, care task-uri de prioritate 0 exista in sistem?
+            </text>
+            <answers>
+                <answer correct='true'>0</answer>
+                <answer>1</answer>
+                <answer>2</answer>
+                <answer>3</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>
+                Fie urmatoarele liste de asteptare la procesor:
+                - prioritati:
+                ```
+                | VAL |     | 4   |     | 5   | 2   |     | 1     |
+                | --- | --- | --- | --- | --- | --- | --- | ----- |
+                | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                ```
+                - task-uri:
+                ```
+                | VAL | 4   | 0   | 2   | 5   | 1   |     |
+                | --- | --- | --- | --- | --- | --- | --- |
+                | ID  | 0   | 1   | 2   | 5   | 4   | 5   |
+                ```
+                
+                Folosind dispecerizarea prin prioritate si rotatie, care task-uri de prioritate 1 exista in sistem?
+            </text>
+            <answers>
+                <answer>1</answer>
+                <answer>2</answer>
+                <answer correct='true'>3</answer>
+                <answer>4</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>
+                Fie urmatoarele liste de asteptare la procesor:
+                - prioritati:
+                ```
+                | VAL |     | 4   |     | 5   | 2   |     | 1     |
+                | --- | --- | --- | --- | --- | --- | --- | ----- |
+                | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                ```
+                - task-uri:
+                ```
+                | VAL | 4   | 0   | 2   | 5   | 1   |     |
+                | --- | --- | --- | --- | --- | --- | --- |
+                | ID  | 0   | 1   | 2   | 5   | 4   | 5   |
+                ```
+                
+                Folosind dispecerizarea prin prioritate si rotatie, cum va arata lista de prioritati dupa eliminarea task-ului cu ID 4?
+            </text>
+            <answers>
+                <answer correct='true'>
+                    ```
+                    | VAL |     | 1   |     | 5   | 2   |     | 1     |
+                    | --- | --- | --- | --- | --- | --- | --- | ----- |
+                    | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                    ```
+                </answer>
+                <answer>
+                    ```
+                    | VAL |     |     |     | 5   | 2   |     | 1     |
+                    | --- | --- | --- | --- | --- | --- | --- | ----- |
+                    | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                    ```
+                </answer>
+                <answer>
+                    ```
+                    | VAL |     | 3   |     | 5   | 2   |     | 1     |
+                    | --- | --- | --- | --- | --- | --- | --- | ----- |
+                    | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                    ```
+                </answer>
+                <answer>
+                    ```
+                    | VAL |     | 0   |     | 5   | 2   |     | 1     |
+                    | --- | --- | --- | --- | --- | --- | --- | ----- |
+                    | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                    ```
+                </answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 5</topic>
+            <text>
+                Fie urmatoarele liste de asteptare la procesor:
+                - prioritati:
+                ```
+                | VAL |     | 4   |     | 5   | 2   |     | 1     |
+                | --- | --- | --- | --- | --- | --- | --- | ----- |
+                | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                ```
+                - task-uri:
+                ```
+                | VAL | 4   | 0   | 2   | 5   | 1   |     |
+                | --- | --- | --- | --- | --- | --- | --- |
+                | ID  | 0   | 1   | 2   | 5   | 4   | 5   |
+                ```
+                
+                Folosind dispecerizarea prin prioritate si rotatie, cum va arata lista de prioritati dupa eliminarea task-ului cu ID 2?
+            </text>
+            <answers>
+                <answer correct='true'>
+                    ```
+                    | VAL |     | 4   |     | 5   |     |     | 1     |
+                    | --- | --- | --- | --- | --- | --- | --- | ----- |
+                    | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                    ```
+                </answer>
+                <answer>
+                    ```
+                    | VAL |     | 4   |     | 5   | 2   |     | 1     |
+                    | --- | --- | --- | --- | --- | --- | --- | ----- |
+                    | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                    ```
+                </answer>
+                <answer>
+                    ```
+                    | VAL |     | 4   |     | 5   | 3   |     | 1     |
+                    | --- | --- | --- | --- | --- | --- | --- | ----- |
+                    | ID  | 0   | 1   | 2   | 3   | 4   | 5   | **6** |
+                    ```
+                </answer>
+                <answer>nici o varianta nu e corecta</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 6</topic>
+            <text>Dispecerizarea preemptiva:</text>
+            <answers>
+                <answer correct='true'>permite intreruperea rularii task-ului curent</answer>
+                <answer>ruleaza task-ul curent pana la terminarea sa</answer>
+                <answer correct='true'>ruleaza task-ul curent pana la terminarea timpului de procesor</answer>
+                <answer>rularea task-ului depinde de algoritmul implementat</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 6</topic>
+            <text>Dispecerizarea care permite intreruperea rularii task-ului curent cand apare un task de prioritate mai ridicata se numeste:</text>
+            <answers>
+                <answer correct='true'>preemptiva</answer>
+                <answer>aleatoare</answer>
+                <answer>non-preemptiva</answer>
+                <answer>cu prioritati</answer>
+                <answer>de exceptie</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 6</topic>
+            <text>In dispecerizarea non-preemptiva, task-ul iese de la procesor:</text>
+            <answers>
+                <answer correct='true'>cand isi termina executie</answer>
+                <answer>cand ii expira timpul de procesor</answer>
+                <answer>cand apare un task de prioritate mai ridicata</answer>
+                <answer>toate raspunsurile sunt corecte</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 6</topic>
+            <text>In algoritmul First Come First Served:</text>
+            <answers>
+                <answer correct='true'>nu exista nivele de prioritate</answer>
+                <answer correct='true'>task-urile sunt deservite in ordinea sosirii</answer>
+                <answer>este necesara cunoasterea timpului de executie</answer>
+                <answer>se ia in considerare necesarul de memorie</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 6</topic>
+            <text>Algoritmul Shortest Job First:</text>
+            <answers>
+                <answer correct='true'>e cea mai buna metoda de minimizare a timpului de asteptare</answer>
+                <answer correct='true'>poate fi preemptiv sau non-preemptiv</answer>
+                <answer correct='true'>stie timpul de executie a task-ului</answer>
+                <answer>are nivele de prioritate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 6</topic>
+            <text>Algoritmul Priority Based Scheduling:</text>
+            <answers>
+                <answer correct='true'>este non-preemptiv</answer>
+                <answer>este preemptiv</answer>
+                <answer correct='true'>este folosit in SO de tip batch</answer>
+                <answer>nu are nivele de prioritate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 6</topic>
+            <text>In cadrul algoritmului Priority Based Scheduling, pentru acelasi nivel de prioritate task-urile se vor executa:</text>
+            <answers>
+                <answer correct='true'>in ordinea aparitiei</answer>
+                <answer>in funcite de durata lor</answer>
+                <answer>in functie de batranete</answer>
+                <answer>aleator</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 6</topic>
+            <text>Round-Robin Scheduing:</text>
+            <answers>
+                <answer correct='true'>este preemptiv</answer>
+                <answer correct='true'>imparte procesorul in unitat egale de timp</answer>
+                <answer>are nivele de prioritate</answer>
+                <answer>task-urile ruleaza pana se termina</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 6</topic>
+            <text>Multi-level Queue Scheduling folosete ca algoritm:</text>
+            <answers>
+                <answer correct='true'>diferite algoritme pentru diferite liste de asteptare</answer>
+                <answer>propria implementare</answer>
+                <answer>Round-Robin Scheduling</answer>
+                <answer>Priority Based Scheduling</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 6</topic>
+            <text>In cadrul Multi-level Feedback Queues, task-urile:</text>
+            <answers>
+                <answer correct='true'>pot fi mutate intre diferite cozi de asteptare</answer>
+                <answer>raman in acceasi coada pana ce le expira timpul de procesor</answer>
+                <answer>sunt mutate intre cozi in timpul executiei la CPU</answer>
+                <answer>nu apartin nici unei cozi de asteptare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 6</topic>
+            <text>Windows 10 foloseste un algoritm de dispecerizare cu:</text>
+            <answers>
+                <answer correct='true'>32 nivele de prioritate</answer>
+                <answer correct='true'>2 clase de prioritate</answer>
+                <answer>3 clase de prioritate</answer>
+                <answer>128 nivele de prioritate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 6</topic>
+            <text>Care nivel de prioritate e folosit de Windows 10 pentru managementul memoriei?</text>
+            <answers>
+                <answer correct='true'>0</answer>
+                <answer>32</answer>
+                <answer>1</answer>
+                <answer>8</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 6</topic>
+            <text>Care din urmatoarele influenteaza decizia de a modifica nivelul de prioritate a unui task?</text>
+            <answers>
+                <answer>nivelul de utilizarea CPU</answer>
+                <answer>nivelul de utilizare I/O</answer>
+                <answer>interactivitatea cu utilizatorul</answer>
+                <answer>distanta pana la deadline</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 6</topic>
+            <text>Scheduler-ul folosit de Linux care ii ofera granularitate de ordinul nanosecundelor se numeste:</text>
+            <answers>
+                <answer correct='true'>Complete Fair Scheduler</answer>
+                <answer>Created For Scheduling</answer>
+                <answer>O(1) Scheduler</answer>
+                <answer>Multimode Feedback Scheduler</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 6</topic>
+            <text>Versiunile mai vechi de Linux (\< 2.4) folosesc un scheduler cu cate nivele de prioritate?</text>
+            <answers>
+                <answer correct='true'>141</answer>
+                <answer>128</answer>
+                <answer>312</answer>
+                <answer>32</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 6</topic>
+            <text>Versiunile mai vechi de Linux (\< 2.4) folosesc un scheduler cu cate liste de asteptare?</text>
+            <answers>
+                <answer correct='true'>2, active queue si expired queue</answer>
+                <answer>16, cate una pentru fiecare 2 nivele de prioritate</answer>
+                <answer>32</answer>
+                <answer>depinde de implementare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 7</topic>
+            <text>In cadrul programarii concurente, resursa se defineste ca fiind:</text>
+            <answers>
+                <answer correct='true'>orice entitate de care are nevoie un task</answer>
+                <answer>cantitatea de memorie pe care o ocupa taskul</answer>
+                <answer>memoria si tipul de procesor</answer>
+                <answer>costul pe care il presupune rularea unui task</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 7</topic>
+            <text>In cadrul programarii concurente, resursele locale sunt:</text>
+            <answers>
+                <answer correct='true'>accesibile unui singur task</answer>
+                <answer>accesibile tuturor task-urilor unui proces</answer>
+                <answer>accesibile global</answer>
+                <answer>inaccesibile</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 7</topic>
+            <text>In cadrul programarii concurente, resursele comune sunt:</text>
+            <answers>
+                <answer correct='true'>accesibile pentru cel putin 2 taskuri</answer>
+                <answer>accesibile pentru proces</answer>
+                <answer>accesibile doar pe baza de cerere</answer>
+                <answer>nici un raspuns nu e corect</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 7</topic>
+            <text>In cadrul programarii concurente, resursele critice:</text>
+            <answers>
+                <answer correct='true'>permit o singura sesiune de lucru asupra lor</answer>
+                <answer>sunt detinute de un singur task</answer>
+                <answer>nu fac parte din descrierea unui proces</answer>
+                <answer>sunt accesate primele la pornirea unui task</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 7</topic>
+            <text>In cadrul programarii concurente, resursele partajate cu N puncte de acces:</text>
+            <answers>
+                <answer correct='true'>admit N sesiuni de lucru simultane</answer>
+                <answer correct='true'>nu permit N+1 sesiuni de lucru simultane</answer>
+                <answer>admit oricate sesiuni de lucru</answer>
+                <answer>admit o singura sesiune activa si N-1 sesiuni in asteptare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 7</topic>
+            <text>In cadrul programarii concurente, resursele reentrante:</text>
+            <answers>
+                <answer>admit oricate sesiuni simultare de lucru</answer>
+                <answer>au o limita a numarului de task-uri care pot opera cu ele</answer>
+                <answer>sunt specifice unui anumit task</answer>
+                <answer>toate raspunsurile sunt corecte</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 7</topic>
+            <text>In cadrul programarii concurente, o resursa existenta in mai multe exemplare identice se numeste:</text>
+            <answers>
+                <answer correct='true'>banalizata</answer>
+                <answer>comuna</answer>
+                <answer>duplicata</answer>
+                <answer>multiplicata</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 7</topic>
+            <text>Portiunea unui program in care se acceseaza o resursa partajata se numeste:</text>
+            <answers>
+                <answer correct='true'>de partaj</answer>
+                <answer>comuna</answer>
+                <answer>banalizata</answer>
+                <answer>de acces</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 7</topic>
+            <text>In cadrul programarii concurente, portiunea in care se acceseaza o resursa critica se numeste:</text>
+            <answers>
+                <answer correct='true'>zona critica</answer>
+                <answer>cerere speciala</answer>
+                <answer>de partajare</answer>
+                <answer>criticata</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 7</topic>
+            <text>In cadrul programarii concurente, evitarea anomaliilor legate de o resursa critica prin evitarea situatiilor simultane se numeste:</text>
+            <answers>
+                <answer correct='true'>excludere mutuala</answer>
+                <answer>buna planificare</answer>
+                <answer>ai grija ce faci</answer>
+                <answer>spirit ingineresc</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 7</topic>
+            <text>O modalitate de a evita anomaliile legate de resursele critice este:</text>
+            <answers>
+                <answer correct='true'>dezactivarea intreruperilor</answer>
+                <answer>eliminarea resursei critice</answer>
+                <answer>folosirea unui procesor single-thread</answer>
+                <answer>aplicarea legii lui Joh</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 7</topic>
+            <text>Fanioanele de excluziune sunt reprezentate de:</text>
+            <answers>
+                <answer correct='true'>variabila booleana</answer>
+                <answer>un semafor binar</answer>
+                <answer>orice tip de variabila</answer>
+                <answer>un concept in programarea concurenta</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 6</topic>
+            <text>Care din urmatoarele metode de dispecerizare sunt (pot fi) preepmtive:</text>
+            <answers>
+                <answer correct='true'>Shortest Job First</answer>
+                <answer correct='true'>Round-Robin Scheduling</answer>
+                <answer>Priority Based Scheduling</answer>
+                <answer>First Come, First Served</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 6</topic>
+            <text>Care din urmatoarele metode de dispecerizare nu sunt (pot sa nu fie) preepmtive:</text>
+            <answers>
+                <answer correct='true'>Priority Based Scheduling</answer>
+                <answer correct='true'>Shortest Job First</answer>
+                <answer>Round-Robin Scheduling</answer>
+                <answer correct='true'>First Come, First Served</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 7</topic>
+            <text>Operatia de testare si fortare la 1 a fanioanelor de excluziune se numeste:</text>
+            <answers>
+                <answer correct='true'>TAS</answer>
+                <answer>RES</answer>
+                <answer>SET</answer>
+                <answer>MAKE</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 7</topic>
+            <text>Operatia de resetare la 0 a fanioanelor de excluziune se numeste:</text>
+            <answers>
+                <answer correct='true'>RES</answer>
+                <answer>RESET</answer>
+                <answer>TAS</answer>
+                <answer>FRC</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 7</topic>
+            <text>Fanioanele de excuziune pasive:</text>
+            <answers>
+                <answer correct='true'>nu apeleaza dispecerul</answer>
+                <answer>apeleaza dispacerul</answer>
+                <answer correct='true'>produc asteptare activa</answer>
+                <answer>produc asteptare pasiva</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 7</topic>
+            <text>Care fanioane de excluziune duc la irosirea timpului de procesor?</text>
+            <answers>
+                <answer correct='true'>pasive</answer>
+                <answer>active</answer>
+                <answer>inexistente</answer>
+                <answer>intarziate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 7</topic>
+            <text>Fanioanele de excluziune activa sunt formate din:</text>
+            <answers>
+                <answer correct='true'>un fanion pasiv si o coada</answer>
+                <answer>o variabila de stare si un semafor</answer>
+                <answer>o lista de evenimente</answer>
+                <answer>o coada</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 7</topic>
+            <text>In cazul fanioanelor de excluziune activa, dupa ce a terminat de folosit resursa task-ul:</text>
+            <answers>
+                <answer>deblocheaza primul task din coada</answer>
+                <answer correct='true'>deblocheaza toate task-urile din coada</answer>
+                <answer correct='true'>executa RES</answer>
+                <answer>isi continua executia neperturbat</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 8</topic>
+            <text>Daca doua sau mai multe task-uri incearca sa acceseze limultan aceeasi resursa se ajunge la:</text>
+            <answers>
+                <answer correct='true'>data race</answer>
+                <answer>mutual exclusion</answer>
+                <answer>timed delay</answer>
+                <answer>crash</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 8</topic>
+            <text>Semaforul create de Dijkstra sunt formate din</text>
+            <answers>
+                <answer correct='true'>variabila intreaga I</answer>
+                <answer correct='true'>coada de asteptare C</answer>
+                <answer>variabila booleana I</answer>
+                <answer correct='true'>primitiva V</answer>
+                <answer correct='true'>primitiva P</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 8</topic>
+            <text>Primitiva P a semaforului:</text>
+            <answers>
+                <answer>incrementeaza contorul</answer>
+                <answer correct='true'>decrementeaza contorul</answer>
+                <answer correct='true'>permite continuarea executiei doar daca `I \>= 0`, altfel blocheaza taskul in coada C</answer>
+                <answer>permite continuarea executiei doar daca `I \<= 0`, altfel blocheaza taskul in coada C</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 8</topic>
+            <text>Primitiva V a semaforului:</text>
+            <answers>
+                <answer correct='true'>incrementeaza contorul</answer>
+                <answer>decrementeaza contorul</answer>
+                <answer correct='true'>deblocheaza primul task din coada daca `I \< 0`</answer>
+                <answer>deblocheaza primul task din coada daca `I \>= 0`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 8</topic>
+            <text>Daca variabila I a semaforului este \< 0, aceasta reprezinta:</text>
+            <answers>
+                <answer correct='true'>numarul de task-uri blocata in coada C</answer>
+                <answer>numarul de task-uri care au accesat resursa</answer>
+                <answer>numarul de task-uri care mai pot accesa resursa</answer>
+                <answer>ID-ul task-ului care blocheaza resursa</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 8</topic>
+            <text>Daca variabila I a semaforului este \> 0, aceasta reprezinta:</text>
+            <answers>
+                <answer correct='true'>numarul de task-uri care mai pot accesa resursa</answer>
+                <answer>numarul de task-uri care au accesat resursa</answer>
+                <answer>accesarile recente ale resursei</answer>
+                <answer>valoarea resursei</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 8</topic>
+            <text>Un semnafor initializat cu `I = 1` se numeste:</text>
+            <answers>
+                <answer correct='true'>semafor binar</answer>
+                <answer correct='true'>semafor de excluziune</answer>
+                <answer>semafor generalizat</answer>
+                <answer>semafor unic</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 8</topic>
+            <text>Un semnafor initializat cu `I \> 1` se numeste:</text>
+            <answers>
+                <answer correct='true'>semafor generalizat</answer>
+                <answer>semafor multiplu</answer>
+                <answer>semafor de coliziune</answer>
+                <answer>semafor generic</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 8</topic>
+            <text>Semaforul care inregistreaza ID-ul proprietarului curent al resursei se numeste:</text>
+            <answers>
+                <answer>semafor binar</answer>
+                <answer correct='true'>bloc resursa</answer>
+                <answer>semafor de inchiriere</answer>
+                <answer>casa de vacanta</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 8</topic>
+            <text>Contorul unui bloc resursa are valoarea:</text>
+            <answers>
+                <answer correct='true'>1</answer>
+                <answer>n</answer>
+                <answer>2</answer>
+                <answer>0</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 8</topic>
+            <text>In cadrul blocurilor resursa, geestionarul de resursa e implementat prin</text>
+            <answers>
+                <answer correct='true'>primitivele P si V</answer>
+                <answer>functii speciale ale blocului</answer>
+                <answer>functii ale kernel-ului</answer>
+                <answer>microinstructiuni in procesor</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 8</topic>
+            <text>Acronimul MUTEX vine de la:</text>
+            <answers>
+                <answer>MUTual EXclusion</answer>
+                <answer>MUTual EXecution</answer>
+                <answer>MUltiple External eXecution</answer>
+                <answer>siMple EXplanation</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 8</topic>
+            <text>Fenomenul in care un task de prioritate medie se executa inaintea unui de prioritate mare care e blocat de un task de prioritate mica se numeste:</text>
+            <answers>
+                <answer correct='true'>problema inversarii prioritatii</answer>
+                <answer>injectare de prioritate</answer>
+                <answer>inversarea probabilitatii</answer>
+                <answer>modificarea artificiala a prioritatii</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 8</topic>
+            <text>Problema inversarii prioritatii se rezolva cu ajutorul unui:</text>
+            <answers>
+                <answer>mutex cu mostenirea prioritatii</answer>
+                <answer>semafor cu detectare de coliziune</answer>
+                <answer>bloc resursa</answer>
+                <answer>bloc resursa extins</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>Sincronizarea task-urilor se poate face:</text>
+            <answers>
+                <answer correct='true'>intre task-uri</answer>
+                <answer correct='true'>cu evenimente externe</answer>
+                <answer>cu ceasul sistemului</answer>
+                <answer>direct prin dispacher</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>Un eveniment este modelat cu ajutorul:</text>
+            <answers>
+                <answer correct='true'>unei valori booleane</answer>
+                <answer>unui contro de aparitii</answer>
+                <answer>unei masti de stare</answer>
+                <answer>unei intreruperi</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>Evenimentele legate de operatii ce se desfasoara in afara programului se numesc:</text>
+            <answers>
+                <answer correct='true'>concerete</answer>
+                <answer>abstracte</answer>
+                <answer>directe</answer>
+                <answer>perimate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>Evenimentele legate de operatii ce se desfasoara in interiorul programului se numesc:</text>
+            <answers>
+                <answer correct='true'>abstracte</answer>
+                <answer>directe</answer>
+                <answer>insipide</answer>
+                <answer>tratate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>Evenimentele legate de operatii care s-au produs deja se numesc:</text>
+            <answers>
+                <answer correct='true'>perimate</answer>
+                <answer>neperimate</answer>
+                <answer>concurente</answer>
+                <answer>concrete</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>Doua evenimente care s-au produs in acelasi moment se numesc:</text>
+            <answers>
+                <answer correct='true'>simultane</answer>
+                <answer>concurente</answer>
+                <answer>imediate</answer>
+                <answer>paralele</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>Doua evenimente care s-au produs in acelasi interval de timp se numesc:</text>
+            <answers>
+                <answer correct='true'>concurente</answer>
+                <answer>paralele</answer>
+                <answer>simultane</answer>
+                <answer>relative</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>Evenimentele care au o relatie temporala bine definita se numesc:</text>
+            <answers>
+                <answer correct='true'>sincrone</answer>
+                <answer>definite</answer>
+                <answer>taciturne</answer>
+                <answer>sincronzate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>Evenimentele care nu au o relatie temporala bine definita se numesc:</text>
+            <answers>
+                <answer correct='true'>asincrone</answer>
+                <answer>sincrone</answer>
+                <answer>directe</answer>
+                <answer>concrete</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>Sincronizarea task-urilor folosind functiile `_sleep()` si `_wakeup()` se numeste:</text>
+            <answers>
+                <answer correct='true'>directa</answer>
+                <answer>indirecta</answer>
+                <answer>multieveniment</answer>
+                <answer>cu eveniment</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>Sincronizarea task-urilor folosind mecanismul semafoarelor se numeste:</text>
+            <answers>
+                <answer correct='true'>indirecta</answer>
+                <answer>directa</answer>
+                <answer>cu semafor</answer>
+                <answer>prin intermediar</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>Mecanismul producator-consumator foloseste pentru sincronizare:</text>
+            <answers>
+                <answer correct='true'>3 semafoare</answer>
+                <answer>1 bloc resursa</answer>
+                <answer>2 blocuri multi-resursa</answer>
+                <answer>1 semafor binar</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>In mecanismul sincronizrii prin blocuri eveniment, task-urile care doresc sa se sincronizeze:</text>
+            <answers>
+                <answer correct='true'>se blocheaza intr-o coada</answer>
+                <answer>asteapta ca procesorul sa le scoata din executie</answer>
+                <answer>verifica daca evenimentul a avut loc</answer>
+                <answer>se auto-dispecereaza</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>Blocurile eveniment:</text>
+            <answers>
+                <answer>memoreaza un eveniment</answer>
+                <answer correct='true'>nu memoreaza evenimente</answer>
+                <answer>memoreaza mai multe evenimente</answer>
+                <answer correct='true'>sunt similare cu fanioanele de excluziune active</answer>
+                <answer correct='true'>pot bloca task-urile pe o perioada finita</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>Sincronizarea multieveniment se face cu ajutorul:</text>
+            <answers>
+                <answer correct='true'>unei multimi de valori booleane</answer>
+                <answer>o lista de valori</answer>
+                <answer correct='true'>o functie logica SI/SAU</answer>
+                <answer correct='true'>o coada</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>In sincronizarea multieveniment, task-ul:</text>
+            <answers>
+                <answer correct='true'>specifica configuratie de evenimente dorita</answer>
+                <answer correct='true'>se autoblocheaza</answer>
+                <answer>va fi servit evenimentele pe masura ca apar</answer>
+                <answer>toate raspunsurile sunt corecte</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>In cadrul sincronizarii prin blocuri multieveniment, se presupune atingerea valorilor `1, 0, 1, 1` de catre evenimentele `0, 2, 3, 6`. Cum va arata masca?</text>
+            <answers>
+                <answer correct='true'>`01001101`</answer>
+                <answer>`00000000`</answer>
+                <answer>`10110010`</answer>
+                <answer>`01001001`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>In cadrul sincronizarii prin blocuri multieveniment, se presupune atingerea valorilor `1, 0, 1, 1` de catre evenimentele `0, 2, 3, 6`. Cum va arata configuratia de referinta daca se foloseste o functie SI?</text>
+            <answers>
+                <answer correct='true'>`01001001`</answer>
+                <answer>`01001101`</answer>
+                <answer>`10010010`</answer>
+                <answer>`110110010`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>In cadrul sincronizarii prin blocuri multieveniment, se presupune atingerea valorilor 1, 0, 1, 1 de catre evenimentele 0, 2, 3, 6. Cum va arata configuratia de referinta daca se foloseste o functie SAU?</text>
+            <answers>
+                <answer correct='true'>`00001000`</answer>
+                <answer>`01001001`</answer>
+                <answer>`10011000`</answer>
+                <answer>`01100101`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>Sincronizarea prin blocurile Randez-Vous:</text>
+            <answers>
+                <answer correct='true'>asteapta sa ajunga un numar de N task-uri</answer>
+                <answer correct='true'>are un interval de timp pentru intalnire</answer>
+                <answer>asteapta pana ce toate task-urile au ajuns</answer>
+                <answer>auto-deblocheaza task-urile dupa ce toate N s-au blocat cu succes</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>In sincronizarea prin blocuri Randez-Vous, un task ajuns:</text>
+            <answers>
+                <answer>va incrementa contorul</answer>
+                <answer correct='true'>se va bloca</answer>
+                <answer correct='true'>va decrementa contorul</answer>
+                <answer>isi va continua executia</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>In sincronizarea prin blocuri Randez-Vous, ultimul task ajuns:</text>
+            <answers>
+                <answer correct='true'>va debloca toate task-urile</answer>
+                <answer>se va bloca</answer>
+                <answer>va reseta contorul</answer>
+                <answer>va anunta dispacerul</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 9</topic>
+            <text>In sincronizarea prin blocuri Randez-Vous, daca timpul de intalnire expira fara ca toate task-uile sa ajunga:</text>
+            <answers>
+                <answer correct='true'>primul task ajuns va debloca toate celelalte task-uri</answer>
+                <answer correct='true'>se semnalizeaza ca intalnirea a fost anulata</answer>
+                <answer>se astepata inca o unitate de timp</answer>
+                <answer>se blocheaza executia</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 10</topic>
+            <text>Comunicare intre task-uri se poate realiza prin:</text>
+            <answers>
+                <answer>partajare de memorie</answer>
+                <answer>mecanisme de semnalizare</answer>
+                <answer>transmitere de mesaje</answer>
+                <answer correct='true'>toate raspunsurile sunt corecte</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 10</topic>
+            <text>Comunicarea prin cozi de mesaje foloseste:</text>
+            <answers>
+                <answer correct='true'>buffere de date cu capacitate finita</answer>
+                <answer>liste circulare implementate la nivel de kernel</answer>
+                <answer>fisiere externe</answer>
+                <answer>zone de memorie comuna</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 10</topic>
+            <text>In cadrul comunicarii prin cozi de mesaje, mesajele sunt transmise:</text>
+            <answers>
+                <answer correct='true'>prin copiere</answer>
+                <answer correct='true'>ca valoare sau ca referinta</answer>
+                <answer>prin dezalocarea memoriei</answer>
+                <answer>prin share-uirea variabilei care contine mesajul</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 10</topic>
+            <text>In comunicarea prin conducte (pipes):</text>
+            <answers>
+                <answer correct='true'>se folosete un tampon de date circular</answer>
+                <answer correct='true'>datele sunt transmise la nivel de octet</answer>
+                <answer>trebuie facut managementul memoriei alocate conductei</answer>
+                <answer>nu se pot trimite date arbitrare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 10</topic>
+            <text>In comunicarea prin conducte (pipes):</text>
+            <answers>
+                <answer correct='true'>transmisia e prioritara</answer>
+                <answer>receptia e prioritara</answer>
+                <answer correct='true'>datele pot fi oricat de lungi</answer>
+                <answer>mesajele folosesc un template de transmisie</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 10</topic>
+            <text>Comunicarea prin cutii postale:</text>
+            <answers>
+                <answer correct='true'>vehiculeaza date de dimensiuni clare</answer>
+                <answer correct='true'>pot fi implementate ca single entry</answer>
+                <answer>sunt implementate ca depozite globale</answer>
+                <answer>sunt accesibile de un singur task</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 10</topic>
+            <text>Comunicarea prin cutii postale:</text>
+            <answers>
+                <answer correct='true'>contine excludere mutuala in mecanism</answer>
+                <answer correct='true'>permite accesul mai multor task-uri la aceasi cutie postala</answer>
+                <answer>este mai securizata decat cea prin conducte</answer>
+                <answer>nu este fezabila pentru mesaje text</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Extras</topic>
+            <text>Care tip de context switch este mai scump ca timp de executie?</text>
+            <answers>
+                <answer correct='true'>la nivel de proces</answer>
+                <answer>la nivel de thread</answer>
+                <answer>la nivel de task</answer>
+                <answer>la nivel de procesor</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Extras</topic>
+            <text>Context switch la nivel de proces presupune:</text>
+            <answers>
+                <answer correct='true'>reconfigurare MMU</answer>
+                <answer correct='true'>schimbare tabel de pagini</answer>
+                <answer>alocare de memorie</answer>
+                <answer correct='true'>schimbare registre procesor</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Extras</topic>
+            <text>Context switch la nivel de thread presupune:</text>
+            <answers>
+                <answer correct='true'>schimbarea contexului CPU</answer>
+                <answer>dezalocare MMU</answer>
+                <answer>schimbare pagini de memorie</answer>
+                <answer>dezalocarea porcesului ce si-a terminat executia</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Extras</topic>
+            <text>Kernel-ul care contine functionalitati de tipul drivere, networking, filesystem (Linux) este:</text>
+            <answers>
+                <answer correct='true'>moniolitic</answer>
+                <answer>modular</answer>
+                <answer>microkernal</answer>
+                <answer>open source</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Extras</topic>
+            <text>Kernel-ul care contine doar functionalitati minimale:</text>
+            <answers>
+                <answer correct='true'>microkernal</answer>
+                <answer>basic</answer>
+                <answer>real-time kernal</answer>
+                <answer>multiprocess</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Extras</topic>
+            <text>Fenomenul de stack overflow duce la:</text>
+            <answers>
+                <answer correct='true'>blocarea sistemului</answer>
+                <answer correct='true'>comportament impredictbil</answer>
+                <answer>raspunsuri la intrebari de programare</answer>
+                <answer>nu produce probleme, se produce doar la nivel de procesor</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Extras</topic>
+            <text>Umplerea stack-ului cu o valoare cunoscuta la momentul alocarii memoriei si verificarea periodica daca s-a suprascris marginea inferioara se numeste:</text>
+            <answers>
+                <answer correct='true'>stack watermarking</answer>
+                <answer>border marking</answer>
+                <answer>stack trace</answer>
+                <answer>tripwire</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Extras</topic>
+            <text>Sacrificarea unei zone de memorie la finalul stivei, care declanseaza o exceptie daca este scrisa, se numeste:</text>
+            <answers>
+                <answer correct='true'>stack guard</answer>
+                <answer>stack overflow</answer>
+                <answer>stack watermarking</answer>
+                <answer>line guard</answer>
+            </answers>
+        </question>
+    </questions>
+</root>
