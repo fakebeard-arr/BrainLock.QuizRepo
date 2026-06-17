@@ -39,6 +39,7 @@
             </answers>
         </question>
         <question>
+            <topic>Curs 2</topic>
             <text>Din nucleul sistemului de operare face parte:</text>
             <answers>
                 <answer correct='true'>dispatcherul de taskuri</answer>
@@ -382,6 +383,7 @@
             </answers>
         </question>
         <question>
+            <topic>Curs 9</topic>
             <text>Pentru accesarea mutual exclusiva a tamponului la mecanismul producator-consumator, semaforul are valoarea initiala:</text>
             <answers>
                 <answer correct='true'>1</answer>
@@ -398,6 +400,240 @@
                 <answer correct='true'>fara memorarea evenimentului</answer>
                 <answer>metoda optima</answer>
                 <answer>folosit pentru sincronizarea taskurilor intre ele</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 10</topic>
+            <text>Care optiune nu este o modalitate de comunicare intre task-uri?</text>
+            <answers>
+                <answer>partajare de memorie</answer>
+                <answer correct='true'>sincronizare cu randez-vous</answer>
+                <answer>mecanisme de semnalizare</answer>
+                <answer>transmitere de mesaje</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 10</topic>
+            <text>Un buffer thread-safe are nevoie de mecanisme suplimentare de partajare?</text>
+            <answers>
+                <answer>da</answer>
+                <answer correct='true'>nu</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 10</topic>
+            <text>Conducta este:</text>
+            <answers>
+                <answer>un tampon circular</answer>
+                <answer>asociata unei perechi de task-uri</answer>
+                <answer>acceesata la nivel de octet</answer>
+                <answer correct='true'>toate celelalte optiuni</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 10</topic>
+            <text>Datele din conducta pot fi:</text>
+            <answers>
+                <answer>scrise de consumator</answer>
+                <answer>citite de producator</answer>
+                <answer correct='true'>oricat de lungi</answer>
+                <answer>toate optiunile</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 10</topic>
+            <text>Daca este plina conducta, ce face consumatorul?</text>
+            <answers>
+                <answer correct='true'>citeste date</answer>
+                <answer>scrie date</answer>
+                <answer>deblocheaza producatorul</answer>
+                <answer>se blocheaza</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 10</topic>
+            <text>Cutiile postale vehiculeaza date:</text>
+            <answers>
+                <answer>de dimensiuni variabile</answer>
+                <answer>fara excludere mutuala</answer>
+                <answer>corupte</answer>
+                <answer correct='true'>de dimensiuni clare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 10</topic>
+            <text>Daca sunt blocate mai multe task-uri in FreeRTOS, se deblocheaza cel cu prioritate mai puternica.</text>
+            <answers>
+                <answer correct='true'>adevarat</answer>
+                <answer>fals</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 11</topic>
+            <text>Scalabilitatea unui produs software se refera la abilitatea de a:</text>
+            <answers>
+                <answer>rula corect</answer>
+                <answer>se adapata la utilizator</answer>
+                <answer correct='true'>se adapta la numar variabil de resurse</answer>
+                <answer>controla mediul inconjurator</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 11</topic>
+            <text>In programarea condurenta, se recomanda ca programatorul sa presupuna o anumita ordine de rulare a task-urilor.</text>
+            <answers>
+                <answer>da</answer>
+                <answer correct='true'>nu</answer>
+                <answer>nu stiu</answer>
+                <answer>depinde cine recomanda</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 11</topic>
+            <text>Care din urmatoarele optiuni nu e o problema specifica in programarea concurenta?</text>
+            <answers>
+                <answer>deadlock</answer>
+                <answer>livelock</answer>
+                <answer correct='true'>priority conversion</answer>
+                <answer>starvation</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 11</topic>
+            <text>Situatia in care doua sau mai mute task-uri partajeaza aceeasi resursa fara sincronizare se numeste:</text>
+            <answers>
+                <answer>livelock</answer>
+                <answer>starvation</answer>
+                <answer>deadlock</answer>
+                <answer correct='true'>data race</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 11</topic>
+            <text>Care din urmatoarele optiuni nu e una din conditiile lui Coffman?</text>
+            <answers>
+                <answer>excludere mutuala</answer>
+                <answer correct='true'>preemptivitate</answer>
+                <answer>conditia hold-and-wait</answer>
+                <answer>asteptare circulara</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 11</topic>
+            <text>Modalitatea prin care se rezolva sitatia de starvation se numeste:</text>
+            <answers>
+                <answer correct='true'>fairness</answer>
+                <answer>liveness</answer>
+                <answer>priority inversion</answer>
+                <answer>funct</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 11</topic>
+            <text>Doua task-uri in deadlock asteapta dupa o resursa partajata dar raman in rulare.</text>
+            <answers>
+                <answer>adevarat</answer>
+                <answer correct='true'>fals</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 12</topic>
+            <text>Instanta unui program ce detine resurse proprii se numeste:</text>
+            <answers>
+                <answer>task</answer>
+                <answer>fir de executie</answer>
+                <answer>cod</answer>
+                <answer correct='true'>proces</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 12</topic>
+            <text>Perioada de timp de la activarea unui task si pana cand el trebuie finalizat se numeste:</text>
+            <answers>
+                <answer>deadlock</answer>
+                <answer correct='true'>deadline</answer>
+                <answer>livelock</answer>
+                <answer>timp de raspuns</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 12</topic>
+            <text>Unde salveaza dispacerul adresele de stiva ale task-ui care iese din rulare?</text>
+            <answers>
+                <answer>pe stiva</answer>
+                <answer>adresele de stiva nu trebuie salvate</answer>
+                <answer correct='true'>in contextul logic al task-ului</answer>
+                <answer>in contextul fizic al task-ului</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 12</topic>
+            <text>Considerand task-ul 1 care iese de la procesor si task-ul 2 care intra la procesor, cine ruleaza in procesul de comutare?</text>
+            <answers>
+                <answer>task 1</answer>
+                <answer>task 2</answer>
+                <answer correct='true'>dispecerul</answer>
+                <answer>procesorul</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 12</topic>
+            <text>Considerand dispecerizarea prin rotatie si lista de task-uri `2, 3, 4, 9`, in care 2 e primul, care task detine procesorul?</text>
+            <answers>
+                <answer>2</answer>
+                <answer>3</answer>
+                <answer>4</answer>
+                <answer correct='true'>9</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 12</topic>
+            <text>Operatia TAS e specifica</text>
+            <answers>
+                <answer correct='true'>fanioanelor</answer>
+                <answer>semafoarelor</answer>
+                <answer>blocurilor resursa</answer>
+                <answer>excluderii mutuale</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 12</topic>
+            <text>Care din afirmatiile de mai jos nu e o functie a sistemului de operare?</text>
+            <answers>
+                <answer>managementul memoriei</answer>
+                <answer>managementul fisierelor</answer>
+                <answer>evidenta sarcinilor aflate in rulare</answer>
+                <answer correct='true'>depanarea task-urilor dezvoltate de utilizator</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 12</topic>
+            <text>Care din urmatoarele afirmatii este adevarata in ceea ce priveste procesele in programarea concurenta?</text>
+            <answers>
+                <answer>se executa prin instanta de judecata</answer>
+                <answer>nu coopereaza in nici-o situatie</answer>
+                <answer correct='true'>se executa in paralel</answer>
+                <answer>partajeaza fara sincronizare orice resurse</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 12</topic>
+            <text>Cand rularea unui task e oprita pentru a fi rulat un alt task cu status urgent, dispecerizarea este:</text>
+            <answers>
+                <answer>corecta</answer>
+                <answer>sincronizata</answer>
+                <answer correct='true'>preemptiva</answer>
+                <answer>non-preemptiva</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Curs 12</topic>
+            <text>Portiunea de program in care se acceseaza o resursa partajata mutual exclusiv se numeste sectiune:</text>
+            <answers>
+                <answer>de partaj</answer>
+                <answer correct='true'>critica</answer>
+                <answer>sincrona</answer>
+                <answer>reentranta</answer>
             </answers>
         </question>
     </questions>
