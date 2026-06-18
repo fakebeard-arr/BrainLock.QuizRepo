@@ -358,11 +358,11 @@
             <topic>p2-r2</topic>
             <text>Daca in lista de asteptare la procesor sunt task-urile `4, 5, 6` de prioritate 2 si `1, 2` de prioritate 1 si considerand dispecerizarea prin prioritizare, ce task detine procesorul?</text>
             <answers>
-                <answer>enuntul e gresit</answer>
+                <answer correct='true'>enuntul e gresit</answer>
                 <answer>4</answer>
                 <answer>5</answer>
                 <answer>6</answer>
-                <answer correct='true'>nici un raspuns nu e corect</answer>
+                <answer>nici un raspuns nu e corect</answer>
             </answers>
         </question>
         <question>
@@ -378,7 +378,7 @@
         </question>
         <question>
             <topic>p2-r2</topic>
-            <text>In lista de asteptare la procesor sunt task-urile `1` de prioritate 2, `3` de prioritate 0 si `5` de prioritate 1. Considerand ca task-ul care detine procesorul se finalizeaza un initatea curent de procesor, care task va rula dupa umatoarea comutare?</text>
+            <text>In lista de asteptare la procesor sunt task-urile `1` de prioritate 2, `3` de prioritate 0 si `5` de prioritate 1. Considerand ca task-ul care detine procesorul se finalizeaza in unitatea curent de procesor, care task va rula dupa umatoarea comutare?</text>
             <answers>
                 <answer>1</answer>
                 <answer>2</answer>
