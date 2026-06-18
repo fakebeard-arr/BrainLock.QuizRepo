@@ -1,0 +1,511 @@
+<root>
+    <version>1</version>
+    <title>Programare in Timp Real - Mosteniri</title>
+    <questions>
+        <question>
+            <topic>p1-r2</topic>
+            <text>Procesarea in paralel sau cvasiparalel a mai multor task-uri cu statut de proces se numeste:</text>
+            <answers>
+                <answer>multithreading</answer>
+                <answer>multitasking cooperativ</answer>
+                <answer correct='true'>multitasking non-cooperativ</answer>
+                <answer>procesare distribuita</answer>
+                <answer>procesare secventiala</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>Ioana si Alex, tineri casatoriti, au nevoie sa ajunga, in acelasi timp, in doua directii diferite, dar au o singura masina. Care dintre afirmatiile urmatoare este adevarata privind programarea concurenta?</text>
+            <answers>
+                <answer>Alex va chema un taxi</answer>
+                <answer correct='true'>masina este o resursa critica</answer>
+                <answer>au nevoie de o metoda de comunicare</answer>
+                <answer>cei doi sunt task-uri sincronizate</answer>
+                <answer>este nevoie de o lista de asteptare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>Care din urmatoarele optiuni nu pot fi o stare a unui task in cadrul unui SO:</text>
+            <answers>
+                <answer>necreat</answer>
+                <answer>creat</answer>
+                <answer>gata</answer>
+                <answer>blocat</answer>
+                <answer correct='true'>codat</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>Oprirea executiti unui task de nivel scazut la aparitia unui task de nivel ridicat se numeste:</text>
+            <answers>
+                <answer>suspendare</answer>
+                <answer>blocare</answer>
+                <answer>celeritate</answer>
+                <answer correct='true'>preemptivitate</answer>
+                <answer>non-preemptivitate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>Dispecerul este:</text>
+            <answers>
+                <answer correct='true'>o rutina de tratare a unei intreruperi</answer>
+                <answer>o functie cu rol specific</answer>
+                <answer>o intrerupere</answer>
+                <answer>un mecanism hardware</answer>
+                <answer>un sistem de operare in timp real</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>Care task este trimis sa ruleze in pasul urmator in cazul dispecerizarii prin prioritate si rotatie?</text>
+            <answers>
+                <answer>primul task din prima lista</answer>
+                <answer>task-ul de pe ultima pozitie din lista de asteptare</answer>
+                <answer>task-ul curent</answer>
+                <answer>primul task din lista de task-uri blocate</answer>
+                <answer correct='true'>primul task din lista de prioritate maxima</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>Care dintre urmatoarele metode de dispecerizare este folosita in Windows?</text>
+            <answers>
+                <answer>metode ale instantierilor</answer>
+                <answer>proceduri</answer>
+                <answer correct='true'>multilevel feedback queue</answer>
+                <answer>Complete Fair Scheduler</answer>
+                <answer>O(n) Scheduler</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>Task-ul `t1` scrie un numar intreg in variabila `x` si task-ul `t2` il preia si il utilizeaza. Presupunand ca nu se foloseste nici o metoda de partajare, ce problema poate sa apara?</text>
+            <answers>
+                <answer>task-ul `t1` se blocheaza</answer>
+                <answer>task-ul `t2` se blocheaza</answer>
+                <answer correct='true'>task-ul `t2` nu are ce citi</answer>
+                <answer>la procesor ruleaza task-ul `t3`</answer>
+                <answer>nu poate sa apara nici o problema</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>Mecanismul producator-consumator implica:</text>
+            <answers>
+                <answer>proces de dispecerizare</answer>
+                <answer correct='true'>partajarea unui tampon de date</answer>
+                <answer>o lista de asteptare la procesor</answer>
+                <answer>partajarea unei resurse intre 3 task-uri</answer>
+                <answer>atentie si grija</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>In cazul sincronizarii multieveniment, atunci cand conditia de sincronizare presupune atingerea la un moment dat a cel putin uneia din valorile `1, 0, 1` de catre evenimentele `2, 3, 6`, functia logica pentru determinarea configuratiei de referinta este:</text>
+            <answers>
+                <answer>SI</answer>
+                <answer correct='true'>SAU</answer>
+                <answer>SAU EXCLUSIV</answer>
+                <answer>SI EXCLUSIV</answer>
+                <answer>XOR</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>Comunicarea prin conducte implica:</text>
+            <answers>
+                <answer correct='true'>un tampon circular gestionat dupa principiul FIFO</answer>
+                <answer>un tampon unidirectionat gestionat dupa principiul FIFO</answer>
+                <answer>mai mult de 2 task-uri in comunicare</answer>
+                <answer>un anumit tip de date transmise</answer>
+                <answer>un semafor</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>Cand doua sau mai multe task-uri asteapta dupa o resursa partajata care trebuie eliberata de unul din ele, situatia se numeste:</text>
+            <answers>
+                <answer>starvation</answer>
+                <answer>data race</answer>
+                <answer>deadline</answer>
+                <answer correct='true'>deadlock</answer>
+                <answer>livelock</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>Rularea aplicatiilor concurente este:</text>
+            <answers>
+                <answer>problematica</answer>
+                <answer>deficitara</answer>
+                <answer>prioritara fata de alte aplicatii</answer>
+                <answer>determinista</answer>
+                <answer correct='true'>nedeterminista</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>Cea mai mica secventa de instructiuni care poate fi dispecerizata independent, se executa concurent si partajeaza resurse se numeste:</text>
+            <answers>
+                <answer>proces</answer>
+                <answer correct='true'>fir de executie</answer>
+                <answer>aplicatie</answer>
+                <answer>functie</answer>
+                <answer>bloc</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>Atunci cand mai multe entitati de program pot fi executate in acelasi timp, furnizand parti ale rezultatului la final, programarea se numeste:</text>
+            <answers>
+                <answer>structurata</answer>
+                <answer>secventiala</answer>
+                <answer correct='true'>nesecventiala</answer>
+                <answer>orientata pe obiecte</answer>
+                <answer>procedurala</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>Daca in lista de asteptare la procesor sunt (de la primul la ultimul) task-urile `2, 3, 4, 5, 6` si considerand dispecerizarea prin rotatie, care task detine procesorul?</text>
+            <answers>
+                <answer>2</answer>
+                <answer>3</answer>
+                <answer>4</answer>
+                <answer>5</answer>
+                <answer correct='true'>6</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>Procesul prin care SO decide ce proces primeste procesorul, cand si pentru cat timp, se numeste:</text>
+            <answers>
+                <answer>rulare</answer>
+                <answer>sincronizare</answer>
+                <answer>partajare de resurse</answer>
+                <answer correct='true'>dispecerizare</answer>
+                <answer>excludere mutuala</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>Perioada de timp de la activarea unui task si pana cand el trebuie finalizat se numeste:</text>
+            <answers>
+                <answer>procesare</answer>
+                <answer>timp de raspuns</answer>
+                <answer correct='true'>deadline</answer>
+                <answer>deadlock</answer>
+                <answer>suspendare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>Care din urmatoarele exemple este un tip de sistem de operare in timp real?</text>
+            <answers>
+                <answer correct='true'>hard</answer>
+                <answer>distribuit</answer>
+                <answer>paralel</answer>
+                <answer>procesat</answer>
+                <answer>toate optiunile anterioare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>Care din urmatoarele optiuni nu intra in componenta contextului de rulare a unui task?</text>
+            <answers>
+                <answer>adresa instructiunii</answer>
+                <answer>cuvantul de stare</answer>
+                <answer>continutul registrelor procesorului</answer>
+                <answer>starea task-ului</answer>
+                <answer correct='true'>frecventa de procesare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>In cadrul procesului de comutare, registrele de stiva se salveaza:</text>
+            <answers>
+                <answer>prin operatiile de procesor executate la acceptarea unei cereri de intreruperi</answer>
+                <answer>in contextul fizic</answer>
+                <answer correct='true'>in contextul logic al task-ului</answer>
+                <answer>pe stiva</answer>
+                <answer>in locatii specifice din procesor</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>Care din urmatoarele metode de sincronizare asigura memorarea evenimentelor?</text>
+            <answers>
+                <answer>blocuri resursa</answer>
+                <answer correct='true'>semafoare</answer>
+                <answer>blocuri eveniment</answer>
+                <answer>blocuri multieveniment</answer>
+                <answer>toate optiunile anterioare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>La dispecerizarea prin rotatie, indexul tabloului inseamna:</text>
+            <answers>
+                <answer correct='true'>un ID de task din lista</answer>
+                <answer>ID-ul task-ului urmator din lista</answer>
+                <answer>prioritatea task-ului</answer>
+                <answer>ordinea in lista de asteptare</answer>
+                <answer>timpul de procesare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>Care din urmatoarele optiuni este un algoritm de dispecerizare non-preemptiv?</text>
+            <answers>
+                <answer correct='true'>FCFS - First Come First Served</answer>
+                <answer>LCFS - Last Come First Served</answer>
+                <answer>Round-Robin</answer>
+                <answer>Multi-Level Queues</answer>
+                <answer>Complete Fair</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>Care din urmatoarele optiuni nu este o resursa materiala?</text>
+            <answers>
+                <answer>procesorul</answer>
+                <answer correct='true'>o subrutina</answer>
+                <answer>memoria interna</answer>
+                <answer>memoria externa</answer>
+                <answer>un senzor</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>Cum se transmit argumentele la apelul unei functii in C?</text>
+            <answers>
+                <answer>in mod direct</answer>
+                <answer>prin adrese</answer>
+                <answer>prin salvarea in zona de date</answer>
+                <answer correct='true'>prin salvarea pe stiva</answer>
+                <answer>prin variabile</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p1-r2</topic>
+            <text>Care din urmatoarele optiuni poate fi folosita pentru excludere mutuala?</text>
+            <answers>
+                <answer>dezactivarea intreruperilor</answer>
+                <answer>fanioane de excluziune pasiva</answer>
+                <answer>fanioane de excluziune activa</answer>
+                <answer>semafoare</answer>
+                <answer correct='true'>toate optiunile anterioare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p2-r2</topic>
+            <text>Sistemele medicale din ATI sunt sisteme de operare de tip:</text>
+            <answers>
+                <answer correct='true'>hard</answer>
+                <answer>firm</answer>
+                <answer>soft</answer>
+                <answer>procesare</answer>
+                <answer>toate optiunile anterioare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p2-r2</topic>
+            <text>Daca in lista de asteptare la procesor sunt task-urile `4, 5, 6` (in aceasta ordine) si considerand dispecerizarea prin rotatie, ce presupune urmatoarea comutare?</text>
+            <answers>
+                <answer>punerea in rularea a task-ului 4</answer>
+                <answer>salvarea contextului task-ului curent</answer>
+                <answer>selectarea task-ului care are dreptul sa ruleze</answer>
+                <answer>restaurarea contextului task-ului</answer>
+                <answer correct='true'>toate optiunile anterioare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p2-r2</topic>
+            <text>Cum se calculeaza timpul de asteptare a unui task?</text>
+            <answers>
+                <answer>deadline - timpul de sosire</answer>
+                <answer correct='true'>timpul de deservire - timpul de sosire</answer>
+                <answer>timpul de deservire - deadline</answer>
+                <answer>timpul de deservire - timpul de executie</answer>
+                <answer>deadline - timpul de executie</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p2-r2</topic>
+            <text>La dispecerizarea prin prioritizare si rotatie, unde se gaseste ultimul task dintr-o anumita lista circulara?</text>
+            <answers>
+                <answer>pe ultima pozitie a tabloului de prioritati</answer>
+                <answer correct='true'>in tabelul de prioritati la index-ul indicat de prioritate</answer>
+                <answer>pe ultima pozitie in tabloul task-urilor</answer>
+                <answer>in tabelul de task-uri la indexul indicat de prioritate</answer>
+                <answer>in rulare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p2-r2</topic>
+            <text>O piscina are capacitatea de 50 de persoane, dar in jurul ei se afla 100 de persoane. Care optiune dintre urmatoarele este adevarata?</text>
+            <answers>
+                <answer>reentranta piscinei este 100</answer>
+                <answer>piscina este o resursa critica</answer>
+                <answer correct='true'>piscina este o resursa reentranta</answer>
+                <answer>piscina va fi partajata mutual exclusiv</answer>
+                <answer>toate optiunile sunt adevarate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p2-r2</topic>
+            <text>Daca in lista de asteptare la procesor sunt task-urile `4, 5, 6` de prioritate 2 si `1, 2` de prioritate 1 si considerand dispecerizarea prin prioritizare, ce task detine procesorul?</text>
+            <answers>
+                <answer>enuntul e gresit</answer>
+                <answer>4</answer>
+                <answer>5</answer>
+                <answer>6</answer>
+                <answer correct='true'>nici un raspuns nu e corect</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p2-r2</topic>
+            <text>Daca task-ul `t0` apare in sistem la momentul 0 si are un timp de executie de 4 unitati de procesor, iar apoi apar `t1` la momentul 1 cu timp de executie 2 unitati si `t2` la momentul 2 cu 3 unitati, care este timpul de deservire al lui `t2` folosind algoritmul de dispecerizare FCFS?</text>
+            <answers>
+                <answer>2</answer>
+                <answer>3</answer>
+                <answer>4</answer>
+                <answer correct='true'>6</answer>
+                <answer>9</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p2-r2</topic>
+            <text>In lista de asteptare la procesor sunt task-urile `1` de prioritate 2, `3` de prioritate 0 si `5` de prioritate 1. Considerand ca task-ul care detine procesorul se finalizeaza un initatea curent de procesor, care task va rula dupa umatoarea comutare?</text>
+            <answers>
+                <answer>1</answer>
+                <answer>2</answer>
+                <answer correct='true'>3</answer>
+                <answer>5</answer>
+                <answer>0</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p2-r2</topic>
+            <text>Task-ul `t1` scrie un numar intreg in variabila `x` si task-ul `t2` il preia si il utilizeaza. Care dintre urmatoarele optiuni nu poate fi folosita pentru excludere mutuala?</text>
+            <answers>
+                <answer>dezactivarea intreruperilor</answer>
+                <answer>fanioane de excluziunie pasive</answer>
+                <answer>fanioane de excluziunie active</answer>
+                <answer>semafoare</answer>
+                <answer correct='true'>blocuri eveniment</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p2-r2</topic>
+            <text>Task-ul `t1` incrementeaza variabila `x = 1` (valoarea initiala) si task-ul `t2` decrementeaza `x`. Presupunand ca nu se foloseste nici o metoda de partajare, dupa finalizarea unei sesiuni de lucru asupra variabilei de catre cele doua task-uri, care poate fi continutul lui `x`?</text>
+            <answers>
+                <answer>0</answer>
+                <answer>1</answer>
+                <answer>2</answer>
+                <answer correct='true'>oricare din valorile anterioare</answer>
+                <answer>niciuna din valorile anterioare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p2-r2</topic>
+            <text>Mecanismul producator-consumator implica:</text>
+            <answers>
+                <answer>proces de dispecerizare</answer>
+                <answer>partajarea reentranta a tamponului</answer>
+                <answer>o lista de asteptare la procesor</answer>
+                <answer correct='true'>2 task-uri care ruleaza concurent</answer>
+                <answer>confirmarea transmiterii</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p2-r2</topic>
+            <text>In cazul sincronizarii multieveniment, atunci cand conditia de sincronizare presupune atingerea in acelasi timp a valorilor `1, 0, 1, 1, 0) de catre evenimentele `0, 2, 3, 6, 7`, care combinatie reprezinta valorile active?</text>
+            <answers>
+                <answer correct='true'>`01**10*1`</answer>
+                <answer>`10**11*0`</answer>
+                <answer>`11001101`</answer>
+                <answer>`11001110`</answer>
+                <answer>`0110110`</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p2-r2</topic>
+            <text>Daca o aplicatie concurenta este compusa din 7 task-uri, atunci cu certitudine, ele vor rula intotdeauna in aceeasi ordine. Este adevarat?</text>
+            <answers>
+                <answer correct='true'>nu</answer>
+                <answer>da</answer>
+                <answer>doar daca task-urile partajeaza resurse</answer>
+                <answer>doar daca sunt dispecerizate mutual exclusiv</answer>
+                <answer>da, pentru aplicatiile concurente deterministice</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p2-r2</topic>
+            <text>Ce reprezinta index-ul in cazul tabloului de contexte logice?</text>
+            <answers>
+                <answer correct='true'>un ID de task din lista</answer>
+                <answer>prioritatea cea mai puternice</answer>
+                <answer>prioritatea task-ului cu acel context</answer>
+                <answer>ID-ul task-ului cu acel context</answer>
+                <answer>nimic special, e doar index</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p2-r2</topic>
+            <text>Cand un task de prioritate scazuta ocupa o resursa partajata printr-un fanion activ si e scos din rulare de un task de o prioritate ridicata care doreste acea resursa, situatia creata se numeste:</text>
+            <answers>
+                <answer>deadlock</answer>
+                <answer>livelock</answer>
+                <answer correct='true'>inversarea prioritatii</answer>
+                <answer>starvation</answer>
+                <answer>interblocare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p2-r2</topic>
+            <text>O aplicatie care ruleaza local citeste un sir de numere de la tastatura si determina maximul si minimul dintre ele. Ce fel de proces este acesta?</text>
+            <answers>
+                <answer>multithreading</answer>
+                <answer>multitasking cooperativ</answer>
+                <answer>multitasking non-cooperativ</answer>
+                <answer>procesare distribuita</answer>
+                <answer correct='true'>procesare secventiala</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p2-r2</topic>
+            <text>Continuarea executiei unui task de nivel scazut la aparitia unui task de nivel ridicat se numeste:</text>
+            <answers>
+                <answer>suspendare</answer>
+                <answer>blocare</answer>
+                <answer>celeritate</answer>
+                <answer correct='true'>non-preemptivitate</answer>
+                <answer>preemptivitate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>p2-r2</topic>
+            <text>Cum mai este denumit timpul de comutare a task-urilor?</text>
+            <answers>
+                <answer correct='true'>timp mort</answer>
+                <answer>timp de deservire</answer>
+                <answer>timp de asteptare</answer>
+                <answer>timp util</answer>
+                <answer>timp de rulare</answer>
+            </answers>
+        </question>
+        <question>
+            <text>Daca in lista de asteptare la procesor sunt task-urile `2, 4, 5` de prioritate 1 si `6, 7` de prioritate 3, cum sunt dispecerizate aceste task-uri?</text>
+            <answers>
+                <answer>prin prioritizare</answer>
+                <answer correct='true'>prin prioritizare si rotatie</answer>
+                <answer>prin rotatie</answer>
+                <answer>prin round-robin</answer>
+                <answer>FCFS</answer>
+            </answers>
+        </question>
+    </questions>
+</root>
