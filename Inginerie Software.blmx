@@ -3,521 +3,28 @@
     <title>Inginerie Software</title>
     <questions>
         <question>
-            <topic>2021 online</topic>
-            <text>Prototipizarea este o paradigmă a ingineriei programării care se referă la:</text>
-            <answers>
-                <answer>construirea unui prototip al programului și modificarea acestuia</answer>
-                <answer correct='true'>dezvoltarea rapidă a unui model simplificat al programului, interacțiunea cu clientul și adăugarea ulterioară a funcțiilor omise</answer>
-                <answer>construirea aplicațiilor prin metoda top-down</answer>
-                <answer>proiectarea folosind descrieri-tip (prototipuri) ale modulelor de program disponibile</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Implementarea asociațiilor se poate realiza prin:</text>
-            <answers>
-                <answer>prin mesaje pentru asociațiile "1 la 1" și prin liste înlănțuite și iteratori pentru asociațiile "1 la mai mulți"</answer>
-                <answer correct='true'>pentru asociații "1 la 1" cu pointeri, referințe sau declarații inline de clase, iar asociațiile "1 la mai mulți" se implementează de multe ori cu pattern Container</answer>
-                <answer>includerea unor obiecte de tipul claselor asociate</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Dezvoltarea iterativă furnizează clientului o versiune de program care:</text>
-            <answers>
-                <answer correct='true'>conține de la început toate funcțiile și cu fiecare versiune nouă acestea sunt perfecționate și performanțele îmbunătățite</answer>
-                <answer>conține de la început un set restrâns de funcționalități și cu fiecare versiune nouă se adaugă altele noi</answer>
-                <answer>permite instruirea clientului și adăugare de funcții noi</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Când, în cadrul șablonului Observer, serverul primește un apel `subscribe`:</text>
-            <answers>
-                <answer>creează un obiect de tip `ConcreteObserver` care adaugă stocarea locală în atributele dorite</answer>
-                <answer correct='true'>creează un obiect `NotificationHandle` care include adresa obiectului</answer>
-                <answer>apelează periodic o metodă `Gimme()` de interogare directă a valorii urmărite</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Modelul de dezvoltare în spirală presupune:</text>
-            <answers>
-                <answer>o abordare euristică în cadrul căreia la fiecare etapă de dezvoltare, conceptul de dezvoltare abordat este validat prin metode euristice și soluția aleasă este în continuare dezvoltată în spirală</answer>
-                <answer correct='true'>o abordare iterativă în cadrul căreia, la fiecare iterație, prin analiza riscurilor se compară diferitele alternative din punct de vedere al cerințelor și constrângerilor, iar prototipizarea verifică fezabilitatea înainte ca o anumită alternativă să fie aleasă</answer>
-                <answer>o abordare iterativă în cadrul căreia la fiecare iterație, analiza riscurilor cântărește diferitele alternative din punct de vedere al validării prin testare, ceea ce permite analiza fezabilității înainte ca o anumită alternativă să fie aleasă</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Metoda de dezvoltare software Cleanroom este bazată pe:</text>
-            <answers>
-                <answer>metode orientate pe obiecte</answer>
-                <answer>metode euristice</answer>
-                <answer correct='true'>metode formale</answer>
-                <answer>metode stohastice</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>În UML conectarea modelului de obiecte cu modelul cazurilor de utilizare se realizează prin aceea că:</text>
-            <answers>
-                <answer correct='true'>fiecare caz de utilizare va fi realizat de un set de obiecte care lucrează împreună</answer>
-                <answer>fiecare model de obiecte este realizat de un set de cazuri de utilizare care trimit secvențe de mesaje</answer>
-                <answer>fiecare caz de utilizare corespunde câte unui obiect</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Șablonul Factory:</text>
-            <answers>
-                <answer>oferă o interfață unificată pentru un set de interfețe dintr-un subsistem</answer>
-                <answer correct='true'>definește o interfață pentru crearea unui obiect, dar lasă subclasele să decidă ce clasă trebuie instanțiată</answer>
-                <answer>oferă un surogat local al unui obiect</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Uzual, Service Oriented Architecture (SOA) se bazează pe:</text>
-            <answers>
-                <answer correct='true'>standarde de acces specifice Serviciilor WEB (SOAP, REST), interfețele sunt descrise cu WSDL și transportul e XML</answer>
-                <answer>standarde XML, interfețele descrise cu WSDI, transport SOAP</answer>
-                <answer>standarde SOAP/REST, descriere în XML, mediu .NET sau Java</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>
-                Pentru testarea aplicației descrise în problemă se utilizează ca și criteriu de oprire atingerea unui prag de încredere.
-                
-                Au fost plantate 26 erori, s-au detectat 15 (din care 10 plantate și 5 alte erori). Câte erori rămân nedezvăluite?
-            </text>
-            <answers>
-                <answer>12</answer>
-                <answer correct='true'>8</answer>
-                <answer>6</answer>
-            </answers>
-            <explanation>
-                Formula de calcul este:
-                ```
-                plantate_gasite / plantate_total = reale_gasite / reale_totalte
-                ```
-                
-                Si pentru a afla numatul de eroari reale ramase, se scade numarul de erori reale gasite.
-            </explanation>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Nivelurile cerințelor software sunt următoarele:</text>
-            <answers>
-                <answer correct='true'>de business, utilizator, funcționale</answer>
-                <answer>de business, de proiectare, de testare</answer>
-                <answer>de sistem, de program, de modul</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>În cadrul testelor de acceptanță:</text>
-            <answers>
-                <answer>sistemul este testat dacă funcțiile sunt implementate după instalarea softului</answer>
-                <answer correct='true'>sistemul este testat conform descrierii cerințelor clientului</answer>
-                <answer>aplicația este comparată cu lista cerințelor software și hardware</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Documentația software de proiectare este necesară, printre altele, pentru:</text>
-            <answers>
-                <answer>elaborarea unui prototip</answer>
-                <answer>prezentarea produsului</answer>
-                <answer>prezentarea produsului și relațiile cu clienții</answer>
-                <answer correct='true'>activitatea de asistență tehnică și refolosire software</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>În UML, o operație este:</text>
-            <answers>
-                <answer>specificarea unui mesaj</answer>
-                <answer>descrierea unei secvențe de apeluri de metode</answer>
-                <answer correct='true'>specificarea unui comportament</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Sistemele de conducere de proces prezintă anumite particularități, printre acestea numărându-se:</text>
-            <answers>
-                <answer>prezența interfețelor cu utilizatorul, puterea foarte mare de procesare, utilizarea memoriilor statice, includerea unui mecanism de watch-dog, toleranța la defectare, fiabilitatea foarte bună, sisteme de operare speciale (OSEK sau AUTOSAR), funcționarea în condiții grele de lucru</answer>
-                <answer>proiectarea folosind redundanță statică sau dinamică, utilizarea unor microcontrolere speciale, prezența interfețelor de proces și a interfețelor de vizualizare de semnal, funcționarea în condiții grele de lucru</answer>
-                <answer correct='true'>prezența interfețelor de proces, utilizarea memoriilor statice, includerea unui mecanism de watch-dog, eventual existența mai multor procesoare, modularitatea, toleranța la defectare, fiabilitatea foarte bună, sisteme de operare în timp real, câteodată lipsesc interfețele standard de vizualizare și funcționarea în condiții grele de lucru</answer>
-                <answer>comunicare daisy-chain, stea sau multipunct, existența unor interfețe speciale cu operatorul, sisteme de operare UNIX, Linux sau QNX, toleranța la defectare, fiabilitatea foarte bună, funcționarea în condiții grele de lucru</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Un proces de descărcare (charge-out) în cadrul unui sistem de gestiune a configurațiilor realizează:</text>
-            <answers>
-                <answer>copierea unui modul de program din depozitul de bază (baseline) în spațiul de lucru al programatorului și apoi ștergerea acestuia din depozit</answer>
-                <answer correct='true'>copierea unui modul din depozitul de bază în spațiul de lucru al programatorului și apoi blocarea accesului (lock) la acest modul astfel încât nimeni altcineva să nu mai poată realiza un alt proces de descărcare</answer>
-                <answer>crearea unei noi revizii în depozit și eliminarea blocării accesului astfel încât alți programatori să poată realiza mai departe revizii</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Tipurile de informații furnizate de clienți (în cadrul activității de analiză software) sunt:</text>
-            <answers>
-                <answer>cerințe de business, scenarii de business, restricții asupra echipamentelor disponibile, cerințe funcționale, structuri de date</answer>
-                <answer>specificații, sugestii de arhitectură software, structuri de date, funcții ale sistemului, interfața cu utilizatorul</answer>
-                <answer correct='true'>cerințe de business, scenarii de business, reguli de business, cerințe funcționale, atribute de calitate, constrângeri externe, structuri de date, sugestii pentru posibile soluții</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Sistemele de operare dedicate folosesc pentru comunicare între taskuri:</text>
-            <answers>
-                <answer>cutii poștale și semafoare</answer>
-                <answer correct='true'>mesaje și variabile comune</answer>
-                <answer>mesaje</answer>
-                <answer>zone tampon și conducte</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Inspecția codului:</text>
-            <answers>
-                <answer correct='true'>se folosește la testele de modul și presupune pregătirea acțiunii prin desemnarea unei echipe, prezentarea prealabilă a codului, studiul acesteia, formularea unei liste de obiective și organizarea unei ședințe de analiză; se verifică inclusiv corectitudinea algoritmilor, performanțele, interfețele etc</answer>
-                <answer>e folosește la testele de modul și presupune analiza de colegii din echipa de testare, cărora li se explică cele realizate (folosind inclusiv documentația) și care prin efortul de a înțelege cele parcurse pot ajuta la descoperirea unor greșeli; discuția este condusă de proiectanți și accentul este pe cod</answer>
-                <answer>este o metodă de testare utilizată la testele de acceptanță și presupune inspecția codului de către client, realizată prin comparare cu specificațiile</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Un sistem Delta de stocare de versiuni:</text>
-            <answers>
-                <answer>reprezintă toate versiunile prin utilizarea unei singure copii a codului sursă și diferențele dintre versiuni sunt marcate prin compilare condiționată; codul sursă relevant pentru anumite versiuni este generat de macrcomenzi astfel încât compilatorul poate reconstitui diversele versiuni</answer>
-                <answer correct='true'>memorează o singură versiune completă și le reprezintă pe celelalte prin reținerea diferențelor de la una la alta</answer>
-                <answer>cuprinde convențiile de nume care sunt folosite pentru a discerne între situațiile în care fișiere diferite reprezintă versiuni diferite ale aceluiași modul</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Șablonul Smart Pointer permite utilizarea în siguranță a mecanismului de tip pointer, prin:</text>
-            <answers>
-                <answer>testarea validității pointerilor prin contorizarea numărului de instanțieri și testarea valorii de `NULL`; utilizarea destructorilor pentru eliberarea memoriei; detectarea condiției că obiectul nu mai există și refuzarea accesului prin intermediul pointerului</answer>
-                <answer>folosirea operatorilor `new` și `delete` definiți de utilizator pentru a evita accesarea unor zone de memorie nefolosite sau a unora deja eliberate</answer>
-                <answer correct='true'>utilizarea constructorilor astfel încât pointerii să fie inițializați cu `NULL` sau să indice spre obiecte valide; utilizarea destructorilor care determină dacă memoria eliberată nu mai e necesară; detectarea condiției că obiectul nu mai există și refuzarea accesului prin intermediul pointerului</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Pentru identificarea cazurilor de utilizare, analistul stă de vorbă cu clientul și îi adresează întrebări cheie precum</text>
-            <answers>
-                <answer>
-                    Care sunt actorii?
-                    Care sunt mesajelor pe care le trimit și recepționează?
-                    Care sunt grupele care alcătuiesc cazuri de utilizare?
-                </answer>
-                <answer>
-                    Care este rolul actorilor și al sistemului în fiecare scenariu?
-                    Care sunt interacțiunile (fluxurile)?
-                    Care sunt secvențele de evenimente și date?
-                    ... și posibilele variațiuni.
-                </answer>
-                <answer correct='true'>
-                    Care sunt funcțiile primare ale sistemului?
-                    Care sunt funcțiile secundare ale sistemului?
-                    De ce a fost construit sistemul?
-                    Ce înlocuiește și de ce?
-                </answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Soluția pentru șablonul Real-Time Observer constă în aceea că:</text>
-            <answers>
-                <answer correct='true'>un singur obiect (Server) furnizează automat date pentru clienții săi (Observers) care în prealabil s-au înregistrat la Server cu `Subscribe()`; acestea sunt clase abstracte care au clase derivate (Concrete Server și Concrete Observer) care adaugă comportamentul specializat pentru situația concretă de funcționare</answer>
-                <answer>un singur obiect (Server) decuplează clienții săi (Observers) care în prealabil s-au înregistrat la Server cu `Subscribe()` de la accesul la un alt fir de execuție sau proces prin crearea unui surogat al obiectului din acel fir de execuție sau proces; dacă clienții au nevoie de un serviciu de la obiectul acela, ei cer asta de la Server; Server și Observer sunt clase abstracte care au clase derivate (Concrete Server și Concrete Observer) care adaugă comportamentul specializat pentru situația concretă de funcționare.</answer>
-                <answer>obiectul Server furnizează la cerere asincronă sau episodică date pentru clienții săi (Observers) care în prealabil s-au înregistrat la Server cu `Attach()`; acestea sunt clase abstracte care au clase derivate (Concrete Server și Concrete Observer) care adaugă comportamentul specializat pentru situația concretă de funcționare.</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Middleware este:</text>
-            <answers>
-                <answer>un software care este conceput pentru a rula într-un nivel ierarhic de mijloc (three-tier) între utilizatori și bazele de date pentru a permite astfel rularea proceselor multiple pe una sau mai multe echipamente/mașini</answer>
-                <answer correct='true'>un software de conectivitate care constă dintr-un set de servicii care permit rularea proceselor multiple pe una sau mai multe echipamente/mașini în vederea interacțiunii de-a lungul unei rețele</answer>
-                <answer>un software de conectivitate care constă dintr-un set de servicii de tip proxy care permit rularea interfețelor utilizator pe una sau mai multe echipamente/mașini în vederea interacțiunii de-a lungul unei rețele</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>O stare este:</text>
-            <answers>
-                <answer>o descriere complet constructivă de descompunere a comportamentului complex în bucăți mai mici, fiecare fiind valabilă în anumite condiții specifice</answer>
-                <answer correct='true'>o condiție de existență a unui clasificator (clasă sau caz de utilizare) care persistă o perioadă semnificativă de timp și poate fi cumva distinsă față de alte condiții similare de existență</answer>
-                <answer>o descriere a comportamentului unui obiect în timpul intrării, ieșirii sau persistenței</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Principiile ingineriei programării se referă la:</text>
-            <answers>
-                <answer>modele folosite în procesul de proiectare</answer>
-                <answer>destinația activității de programare</answer>
-                <answer correct='true'>modalitățile de atingere a obiectivelor ingineriei programării</answer>
-                <answer>scopurile programării</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Într-un sistem de conducere de proces interacționează următoarele componente:</text>
-            <answers>
-                <answer>interfețe, sisteme de reglare, sisteme de calcul, software</answer>
-                <answer>programe, calculatoare, interfețe de proces, manuale de utilizare</answer>
-                <answer correct='true'>echipamente, software, proceduri de operare, operator uman</answer>
-                <answer>software, hardware</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Agregarea este:</text>
-            <answers>
-                <answer correct='true'>un tip special de asociere care implică proprietatea logică sau fizică</answer>
-                <answer>o relație de tip clasă părinte/clasă descendent</answer>
-                <answer>o formă tare de compoziție în care părțile sunt în întregime în responsabilitatea clasei compozite</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Un șablon (pattern):</text>
-            <answers>
-                <answer>abstractizează și identifică aspectele cheie ale unei structuri comune de proiectare în care o singură sursă de informație acționează ca un server pentru mai mulți clienți</answer>
-                <answer>abstractizează și identifică aspectele cheie ale unei structuri comune de proiectare prin utilizarea claselor abstracte și a moștenirii și funcțiilor virtuale</answer>
-                <answer correct='true'>abstractizează și identifică aspectele cheie ale unei structuri comune de proiectare pe care o face utilă pentru crearea unui design OO, reutilizabil</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Obiectivele ingineriei programării sunt:</text>
-            <answers>
-                <answer>modularitatea, abstractizarea, ascunderea, eficiența, fiabilitatea, perceptibilitatea, confirmabilitatea</answer>
-                <answer correct='true'>adaptabilitatea, eficiența, fiabilitatea, perceptibilitatea</answer>
-                <answer>adaptabilitatea, eficiența, modularitatea, confirmabilitatea, eficiența</answer>
-                <answer>modularitatea, confirmabilitatea, adaptabilitatea, eficiența</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
+            <topic>A</topic>
             <text>Modularitatea înseamnă:</text>
             <answers>
-                <answer>stabilirea unor ierarhii în program</answer>
-                <answer>delimitarea unor secvențe de program</answer>
-                <answer>stabilirea riguroasă a intrărilor și ieșirilor</answer>
                 <answer correct='true'>delimitarea unor secvențe de program, cu intrări și ieșiri bine precizate, între care se stabilesc relații ierarhice sau de colaborare</answer>
+                <answer>delimitarea unor secvențe de program</answer>
+                <answer>stabilirea unor ierarhii în program</answer>
+                <answer>stabilirea riguroasă a intrărilor și ieșirilor</answer>
             </answers>
         </question>
         <question>
-            <topic>2021 online</topic>
+            <topic>A</topic>
             <text>Noțiunea de timp real implică:</text>
             <answers>
-                <answer correct='true'>proprietatea sistemului de a reacționa la schimbări în proces, într-un timp mai mic decât o limită prestabilită</answer>
                 <answer>proprietatea de a reacționa în condiții reale a sistemului</answer>
-                <answer>timp minim de reacție</answer>
                 <answer>reacția sistemului în condiții precizate</answer>
+                <answer>timp minim de reacție</answer>
+                <answer correct='true'>proprietatea sistemului de a reacționa la schimbări în proces, într-un timp mai mic decât o limită prestabilită</answer>
             </answers>
         </question>
         <question>
-            <topic>2021 online</topic>
-            <text>Redundanța dinamică se realizeaza prin:</text>
-            <answers>
-                <answer>efectuarea unor teste de acceptanță și rularea unei versiuni alternative</answer>
-                <answer>testarea stării taskurilor</answer>
-                <answer correct='true'>efectuarea unor teste de acceptanță și eventuala rulare a unei versiuni alternative</answer>
-                <answer>dublarea unei funcții</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Ce sunt regulile euristice de proiectare?</text>
-            <answers>
-                <answer>metodologii de proiectare ale organizațiilor software</answer>
-                <answer>reguli rezultate din aplicarea teoriilor euristice</answer>
-                <answer>metode sistematice de proiectare</answer>
-                <answer correct='true'>reguli rezultate din experiența practică</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Analiza orientată pe obiecte (OOA – Object Oriented Analysis) este:</text>
-            <answers>
-                <answer>analiza problemei plecând de la cerințele externe, prin discuții cu clientul, urmând să se obțină astfel diagrame de clase și diagrame de cazuri de utilizare</answer>
-                <answer correct='true'>crearea unui model OO plecând de la cerințele externe (un model al domeniului problemei)</answer>
-                <answer>crearea unui set de specificații OO plecând de la cerințele externe (un model al domeniului soluției problemei)</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>În depanarea aplicațiilor în cadrul întreținerii, este bine dacă:</text>
-            <answers>
-                <answer>introducem în meniul aplicației o comandă numită "Lista erorilor înregistrate"</answer>
-                <answer correct='true'>avem un log al utilizatorilor, al activităților, al erorilor, al utilizatorilor care au modificat înregistrări în baza de date</answer>
-                <answer>avem acces la un simulator de proces</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Câte module de program pot fi subordonate unui modul, conform regulilor euristice de proiectare?</text>
-            <answers>
-                <answer>mai mult de 4</answer>
-                <answer>între 3 și 6</answer>
-                <answer correct='true'>de obicei între 3-4 și 7, iar dacă fan-out este mai mare de 9 sau mai mic de 3-4, este necesară reproiectarea</answer>
-                <answer>maxim 5 și minim 2</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Problema dublei întrețineri rezultă dacă:</text>
-            <answers>
-                <answer>mai mulți proiectanți au drepturi pentru acces și modificare simultană a acelorasi date (eventual cod sursă)</answer>
-                <answer correct='true'>se mențin copii multiple ale aceluiași cod sursă</answer>
-                <answer>doi proiectanți actualizează simultan același cod sursă și astfel este posibil să se suprascrie unele modificări în copia distribuită</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Ingineria programării se ocupă cu:</text>
-            <answers>
-                <answer>folosirea unor instrumente software adecvate, astfel încât să crească productivitatea activității de programare</answer>
-                <answer>aplicarea unor principii de programare structurată, astfel încât să crească fiabilitatea produselor-program</answer>
-                <answer correct='true'>utilizarea într-o manieră disciplinată, sistematică și cu pricepere a unor metode și instrumente asociate, adecvate, având în vedere anumite obiective și principii de bază</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Șablonul Container este o bună soluție pentru cazul:</text>
-            <answers>
-                <answer correct='true'>când un obiect are asociere "1-la-mai" mulți și dorim să îmbunătățim reuzabilitatea și atunci acea clasă de la capătul "1" va gestiona un set de obiecte stocate într-un container</answer>
-                <answer>când devine mai ușoară adăugarea unui nou container – un vector extensibil – prin crearea unei interfețe care asigură clienților serviciile cerute de aceștia dar folosesc operațiile primitive ale containerelor existente</answer>
-                <answer>când un obiect are nevoie de o implementare comună potrivită pentru o varietate de utilizări</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Un șablon Façade oferă:</text>
-            <answers>
-                <answer>un acces unificat la o colecție de obiecte, prin intermediul pointerilor</answer>
-                <answer correct='true'>o interfață unificată pentru un set de interfețe dintr-un subsistem</answer>
-                <answer>o modalitate de a vizualiza unitar orice obiecte dintr-o colecție</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Documentul de proiectare arhitecturală trebuie să:</text>
-            <answers>
-                <answer correct='true'>specifice rolul fiecărei componente, cerințele care i-au fost alocate, interfața de comunicare cu celelalte componente ale sistemului</answer>
-                <answer>descrie rolul fiecărei componente, cerințele de memorie și timp de calcul alocate, interfața de comunicare</answer>
-                <answer>descrie rolul fiecărui programator și al fiecărei componente</answer>
-                <answer>specifice rolul fiecărei funcții și interfața cu utilizatorul</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Obiectivul partenerilor furnizori care au definit AUTOSAR este de:</text>
-            <answers>
-                <answer>a crea și stabili un sistem de operare (OSEK-VDK) pentru software auto</answer>
-                <answer>a dezvolta un mediu de dezvoltare și testare pentru aplicații orientate pe obiecte</answer>
-                <answer correct='true'>a crea și stabili standarde deschise pentru arhitecturi software auto</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Asocierile sunt:</text>
-            <answers>
-                <answer>codificate prin existența unei clase asociative</answer>
-                <answer>relații de colaborare definite prin existența unui server</answer>
-                <answer correct='true'>relații care se manifestă la rulare pentru schimb de mesaje între obiecte</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Proiectarea structurată se realizează prin:</text>
-            <answers>
-                <answer correct='true'>folosirea proiectării top-down și a unor structuri standard: procesare secvențială, decizie, reunire</answer>
-                <answer>proiectarea îngrijită a programelor</answer>
-                <answer>folosirea unor structuri standard: procesare secvențială, decizie, reunire</answer>
-                <answer>proiectarea top-down și modularizare structurală</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Șablonul Observer rezolvă problema:</text>
-            <answers>
-                <answer correct='true'>în care o singură sursă de informație acționează ca server pentru mai mulți clienți</answer>
-                <answer>în care un obiect afișează periodic schimbări citite de la un senzor</answer>
-                <answer>în care un server furnizează la cerere date dintr-un proces</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Caracteristica esențială a modelului în V de dezvoltare software este:</text>
-            <answers>
-                <answer>testele de acceptanță validează cerințele prin asocierea testelor cu specificatiile, prin conlucrarea dintre client si dezvoltator; aripa stanga poate fi reexecutata pentru a imbunatatii cerintele, proiectarea sau codificarea</answer>
-                <answer>realizarea unui produs dezvoltat parțial, care sa permita clientilor si proiectantilor sa examineze anumite aspecte ale produsului (mai ales interfetele) pentru a putea coda mai usor; codarea este in varful V-ului</answer>
-                <answer correct='true'>fiecare pas de proiectare este asociat cu pasul corespunzator din etapa de testare pentru verificarea corectei implementari a cerintelor si a aspectelor de proiectare, asociere realizata prin conlucrarea directa a echipelor implicate; aripa stanga poate fi reexecutata pentru a imbunatatii cerintele, proiectarea sau codificarea</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Atingerea unui prag fixat pentru încrederea în software este:</text>
-            <answers>
-                <answer>o modalitate de îmbunătățire a siguranței in functionare</answer>
-                <answer correct='true'>un criteriu de oprire a testării</answer>
-                <answer>un criteriu de optimizare a proiectării software</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Specificațiile urmăresc:</text>
-            <answers>
-                <answer>descrierea structurii aplicației software și comunicarea acesteia cu mediul (aici, multimea tuturor actorilor - a entitatilor exterioare cu care aplicatia interctioneaza in mod semnificativ)</answer>
-                <answer correct='true'>descrierea comunicării dintre aplicația software (vazuta ca o cutie neagră) și mediu (aici, multimea tuturor actorilor - a entitatilor exterioare cu care aplicatia interctioneaza in mod semnificativ)</answer>
-                <answer>descrierea elementelor de arhitectură și de detaliu din aplicatia software, a structurii bazelor de date precum si a interfețelor utilizator</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Penetrabilitatea sistemelor de operare este:</text>
-            <answers>
-                <answer>calitatea sistemelor de operare de a fi ușor de utilizat și înțeles de catre utilizatori</answer>
-                <answer>răspândirea și asimilarea de către dezvoltatorii software</answer>
-                <answer correct='true'>răspândirea și asimilarea de către specialiști și utilizatori</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Obiectivele ingineriei programării stabilesc:</text>
-            <answers>
-                <answer>modelele de proiectare</answer>
-                <answer>modelele și principiile de proiectare</answer>
-                <answer>principiile care trebuie urmate la proiectare</answer>
-                <answer correct='true'>dezideratele activității de proiectare software</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>2021 online</topic>
-            <text>Cerințele funcționale în UML:</text>
-            <answers>
-                <answer>sunt codificate prin note text</answer>
-                <answer>sunt reprezentate prin diagrame de secvență și de stare</answer>
-                <answer correct='true'>sunt reprezentate direct de cazurile de utilizare</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>Grile IP</topic>
-            <text>
-                Metoda MASCOT presupune, printre altele, elaborarea unei diagrame (numite ACR)
-                care reflecta:
-            </text>
+            <topic>A</topic>
+            <text>Metoda MASCOT presupune, printre altele, elaborarea unei diagrame (numite ACR) care reflecta:</text>
             <answers>
                 <answer>structurile de date si de apel folosite in program</answer>
                 <answer>relatiile dintre structurile de date si structurile de program</answer>
@@ -526,8 +33,47 @@
             </answers>
         </question>
         <question>
-            <topic>Grile IP</topic>
-            <text>Adaptabilitatea (flexibilitatea) se refera la:</text>
+            <topic>A</topic>
+            <text>Obiectivele ingineriei programării stabilesc:</text>
+            <answers>
+                <answer>modelele de proiectare</answer>
+                <answer correct='true'>dezideratele activității de proiectare software</answer>
+                <answer>principiile care trebuie urmate la proiectare</answer>
+                <answer>modelele și principiile de proiectare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Într-un sistem de conducere de proces interacționează următoarele componente:</text>
+            <answers>
+                <answer>software, hardware</answer>
+                <answer>programe, calculatoare, interfețe de proces, manuale de utilizare</answer>
+                <answer correct='true'>echipamente, software, proceduri de operare, operator uman</answer>
+                <answer>interfețe, sisteme de reglare, sisteme de calcul, software</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Modelul de dezvoltare în spirală presupune:</text>
+            <answers>
+                <answer>o abordare iterativă în cadrul căreia la fiecare iterație, analiza riscurilor cântărește diferitele alternative din punct de vedere al validării prin testare, ceea ce permite analiza fezabilității înainte ca o anumită alternativă să fie aleasă</answer>
+                <answer correct='true'>o abordare iterativă în cadrul căreia, la fiecare iterație, prin analiza riscurilor se compară diferitele alternative din punct de vedere al cerințelor și constrângerilor, iar prototipizarea verifică fezabilitatea înainte ca o anumită alternativă să fie aleasă</answer>
+                <answer>o abordare euristică în cadrul căreia la fiecare etapă de dezvoltare, conceptul de dezvoltare abordat este validat prin metode euristice și soluția aleasă este în continuare dezvoltată în spirală</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Ingineria programării se ocupă cu:</text>
+            <answers>
+                <answer>aplicarea unor principii de programare structurată, astfel încât să crească fiabilitatea produselor-program</answer>
+                <answer>folosirea unor instrumente software adecvate, astfel încât să crească productivitatea activității de programare</answer>
+                <answer correct='true'>utilizarea într-o manieră disciplinată, sistematică și cu pricepere a unor metode și instrumente asociate, adecvate, având în vedere anumite obiective și principii de bază</answer>
+                <answer>organizarea corecta a activitatilor de programare intr-o firma de software</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Adaptabilitatea se refera la:</text>
             <answers>
                 <answer correct='true'>obiectivul de realizare a unor programe care sa poata fi usor adaptate pentru conditii diferite de functionare</answer>
                 <answer>obiectivul de realizare a unor programe adaptate unor situatii concrete de funtionare</answer>
@@ -536,156 +82,98 @@
             </answers>
         </question>
         <question>
-            <topic>Grile IP</topic>
+            <topic>A</topic>
+            <text>Prototipizarea este o paradigmă a ingineriei programării care se referă la:</text>
+            <answers>
+                <answer>construirea aplicațiilor prin metoda top-down</answer>
+                <answer>construirea unui prototip al programului și modificarea acestuia</answer>
+                <answer correct='true'>dezvoltarea rapidă a unui model simplificat al programului, interacțiunea cu clientul și adăugarea ulterioară a funcțiilor omise</answer>
+                <answer>proiectarea folosind descrieri-tip (prototipuri) ale modulelor de program disponibile</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Câte module de program pot fi subordonate unui modul, conform regulilor euristice de proiectare?</text>
+            <answers>
+                <answer correct='true'>de obicei între 3-4 și 7, iar dacă fan-out este mai mare de 9 sau mai mic de 3-4, este necesară reproiectarea</answer>
+                <answer>maxim 5 și minim 2</answer>
+                <answer>între 3 și 6</answer>
+                <answer>mai mult de 4</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
             <text>De ce sunt necesare taskurile de "luare la cunostinta" intr-un sistem de telemecanica?</text>
             <answers>
-                <answer correct='true'>deoarece operatorul trebuie sa confirme ca a luat la cunostinta de evenimentele din proces si sunt necesare alte taskuri decat cele de tratare a evenimentelor, din pricina asincronismului reactiilor operatorului cu evenimentele din proces</answer>
                 <answer>deoarece evenimentele din proces trebuie aduse la cunostiinta sistemului</answer>
                 <answer>deoarece telecomenzile trebuie confirmate de catre operator</answer>
+                <answer correct='true'>deoarece operatorul trebuie sa confirme ca a luat la cunostinta de evenimentele din proces si sunt necesare alte taskuri decat cele de tratare a evenimentelor, din pricina asincronismului reactiilor operatorului cu evenimentele din proces</answer>
                 <answer>deoarece sistemul trebuie sa reactioneze suficient de rapid la evenimentele din proces</answer>
             </answers>
         </question>
         <question>
-            <topic>Grile IP</topic>
-            <text>Intr-o diagrama in care apar reprezentate urmatoarele entitati:</text>
+            <topic>A</topic>
+            <text>Proiectarea structurată se realizează prin:</text>
             <answers>
-                <answer>taskuri si dispozitive</answer>
-                <answer>taskuri, conducte, cutii postale, dispozitive, semafoare, blocuri eveniment</answer>
-                <answer>module de program, functii, canale, rezervoare</answer>
-                <answer correct='true'>taskuri (activitati), dispozitive, canale, rezervoare</answer>
+                <answer correct='true'>folosirea proiectării top-down și a unor structuri standard: procesare secvențială, decizie, reunire</answer>
+                <answer>proiectarea îngrijită a programelor, astfel incat sa aiba o structura clara</answer>
+                <answer>folosirea unor structuri standard: procesare secvențială, decizie, reunire</answer>
+                <answer>proiectarea top-down și modularizare structurală</answer>
             </answers>
         </question>
         <question>
-            <topic>Grile IP</topic>
-            <text>Etapele de aplicare a metodologiei MASCOT sunt:</text>
+            <topic>A</topic>
+            <text>Ce sunt regulile euristice de proiectare?</text>
             <answers>
-                <answer>proiectare generala, proiectare in detaliu, asistenta tehnica</answer>
-                <answer correct='true'>proiectare preliminara de ansamblu, proiectare detaliata, implementare si testare</answer>
-                <answer>specificatii, programare, implementare</answer>
-                <answer>analiza de sistem, analiza de process, proiectare de detaliu</answer>
+                <answer>reguli rezultate din aplicarea teoriilor euristice</answer>
+                <answer>metodologii de proiectare ale organizațiilor software</answer>
+                <answer correct='true'>reguli rezultate din experiența practică</answer>
+                <answer>metode sistematice de proiectare</answer>
             </answers>
         </question>
         <question>
-            <topic>Grile IP</topic>
-            <text>Redundanta statica se implementeaza prin:</text>
+            <topic>A</topic>
+            <text>Principiile ingineriei programării se referă la:</text>
             <answers>
-                <answer correct='true'>multiplicarea paralela a unei functii de procesare si compararea rezultatelor</answer>
+                <answer>modele folosite în procesul de proiectare</answer>
+                <answer correct='true'>modalitățile de atingere a obiectivelor ingineriei programării</answer>
+                <answer>scopurile programării</answer>
+                <answer>destinația activității de programare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Redundanta dinamica se realizeaza prin:</text>
+            <answers>
+                <answer correct='true'>efectuarea unor teste de acceptanta si eventuala rularea unei versiuni alternative</answer>
                 <answer>dublarea unei functii</answer>
-                <answer>verificarea unor conditii de functionare corecta</answer>
-                <answer>compararea unor rezultat</answer>
+                <answer>efectuarea unor teste de acceptanta si rularea unei versiuni alternative</answer>
+                <answer>testarea starii taskurilor</answer>
             </answers>
         </question>
         <question>
-            <topic>Grile IP</topic>
-            <text>Intr-un sistem de telemecanica, efectuarea unei telecomenzi parcurge urmatoarele etape:</text>
+            <topic>A</topic>
+            <text>Documentația software de proiectare este necesară pentru:</text>
             <answers>
-                <answer>selectie, executie</answer>
-                <answer>selectie, confirmare</answer>
-                <answer correct='true'>selectie, executie, confirmare din proces</answer>
-                <answer>timiterea telecomenzii, raspunsul procesului</answer>
+                <answer>elaborarea unui prototip</answer>
+                <answer>prezentarea produsului</answer>
+                <answer>prezentarea produsului și relațiile cu clienții</answer>
+                <answer correct='true'>activitatea de asistență tehnică și refolosire software</answer>
             </answers>
         </question>
         <question>
-            <topic>Grile IP</topic>
+            <topic>A</topic>
             <text>"Ascunderea" este utila pentru:</text>
             <answers>
                 <answer>mai buna structurare a programului</answer>
-                <answer>definirea unor interfete complexe</answer>
                 <answer correct='true'>definirea unor restrictii de acces si "ascunderea" detaliilor nesemnificative ale unui modul de program</answer>
-                <answer>ascunderea detaliilor referitoare la tratarea erorilor</answer>
+                <answer>definirea unor interfete complexe prin ascunderea temporara a detaliilor</answer>
+                <answer>"ascunderea" detaliilor referitoare la tratarea erorilor</answer>
             </answers>
         </question>
         <question>
-            <topic>Grile IP</topic>
-            <text>Configuratia larg distribuita utilizeaza:</text>
-            <answers>
-                <answer>legatura multipunct</answer>
-                <answer>field-bus</answer>
-                <answer correct='true'>retele WAN si protocoale de comunicatii potrivite</answer>
-                <answer>protocoale de comunicatie Nowell si retele LAN</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>Grile IP</topic>
-            <text>La Windows NT 4 concurenta era implementata prin:</text>
-            <answers>
-                <answer>preemptiune, cu ordonarea dupa 31 prioritati pe cate 4 paliere (IDLE, NORMAL, REALTIME)</answer>
-                <answer correct='true'>preemptiune, cu ordonarea dupa 31 prioritati, ordonate pe 2 paliere: 4 clase de prioritate si 5 niveluri pe fiecare clasa</answer>
-                <answer>multithreading</answer>
-                <answer>intreruperi event-driven cu planificare circulara (round-robin)</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>Grile IP</topic>
-            <text>Categoriile de prestatori (server) in arhitectura client-server la Windows NT 4 sunt:</text>
-            <answers>
-                <answer correct='true'>Monitorul, WIN32, DLL</answer>
-                <answer>Windows NT Executive, WIN32</answer>
-                <answer>I/O Manager, Win NT Executive, WIN32</answer>
-                <answer>NTFS, HPFS, FAT</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>Grile IP</topic>
-            <text>Un fir de executie in Windows NT 4 este:</text>
-            <answers>
-                <answer>un process</answer>
-                <answer>un task</answer>
-                <answer>un modul de program care realizeaza apeluri DLL</answer>
-                <answer correct='true'>o cale de executie in interiorul unui proces</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>Grile IP</topic>
-            <text>Sistemul UNIX nu este foarte raspandit in conducerea de proces deoarece prezinta:</text>
-            <answers>
-                <answer>pret ridicat</answer>
-                <answer correct='true'>lipsa de unitate, sintaxa criptica, lipsa de interfete grafice, si de software</answer>
-                <answer>nepotrivire cu necesitatile de timp real</answer>
-                <answer>imposibilitatea implementarii multitaskingului</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>Grile IP</topic>
-            <text>Familiile mai reprezentative de sisteme de operare dedicate sunt:</text>
-            <answers>
-                <answer>OS-2, WARP, QNX, OS-9</answer>
-                <answer>OS-9, QNX, Windows 95 C</answer>
-                <answer correct='true'>OS-9, QNX, VxWorks/Microworks</answer>
-                <answer>OS-900, QTRM, RTS</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>Grile IP</topic>
-            <text>Sistemele de operare dedicate folosesc pentru alocarea unitatii centrale:</text>
-            <answers>
-                <answer>prioritati fixe</answer>
-                <answer>256 prioritati</answer>
-                <answer>mesaje si variabile</answer>
-                <answer correct='true'>planificarea circulara (round-robin)</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>Grile IP</topic>
-            <text>Ce este o revizie?</text>
-            <answers>
-                <answer correct='true'>o noua versiune destinata a inlocui versiunea veche si care reflecta evolutia in depanarea si imbunatatirea modulului ca functionare si performante</answer>
-                <answer>o noua versiune care realizeaza aceleasi functionalitati pentru situatii usor diferite si care este destinata a fi o alternativa interschimbabila cu alta simultana</answer>
-                <answer>un mecanism ... care arata organizarea unui set de variatii si relatiile dintre acestea</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>Grile IP</topic>
-            <text>In acceptiunea UML relatiile intre clase sunt:</text>
-            <answers>
-                <answer>moduri, constrangeri, stereotipuri, asociatii, compozitii, generalizare, dependenta, multiplicitate</answer>
-                <answer correct='true'>asocieri, agregare, compozitii, generalizare, dependenta</answer>
-                <answer>asociatii, agregare, cazuri de utilizare, actori, compozitie, generalizare, multiplicitate</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>Grile IP</topic>
-            <text>Cand o clasa trebuie sa gestioneze un numar de obiecte de aceeasi clasa, o abordare in proiectere ar fi sa se adauge:</text>
+            <topic>A</topic>
+            <text>Cand o clasa trebuie sa gestioneze un numar de obiecte de aceeasi clasa, o abordare potrivita in proiectere ar fi sa se adauge:</text>
             <answers>
                 <answer>un model (pattern) de proiectare</answer>
                 <answer>o clasa observator intre clasa primara si setul de obiecte</answer>
@@ -693,12 +181,12 @@
             </answers>
         </question>
         <question>
-            <topic>Grile IP</topic>
-            <text>In modelul (pattern) Rendez-vous participa urmatoarele obiecte:</text>
+            <topic>A</topic>
+            <text>Nivelurile cerințelor software sunt următoarele:</text>
             <answers>
-                <answer correct='true'>Rendez-vous, Lock, Thread</answer>
-                <answer>Rendez-vous, Lock, Client, Context, Thread,</answer>
-                <answer>Rendez-vous, Wait, Semaphore, Client, Context, Thread</answer>
+                <answer>de business, de proiectare, de testare</answer>
+                <answer>de sistem, de program, de modul</answer>
+                <answer correct='true'>de business, utilizator, funcționale</answer>
             </answers>
         </question>
         <question>
@@ -712,6 +200,54 @@
         </question>
         <question>
             <topic>A</topic>
+            <text>Sistemele de operare dedicate folosesc pentru comunicare între taskuri:</text>
+            <answers>
+                <answer correct='true'>mesaje și variabile comune</answer>
+                <answer>mesaje</answer>
+                <answer>cutii poștale și semafoare</answer>
+                <answer>zone tampon și conducte</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Intr-un sistem de telemecanica, efectuarea unei telecomenzi parcurge urmatoarele etape:</text>
+            <answers>
+                <answer>selectie, executie</answer>
+                <answer>timiterea telecomenzii, raspunsul procesului</answer>
+                <answer correct='true'>selectie, executie, confirmare din proces</answer>
+                <answer>selectie, confirmare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Obiectivele ingineriei programării sunt:</text>
+            <answers>
+                <answer correct='true'>adaptabilitatea, eficiența, fiabilitatea, perceptibilitatea</answer>
+                <answer>modularitatea, confirmabilitatea, adaptabilitatea, eficiența</answer>
+                <answer>adaptabilitatea, eficiența, modularitatea, confirmabilitatea, eficiența</answer>
+                <answer>modularitatea, abstractizarea, ascunderea, eficiența, fiabilitatea, perceptibilitatea, confirmabilitatea</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Un sistem Delta de stocare de versiuni:</text>
+            <answers>
+                <answer>reprezintă toate versiunile prin utilizarea unei singure copii a codului sursă și diferențele dintre versiuni sunt marcate prin compilare condiționată; codul sursă relevant pentru anumite versiuni este generat de macrcomenzi astfel încât compilatorul poate reconstitui diversele versiuni</answer>
+                <answer correct='true'>memorează o singură versiune completă și le reprezintă pe celelalte prin reținerea diferențelor de la una la alta</answer>
+                <answer>cuprinde convențiile de nume care sunt folosite pentru a discerne între situațiile în care fișiere diferite reprezintă versiuni diferite ale aceluiași modul</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Ce este o revizie?</text>
+            <answers>
+                <answer correct='true'>o noua versiune destinata a inlocui versiunea veche si care reflecta evolutia in depanarea si imbunatatirea modulului ca functionare si performante</answer>
+                <answer>o noua versiune care realizeaza aceleasi functionalitati pentru situatii usor diferite si care este destinata a fi o alternativa interschimbabila cu alta simultana</answer>
+                <answer>un mecanism notational care arata organizarea unui set de variatii si relatiile dintre acestea</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
             <text>Un mesaj (UML) este:</text>
             <answers>
                 <answer>o realizare a unei comunicari intre in obiect sursa si un obiect destinatie</answer>
@@ -721,14 +257,38 @@
         </question>
         <question>
             <topic>A</topic>
-            <text>
-                Strategia de identificare a obiectelor numita "sublinierea substantivelor" permite
-                depistarea:
-            </text>
+            <text>Strategia de identificare a obiectelor numita "sublinierea substantivelor" permite depistarea:</text>
             <answers>
                 <answer>unor clase de interes, a unor subsisteme, clase neinteresante sau atribute de clase</answer>
                 <answer correct='true'>unor obiecte de interes, a unor actori, obiecte neinteresante sau atribute de obiecte</answer>
                 <answer>unor asociatii, unor obiecte, clase, atribute, metode si generalizari</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Problema dublei întrețineri rezultă dacă:</text>
+            <answers>
+                <answer correct='true'>se mențin copii multiple ale aceluiași cod sursă</answer>
+                <answer>mai mulți proiectanți au drepturi pentru acces și modificare simultană a acelorasi date (eventual cod sursă)</answer>
+                <answer>doi proiectanți actualizează simultan același cod sursă și astfel este posibil să se suprascrie unele modificări în copia distribuită</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Implementarea asociațiilor se poate realiza prin:</text>
+            <answers>
+                <answer>prin includerea unor obiecte de tipul claselor asociate</answer>
+                <answer>prin mesaje pentru asociațiile "1 la 1" și prin liste înlănțuite și iteratori pentru asociațiile "1 la mai mulți"</answer>
+                <answer correct='true'>pentru asociații "1 la 1" cu pointeri, referințe sau declarații inline de clase, iar asociațiile "1 la mai mulți" se implementează de multe ori cu pattern Container</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Un proces de descărcare (charge-out) în cadrul unui sistem de gestiune a configurațiilor realizează:</text>
+            <answers>
+                <answer correct='true'>copierea unui modul din depozitul de bază în spațiul de lucru al programatorului și apoi blocarea accesului (lock) la acest modul astfel încât nimeni altcineva să nu mai poată realiza un alt proces de descărcare</answer>
+                <answer>copierea unui modul de program din depozitul de bază (baseline) în spațiul de lucru al programatorului și apoi ștergerea acestuia din depozit</answer>
+                <answer>crearea unei noi revizii în depozit și eliminarea blocării accesului astfel încât alți programatori să poată realiza mai departe revizii</answer>
             </answers>
         </question>
         <question>
@@ -790,8 +350,8 @@
                 ```
             </text>
             <answers>
-                <answer>specializare</answer>
-                <answer correct='true'>generalizare</answer>
+                <answer correct='true'>specializare</answer>
+                <answer>generalizare</answer>
                 <answer>extensie</answer>
             </answers>
         </question>
@@ -802,6 +362,24 @@
                 <answer>noduri, constrangeri, stereotipuri, asociatii, compozitii, generalizare, dependenta, multiplicitate</answer>
                 <answer correct='true'>asociatii, agregare, compozitii, generalizare, dependenta</answer>
                 <answer>asociatii, agregare, cazuri de utilizare (use cases), actori, compozitie, generalizare, multiplicitate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Caracteristica esențială a modelului în V de dezvoltare software este:</text>
+            <answers>
+                <answer>testele de acceptanță validează cerințele prin asocierea testelor cu specificatiile, prin conlucrarea dintre client si dezvoltator; aripa stanga poate fi reexecutata pentru a imbunatatii cerintele, proiectarea sau codificarea</answer>
+                <answer correct='true'>fiecare pas de proiectare este asociat cu pasul corespunzator din etapa de testare pentru verificarea corectei implementari a cerintelor si a aspectelor de proiectare, asociere realizata prin conlucrarea directa a echipelor implicate; aripa stanga poate fi reexecutata pentru a imbunatatii cerintele, proiectarea sau codificarea</answer>
+                <answer>realizarea unui produs dezvoltat parțial, care sa permita clientilor si proiectantilor sa examineze anumite aspecte ale produsului (mai ales interfetele) pentru a putea coda mai usor; codarea este in varful V-ului</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Ce reprezinta in UML figura de mai jos (diagrama cu Anesthesia System din curs)?</text>
+            <answers>
+                <answer>o diagrama structurata</answer>
+                <answer>o agregare</answer>
+                <answer correct='true'>o diagrama de caz de utilizare (use case)</answer>
             </answers>
         </question>
         <question>
@@ -824,11 +402,102 @@
         </question>
         <question>
             <topic>A</topic>
+            <text>În depanarea aplicațiilor în cadrul întreținerii, este bine dacă:</text>
+            <answers>
+                <answer>introducem în meniul aplicației o comandă numită "Lista erorilor înregistrate"</answer>
+                <answer>avem acces la un simulator de proces</answer>
+                <answer correct='true'>avem un log al utilizatorilor, al activităților, al erorilor, al utilizatorilor care au modificat înregistrări în baza de date</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>În cadrul testelor de acceptanță:</text>
+            <answers>
+                <answer correct='true'>sistemul este testat conform descrierii cerințelor clientului</answer>
+                <answer>aplicația este comparată cu lista cerințelor software și hardware</answer>
+                <answer>sistemul este testat dacă funcțiile sunt implementate după instalarea softului</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Metoda de dezvoltare software Cleanroom este bazată pe:</text>
+            <answers>
+                <answer>metode euristice</answer>
+                <answer>metode stohastice</answer>
+                <answer correct='true'>metode formale</answer>
+                <answer>metode orientate pe obiecte</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Penetrabilitatea sistemelor de operare este:</text>
+            <answers>
+                <answer correct='true'>răspândirea și asimilarea de către specialiști și utilizatori</answer>
+                <answer>răspândirea și asimilarea de către dezvoltatorii software</answer>
+                <answer>calitatea sistemelor de operare de a fi ușor de utilizat și înțeles de catre utilizatori</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Inspecția codului:</text>
+            <answers>
+                <answer>este o metodă de testare utilizată la testele de acceptanță și presupune inspecția codului de către client, realizată prin comparare cu specificațiile</answer>
+                <answer correct='true'>se folosește la testele de modul și presupune pregătirea acțiunii prin desemnarea unei echipe, prezentarea prealabilă a codului, studiul acesteia, formularea unei liste de obiective și organizarea unei ședințe de analiză; se verifică inclusiv corectitudinea algoritmilor, performanțele, interfețele etc</answer>
+                <answer>se folosește la testele de modul și presupune analiza de colegii din echipa de testare, cărora li se explică cele realizate (folosind inclusiv documentația) și care prin efortul de a înțelege cele parcurse pot ajuta la descoperirea unor greșeli; discuția este condusă de proiectanți și accentul este pe cod</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Atingerea unui prag fixat pentru încrederea în software este:</text>
+            <answers>
+                <answer>un criteriu de optimizare a proiectării software</answer>
+                <answer>o modalitate de implemetare a îmbunătățire siguranței in functionare</answer>
+                <answer correct='true'>un criteriu de oprire a testării</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Șablonul Factory:</text>
+            <answers>
+                <answer>oferă un surogat local al unui obiect</answer>
+                <answer>oferă o interfață unificată pentru un set de interfețe dintr-un subsistem</answer>
+                <answer correct='true'>definește o interfață pentru crearea unui obiect, dar lasă subclasele să decidă ce clasă trebuie instanțiată</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
             <text>Model-View-Controller este:</text>
             <answers>
                 <answer>un sablon structural care este de folos atunci cand o referinta sau un pointer spre un obiect nu poate fi obtinuta</answer>
                 <answer correct='true'>un cadru compus din doua sabloane Observer</answer>
                 <answer>un model arhitectural pentru implementarea unor interactiuni in timp real intre doua fire de executie</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Sabonul Smart Pointer elimina unele surse de erori din practica utilizarii pointerilor obisnuiti, astfel:</text>
+            <answers>
+                <answer>au constructor care initializeaza pointeri cu `NULL`; nu au destructori dar mentin adresa memoriei unde e obiectul utilizat; indica numarul de instante ale zonelor de memorie in care se face rezervarea</answer>
+                <answer>indica in permanenta spre obiecte valide; determina daca memorie trebuie eliberata cand nu mai e necesara; daca eliberarea memoriei nu se face corect, smart pointers returneaza un pointer valid spre o alta zona de memorie si refuza accesul al zona initiala</answer>
+                <answer correct='true'>folosesc constructori pentru a initializa cu `NULL` sau a forta preconditii pentru ca pointeri sa indice spre obiecte valide; determina daca memoria trebuie eliberata cand nu mai e necesara; daca eliberarea memoriei nu se face corect, smart pointers pot automat detecta conditia ca obiectul nu mai exista si sa refuze accesul</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Soluția pentru șablonul Real-Time Observer constă în aceea că:</text>
+            <answers>
+                <answer>un singur obiect (Server) decuplează clienții săi (Observers) care în prealabil s-au înregistrat la Server cu `Subscribe()` de la accesul la un alt fir de execuție sau proces prin crearea unui surogat al obiectului din acel fir de execuție sau proces; dacă clienții au nevoie de un serviciu de la obiectul acela, ei cer asta de la Server; Server și Observer sunt clase abstracte care au clase derivate (Concrete Server și Concrete Observer) care adaugă comportamentul specializat pentru situația concretă de funcționare.</answer>
+                <answer correct='true'>un singur obiect (Server) furnizează automat date pentru clienții săi (Observers) care în prealabil s-au înregistrat la Server cu `Subscribe()`; acestea sunt clase abstracte care au clase derivate (Concrete Server și Concrete Observer) care adaugă comportamentul specializat pentru situația concretă de funcționare</answer>
+                <answer>obiectul Server furnizează la cerere asincronă sau episodică date pentru clienții săi (Observers) care în prealabil s-au înregistrat la Server cu `Attach()`; acestea sunt clase abstracte care au clase derivate (Concrete Server și Concrete Observer) care adaugă comportamentul specializat pentru situația concretă de funcționare.</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Middleware este:</text>
+            <answers>
+                <answer correct='true'>un software de conectivitate care constă dintr-un set de servicii care permit rularea proceselor multiple pe una sau mai multe echipamente/mașini în vederea interacțiunii de-a lungul unei rețele</answer>
+                <answer>un software de conectivitate care constă dintr-un set de servicii de tip proxy care permit rularea interfețelor utilizator pe una sau mai multe echipamente/mașini în vederea interacțiunii de-a lungul unei rețele</answer>
+                <answer>un software care este conceput pentru a rula într-un nivel ierarhic de mijloc (three-tier) între utilizatori și bazele de date pentru a permite astfel rularea proceselor multiple pe una sau mai multe echipamente/mașini</answer>
             </answers>
         </question>
         <question>
@@ -842,10 +511,43 @@
         </question>
         <question>
             <topic>A</topic>
-            <text>
-                Obiectivul primordial al proiectarii software este sa se ajunga la o descriere care sa
-                permita:
-            </text>
+            <text>Uzual, Service Oriented Architecture (SOA) se bazează pe:</text>
+            <answers>
+                <answer>standarde de acces specifice Serviciilor WEB (SOAP - Simple Object Access Protocol, REST), interfețele Serviciilor WEB sunt descrise in termeni de XML (Extensable Markup Language) pentru a putea fi cautate in depozite UDDI (Universal Descriptin, Discovery and Integration repositories) iar mediul pentru dezvoltarea aplicatiilor este Microsoft Studio .NET sau Java</answer>
+                <answer correct='true'>standarde de acces specifice Serviciilor WEB (SOAP - Simple Object Access Protocol, REST), interfețele Serviciilor WEB sunt descrise in termeni de WSDl (Web Service Description Language) pentru a putea fi inregistrati in directori publici si cautate in depozite UDDI (Universal Descriptin, Discovery and Integration repositories) iar suportul pentru transportul informatiei este formatul XML (Extensable Markup Language)</answer>
+                <answer>standarde de acces specifice Serviciilor Web (XML - Extensable Markup Language), interfețele Serviciilor WEB sunt descrise in termeni de WSDI (Web Services Description Language) pentru a putea fi inregistrate in directori publici si cautate in depozite UDDI (Universal Descriptin, Discovery and Integration repositories) iar suportul pentru transportul informatiei este formatul SOAP (Simple Object Access Protocol)</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Analiza orientată pe obiecte (OOA - Object Oriented Analysis) este:</text>
+            <answers>
+                <answer>crearea unui set de specificații OO plecând de la cerințele externe (un model al domeniului soluției problemei)</answer>
+                <answer>analiza problemei plecând de la cerințele externe, prin discuții cu clientul, urmând să se obțină astfel diagrame de clase și diagrame de cazuri de utilizare</answer>
+                <answer correct='true'>crearea unui model OO plecând de la cerințele externe (un model al domeniului problemei)</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Obiectivul partenerilor furnizori pentru industia auto care au definit impreuna AUTOSAR (Automotive Open System Architecture) este de:</text>
+            <answers>
+                <answer correct='true'>a crea și stabili standarde deschise pentru arhitecturi software, care vor defini o infrastructura de baza, pentru a ajuta in dezvoltarea de software de vehicule, interfete utilizator si de management pentru toate domeniile specifice industriei auto</answer>
+                <answer>a crea și stabili un sistem de operare (OSEK-VDK) pentru software pentru vehicule, care sa fie universal, deschis, scalabil si disponibil pentru toti furnizorii de componente auto</answer>
+                <answer>a dezvolta un mediu interactiv de dezvoltare și testare care sa poata fi folosit pe scara larga pentru dezvoltarea de aplicații orientate pe obiecte in industria software automotive</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Specificațiile urmăresc:</text>
+            <answers>
+                <answer>descrierea structurii aplicației software și comunicarea acesteia cu mediul (aici, multimea tuturor actorilor - a entitatilor exterioare cu care aplicatia interctioneaza in mod semnificativ)</answer>
+                <answer>descrierea elementelor de arhitectură și de detaliu din aplicatia software, a structurii bazelor de date precum si a interfețelor utilizator</answer>
+                <answer correct='true'>descrierea comunicării dintre aplicația software (vazuta ca o cutie neagră) și mediu (aici, multimea tuturor actorilor - a entitatilor exterioare cu care aplicatia interctioneaza in mod semnificativ)</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>A</topic>
+            <text>Obiectivul primordial al proiectarii software este sa se ajunga la o descriere care sa permita:</text>
             <answers>
                 <answer correct='true'>delimitarea exacta a muncii in cadrul echipei si pe de alta parte continuarea cu actiunea de codificare (scriere de cod-sursa) in cadrul careia fiecare proiectant sa stie exact ce sa faca pentru a scrie codul ca activitate de rutina</answer>
                 <answer>descrierea exacta a claselor, a relatiilor dintre acestea, stabilirea metodelor, descrierea structurii bazelor de date astfel ca mai departe fiecare proiectant sa stie exact ce sa faca pentru a scrie codul ca activitate de rutina</answer>
@@ -854,10 +556,7 @@
         </question>
         <question>
             <topic>A</topic>
-            <text>
-                Sistemele pentru conducere de proces ridica probleme speciale, care maresc gradul
-                de dificultate al proiectarii si implementarii, deoarece:
-            </text>
+            <text>Sistemele pentru conducere de proces ridica probleme speciale, care maresc gradul de dificultate al proiectarii si implementarii, deoarece:</text>
             <answers>
                 <answer>impun cerinte speciale prinvind siguranta in functionare (sisteme safety-critical), respectiv cele mai multe au cerinte exprese privind implementarea redundantei dinamice</answer>
                 <answer correct='true'>impun cerinte speciale prinvind siguranta in functionare (sisteme safety-critical), respectiv cele mai multe au cerinte exprese privind raspunsul in timp real</answer>
@@ -866,10 +565,38 @@
         </question>
         <question>
             <topic>B</topic>
+            <text>Un șablon Façade oferă:</text>
+            <answers>
+                <answer>un acces unificat la o colecție de obiecte, prin intermediul pointerilor</answer>
+                <answer>o modalitate de a vizualiza unitar orice obiecte dintr-o colecție</answer>
+                <answer correct='true'>o interfață unificată pentru un set de interfețe dintr-un subsistem</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>B</topic>
+            <text>Redundanta statica se implementeaza prin:</text>
+            <answers>
+                <answer>dublarea unei functii</answer>
+                <answer>verificarea unor conditii de functionare corecta</answer>
+                <answer correct='true'>multiplicarea paralela a unei functii de procesare si compararea rezultatelor</answer>
+                <answer>compararea unor rezultat</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>B</topic>
+            <text>Dezvoltarea iterativă furnizează clientului o versiune de program care:</text>
+            <answers>
+                <answer correct='true'>conține de la început toate funcțiile și cu fiecare versiune nouă acestea sunt perfecționate și performanțele îmbunătățite</answer>
+                <answer>conține de la început un set restrâns de funcționalități și cu fiecare versiune nouă se adaugă altele noi</answer>
+                <answer>permite instruirea clientului și adăugare de funcții noi</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>B</topic>
             <text>O paradigma in ingineria software este:</text>
             <answers>
                 <answer>o anumita abordare a procesului de proiectare software, care descrie modul de organizare a activitatilor de proiectare</answer>
-                <answer correct='true'>o anumita abordare a procesulu de proiectare software, care descrie cum se realizeaza elemente de proiectare, ce metode, unelte si proceduri se aplica la fiecare etapa</answer>
+                <answer correct='true'>o anumita abordare a procesulu de proiectare software, care descrie cum se realizeaza elemente de proiectare, ce metode, unelte si proceduri se aplica la fiecare faza</answer>
                 <answer>o anumita abordare a procesului de proiectare software, care descrie modul de organizare a interactiunilor cu utilizatorul si descrie ciclul de viata a programului</answer>
             </answers>
         </question>
@@ -880,6 +607,242 @@
                 <answer correct='true'>Prezentare, Logica aplicatiei (business logic), acces la date</answer>
                 <answer>Model, View, Controller</answer>
                 <answer>Interfata grafica, serverul WEB, Logica aplicatiei (business logic)</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>2021 online</topic>
+            <text>Când, în cadrul șablonului Observer, serverul primește un apel `subscribe`:</text>
+            <answers>
+                <answer>creează un obiect de tip `ConcreteObserver` care adaugă stocarea locală în atributele dorite</answer>
+                <answer correct='true'>creează un obiect `NotificationHandle` care include adresa obiectului</answer>
+                <answer>apelează periodic o metodă `Gimme()` de interogare directă a valorii urmărite</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>2021 online</topic>
+            <text>În UML conectarea modelului de obiecte cu modelul cazurilor de utilizare se realizează prin aceea că:</text>
+            <answers>
+                <answer correct='true'>fiecare caz de utilizare va fi realizat de un set de obiecte care lucrează împreună</answer>
+                <answer>fiecare model de obiecte este realizat de un set de cazuri de utilizare care trimit secvențe de mesaje</answer>
+                <answer>fiecare caz de utilizare corespunde câte unui obiect</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>2021 online</topic>
+            <text>Pentru testarea aplicației descrise în problemă se utilizează ca și criteriu de oprire atingerea unui prag de încredere. Au fost plantate 26 erori, s-au detectat 15 (din care 10 plantate și 5 alte erori). Câte erori rămân nedezvăluite?</text>
+            <answers>
+                <answer>12</answer>
+                <answer correct='true'>8</answer>
+                <answer>6</answer>
+            </answers>
+            <explanation>
+                Formula de calcul este:
+                ```
+                plantate_gasite / plantate_total = reale_gasite / reale_totalte
+                ```
+                
+                Si pentru a afla numatul de eroari reale ramase, se scade numarul de erori reale gasite.
+            </explanation>
+        </question>
+        <question>
+            <topic>2021 online</topic>
+            <text>În UML, o operație este:</text>
+            <answers>
+                <answer>specificarea unui mesaj</answer>
+                <answer>descrierea unei secvențe de apeluri de metode</answer>
+                <answer correct='true'>specificarea unui comportament</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>2021 online</topic>
+            <text>Sistemele de conducere de proces prezintă anumite particularități, printre acestea numărându-se:</text>
+            <answers>
+                <answer>prezența interfețelor cu utilizatorul, puterea foarte mare de procesare, utilizarea memoriilor statice, includerea unui mecanism de watch-dog, toleranța la defectare, fiabilitatea foarte bună, sisteme de operare speciale (OSEK sau AUTOSAR), funcționarea în condiții grele de lucru</answer>
+                <answer>proiectarea folosind redundanță statică sau dinamică, utilizarea unor microcontrolere speciale, prezența interfețelor de proces și a interfețelor de vizualizare de semnal, funcționarea în condiții grele de lucru</answer>
+                <answer correct='true'>prezența interfețelor de proces, utilizarea memoriilor statice, includerea unui mecanism de watch-dog, eventual existența mai multor procesoare, modularitatea, toleranța la defectare, fiabilitatea foarte bună, sisteme de operare în timp real, câteodată lipsesc interfețele standard de vizualizare și funcționarea în condiții grele de lucru</answer>
+                <answer>comunicare daisy-chain, stea sau multipunct, existența unor interfețe speciale cu operatorul, sisteme de operare UNIX, Linux sau QNX, toleranța la defectare, fiabilitatea foarte bună, funcționarea în condiții grele de lucru</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>2021 online</topic>
+            <text>Tipurile de informații furnizate de clienți (în cadrul activității de analiză software) sunt:</text>
+            <answers>
+                <answer>cerințe de business, scenarii de business, restricții asupra echipamentelor disponibile, cerințe funcționale, structuri de date</answer>
+                <answer>specificații, sugestii de arhitectură software, structuri de date, funcții ale sistemului, interfața cu utilizatorul</answer>
+                <answer correct='true'>cerințe de business, scenarii de business, reguli de business, cerințe funcționale, atribute de calitate, constrângeri externe, structuri de date, sugestii pentru posibile soluții</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>2021 online</topic>
+            <text>Șablonul Smart Pointer permite utilizarea în siguranță a mecanismului de tip pointer, prin:</text>
+            <answers>
+                <answer>testarea validității pointerilor prin contorizarea numărului de instanțieri și testarea valorii de `NULL`; utilizarea destructorilor pentru eliberarea memoriei; detectarea condiției că obiectul nu mai există și refuzarea accesului prin intermediul pointerului</answer>
+                <answer>folosirea operatorilor `new` și `delete` definiți de utilizator pentru a evita accesarea unor zone de memorie nefolosite sau a unora deja eliberate</answer>
+                <answer correct='true'>utilizarea constructorilor astfel încât pointerii să fie inițializați cu `NULL` sau să indice spre obiecte valide; utilizarea destructorilor care determină dacă memoria eliberată nu mai e necesară; detectarea condiției că obiectul nu mai există și refuzarea accesului prin intermediul pointerului</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>2021 online</topic>
+            <text>Pentru identificarea cazurilor de utilizare, analistul stă de vorbă cu clientul și îi adresează întrebări cheie precum</text>
+            <answers>
+                <answer>
+                    Care sunt actorii?
+                    Care sunt mesajelor pe care le trimit și recepționează?
+                    Care sunt grupele care alcătuiesc cazuri de utilizare?
+                </answer>
+                <answer>
+                    Care este rolul actorilor și al sistemului în fiecare scenariu?
+                    Care sunt interacțiunile (fluxurile)?
+                    Care sunt secvențele de evenimente și date?
+                    ... și posibilele variațiuni.
+                </answer>
+                <answer correct='true'>
+                    Care sunt funcțiile primare ale sistemului?
+                    Care sunt funcțiile secundare ale sistemului?
+                    De ce a fost construit sistemul?
+                    Ce înlocuiește și de ce?
+                </answer>
+            </answers>
+        </question>
+        <question>
+            <topic>2021 online</topic>
+            <text>O stare este:</text>
+            <answers>
+                <answer>o descriere complet constructivă de descompunere a comportamentului complex în bucăți mai mici, fiecare fiind valabilă în anumite condiții specifice</answer>
+                <answer correct='true'>o condiție de existență a unui clasificator (clasă sau caz de utilizare) care persistă o perioadă semnificativă de timp și poate fi cumva distinsă față de alte condiții similare de existență</answer>
+                <answer>o descriere a comportamentului unui obiect în timpul intrării, ieșirii sau persistenței</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>2021 online</topic>
+            <text>Agregarea este:</text>
+            <answers>
+                <answer correct='true'>un tip special de asociere care implică proprietatea logică sau fizică</answer>
+                <answer>o relație de tip clasă părinte/clasă descendent</answer>
+                <answer>o formă tare de compoziție în care părțile sunt în întregime în responsabilitatea clasei compozite</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>2021 online</topic>
+            <text>Un șablon (pattern):</text>
+            <answers>
+                <answer>abstractizează și identifică aspectele cheie ale unei structuri comune de proiectare în care o singură sursă de informație acționează ca un server pentru mai mulți clienți</answer>
+                <answer>abstractizează și identifică aspectele cheie ale unei structuri comune de proiectare prin utilizarea claselor abstracte și a moștenirii și funcțiilor virtuale</answer>
+                <answer correct='true'>abstractizează și identifică aspectele cheie ale unei structuri comune de proiectare pe care o face utilă pentru crearea unui design OO, reutilizabil</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>2021 online</topic>
+            <text>Șablonul Container este o bună soluție pentru cazul:</text>
+            <answers>
+                <answer correct='true'>când un obiect are asociere "1-la-mai" mulți și dorim să îmbunătățim reuzabilitatea și atunci acea clasă de la capătul "1" va gestiona un set de obiecte stocate într-un container</answer>
+                <answer>când devine mai ușoară adăugarea unui nou container (un vector extensibil) prin crearea unei interfețe care asigură clienților serviciile cerute de aceștia dar folosesc operațiile primitive ale containerelor existente</answer>
+                <answer>când un obiect are nevoie de o implementare comună potrivită pentru o varietate de utilizări</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>2021 online</topic>
+            <text>Documentul de proiectare arhitecturală trebuie să:</text>
+            <answers>
+                <answer correct='true'>specifice rolul fiecărei componente, cerințele care i-au fost alocate, interfața de comunicare cu celelalte componente ale sistemului</answer>
+                <answer>descrie rolul fiecărei componente, cerințele de memorie și timp de calcul alocate, interfața de comunicare</answer>
+                <answer>descrie rolul fiecărui programator și al fiecărei componente</answer>
+                <answer>specifice rolul fiecărei funcții și interfața cu utilizatorul</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>2021 online</topic>
+            <text>Asocierile sunt:</text>
+            <answers>
+                <answer>codificate prin existența unei clase asociative</answer>
+                <answer>relații de colaborare definite prin existența unui server</answer>
+                <answer correct='true'>relații care se manifestă la rulare pentru schimb de mesaje între obiecte</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>2021 online</topic>
+            <text>Șablonul Observer rezolvă problema:</text>
+            <answers>
+                <answer correct='true'>în care o singură sursă de informație acționează ca server pentru mai mulți clienți</answer>
+                <answer>în care un obiect afișează periodic schimbări citite de la un senzor</answer>
+                <answer>în care un server furnizează la cerere date dintr-un proces</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>2021 online</topic>
+            <text>Cerințele funcționale în UML:</text>
+            <answers>
+                <answer>sunt codificate prin note text</answer>
+                <answer>sunt reprezentate prin diagrame de secvență și de stare</answer>
+                <answer correct='true'>sunt reprezentate direct de cazurile de utilizare</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Grile IP</topic>
+            <text>Etapele de aplicare a metodologiei MASCOT sunt:</text>
+            <answers>
+                <answer>proiectare generala, proiectare in detaliu, asistenta tehnica</answer>
+                <answer correct='true'>proiectare preliminara de ansamblu, proiectare detaliata, implementare si testare</answer>
+                <answer>specificatii, programare, implementare</answer>
+                <answer>analiza de sistem, analiza de process, proiectare de detaliu</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Grile IP</topic>
+            <text>Sistemul UNIX nu este foarte raspandit in conducerea de proces deoarece prezinta:</text>
+            <answers>
+                <answer>pret ridicat</answer>
+                <answer correct='true'>lipsa de unitate, sintaxa criptica, lipsa de interfete grafice, si de software</answer>
+                <answer>nepotrivire cu necesitatile de timp real</answer>
+                <answer>imposibilitatea implementarii multitaskingului</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Grile IP</topic>
+            <text>Familiile mai reprezentative de sisteme de operare dedicate sunt:</text>
+            <answers>
+                <answer>OS-2, WARP, QNX, OS-9</answer>
+                <answer>OS-9, QNX, Windows 95 C</answer>
+                <answer correct='true'>OS-9, QNX, VxWorks/Microworks</answer>
+                <answer>OS-900, QTRM, RTS</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Grile IP</topic>
+            <text>Sistemele de operare dedicate folosesc pentru alocarea unitatii centrale:</text>
+            <answers>
+                <answer>prioritati fixe</answer>
+                <answer>256 prioritati</answer>
+                <answer>mesaje si variabile</answer>
+                <answer correct='true'>planificarea circulara (round-robin)</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Grile IP</topic>
+            <text>In acceptiunea UML relatiile intre clase sunt:</text>
+            <answers>
+                <answer>moduri, constrangeri, stereotipuri, asociatii, compozitii, generalizare, dependenta, multiplicitate</answer>
+                <answer correct='true'>asocieri, agregare, compozitii, generalizare, dependenta</answer>
+                <answer>asociatii, agregare, cazuri de utilizare, actori, compozitie, generalizare, multiplicitate</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Grile IP</topic>
+            <text>In modelul (pattern) Rendez-vous participa urmatoarele obiecte:</text>
+            <answers>
+                <answer correct='true'>Rendez-vous, Lock, Thread</answer>
+                <answer>Rendez-vous, Lock, Client, Context, Thread,</answer>
+                <answer>Rendez-vous, Wait, Semaphore, Client, Context, Thread</answer>
+            </answers>
+        </question>
+        <question>
+            <topic>Grile IP</topic>
+            <text>Configuratia larg distribuita utilizeaza:</text>
+            <answers>
+                <answer>legatura multipunct</answer>
+                <answer>field-bus</answer>
+                <answer correct='true'>retele WAN si protocoale de comunicatii potrivite</answer>
+                <answer>protocoale de comunicatie Nowell si retele LAN</answer>
             </answers>
         </question>
         <question>
@@ -913,19 +876,19 @@
             </text>
             <answers>
                 <answer correct='true'>
-                    n: poziționarea antenei prin conducerea pe două grade de libertate de mișcare
-                    n+1: comunicarea cu calculatorul PC
-                    n+2: interfața cu utilizatorul prin intermediul unei tastaturi și a unui afișaj cu cristale lichide
+                    `n`: poziționarea antenei prin conducerea pe două grade de libertate de mișcare
+                    `n+1`: comunicarea cu calculatorul PC
+                    `n+2`: interfața cu utilizatorul prin intermediul unei tastaturi și a unui afișaj cu cristale lichide
                 </answer>
                 <answer>
-                    n: afișarea mesajelor de eroare
-                    n+1: setarea coordonatelor curente
-                    n+2: comunicarea cu calculatorul PC
+                    `n`: afișarea mesajelor de eroare
+                    `n+1`: setarea coordonatelor curente
+                    `n+2`: comunicarea cu calculatorul PC
                 </answer>
                 <answer>
-                    n: memorarea coordonatelor de orientare
-                    n+1: citirea porturilor de intrare
-                    n+2: rotația în jurul unei axe verticale
+                    `n`: memorarea coordonatelor de orientare
+                    `n+1`: citirea porturilor de intrare
+                    `n+2`: rotația în jurul unei axe verticale
                 </answer>
             </answers>
         </question>
@@ -1070,19 +1033,19 @@
             <text>Doar una din enumerările de mai jos conține integral funcții ale sistemului de mai sus, corect enunțate:</text>
             <answers>
                 <answer correct='true'>
-                    n: poziționarea căruciorului prin conducerea pe două grade de libertate de mișcare
-                    n+1: comunicarea cu calculatorul PC
-                    n+2: interfața cu utilizatorul prin intermediul unei tastaturi și a unui afișaj cu cristale lichide
+                    `n`: poziționarea căruciorului prin conducerea pe două grade de libertate de mișcare
+                    `n+1`: comunicarea cu calculatorul PC
+                    `n+2`: interfața cu utilizatorul prin intermediul unei tastaturi și a unui afișaj cu cristale lichide
                 </answer>
                 <answer>
-                    n: afișarea mesajelor de eroare
-                    n+1: setarea coordonatelor curente
-                    n+2: comunicarea cu calculatorul PC
+                    `n`: afișarea mesajelor de eroare
+                    `n+1`: setarea coordonatelor curente
+                    `n+2`: comunicarea cu calculatorul PC
                 </answer>
                 <answer>
-                    n: memorarea coordonatelor de orientare
-                    n+1: citirea porturilor de intrare
-                    n+2: rotația în jurul unei axe verticale
+                    `n`: memorarea coordonatelor de orientare
+                    `n+1`: citirea porturilor de intrare
+                    `n+2`: rotația în jurul unei axe verticale
                 </answer>
             </answers>
         </question>
@@ -1091,8 +1054,8 @@
             <text>Actorii în acest sistem, în accepțiunea UML, sunt:</text>
             <answers>
                 <answer>senzorii, sistemul de acționare, traductoarele de măsură, utilizatorul, unitatea serială</answer>
-                <answer>căruciorul, utilizatorul, calculatorul PC</answer>
-                <answer correct='true'>sistemul de acționare al căruciorului, sistemul de măsură al căruciorului, interfața cu utilizatorul, unitatea serială de comunicare cu calculatorul PC, pacientul</answer>
+                <answer correct='true'>căruciorul, utilizatorul, calculatorul PC</answer>
+                <answer>sistemul de acționare al căruciorului, sistemul de măsură al căruciorului, interfața cu utilizatorul, unitatea serială de comunicare cu calculatorul PC, pacientul</answer>
             </answers>
         </question>
         <question>
@@ -1156,15 +1119,6 @@
                 <answer correct='true'>8</answer>
                 <answer>6</answer>
                 <answer>13</answer>
-            </answers>
-        </question>
-        <question>
-            <topic>A</topic>
-            <text>Ce reprezinta in UML figura de mai jos? (use case diagram din curs, cea cu anestezia).</text>
-            <answers>
-                <answer>o diagrama structurata</answer>
-                <answer>o agregare</answer>
-                <answer correct='true'>o diagrama de caz de utilizare (use case)</answer>
             </answers>
         </question>
     </questions>
